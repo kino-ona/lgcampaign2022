@@ -102,23 +102,23 @@ $(document).ready(function(){
 	// 		}
 	// 	]
 	// });
-	// $('.lgmembersweek .product__swiper').slick({
-	// 	speed: 600,
-	// 	infinite: false,
-	// 	slidesToShow: 5,
-	// 	focusOnSelect: false,
-	// 	swipeToSlide: true,
-	// 	responsive: [
-	// 		{
-	// 			breakpoint: 767,
-	// 			settings: {
-	// 				arrows: false,
-	// 				slidesToShow: 2.4,
-	// 				focusOnSelect: true
-	// 			}
-	// 		}
-	// 	]
-	// });
+	$('.lgmembersweek .product__swiper').slick({
+		speed: 600,
+		infinite: false,
+		slidesToShow: 5,
+		focusOnSelect: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					arrows: false,
+					slidesToShow: 2.4,
+					focusOnSelect: true
+				}
+			}
+		]
+	});
 	$('.lgmembersweek .product__showroom').slick({
 		speed: 800,
 		infinite: false,
