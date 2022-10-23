@@ -1,6 +1,5 @@
-<!doctype html>
-<html data-countrycode="uk" dir="ltr" lang="en">
-
+<%@ page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
+<%@ include file="/WEB-INF/jsp/gp/common/include/head/head.jsp" %>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
@@ -17,184 +16,135 @@
 	<meta property="og:site_name" content="LG UK">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK">
-	<meta property="og:description"
-		content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
 	<meta property="og:url" content="https://www.lg.com/uk">
-	<meta property="og:image" content="./lg5-common-gp/images/common/share/share-default.jpg">
+	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGUK">
 	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Corporation",
-			"name": "LG UK",
-			"alternateName": "LG Electronics",
-			"url": "https://www.lg.com/uk",
-			"logo": "./lg5-common-gp/images/common/header/logo-b2c.jpg",
-			"sameAs": [
-				"https://www.facebook.com/LGUK",
-				"https://twitter.com/LGUK",
-				"https://www.youtube.com/user/LGBlogUK",
-				"http://www.instagram.com/lg_uk"
-			]
-		}
+	{
+	"@context": "https://schema.org",
+	"@type": "Corporation",
+	"name": "LG UK",
+	"alternateName": "LG Electronics",
+	"url": "https://www.lg.com/uk",
+	"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
+	 "sameAs": [
+	"https://www.facebook.com/LGUK",
+	"https://twitter.com/LGUK",
+	"https://www.youtube.com/user/LGBlogUK",
+	"http://www.instagram.com/lg_uk"
+	]}
 	</script>
 	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "WebSite",
-			"name": "LG UK",
-			"url": "https://www.lg.com/uk",
-			"potentialAction": {
-				"@type": "SearchAction",
-				"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
-				"query-input": "required name=search_term_string"
-			}
-		}
+	{
+	"@context": "https://schema.org",
+	"@type": "WebSite",
+	"name": "LG UK",
+	"url": "https://www.lg.com/uk",
+	 "potentialAction": {
+	"@type": "SearchAction",
+	"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
+	"query-input": "required name=search_term_string"}
+	}
 	</script>
 	<meta content="#a50034" name="theme-color">
 
-	<link rel="apple-touch-icon-precomposed" href="./lg5-common-gp/favicons/152x152.png" sizes="152x152">
-	<link rel="apple-touch-icon-precomposed" href="./lg5-common-gp/favicons/144x144.png" sizes="144x144">
-	<link rel="apple-touch-icon-precomposed" href="./lg5-common-gp/favicons/120x120.png" sizes="120x120">
-	<link rel="apple-touch-icon-precomposed" href="./lg5-common-gp/favicons/114x114.png" sizes="114x114">
-	<link rel="apple-touch-icon-precomposed" href="./lg5-common-gp/favicons/72x72.png" sizes="72x72">
-	<link rel="apple-touch-icon-precomposed" href="./lg5-common-gp/favicons/57x57.png">
-	<link rel="icon" type="image/png" href="./lg5-common-gp/favicons/228x228.png" sizes="228x228">
-	<link rel="icon" type="image/png" href="./lg5-common-gp/favicons/195x195.png" sizes="195x195">
-	<link rel="icon" type="image/png" href="./lg5-common-gp/favicons/128x128.png" sizes="128x128">
-	<link rel="icon" type="image/png" href="./lg5-common-gp/favicons/96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="./lg5-common-gp/favicons/32x32.png" sizes="32x32">
-	<link rel="shortcut icon" href="/favicon.ico">
-	<meta content="#a50034" name="test-color">
-	<link href="./lg5-common-gp/bootstrap/4.1.3/css/bootstrap-grid.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" rel="stylesheet">
-	<link rel="preload" href="./lg5-common-gp/webfonts/LG_Smart_Regular.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="./lg5-common-gp/webfonts/LG_Smart_Bold.woff2" as="font" type="font/woff2" crossorigin>
-	<link rel="preload" href="./lg5-common-gp/webfonts/LG_Smart_SemiBold.woff2" as="font" type="font/woff2" crossorigin>
-	<link href="./lg5-common-gp/css/default.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/components.min.css" type="text/css" rel="stylesheet">
-	<!--[if IE 9]>
-	<link href="./lg5-common-gp/css/default-for-ie9.min.css" type="text/css" rel="stylesheet">
-	<![endif]-->
-	<link href="./lg5-common-gp/css/GPC0150.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0101.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0003.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0059.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0064.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0065.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0022.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0055.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0045.min.css" type="text/css" rel="stylesheet">
-	<link href="./lg5-common-gp/css/GPC0078.min.css" type="text/css" rel="stylesheet">
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
 
-
+	<!-- Facebook Pixel Code -->
 	<script>
-		// function getCookieHTML(name) {
-		// 	var cookies = document.cookie.split(";");
-		// 	for (var i in cookies) {
-		// 		if (cookies[i].search(name) != -1) {
-		// 			return decodeURIComponent(cookies[i].replace(name + "=", "")).trim();
-		// 		}
-		// 	}
-		// }
-		// var analysisCookieName = 'UK_LGCOM_ANALYSIS_OF_SITE';
-		// var advertisingName = 'UK_LGCOM_ADVERTISING';
-		// var explicitTemplateType = "v2";
-		// var analysisOfSiteButton = "off"
-		// var advertisingButton = "off"
-		// var asyncFlag = "N"
-		// var lh = location.host;
-		// var mydomain = '.lg.com';
-		// if (lh.indexOf('lge.com') >= 0) {
-		// 	mydomain = '.lge.com';
-		// } else if (lh.indexOf('localhost') >= 0) {
-		// 	mydomain = 'localhost';
-		// }
-		// var d = new Date();
-		// d.setDate(d.getDate() + 365);
-		// if (explicitTemplateType == 'v2' && analysisOfSiteButton == 'hidden' && typeof getCookieHTML(analysisCookieName) == 'undefined') {
-		// 	document.cookie = "UK_LGCOM_ANALYSIS_OF_SITE=Y;expires=" + d.toGMTString() + "; path=/; domain=" + mydomain + "";
-		// }
-		// if (explicitTemplateType == 'v2' && advertisingButton == 'hidden' && typeof getCookieHTML(advertisingName) == 'undefined') {
-		// 	document.cookie = "UK_LGCOM_ADVERTISING=Y;expires=" + d.toGMTString() + "; path=/; domain=" + mydomain + "";
-		// }
-
-		// if (getCookieHTML(analysisCookieName) == 'Y') {
-		// 	var d = document,
-		// 		s = d.createElement('script'),
-		// 		h = d.head || d.getElementsByTagName("head")[0],
-		// 		as = "";
-		// 	if (asyncFlag == 'Y') {
-		// 		as = {
-		// 			"src": "//assets.adobedtm.com/322f63b58a72/8a275ffd7aa6/launch-f8ed4c3e94f9.min.js",
-		// 			"async": "async"
-		// 		};
-		// 	} else {
-		// 		as = {
-		// 			"src": "//assets.adobedtm.com/322f63b58a72/8a275ffd7aa6/launch-f8ed4c3e94f9.min.js"
-		// 		};
-		// 	}
-
-		// 	for (var i in as) {
-		// 		s.setAttribute(i, as[i]);
-		// 	}
-		// 	h.appendChild(s);
-		// }
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '493623621658054');
+		fbq('track', 'PageView');
+		fbq('trackCustom', '2022GMCMemberDay View');
 	</script>
-
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
-	<div class="iw_viewport-wrapper">
-		<!-- header -->
-		@@include('./inc/header.inc',{
-		"webroot":"."
-		})
-		<!--// header -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/body-noscript.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/google-tag-manager.jsp" />
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
+	
+	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
+		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK"/>
+		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
+		<meta itemprop="url" content="www.lg.com/uk/memberdays" />
+		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="keywords" content="" />
+	</div>
+	
+	<c:set var='bizType' value='${$bizType }' />
+	<c:set var='siteType' value='MKT' />
+	<!-- component (navigation) -->
+	<c:import url="/${localeCd}/gnb">
+	    <c:param name="bizType" value="${bizType}"/>
+	    <c:param name="siteType" value="${siteType}"/>
+	    <c:param name="isMobile" value="${isMobile}"/>
+	</c:import>
+	<!-- // component (navigation) -->
 
+	<!-- breadcrumb -->
+ 	<c:import url="/${localeCd}/breadCrumb"> 
+	    <c:param name="bizType" value="${bizType}"/>
+	</c:import> 
+	<!-- // breadcrumb -->
+
+	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<link rel="stylesheet" href="${path}/assets/css/index.css">
+	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
+
+	<!-- Enter Code Here -->
+	<div class="wrapper">
 		<!-- Tracking Event Setting -->
-		<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
-		<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
+			<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
+			<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
-		<!-- Required input ## Model List Start -->
-		<!-- Event Gift Model -->
-		<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07535483|MD07548494|MD07528387|MD07552999|MD07535216"/>
+			<!-- Required input ## Model List Start -->
+			<!-- Event Gift Model -->
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07535483"/>
 
-		<!-- Life Style Model -->
-		<input type="hidden" data-model-group="lifeStyle" data-type="greenlife" value="MD07535414|MD07535475|MD07535483"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="vividlife" value="MD07548378|MD07548355|MD07548335|MD07548282|MD07546566|MD07546594|MD07546571|MD07546563|MD07548246|MD07546595|MD07546591|MD07546596|MD07546657|MD07545548|MD07552142"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="gaminglife" value="MD07535374|MD07525972|MD07546567|MD07546558|MD07552142"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="workinglife" value="MD07552999|MD07553142|MD07535403|MD07540281|MD07540286|MD07537017"/>
-		<input type="hidden" data-model-group="lifeStyle" data-type="soundfullife" value="MD07535403|MD07535216"/>
+			<!-- Life Style Model -->
+			<input type="hidden" data-model-group="lifeStyle" data-type="greenlife" value="MD07535414"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="vividlife" value="MD07548335"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gaminglife" value="MD07535374"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="workinglife" value="MD07553045"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="soundfullife" value="MD07535403"/>
 
-		<!-- Hot Deal Model / thumb - alt text -->
-		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07508573"/>
-		<!-- <input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07508573|MD07548246|MD07546591"/> ex. multiple model -->
-		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-		<!-- ex. multiple model thumb / alt text 
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
-		-->
+			<!-- Hot Deal Model / thumb - alt text -->
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07508573"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<!-- ex. multiple model thumb / alt text 
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
+			-->
 
-		<!-- Hottest Gift Model -->
-		<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571|MD07546563|MD07548335|MD07548282|MD07545548|MD07546595|MD07546591|MD07546596|MD07546657|MD07548387|MD07548331|MD07550523|MD07550540|MD07550466|MD07550528|MD07550538|MD07550521|MD07550534"/>
-		<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07528451|MD07510893|MD07528365|MD07504084|MD07535242|MD07538956|MD07535403|MD07537017|MD07534551|MD07535359|MD07535216|MD07538824|MD07535374|MD07508602|MD07508573|MD07508373"/>
-		<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07514393|MD07535502|MD07535480|MD07535414|MD07517580|MD07535475|MD07536912|MD07515106|MD07514364"/>
-		<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07552999|MD07553042|MD07540281|MD07540286|MD07540283|MD07550947|MD06164217|MD07525661|MD07532529|MD07522774|MD07525972|MD07532528|MD07528387"/>
+			<!-- Hottest Gift Model -->
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07535403"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07514393"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07553045"/>
 		<!-- Required input ## Model List End -->
-
-		<!-- 여기서부터 컨텐츠 시작 -->
-		<link rel="stylesheet" href="./assets/css/index.css">
-		<div class="lgmembersweek">
+	
+		<!--  Content Start  -->
+		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="visual">
-				<div class="section">
+        <div class="section">
 					<div class="section__inner">
 						<div class="section__header">
 							<h2 class="section__title">LG MEMBER DAYS COMING SOON</h2>
@@ -209,10 +159,13 @@
 							<a href="#box_content1" class="button__item button__item--red">TAKE PART</a>
 						</div>
 						<div class="visual__terms">
-							<a href="#" target="_blank" class="terms__link visual__link">
-								Terms &amp; Conditions
-								<i class="visual__arrow"></i>
-							</a>
+							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
+                data-link-name="memberdays_anchor_click_termsandconditions" 
+                data-link-area="memberdays_2022" 
+                class="terms__link visual__link">
+                Terms and Conditions
+                <i class="visual__arrow"></i>
+              </a>
 						</div>
 					</div>
 				</div>
@@ -228,14 +181,26 @@
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#box_content1" class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
+								<a href="#box_content1" 
+									data-track-group="mic" data-track-name="members_week_anchor_click"
+									data-link-name="memberdays_anchor_benefit" 
+									data-link-area="memberdays_2022" 
+									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
 							</li>
 							<li class="list-item">
-								<a href="#box_content2" class="link">DISCOVER OUR SPARKLING MEMBERSHIP EVENT</a>
+								<a href="#box_content2" 
+									data-track-group="mic" data-track-name="members_week_anchor_click"
+									data-link-name="memberdays_anchor_click_design_lifestyle" 
+									data-link-area="memberdays_2022" 
+									class="link">DISCOVER OUR SPARKLING MEMBERSHIP EVENT</a>
 							</li>
 							<li class="list-item">
-								<a href="#box_content3" class="link">BROWSE OUR HOLIDAY COLLECTION</a>
-							</li>
+								<a href="#box_content3" 
+									data-track-group="mic" data-track-name="members_week_anchor_click"
+									data-link-name="memberdays_anchor_click_hottest_product" 
+									data-link-area="memberdays_2022" 
+									class="link">BROWSE OUR HOLIDAY COLLECTION</a>
+								</li>
 						</ul>
 					</div>
 				</div>
@@ -321,8 +286,6 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별1');">
-						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player> -->
 					</div>
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
@@ -378,7 +341,7 @@
 										<p class="event__desc event__desc--secondary">Limited to 3 Winners</p>
 									</div>
 									<div class="event__gift">
-										<img src="./assets/images/img_event_product.png" alt="">
+										<img src="${path}/assets/images/img_event_product.png" alt="">
 									</div>
 									<div class="event__info">
 										<p class="event__text">The Winners will be informed personally</p>
@@ -435,8 +398,6 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별2');">
-						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player> -->
 					</div>
 				</div>
 			</div>
@@ -465,7 +426,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="./assets/images/img_product_showroom_greenlife01_01.png"
+															<img src="${path}/assets/images/img_product_showroom_greenlife01_01.png"
 																alt="LG InstaView™ ThinQ™">
 														</div>
 														<div class="product__right">
@@ -488,7 +449,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="./assets/images/img_product_showroom_greenlife02_01.png"
+															<img src="${path}/assets/images/img_product_showroom_greenlife02_01.png"
 																alt="AI DD™ Washing Machine">
 														</div>
 														<div class="product__right">
@@ -509,7 +470,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="./assets/images/img_product_showroom_greenlife02_02.png"
+															<img src="${path}/assets/images/img_product_showroom_greenlife02_02.png"
 																alt="LG Eco Hybrid™ Tumble Dryer">
 														</div>
 														<div class="product__right">
@@ -532,7 +493,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="./assets/images/img_product_showroom_greenlife02_01.png"
+															<img src="${path}/assets/images/img_product_showroom_greenlife02_01.png"
 																alt="AI DD™ Washing Machine">
 														</div>
 														<div class="product__right">
@@ -553,7 +514,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="./assets/images/img_product_showroom_greenlife02_02.png"
+															<img src="${path}/assets/images/img_product_showroom_greenlife02_02.png"
 																alt="LG Eco Hybrid™ Tumble Dryer">
 														</div>
 														<div class="product__right">
@@ -577,7 +538,7 @@
 															<span class="product__flag">NEW</span>
 															<span class="product__flag">CASHBACK</span>
 														</div> -->
-														<img src="./assets/images/img_product01.png"
+														<img src="${path}/assets/images/img_product01.png"
 															alt="LG InstaView™ ThinQ™ GSXV90MCAE American style Fridge Freezer, 635L">
 													</div>
 													<div class="product__info">
@@ -602,7 +563,7 @@
 															<span class="product__flag">NEW</span>
 															<span class="product__flag">CASHBACK</span>
 														</div> -->
-														<img src="./assets/images/img_product01.png"
+														<img src="${path}/assets/images/img_product01.png"
 															alt="LG InstaView™ ThinQ™ GSXV90MCAE American style Fridge Freezer, 635L">
 													</div>
 													<div class="product__info">
@@ -627,7 +588,7 @@
 															<span class="product__flag">NEW</span>
 															<span class="product__flag">CASHBACK</span>
 														</div> -->
-														<img src="./assets/images/img_product01.png"
+														<img src="${path}/assets/images/img_product01.png"
 															alt="LG InstaView™ ThinQ™ GSXV90MCAE American style Fridge Freezer, 635L">
 													</div>
 													<div class="product__info">
@@ -652,7 +613,7 @@
 															<span class="product__flag">NEW</span>
 															<span class="product__flag">CASHBACK</span>
 														</div> -->
-														<img src="./assets/images/img_product01.png"
+														<img src="${path}/assets/images/img_product01.png"
 															alt="LG InstaView™ ThinQ™ GSXV90MCAE American style Fridge Freezer, 635L">
 													</div>
 													<div class="product__info">
@@ -677,7 +638,7 @@
 															<span class="product__flag">NEW</span>
 															<span class="product__flag">CASHBACK</span>
 														</div> -->
-														<img src="./assets/images/img_product01.png"
+														<img src="${path}/assets/images/img_product01.png"
 															alt="LG InstaView™ ThinQ™ GSXV90MCAE American style Fridge Freezer, 635L">
 													</div>
 													<div class="product__info">
@@ -702,7 +663,7 @@
 															<span class="product__flag">NEW</span>
 															<span class="product__flag">CASHBACK</span>
 														</div> -->
-														<img src="./assets/images/img_product01.png"
+														<img src="${path}/assets/images/img_product01.png"
 															alt="LG InstaView™ ThinQ™ GSXV90MCAE American style Fridge Freezer, 635L">
 													</div>
 													<div class="product__info">
@@ -727,21 +688,14 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별4');">
-						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player> -->
 					</div>
 				</div>
 			</div>
 
-			<div class="anchors" id="VolumeProductsAudio"></div>
-			<div class="anchors" id="VolumeProductsTVCinebeam"></div>
-			<div class="anchors" id="VolumeProductsHomeAppliance"></div>
-			<div class="anchors" id="VolumeProductsComputerProducts"></div>
+			<!-- <div class="anchors" id="VolumeProductsAudio"></div> -->
 			<div id="box_content3" class="section">
 				<div class="section__container section__container--hottest">
 					<div class="lottie" onclick="alert('별5');">
-						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player> -->
 					</div>
 				</div>
 			</div>
@@ -774,7 +728,7 @@
 				<div class="popup__body">
 					<p class="popup__title">Find and Click on <span class="highlight">ALL 5 Stars</span> throughout the event page</p>
 					<div class="popup__stars">
-						<img src="./assets/images/img_popup_stars.png" alt="">
+						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">START NOW</button>
@@ -850,7 +804,7 @@
 						You’ve Won!
 					</p>
 					<div class="popup__gift">
-						<img src="./assets/images/img_popup_gift.png" alt="">
+						<img src="${path}/assets/images/img_popup_gift.png" alt="">
 					</div>
 					<p class="popup__desc popup__desc--semibold">You will soon be informed personally</p>
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -902,132 +856,102 @@
 				</div>
 			</div>
 		</div>
-		<!--// 여기까지 컨텐츠 -->
+		<!-- // popup -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-		<div class="container-fluid iw_section" id="sectionjx5blnlw">
-			<div class="row iw_row iw_container" id="rowjx5blnlx">
-				<div class="iw_columns col-lg-12" id="coljx5blnly">
-					<div class="iw_component" id="iw_comp1550549369689">
-						<div class="GPC0076 floating-menu top call-yet">
-							<div class="back-to-top">
-								<button type="button"><span class="sr-only">Go to page top</span></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-
-
-		<!-- footer -->
-		@@include('./inc/footer.inc',{
-		"webroot":"."
-		})
-		<!--// footer -->
-
-
-
+		<!-- // Content End  -->
 	</div>
-	<script src="./lg5-common-gp/library/jquery.min.js"></script>
-	<!-- <script>
+
+	<!-- top button -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
+	<!-- // top button -->
+	
+	<!-- footer seo copy -->
+	<c:import url="/${localeCd }/footerSeoCopy"/> 
+	<!-- footer seo copy -->
+	
+	<!-- footer main contents -->
+	<c:import url="/${localeCd }/footer">
+	    <c:param name="bizType" value="${bizType}"/>
+	    <c:param name="siteType" value="${siteType}"/>
+	</c:import>
+	<!--// footer main contents -->
+	
+	<!--  _dl  -->
+	<script>
 		var standardData = {};
 		standardData = {
-			"siteType": "B2C",
-			"pageType": "home",
-			"pdpStatus": "",
-			"level1": "",
-			"level2": "",
-			"level3": ""
+			"siteType" : "B2C",
+			"pageType" : "MICROSITE",
+			"pdpStatus" : "",
+			"level1" : "MICROSITE",
+			"level2" : "",
+			"level3" : ""
 		};
 
-		_dl = {
-			"page_name": {
-				"super_category": "",
-				"bu": "",
-				"gmc_bu": "",
-				"sub_category_list": "",
-				"sub_category": "",
-				"page_purpose": "home",
-				"model_year": "",
-				"category": "",
-				"sku": ""
+		_dl = 
+		{
+			"page_name" : {
+				"super_category" : "membersweek2022",
+				"bu" : "",
+				"gmc_bu" : "",
+				"sub_category_list" : "",
+				"sub_category" : "",
+				"page_purpose" : "MICROSITE",
+				"model_year" : "",
+				"category" : "",
+				"sku" : ""
 			},
-			"isLogin": "",
-			"country_code": "uk",
-			"language_code": "en",
-			"page_category_l1": "",
-			"page_category_l2": "",
-			"page_category_l3": "",
-			"page_category_l4": "",
-			"referrer": "",
-			"keywordSrchSrcPage": "",
-			"products": [],
-			"page_event": null,
-			"uid": ""
+			"isLogin" : "",
+			"country_code" : "${localeCd}",
+			"language_code" : "${languageCd}",
+			"page_category_l1" : "${localeCd}:membersweek2022",
+			"page_category_l2" : "",
+			"page_category_l3" : "",
+			"page_category_l4" : "",
+			"referrer" : "",
+			"keywordSrchSrcPage" : "",
+			"products" : [ ],
+			"page_event" : null,
+			"uid" : ""
 		};
-
+		
 		var dataLayer = window.dataLayer || [];
 		dataLayer.push({
 			'event': 'dataLayer',
-			'dataLayer': _dl,
-			'standardData': standardData
+			'dataLayer' : _dl,
+			'standardData' : standardData
 		});
-	</script> -->
-	<div class="eprivacy-load-js" data-url="https://display.ugc.bazaarvoice.com/static/LGElectronics-en/en_GB/bvapi.js"
-		id="bvScript"></div>
-	<div class="eprivacy-load-intercom" data-url="/uk/intercom/intercom.js"></div>
-	<!--[if IE 9]>
-	<script src="./lg5-common-gp/library/matchMedia.min.js"></script>
-	<script src="./lg5-common-gp/library/matchMedia.addListener.min.js"></script>
-	<![endif]-->
-	<script src="./lg5-common-gp/library/bootstrap.min.js"></script>
-	<script src="./lg5-common-gp/library/plugins.common.min.js"></script>
-	<script src="./lg5-common-gp/library/chosen.min.js"></script>
-	<script src="./lg5-common-gp/library/mCustomScrollbar.min.js"></script>
-	<script src="./lg5-common-gp/library/modal.min.js"></script>
-	<script src="./lg5-common-gp/library/panzoom.min.js"></script>
-	<script src="./lg5-common-gp/library/hammer.min.js"></script>
-	<script src="./lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="./lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="./lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	<script src="./lg5-common-gp/library/jquery.plugin.min.js"></script>
-	<script src="./lg5-common-gp/library/jquery.countdown.min.js"></script>
-	<script src="./lg5-common-gp/js/common.min.js"></script>
-	<script src="./lg5-common-gp/js/e-privacy.min.js"></script>
-	<script src="./lg5-common-gp/js/customer/add-to-cart.min.js"></script>
-	<script src="./lg5-common-gp/js/customer/wishlist.min.js"></script>
-	<!-- <script src="./lg5-common-gp/js/components/animation-asset.min.js"></script> -->
-	<!-- <script src="./lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="./lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="./lg5-common-gp/js/components/thumbnail-loop.min.js"></script> -->
-	<!-- <script src="./lg5-common-gp/js/components/video-asset.min.js"></script>
-	<script src="./lg5-common-gp/js/components/category-filter.min.js"></script> -->
-	<!-- <script src="./lg5-common-gp/js/components/GPC0150.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0101.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0003.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0064.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0065.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0022.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0055.min.js"></script>
-	<script src="./lg5-common-gp/js/components/GPC0078.min.js"></script> -->
+	</script>
+	<!--// _dl -->
+	
+	<!-- default code -->
+	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
+	<!-- // default code -->
+	
+	<!-- your js -->
+	<script src="/lg5-common-gp/library/modal.min.js"></script>
+	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
+	<script src="/lg5-common-gp/library/jquery.event.move.min.js"></script>
+	<script src="/lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
+	
+	<script src="/lg5-common-gp/js/components/animation-asset.min.js"></script>
+	<script src="/lg5-common-gp/js/components/compare-cookie.min.js"></script>
+	<script src="/lg5-common-gp/js/components/model-switcher.min.js"></script>
+	<script src="/lg5-common-gp/js/components/thumbnail-loop.min.js"></script>
+	<script src="/lg5-common-gp/js/components/video-asset.min.js"></script>
 
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-	<script src="./assets/js/index.js"></script>
 	<script>
+		// if($('.add-to-cart').length > 0) {
+    //   $('.add-to-cart').on('click', function (e) {
+    //     fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+    //   });
+    // }
+	</script>
+	
+  <!-- UI script -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+	<script src="${path}/assets/js/index.js"></script>
+  <script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){
 				$('.lottie').append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
@@ -1036,8 +960,19 @@
 			}, 600);
 		}
 	</script>
+	<!-- <script src="${path}/assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index-add-to-cart.js"></script>
 
-
+	<script type="text/javascript">
+	(function(w, d, a){
+    w.__beusablerumclient__ = {
+      load : function(src){
+          var b = d.createElement("script");
+          b.src = src; b.async=true; b.type = "text/javascript";
+          d.getElementsByTagName("head")[0].appendChild(b);
+      }
+    };w.__beusablerumclient__.load(a);
+	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
+	</script> -->
 </body>
-
 </html>
