@@ -297,6 +297,16 @@
 				};
 				color: #fff;
 
+				.section__footer {
+
+					.section__text {
+
+						i {
+							@include mixins.iconAngle($direction: 'right', $width: 10px, $height: 22px, $thick: 3px, $color: #fff, $display: block, $position: relative);
+						}
+					}
+				}
+
 				.lottie {
 					left: 4.17vw;
 					top: 5.21vw;
@@ -424,7 +434,6 @@
 						z-index: 1;
 						padding-bottom: 30px;
 						font-weight: 600;
-						color: #000;
 						font-size: 20px;
 
 						.tab__ico {
@@ -824,8 +833,17 @@
 			&--center {
 				text-align: center;
 			}
+
 			.section__text {
+				display: inline-flex;
+				justify-content: center;
+				align-items: center;
 				font-size: 18px;
+
+				i {
+					margin-left: 10px;
+					@include mixins.iconAngle($direction: 'right', $width: 10px, $height: 22px, $thick: 3px, $color: #000, $display: block, $position: relative);
+				}
 			}
 		}
 
@@ -1451,7 +1469,7 @@
 			.event__round {
 				flex: 1;
 				max-width: 680px;
-				padding: 40px 40px 20px;
+				padding: 40px;
 				border: 1px solid #C09D5F;
 				border-radius: 20px;
 				&:not(:first-child) {
@@ -1479,14 +1497,18 @@
 				}
 				.event__sub {
 					font-weight: 600;
-					font-size: 22px;
-					line-height: 24px;
+					font-size: 34px;
+					line-height: 34px;
+					&:not(:first-child) {
+						margin-top: 20px;
+					}
 					&:not(:last-child) {
-						margin-bottom: 4px;	
+						margin-bottom: 10px;	
 					}
 				}
 				.event__desc {
-					font-size: 18px;
+					font-size: 22px;
+					line-height: 24px;
 					&--secondary {
 						color: #D09800;
 					}
@@ -1573,67 +1595,19 @@
 					}
 				}
 				.event__gift {
-					margin-top: -48px;
-					text-align: right;
+					margin-top: 44px;
 
 					img {
-						max-width: 400px;
+						width: 100%;
 					}
 				}
 				.event__info {
-					margin-top: 20px;
+					margin-top: 50px;
 
 					.event__text {
 						font-size: 18px;
 						line-height: 20px;
 						text-align: center;
-					}
-				}
-				.event__row {
-					display: flex;
-					margin-top: 20px;
-					
-					.event__col {
-						flex: 1;
-						padding: 40px 30px 0 40px;
-						border-top: 1px solid #C09D5F;
-						&:not(:first-child) {
-							border-left: 1px solid #C09D5F;
-						}
-					}
-				}
-				.event__coupon {
-					display: flex;
-					flex-direction: column;
-					align-items: flex-end;
-					margin-top: 64px;
-					text-align: right;
-
-					.event__desc {
-						margin-top: 8px;
-					}
-				}
-				.event__ticket {
-					display: flex;
-					align-items: center;
-					justify-content: center;
-					width: 120px;
-					height: 66px;
-					color: #000;
-					font-weight: 700;
-					font-size: 50px;
-					letter-spacing: -3px;
-					background: {
-						image: url('../images/bg_event_coupon.png');
-						repeat: no-repeat;
-						position: 0 0;
-						size: 100% 100%;
-					};
-
-					span {
-						margin-left: 2px;
-						font-size: 30px;
-						letter-spacing: 0;
 					}
 				}
 			}
@@ -1700,10 +1674,10 @@
 						line-height: 26px;
 					}
 					.event__sub {
+						font-size: 20px;
+						line-height: 22px;
 						&:not(:last-child) {
 							margin-bottom: 6px;
-							font-size: 20px;
-							line-height: 22px;
 						}
 					}
 					.event__desc {
@@ -1743,49 +1717,13 @@
 					}
 					.event__gift {
 						margin-top: -21px;
-
-						img {
-							max-width: 241px;
-						}
 					}
 					.event__info {
+						margin-top: 20px;
 
 						.event__text {
 							font-size: 16px;
 							line-height: 18px;
-						}
-					}
-					.event__row {
-						display: block;
-						margin-left: -20px;
-						margin-right: -20px;
-						padding: 0 20px;
-						border-top: 1px solid #C09D5F;
-
-						.event__col {
-							padding: 30px 0 20px;
-							border-top: 0;
-							&:not(:first-child) {
-								border-left: 0;
-								border-top: 1px dashed #C09D5F;
-							}
-							&:last-child {
-								padding-bottom: 0;
-							}
-						}
-					}
-					.event__coupon {
-						margin-top: -39px;
-
-						.event__ticket {
-							width: 92px;
-							height: 50px;
-							font-size: 36px;
-							letter-spacing: -2.16px;
-
-							span {
-								font-size: 22px;
-							}
 						}
 					}
 				}
@@ -1800,6 +1738,10 @@
 					p {
 						font-size: 20px;
 						line-height: 22px;
+						&:first-child {
+							font-size: 20px;
+							line-height: 22px;
+						}
 						&:not(:first-child) {
 							margin-top: 6px;
 						}
@@ -1912,6 +1854,9 @@
 				position: relative;
 				max-width: 260px;
 				margin: -30px auto 0;
+			}
+			.product__sn {
+				color: inherit;
 			}
 
 			.learn-more__text {
@@ -2496,7 +2441,6 @@
 			justify-content: center;
 			position: relative;
 			height: 100%;
-			color: #999;
 			font-weight: 600;
 			font-size: 30px;
 			line-height: 30px;
