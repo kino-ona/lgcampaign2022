@@ -6,10 +6,9 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Consumer &amp; Home Electronics from LG | LG UK</title>
+	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG UK</title>
 	<meta name="keywords" content="">
-	<meta name="description"
-		content="Welcome to LG UK. We deliver consumer electronics that allow you to embrace life and prepare you for its greatest moments. Learn about our electronics.">
+	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
 
 	<link rel="canonical" href="https://www.lg.com/uk">
@@ -17,9 +16,9 @@
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG UK">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Consumer &amp; Home Electronics from LG | LG UK">
+	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK">
 	<meta property="og:description"
-		content="Welcome to LG UK. We deliver consumer electronics that allow you to embrace life and prepare you for its greatest moments. Learn about our electronics.">
+		content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
 	<meta property="og:url" content="https://www.lg.com/uk">
 	<meta property="og:image" content="./lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -322,8 +321,8 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별1');">
-						<lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player>
+						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
+						</lottie-player> -->
 					</div>
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
@@ -436,8 +435,8 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별2');">
-						<lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player>
+						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
+						</lottie-player> -->
 					</div>
 				</div>
 			</div>
@@ -1486,8 +1485,8 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별4');">
-						<lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player>
+						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
+						</lottie-player> -->
 					</div>
 				</div>
 			</div>
@@ -3219,8 +3218,8 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="alert('별5');">
-						<lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player>
+						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
+						</lottie-player> -->
 					</div>
 				</div>
 			</div>
@@ -3506,6 +3505,15 @@
 
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="./assets/js/index.js"></script>
+	<script>
+		if ($('.lottie').length > 0) {
+			var delay = setTimeout(function(){
+				$('.lottie').append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+
+				clearTimeout(delay);
+			}, 600);
+		}
+	</script>
 
 
 </body>

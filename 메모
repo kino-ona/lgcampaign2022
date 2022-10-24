@@ -1,0 +1,58 @@
+https://admin50.cms.lg.com/
+
+User ID : eugene.bae
+lgmemberdays2022v2
+
+스테이징
+UK: https://wwwstg.lg.com/uk/memberdays
+베트남: https://wwwstg.lg.com/vn/lgmemberdays
+대만: https://wwwstg.lg.com/tw/promotions/memberdays
+독일: https://wwwstg.lg.com/de/memberdays
+
+
+운영
+UK: www.lg.com/uk/memberdays
+베트남: www.lg.com/vn/lgmemberdays
+대만: www.lg.com/tw/promotions/memberdays
+독일: www.lg.com/de/memberdays
+
+
+이벤트 메인 페이지 로드 시 사용될 이벤트>
+<script>
+fbq('trackCustom', ‘2022GMCMemberDay View');
+</script>
+
+Sign Up버튼 클릭시 호출될 이벤트>
+<script>
+fbq('trackCustom', ‘2022GMCMemberDay SignUp');
+</script>
+
+Add to Basket 버튼 클릭시 호출될 이벤트>
+<script>
+fbq('trackCustom', ‘2022GMCMemberDay AddToBasket');
+</script>
+
+Check Out 버튼 클릭시 호출될 이벤트>
+<script>
+  fbq('trackCustom', ‘2022GMCMemberDay CheckOut');
+</script>
+
+Sign Up, Check Out
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '493623621658054');
+  fbq('track', 'PageView');
+</script>
+<noscript>
+  <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id={your-pixel-id-goes-here}&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
