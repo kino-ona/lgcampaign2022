@@ -69,39 +69,21 @@ $(document).ready(function(){
 	});
 
 	// slick
-	$('.lgmembersweek .visual__swiper').slick({
-		speed: 800,
-		infinite: true,
-		dots: true,
-		autoplay: true,
-  	autoplaySpeed: 4000,
+	$('.lgmembersweek .product--hotdeal .product__list').slick({
+		speed: 600,
+		infinite: false,
+		slidesToShow: 3,
+		focusOnSelect: false,
 		responsive: [
 			{
 				breakpoint: 767,
 				settings: {
-					arrows: false
+					slidesToShow: 1,
+					focusOnSelect: true
 				}
 			}
 		]
 	});
-	// $('.lgmembersweek .product--hotdeal .product__list').slick({
-	// 	speed: 600,
-	// 	infinite: false,
-	// 	slidesToShow: 3,
-	// 	focusOnSelect: false,
-	// 	responsive: [
-	// 		{
-	// 			breakpoint: 767,
-	// 			settings: {
-	// 				slidesToShow: 1,
-	// 				variableWidth: true,
-	// 				centerPadding: '11.54vw',
-	// 				centerMode: true,
-	// 				focusOnSelect: true
-	// 			}
-	// 		}
-	// 	]
-	// });
 	$('.lgmembersweek .product__swiper').slick({
 		speed: 600,
 		infinite: false,
@@ -199,4 +181,3 @@ $(document).ready(function(){
 	});
 	
 });
-
