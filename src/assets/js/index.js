@@ -119,21 +119,21 @@ $(document).ready(function(){
 			}
 		]
 	});
-	$('.lgmembersweek .product__showroom').slick({
-		speed: 800,
-		infinite: false,
-		dots: true,
-		autoplay: true,
-  	autoplaySpeed: 5000,
-		responsive: [
-			{
-				breakpoint: 767,
-				settings: {
-					arrows: false
-				}
-			}
-		]
-	});
+	// $('.lgmembersweek .product__showroom').slick({
+	// 	speed: 800,
+	// 	infinite: false,
+	// 	// dots: true,
+	// 	autoplay: true,
+  // 	autoplaySpeed: 5000,
+	// 	responsive: [
+	// 		{
+	// 			breakpoint: 767,
+	// 			settings: {
+	// 				arrows: false
+	// 			}
+	// 		}
+	// 	]
+	// });
 
 	// 제품 레이어
 	if ($(window).width() > 767) {
@@ -166,8 +166,8 @@ $(document).ready(function(){
 		event.preventDefault();
 		
 		if ($($(this).attr('href')).find('.product__swiper, .product__showroom').length > 0) {
-			$($(this).attr('href')).find('.product__showroom').slick('refresh');
-			// $($(this).attr('href')).find('.product__swiper').slick('refresh');
+			// $($(this).attr('href')).find('.product__showroom').slick('refresh');
+			$($(this).attr('href')).find('.product__swiper').slick('refresh');
 		}
 
 		$(this).closest('.tab').find('.tab__item').removeClass('tab__item--active');
