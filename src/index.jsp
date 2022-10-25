@@ -298,8 +298,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별1');">
-					</div>
+					<div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div>
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
 				<div class="section__container section__container--event">
@@ -378,8 +377,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별2');">
-					</div>
+					<div class="lottie" onclick="alert('별2');"></div>
 				</div>
 			</div>
 			<div id="box_content2" class="section">
@@ -799,8 +797,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별3');">
-					</div>
+					<div class="lottie" onclick="alert('별3');"></div>
 				</div>
 				<div class="section__container section__container--hotdeal">
 					<div class="section__inner">
@@ -846,10 +843,7 @@
 							<p class="section__text">*Discount coupons cannot be applied with Sparkling Deal products.</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별4');">
-						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
-						</lottie-player> -->
-					</div>
+					<div class="lottie" onclick="alert('별4');"></div>
 				</div>
 			</div>
 
@@ -1041,8 +1035,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별5');">
-					</div>
+					<div class="lottie" onclick="alert('별5');"></div>
 				</div>
 			</div>
 		</div>
@@ -1283,8 +1276,13 @@
   <script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){
-				$('.lottie').append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
-
+				$('.lottie').each(function(){
+					if(!$(this).hasClass('lottie--disabled')) {
+						$(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+					}	else {
+						$(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+					}
+				});
 				clearTimeout(delay);
 			}, 600);
 		}
