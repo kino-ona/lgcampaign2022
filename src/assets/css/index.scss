@@ -63,8 +63,15 @@
 		&--semibold {
 			font-weight: 600;
 		}
+		& + .popup__desc {
+			margin-top: 10px;
+		}
 
 		.highlight {
+			font-weight: 700;
+		}
+
+		.bold {
 			font-weight: 700;
 		}
 	}
@@ -106,10 +113,39 @@
 		}
 	}
 	&__gift {
+		position: relative;
+		max-width: 260px;
+		margin: 0 auto;
 		text-align: center;
 
 		img {
-			max-width: 260px;
+			width: 100%;
+		}
+
+		.popup__label {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			left: 16px;
+			top: 10px;
+			width: 80px;
+			height: 80px;
+			border-radius: 50%;
+			background-color: #E5BD75;
+			color: #000;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 20px;
+			text-align: center;
+
+			p {
+
+				span {
+					font-weight: 700;
+					font-size: 20px;
+				}
+			}
 		}
 	}
 
@@ -481,23 +517,17 @@
 									&:nth-child(1) {
 										.product__layer {
 											&:nth-child(1) {
-												left: 60.63%;
-												top: 14.63%;
+												left: 57.04%;
+												top: 38.89%;
 												.product__target {
-													left: 32px;
-													top: -49px;
-													margin-left: 0;
-													padding-left: 20px;
-													&:before {
-														left: 10px;
-														top: 50%;
-														margin-left: 0;
-														margin-top: -15px;
-														border-left: 0;
-														border-top: 15px solid transparent;
-														border-bottom: 15px solid transparent;
-														border-right: 20px solid #fff;
-													}
+													bottom: 38px;
+												}
+											}
+											&:nth-child(2) {
+												left: 75.56%;
+												top: 38.89%;
+												.product__target {
+													bottom: 38px;
 												}
 											}
 										}
@@ -526,23 +556,22 @@
 									&:nth-child(1) {
 										.product__layer {
 											&:nth-child(1) {
-												left: 60.63%;
-												top: 14.63%;
+												left: 24.44%;
+												top: 15.74%;
 												.product__target {
-													left: 32px;
+													left: 38px;
 													top: -49px;
 													margin-left: 0;
-													padding-left: 20px;
-													&:before {
-														left: 10px;
-														top: 50%;
-														margin-left: 0;
-														margin-top: -15px;
-														border-left: 0;
-														border-top: 15px solid transparent;
-														border-bottom: 15px solid transparent;
-														border-right: 20px solid #fff;
-													}
+												}
+											}
+											&:nth-child(2) {
+												left: 80.19%;
+												top: 67.59%;
+												.product__target {
+													left: auto;
+													right: 38px;
+													top: -49px;
+													margin-left: 0;
 												}
 											}
 										}
@@ -571,23 +600,21 @@
 									&:nth-child(1) {
 										.product__layer {
 											&:nth-child(1) {
-												left: 60.63%;
-												top: 14.63%;
+												left: 38.89%;
+												top: 19.26%;
 												.product__target {
-													left: 32px;
+													left: 38px;
+													top: -40px;
+													margin-left: 0;
+												}
+											}
+											&:nth-child(2) {
+												left: 32.5%;
+												top: 56.48%;
+												.product__target {
+													left: 38px;
 													top: -49px;
 													margin-left: 0;
-													padding-left: 20px;
-													&:before {
-														left: 10px;
-														top: 50%;
-														margin-left: 0;
-														margin-top: -15px;
-														border-left: 0;
-														border-top: 15px solid transparent;
-														border-bottom: 15px solid transparent;
-														border-right: 20px solid #fff;
-													}
 												}
 											}
 										}
@@ -616,23 +643,23 @@
 									&:nth-child(1) {
 										.product__layer {
 											&:nth-child(1) {
-												left: 60.63%;
-												top: 14.63%;
+												left: 40.37%;
+												top: 12.41%;
 												.product__target {
-													left: 32px;
+													left: auto;
+													right: 38px;
+													top: -40px;
+													margin-left: 0;
+												}
+											}
+											&:nth-child(2) {
+												left: 60%;
+												top: 61.30%;
+												.product__target {
+													left: auto;
+													right: 38px;
 													top: -49px;
 													margin-left: 0;
-													padding-left: 20px;
-													&:before {
-														left: 10px;
-														top: 50%;
-														margin-left: 0;
-														margin-top: -15px;
-														border-left: 0;
-														border-top: 15px solid transparent;
-														border-bottom: 15px solid transparent;
-														border-right: 20px solid #fff;
-													}
 												}
 											}
 										}
@@ -661,23 +688,17 @@
 									&:nth-child(1) {
 										.product__layer {
 											&:nth-child(1) {
-												left: 60.63%;
-												top: 14.63%;
+												left: 27.69%;
+												top: 38.15%;
 												.product__target {
-													left: 32px;
-													top: -49px;
-													margin-left: 0;
-													padding-left: 20px;
-													&:before {
-														left: 10px;
-														top: 50%;
-														margin-left: 0;
-														margin-top: -15px;
-														border-left: 0;
-														border-top: 15px solid transparent;
-														border-bottom: 15px solid transparent;
-														border-right: 20px solid #fff;
-													}
+													top: 38px;
+												}
+											}
+											&:nth-child(2) {
+												left: 79.54%;
+												top: 88.52%;
+												.product__target {
+													bottom: 38px;
 												}
 											}
 										}
@@ -784,6 +805,13 @@
 		}
 		&__header {
 			text-align: center;
+
+			sup {
+				top: -0.3em;
+				font-size: 60%;
+				line-height: inherit;
+				vertical-align: text-top;
+			}
 		}
 		&__title {
 			font-weight: 700;
@@ -812,10 +840,6 @@
 			line-height: 24px;
 			& + .section__desc {
 				margin-top: 16px;
-			}
-			.section__mark {
-				color: #A50034;
-				font-weight: 700;
 			}
 			&--small {
 				margin-top: 10px;
@@ -939,6 +963,73 @@
 							}
 							.tab__text {
 								font-size: 14px;
+							}
+						}
+						&__panel {
+							&--home {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_home0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--gathering {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_gathering0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--gameday {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_gameday0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--pastime {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_pastime0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--memories {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_memories0#{$i}.png');
+											}
+										}
+									}
+								}
 							}
 						}
 					}
@@ -1276,6 +1367,17 @@
 						margin-right: 6px;
 						@include sprite.retina-sprite(sprite.$ico-benefit01-group);
 					}
+
+					em {
+						text-align: left;
+						line-height: 1;
+
+						span {
+							display: block;
+							font-weight: 600;
+							font-size: 18px;
+						}
+					}
 				}
 			}
 		}
@@ -1405,6 +1507,13 @@
 						font-size: 24px;
 						&:not(:first-child) {
 							margin: 10px 0 0 0;
+						}
+
+						em {
+	
+							span {
+								font-size: 16px;
+							}
 						}
 					}
 				}
@@ -1892,6 +2001,7 @@
 		}
 		&__layer {
 			position: absolute;
+			z-index: 5;
 		}
 		&__anchor {
 			display: block;
