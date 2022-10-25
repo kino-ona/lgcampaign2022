@@ -1,3 +1,5 @@
 node_modules
-dist
+dist/assets
+dist/lg5-common-gp
+dist/*.html
 src/assets/css/sprite

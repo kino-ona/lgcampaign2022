@@ -331,7 +331,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별1');">
+					<div class="lottie lottie--disabled" onclick="alert('별 비활성화');">
 						<!-- <lottie-player src="./lottie/star.json" background="transparent" speed="1" loop autoplay>
 						</lottie-player> -->
 					</div>
@@ -3647,8 +3647,13 @@
 	<script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){
-				$('.lottie').append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
-
+				$('.lottie').each(function(){
+					if(!$(this).hasClass('lottie--disabled')) {
+						$(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+					}	else {
+						$(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+					}
+				});
 				clearTimeout(delay);
 			}, 600);
 		}
