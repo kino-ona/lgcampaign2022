@@ -1,5 +1,5 @@
 node_modules
 dist/assets
 dist/lg5-common-gp
-dist/*.html
+dist/**/*.html
 src/assets/css/sprite
