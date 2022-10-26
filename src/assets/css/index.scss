@@ -74,6 +74,13 @@
 		.bold {
 			font-weight: 700;
 		}
+
+		sup {
+			top: -0.3em;
+			font-size: 60%;
+			line-height: inherit;
+			vertical-align: text-top;
+		}
 	}
 	&__buttons {
 		display: flex;
@@ -2029,16 +2036,6 @@
 			left: 50%;
 			width: 340px;
 			margin-left: -170px;
-			&:before {
-				content: '';
-				display: block;
-				position: absolute;
-				left: 50%;
-				margin-left: -15px;
-				border-left: 15px solid transparent;
-				border-right: 15px solid transparent;
-				border-top: 20px solid #fff;
-			}
 			&--opened {
 				display: block;
 			}
@@ -2375,10 +2372,6 @@
 				left: auto;
 				width: 264px;
 				margin-left: 0;
-				&:before {
-					left: auto;
-					margin-left: 0;
-				}
 				.product__link {
 					min-height: 80px;
 				}
