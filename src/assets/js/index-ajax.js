@@ -59,7 +59,6 @@ $(document).ready(function() {
 		hotDealSlickOpt: {
 			speed: 600,
 			infinite: false,
-			// arrows: false,
 			slidesToShow: 3,
 			focusOnSelect: false,
 			responsive: [
@@ -67,9 +66,6 @@ $(document).ready(function() {
 					breakpoint: 767,
 					settings: {
 						slidesToShow: 1,
-						variableWidth: true,
-						centerPadding: '11.54vw',
-						centerMode: true,
 						focusOnSelect: true
 					}
 				}

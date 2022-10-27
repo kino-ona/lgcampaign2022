@@ -9,15 +9,14 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
-
-	<link rel="canonical" href="https://www.lg.com/uk">
+	<link rel="canonical" href="https://www.lg.com/uk/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG UK">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK">
 	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
-	<meta property="og:url" content="https://www.lg.com/uk">
+	<meta property="og:url" content="https://www.lg.com/uk/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGUK">
@@ -27,7 +26,7 @@
 	"@type": "Corporation",
 	"name": "LG UK",
 	"alternateName": "LG Electronics",
-	"url": "https://www.lg.com/uk",
+	"url": "https://www.lg.com/uk/memberdays",
 	"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
 	 "sameAs": [
 	"https://www.facebook.com/LGUK",
@@ -41,7 +40,7 @@
 	"@context": "https://schema.org",
 	"@type": "WebSite",
 	"name": "LG UK",
-	"url": "https://www.lg.com/uk",
+	"url": "https://www.lg.com/uk/memberdays",
 	 "potentialAction": {
 	"@type": "SearchAction",
 	"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
@@ -105,6 +104,7 @@
 
 	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="${path}/assets/css/index.css">
+	<link rel="stylesheet" href="${path}/assets/css/index_uk.css">
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -149,7 +149,7 @@
         <div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">LG MEMBER DAYS COMING SOON</h2>
+							<h1 class="section__title">LG MEMBER DAYS COMING SOON</h1>
 							<p class="section__desc">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">Make your holidays sparkle with LG</p>
 							<p class="section__desc">
@@ -812,10 +812,10 @@
 							<div class="product__mask">
 								<template class="contents-template">
 									<div class="product__item">
-										<div class="product__flags">
+										<!-- <div class="product__flags">
 											<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
-										</div>
+										</div> -->
 										<div class="product__img">
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
