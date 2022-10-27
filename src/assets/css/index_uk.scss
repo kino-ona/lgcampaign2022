@@ -1,0 +1,265 @@
+@charset 'UTF-8';
+@use 'mixins';
+@use 'sprite/sprite';
+
+.lgmembersweek {
+
+	.section {
+		&__container {
+			&--lifestyle {
+
+				.tab {
+					&__panel {
+						&--home {
+
+							.product__showroom {
+
+								.product__slide {
+									@for $i from 1 through 1 {
+										&:nth-child(#{ $i }) {
+											background-image: url('../images/bg_product_showroom_home0#{$i}.png');
+										}
+									}
+									&:nth-child(1) {
+										.product__layer {
+											&:nth-child(1) {
+												left: 57.04%;
+												top: 38.89%;
+												.product__target {
+													bottom: 38px;
+												}
+											}
+											&:nth-child(2) {
+												left: 75.56%;
+												top: 38.89%;
+												.product__target {
+													bottom: 38px;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						&--gathering {
+
+							.product__showroom {
+
+								.product__slide {
+									@for $i from 1 through 1 {
+										&:nth-child(#{ $i }) {
+											background-image: url('../images/bg_product_showroom_gathering0#{$i}.png');
+										}
+									}
+									&:nth-child(1) {
+										.product__layer {
+											&:nth-child(1) {
+												left: 24.44%;
+												top: 15.74%;
+												.product__target {
+													left: 38px;
+													top: -49px;
+													margin-left: 0;
+												}
+											}
+											&:nth-child(2) {
+												left: 80.19%;
+												top: 67.59%;
+												.product__target {
+													left: auto;
+													right: 38px;
+													top: -49px;
+													margin-left: 0;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						&--gameday {
+
+							.product__showroom {
+
+								.product__slide {
+									@for $i from 1 through 1 {
+										&:nth-child(#{ $i }) {
+											background-image: url('../images/bg_product_showroom_gameday0#{$i}.png');
+										}
+									}
+									&:nth-child(1) {
+										.product__layer {
+											&:nth-child(1) {
+												left: 38.89%;
+												top: 19.26%;
+												.product__target {
+													left: 38px;
+													top: -40px;
+													margin-left: 0;
+												}
+											}
+											&:nth-child(2) {
+												left: 32.5%;
+												top: 56.48%;
+												.product__target {
+													left: 38px;
+													top: -49px;
+													margin-left: 0;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						&--pastime {
+
+							.product__showroom {
+
+								.product__slide {
+									@for $i from 1 through 1 {
+										&:nth-child(#{ $i }) {
+											background-image: url('../images/bg_product_showroom_pastime0#{$i}.png');
+										}
+									}
+									&:nth-child(1) {
+										.product__layer {
+											&:nth-child(1) {
+												left: 40.37%;
+												top: 12.41%;
+												.product__target {
+													left: auto;
+													right: 38px;
+													top: -40px;
+													margin-left: 0;
+												}
+											}
+											&:nth-child(2) {
+												left: 60%;
+												top: 61.30%;
+												.product__target {
+													left: auto;
+													right: 38px;
+													top: -49px;
+													margin-left: 0;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						&--memories {
+
+							.product__showroom {
+
+								.product__slide {
+									@for $i from 1 through 1 {
+										&:nth-child(#{ $i }) {
+											background-image: url('../images/bg_product_showroom_memories0#{$i}.png');
+										}
+									}
+									&:nth-child(1) {
+										.product__layer {
+											&:nth-child(1) {
+												left: 27.69%;
+												top: 38.15%;
+												.product__target {
+													top: 38px;
+												}
+											}
+											&:nth-child(2) {
+												left: 79.54%;
+												top: 88.52%;
+												.product__target {
+													bottom: 38px;
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			&__container {
+				&--lifestyle {
+
+					.tab {
+						&__panel {
+							&--home {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_home0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--gathering {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_gathering0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--gameday {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_gameday0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--pastime {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_pastime0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+							&--memories {
+	
+								.product__showroom {
+	
+									.product__slide {
+										@for $i from 1 through 1 {
+											&:nth-child(#{ $i }) {
+												background-image: url('../images/m_bg_product_showroom_memories0#{$i}.png');
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

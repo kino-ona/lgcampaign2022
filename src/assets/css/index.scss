@@ -221,7 +221,6 @@
 				font-weight: 700;
 				font-size: 63px;
 				line-height: 86px;
-				letter-spacing: -5.04px;
 			}
 			.coupon__unit {
 				margin-left: 10px;
@@ -512,35 +511,6 @@
 									color: #467200;
 								}
 							}
-
-							.product__showroom {
-
-								.product__slide {
-									@for $i from 1 through 1 {
-										&:nth-child(#{ $i }) {
-											background-image: url('../images/bg_product_showroom_home0#{$i}.png');
-										}
-									}
-									&:nth-child(1) {
-										.product__layer {
-											&:nth-child(1) {
-												left: 57.04%;
-												top: 38.89%;
-												.product__target {
-													bottom: 38px;
-												}
-											}
-											&:nth-child(2) {
-												left: 75.56%;
-												top: 38.89%;
-												.product__target {
-													bottom: 38px;
-												}
-											}
-										}
-									}
-								}
-							}
 						}
 						&--gathering {
 							background: transparent linear-gradient(180deg, #FFE3AD 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
@@ -549,40 +519,6 @@
 								
 								em {
 									color: #B45A00;
-								}
-							}
-
-							.product__showroom {
-
-								.product__slide {
-									@for $i from 1 through 1 {
-										&:nth-child(#{ $i }) {
-											background-image: url('../images/bg_product_showroom_gathering0#{$i}.png');
-										}
-									}
-									&:nth-child(1) {
-										.product__layer {
-											&:nth-child(1) {
-												left: 24.44%;
-												top: 15.74%;
-												.product__target {
-													left: 38px;
-													top: -49px;
-													margin-left: 0;
-												}
-											}
-											&:nth-child(2) {
-												left: 80.19%;
-												top: 67.59%;
-												.product__target {
-													left: auto;
-													right: 38px;
-													top: -49px;
-													margin-left: 0;
-												}
-											}
-										}
-									}
 								}
 							}
 						}
@@ -595,39 +531,6 @@
 									color: #DD4400;
 								}
 							}
-
-							.product__showroom {
-
-								.product__slide {
-									@for $i from 1 through 1 {
-										&:nth-child(#{ $i }) {
-											background-image: url('../images/bg_product_showroom_gameday0#{$i}.png');
-										}
-									}
-									&:nth-child(1) {
-										.product__layer {
-											&:nth-child(1) {
-												left: 38.89%;
-												top: 19.26%;
-												.product__target {
-													left: 38px;
-													top: -40px;
-													margin-left: 0;
-												}
-											}
-											&:nth-child(2) {
-												left: 32.5%;
-												top: 56.48%;
-												.product__target {
-													left: 38px;
-													top: -49px;
-													margin-left: 0;
-												}
-											}
-										}
-									}
-								}
-							}
 						}
 						&--pastime {
 							background: transparent linear-gradient(180deg, #B4CDE6 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
@@ -638,41 +541,6 @@
 									color: #00468B;
 								}
 							}
-
-							.product__showroom {
-
-								.product__slide {
-									@for $i from 1 through 1 {
-										&:nth-child(#{ $i }) {
-											background-image: url('../images/bg_product_showroom_pastime0#{$i}.png');
-										}
-									}
-									&:nth-child(1) {
-										.product__layer {
-											&:nth-child(1) {
-												left: 40.37%;
-												top: 12.41%;
-												.product__target {
-													left: auto;
-													right: 38px;
-													top: -40px;
-													margin-left: 0;
-												}
-											}
-											&:nth-child(2) {
-												left: 60%;
-												top: 61.30%;
-												.product__target {
-													left: auto;
-													right: 38px;
-													top: -49px;
-													margin-left: 0;
-												}
-											}
-										}
-									}
-								}
-							}
 						}
 						&--memories {
 							background: transparent linear-gradient(180deg, #D1D1D6 0%, #FFFFFF 100%) 0% 0% no-repeat padding-box;
@@ -681,35 +549,6 @@
 								
 								em {
 									color: #424255;
-								}
-							}
-
-							.product__showroom {
-
-								.product__slide {
-									@for $i from 1 through 1 {
-										&:nth-child(#{ $i }) {
-											background-image: url('../images/bg_product_showroom_memories0#{$i}.png');
-										}
-									}
-									&:nth-child(1) {
-										.product__layer {
-											&:nth-child(1) {
-												left: 27.69%;
-												top: 38.15%;
-												.product__target {
-													top: 38px;
-												}
-											}
-											&:nth-child(2) {
-												left: 79.54%;
-												top: 88.52%;
-												.product__target {
-													bottom: 38px;
-												}
-											}
-										}
-									}
 								}
 							}
 						}
@@ -975,73 +814,6 @@
 							}
 							.tab__text {
 								font-size: 14px;
-							}
-						}
-						&__panel {
-							&--home {
-	
-								.product__showroom {
-	
-									.product__slide {
-										@for $i from 1 through 1 {
-											&:nth-child(#{ $i }) {
-												background-image: url('../images/m_bg_product_showroom_home0#{$i}.png');
-											}
-										}
-									}
-								}
-							}
-							&--gathering {
-	
-								.product__showroom {
-	
-									.product__slide {
-										@for $i from 1 through 1 {
-											&:nth-child(#{ $i }) {
-												background-image: url('../images/m_bg_product_showroom_gathering0#{$i}.png');
-											}
-										}
-									}
-								}
-							}
-							&--gameday {
-	
-								.product__showroom {
-	
-									.product__slide {
-										@for $i from 1 through 1 {
-											&:nth-child(#{ $i }) {
-												background-image: url('../images/m_bg_product_showroom_gameday0#{$i}.png');
-											}
-										}
-									}
-								}
-							}
-							&--pastime {
-	
-								.product__showroom {
-	
-									.product__slide {
-										@for $i from 1 through 1 {
-											&:nth-child(#{ $i }) {
-												background-image: url('../images/m_bg_product_showroom_pastime0#{$i}.png');
-											}
-										}
-									}
-								}
-							}
-							&--memories {
-	
-								.product__showroom {
-	
-									.product__slide {
-										@for $i from 1 through 1 {
-											&:nth-child(#{ $i }) {
-												background-image: url('../images/m_bg_product_showroom_memories0#{$i}.png');
-											}
-										}
-									}
-								}
 							}
 						}
 					}
@@ -1352,8 +1124,9 @@
 				line-height: 34px;
 			}
 			.benefit__button {
-				margin-top: 20px;
 				display: inline-flex;
+				justify-content: center;
+				flex-wrap: wrap;
 
 				a {
 					display: flex;
@@ -1361,13 +1134,11 @@
 					justify-content: center;
 					width: 420px;
 					height: 100px;
+					margin: 20px 10px 0;
 					border-radius: 15px;
 					background-color: #F7DE9B;
 					font-weight: 700;
 					font-size: 30px;
-					&:not(:first-child) {
-						margin-left: 20px;
-					}
 					&:nth-child(2) {
 
 						i {
@@ -1512,13 +1283,15 @@
 
 				.benefit__button {
 					display: block;
+					margin-top: 20px;
 
 					a {
 						width: 100%;
 						height: 80px;
+						margin: 0;
 						font-size: 24px;
 						&:not(:first-child) {
-							margin: 10px 0 0 0;
+							margin-top: 10px;
 						}
 
 						em {
@@ -1989,6 +1762,18 @@
 				color: inherit;
 			}
 
+			.slick-arrow {
+				margin-top: -16px;
+			}
+			.slick-prev {
+				left: 0;
+				@include sprite.retina-sprite(sprite.$btn-hotdeal-prev-group);
+			}
+			.slick-next {
+				right: 0;
+				@include sprite.retina-sprite(sprite.$btn-hotdeal-next-group);
+			}
+
 			.learn-more__text {
 				&:before {
 					background-color: #fff;
@@ -2353,16 +2138,11 @@
 					height: 54px;
 				}
 
-				.slick-arrow {
-					margin-top: -16px;
-				}
 				.slick-prev {
-					left: 0;
-					@include sprite.retina-sprite(sprite.$btn-hotdeal-prev-group);
+					@include sprite.retina-sprite(sprite.$m-btn-hotdeal-prev-group);
 				}
 				.slick-next {
-					right: 0;
-					@include sprite.retina-sprite(sprite.$btn-hotdeal-next-group);
+					@include sprite.retina-sprite(sprite.$m-btn-hotdeal-next-group);
 				}
 			}
 			&__showroom {
