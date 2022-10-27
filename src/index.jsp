@@ -179,7 +179,7 @@
 							<i class="arrow_ico"></i>
 						</button>
 						<div id="select_list-item" class="select_list-item">
-							<span class="link">MEMBER DAYS BENEFITS</span>
+							<span class="link">VIEW MEMBER EXCLUSIVE OFFERS</span>
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
@@ -301,7 +301,7 @@
 					<div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div>
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
-				<div class="section__container section__container--event">
+				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">Fill Your Day with Sparkle</p>
@@ -356,7 +356,7 @@
 										<img src="${path}/assets/images/img_event_product.png" alt="">
 									</div>
 									<div class="event__info">
-										<p class="event__text">Coupons are valid from 7th Dec to 20th Dec  2022</p>
+										<p class="event__text">Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 									</div>
 								</div>
 							</div>
@@ -799,7 +799,7 @@
 					</div>
 					<div class="lottie" onclick="alert('별3');"></div>
 				</div>
-				<div class="section__container section__container--hotdeal">
+				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
 							<h2 class="section__title">Sparkling Deal is coming soon</h2>
@@ -810,80 +810,61 @@
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
-								<div class="product__list">
+								<template class="contents-template">
 									<div class="product__item">
-										<div class="product__img">
-											<img src="{path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
-											<div class="product__label">
-												<p>
-													Limited to
-													<span>100</span>
-													units
-												</p>
-											</div>
+										<div class="product__flags">
+											<span class="product__flag d-none" data-user-type="*productTag1UserType*" data-key="productTag1">*productTag1*</span>
+											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div>
-										<div class="product__info">
-											<p class="product__name">24'' FHD IPS Display</p>
-											<p class="product__sn">24MK430H</p>
+										<div class="product__img">
+											<p class="hotdeal_bg"></p>
+											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
+										</div>
+										<!-- 
+											// common.js add-to-cart dataLayer 공통 로직 진입을 위해
+											// .products-info / .js-compare 클래스 추가
+											// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
+										-->
+										<div class="product__info products-info">
+											<p class="product__name">*userFriendlyName*</p>
+											<p class="product__sn sku">*modelName*</p>
+											<div class="product__price">
+												<span class="product__discount">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*originPrice*</span>
+												</span>
+												<span class="product__highlight">*discountMsg*</span>
+											</div>
+											<div class="product__price-now">
+												<span class="product__cost">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*finalPrice*</span>
+												</span>
+											</div>
+											<div class="product__members">
+												<span class="product__text"><spring:message code='OBS_MEMBERSHIP_MSG' text='OBS_MEMBERSHIP_MSG'/></span>
+												<span class="product__highlight">
+													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
+													<span class="number">*membershipPriceValue*</span>
+												</span>
+												<div class="product__noti d-none">
+													<p class="product__text">*reStockAlertText*</p>
+												</div>
+											</div>
 											<div class="button">
-												<a href="#" class="button__item button__item--disabled">COMING SOON</a>
+												<p class="button__item button__item--disabled">COMING SOON</p>
+												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
 											</div>
 											<div class="learn-more">
-												<a href="#" class="learn-more__link">
-													<span class="learn-more__text">LEARN MORE</span>
+												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
+													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												</a>
 											</div>
 										</div>
 									</div>
-									<div class="product__item">
-										<div class="product__img">
-											<img src="{path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
-											<div class="product__label">
-												<p>
-													Limited to
-													<span>100</span>
-													units
-												</p>
-											</div>
-										</div>
-										<div class="product__info">
-											<p class="product__name">24'' FHD IPS Display</p>
-											<p class="product__sn">24MK430H</p>
-											<div class="button">
-												<a href="#" class="button__item button__item--disabled">COMING SOON</a>
-											</div>
-											<div class="learn-more">
-												<a href="#" class="learn-more__link">
-													<span class="learn-more__text">LEARN MORE</span>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="product__item">
-										<div class="product__img">
-											<img src="{path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
-											<div class="product__label">
-												<p>
-													Limited to
-													<span>100</span>
-													units
-												</p>
-											</div>
-										</div>
-										<div class="product__info">
-											<p class="product__name">24'' FHD IPS Display</p>
-											<p class="product__sn">24MK430H</p>
-											<div class="button">
-												<a href="#" class="button__item button__item--disabled">COMING SOON</a>
-											</div>
-											<div class="learn-more">
-												<a href="#" class="learn-more__link">
-													<span class="learn-more__text">LEARN MORE</span>
-												</a>
-											</div>
-										</div>
-									</div>
-								</div>
+								</template>
+								<div class="product__list"></div>
 							</div>
 						</div>
 						<div class="section__footer section__footer--center">
