@@ -840,6 +840,11 @@
 			&:first-child {
 				margin-top: 0;
 			}
+
+			.highlight {
+				color: #A50034;
+				font-weight: 700;
+			}
 		}
 		&__desc {
 			margin-top: 20px;
@@ -1363,7 +1368,7 @@
 					&:not(:first-child) {
 						margin-left: 20px;
 					}
-					&:last-child {
+					&:nth-child(2) {
 
 						i {
 							@include sprite.retina-sprite(sprite.$ico-benefit02-group);
@@ -1628,12 +1633,6 @@
 					&--secondary {
 						color: #D09800;
 					}
-					&--tertiary {
-						color: #707070;
-						&:not(:first-child) {
-							margin-top: 16px;
-						}
-					}
 				}
 				.event__process {
 					position: relative;
@@ -1724,6 +1723,13 @@
 						font-size: 18px;
 						line-height: 20px;
 						text-align: center;
+
+						sup {
+							top: -0.3em;
+							font-size: 60%;
+							line-height: inherit;
+							vertical-align: text-top;
+						}
 					}
 				}
 			}
@@ -1970,6 +1976,14 @@
 				position: relative;
 				max-width: 260px;
 				margin: -30px auto 0;
+
+				.product__highlight {
+					color: #FFC400;
+				}
+				.product__discount {
+					color: inherit;
+					opacity: 0.5;
+				}
 			}
 			.product__sn {
 				color: inherit;
@@ -2199,10 +2213,11 @@
 		&__info {
 			margin-top: 20px;
 			text-align: center;
+
 			.product__highlight {
 				color: #A50034;
 				font-size: 16px;
-				line-height: 18px;
+				line-height: 22px;
 			}
 		}
 		&__name {
