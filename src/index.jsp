@@ -150,7 +150,7 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<h2 class="section__title">LG MEMBER DAYS COMING SOON</h2>
-							<p class="section__desc">7th Dec to 20th Dec 2022</p>
+							<p class="section__desc">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">Make your holidays sparkle with LG</p>
 							<p class="section__desc">
 								Sign Up and Don’t Miss out on our PRIZE-WINNING EVENT<br>
@@ -165,7 +165,7 @@
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022" 
                 class="terms__link visual__link">
-                Terms and Conditions
+                Terms &amp; Conditions
                 <i class="visual__arrow"></i>
               </a>
 						</div>
@@ -381,7 +381,7 @@
 				</div>
 			</div>
 			<div id="box_content2" class="section">
-				<div class="section__container section__container--lifestyle">
+				<div class="section__container section__container--lifestyle" data-list="lifeStyle">
 					<div class="tab">
 						<ul class="tab__list">
 							<li class="tab__item tab__item--home tab__item--active">
@@ -618,10 +618,10 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gameday01_01.png" alt="LG G2 65 inch evo Gallery Edition">
+															<img src="${path}/assets/images/img_product_showroom_gameday01_01.png" alt="LG OLED evo Gallery Edition G2 83">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG G2 65 inch evo Gallery Edition</p>
+															<p class="product__name">LG OLED evo Gallery Edition G2 83</p>
 															<ul class="product__desc">
 																<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest OLED picture quality</li>
 																<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
@@ -781,7 +781,7 @@
 														<div class="product__right">
 															<p class="product__name">LG TONE Free UT90</p>
 															<ul class="product__desc">
-																<li>UVnano Kills 99.9% of Bacteria</li>
+																<li>WORLD’S 1ST DOLBY ATMOS WIRELESS EARBUDS WITH DOLBY HEAD TRACKING™</li>
 																<li>Enhanced adaptive active noise cancellation</li>
 															</ul>
 														</div>
@@ -805,8 +805,7 @@
 							<h2 class="section__title">Sparkling Deal is coming soon</h2>
 							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">
-								<span class="break break--mobile">Big savings on limited stock products</span>
-								for LG Members only
+								<span class="break break--mobile">Save big on our limited stock product</span>for LG Members only
 							</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
@@ -814,7 +813,55 @@
 								<div class="product__list">
 									<div class="product__item">
 										<div class="product__img">
-											<img src="${path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
+											<img src="{path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
+											<div class="product__label">
+												<p>
+													Limited to
+													<span>100</span>
+													units
+												</p>
+											</div>
+										</div>
+										<div class="product__info">
+											<p class="product__name">24'' FHD IPS Display</p>
+											<p class="product__sn">24MK430H</p>
+											<div class="button">
+												<a href="#" class="button__item button__item--disabled">COMING SOON</a>
+											</div>
+											<div class="learn-more">
+												<a href="#" class="learn-more__link">
+													<span class="learn-more__text">LEARN MORE</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="product__item">
+										<div class="product__img">
+											<img src="{path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
+											<div class="product__label">
+												<p>
+													Limited to
+													<span>100</span>
+													units
+												</p>
+											</div>
+										</div>
+										<div class="product__info">
+											<p class="product__name">24'' FHD IPS Display</p>
+											<p class="product__sn">24MK430H</p>
+											<div class="button">
+												<a href="#" class="button__item button__item--disabled">COMING SOON</a>
+											</div>
+											<div class="learn-more">
+												<a href="#" class="learn-more__link">
+													<span class="learn-more__text">LEARN MORE</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="product__item">
+										<div class="product__img">
+											<img src="{path}/assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
 											<div class="product__label">
 												<p>
 													Limited to
@@ -849,7 +896,7 @@
 
 			<!-- <div class="anchors" id="VolumeProductsAudio"></div> -->
 			<div id="box_content3" class="section">
-				<div class="section__container section__container--hottest">
+				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">Add Your Own Sparkle with LG</p>
@@ -1155,7 +1202,7 @@
 						99% discount coupon for<br>
 						<span class="bold">InstaView Door-in-Door</span>
 					</p>
-					<p class="popup__desc popup__desc--secondary">Valid from 7th Nov to 20th Dec</p>
+					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">VIEW COUPON</button>
 					</div>
@@ -1273,6 +1320,8 @@
   <!-- UI script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>
+	<script src="${path}/assets/js/index-ajax.js"></script>
+	<script src="${path}/assets/js/index-add-to-cart.js"></script>
   <script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){
