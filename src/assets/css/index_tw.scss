@@ -242,6 +242,15 @@
 				.section__desc {
 					margin-top: 10px;
 				}
+				.product__img {
+					position: relative;
+					.product__more {
+						position: absolute;
+						top: 20px;
+						left: 50%;
+						@include mixins.translate(-50%, 0);
+					}
+				}
 			}
 			&--hottest {
 
@@ -323,6 +332,14 @@
 									}
 								}
 							}
+						}
+					}
+				}
+
+				&--hotdeal {
+					.product__img {
+						.product__more {
+							font-size: 14px;
 						}
 					}
 				}
