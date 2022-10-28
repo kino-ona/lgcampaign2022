@@ -242,15 +242,6 @@
 				.section__desc {
 					margin-top: 10px;
 				}
-				.product__img {
-					position: relative;
-					.product__more {
-						position: absolute;
-						top: 20px;
-						left: 50%;
-						@include mixins.translate(-50%, 0);
-					}
-				}
 			}
 			&--hottest {
 
@@ -266,6 +257,9 @@
 				&--lifestyle {
 
 					.tab {
+						&__list {
+							top: calc(12.82vw + 208px);
+						}
 						&__panel {
 							&--home {
 	
@@ -610,6 +604,40 @@
 							font-size: 22px;
 						}
 					}
+				}
+			}
+		}
+	}
+
+	// product
+	.product{
+		&--hotdeal {
+
+			.product__img {
+
+				.product__more {
+					position: absolute;
+					top: 20px;
+					left: 50%;
+					font-size: 18px;
+					@include mixins.translate(-50%, 0);
+				}
+				
+				.hotdeal_bg {
+					background-image: url('../images/tw/hotdeal_on.png');
+				}
+			}
+		}
+	}
+
+	@media (max-width: 1024px) {
+		&--hotdeal {
+
+			.product__img {
+
+				.product__more {
+					top: 10px;
+					font-size: 14px;
 				}
 			}
 		}

@@ -1692,7 +1692,7 @@
 				justify-content: center;
 				margin: 0;
 				.slick-list {
-					max-width: 1280px;
+					max-width: 1320px;
 					margin: 0 auto;
 				}
 				.slick-track {
@@ -2133,7 +2133,8 @@
 				}
 				.product__img {
 
-					.product__label {
+					.product__label,
+					.hotdeal_bg {
 						right: 20px;
 						top: 20px;
 					}
