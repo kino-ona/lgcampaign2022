@@ -472,13 +472,17 @@
 							font-size: 22px;
 							line-height: 24px;
 						}
+
+						.event__desc {
+							max-width: none;
+						}
 					}
 				}
 				.event__coupon {
 					display: flex;
 					flex-direction: column;
 					align-items: flex-end;
-					margin-top: -36px;
+					margin-top: 36px;
 					text-align: right;
 
 					.event__desc {
