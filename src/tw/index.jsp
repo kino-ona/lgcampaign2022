@@ -26,7 +26,7 @@
 		"@type": "Corporation",
 		"name": "LG 台灣",
 		"alternateName": "LG Electronics",
-		"url": "https://www.lg.com/tw",
+		"url": "https://www.lg.com/tw/promotions/memberdays",
 		"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
 			"sameAs": [
 		"https://www.facebook.com/LGTaiwan/ ",
@@ -40,7 +40,7 @@
 		"@context": "https://schema.org",
 		"@type": "WebSite",
 		"name": "LG 台灣",
-		"url": "https://www.lg.com/tw",
+		"url": "https://www.lg.com/tw/promotions/memberdays",
 			"potentialAction": {
 		"@type": "SearchAction",
 		"target": "https://www.lg.com/tw/search/search-all?search={search_term_string}",
@@ -115,59 +115,67 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Event Gift Model -->
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07546563"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07560092"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07553060"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07553841"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07537639"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07558781"/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07515106|MD07515090|MD07535523|MD07535625"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548335|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532|MD07553060|MD07552999|MD07550947"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07553142|MD07546436|MD07545548|MD07559465|MD07559465|MD07559451|MD07559332"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07559123|MD07537152|MD07559316|MD07537639"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07548653|MD07547887|MD07555403|MD07543873|MD07524907"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07553837|MD07556844|MD07553944|MD07556788|MD07547888"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558671|MD07561784"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555527|MD07558781|MD07562207|MD07558410|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07562207|MD07558615|MD07537152|MD07555403|MD07537639"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product02.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product06.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product05.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product01.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product03.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product04.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
 			<!-- ex. multiple model thumb / alt text 
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
 			-->
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07535403"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07514393"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07553045"/>
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537152||MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07543873|MD07524907|MD07544495|MD07537639|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07562781|MD07555523"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
 		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="visual">
-        <div class="section">
-					<div class="section__inner">
-						<div class="section__header">
-							<h1 class="section__title">LG MEMBER DAYS COMING SOON</h1>
-							<p class="section__desc">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
-							<p class="section__sub">Make your holidays sparkle with LG</p>
-							<p class="section__desc">
-								Sign Up and Don’t Miss out on our PRIZE-WINNING EVENT<br>
-								and UPCOMING EXCLUSIVE MEMBER BENEFITS
-							</p>
-						</div>
-						<div class="button">
-							<a href="#box_content1" class="button__item button__item--red">TAKE PART</a>
-						</div>
-						<div class="visual__terms">
-							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022" 
-                class="terms__link visual__link">
-                Terms &amp; Conditions
-                <i class="visual__arrow"></i>
-              </a>
+        <div class="visual">
+					<div class="section">
+						<div class="section__inner">
+							<div class="section__header">
+								<h1 class="section__title">LG璀璨會員日 即將登場</h1>
+								<p class="section__desc">11/30-12/13</p>
+								<p class="section__sub">點亮您的冬季佳節</p>
+								<p class="section__desc">
+									立即註冊 就有機會贏得大獎<br>
+									以及獨家優惠</p>
+							</div>
+							<div class="button">
+								<a href="#box_content1" class="button__item button__item--red">立即參加</a>
+							</div>
+							<div class="visual__terms">
+								<a href="#" target="_blank" class="terms__link visual__link">
+									隱私權及使用者條款
+									<i class="visual__arrow"></i>
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -179,7 +187,7 @@
 							<i class="arrow_ico"></i>
 						</button>
 						<div id="select_list-item" class="select_list-item">
-							<span class="link">VIEW MEMBER EXCLUSIVE OFFERS</span>
+							<span class="link">查看會員獨家優惠</span>
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
@@ -187,21 +195,21 @@
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_benefit" 
 									data-link-area="memberdays_2022" 
-									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
+									class="link">查看會員獨家優惠</a>
 							</li>
 							<li class="list-item">
 								<a href="#box_content2" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_design_lifestyle" 
 									data-link-area="memberdays_2022" 
-									class="link">DISCOVER OUR SPARKLING MEMBERSHIP EVENT</a>
+									class="link">發掘會員精彩活動</a>
 							</li>
 							<li class="list-item">
 								<a href="#box_content3" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_hottest_product" 
 									data-link-area="memberdays_2022" 
-									class="link">BROWSE OUR HOLIDAY COLLECTION</a>
+									class="link">瀏覽我們的節日精選</a>
 								</li>
 						</ul>
 					</div>
@@ -211,11 +219,9 @@
 				<div class="section__container section__container--benefit">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Exclusive Benefits for LG Members</p>
-							<h2 class="section__title">
-								<span class="break break--desktop">Exclusive Benefits &amp; Sparkling Discounts</span>
-								on ALL LG products
-							</h2>
+							<p class="section__sub">LG會員獨家</p>
+							<h2 class="section__title">全系列產品 限定璀璨折扣</h2>
+							<p class="section__sub">以下三項優惠，會員可合併使用</p>
 						</div>
 						<div class="benefit">
 							<div class="coupon">
@@ -225,67 +231,79 @@
 											<p class="coupon__title">2</p>
 											<p class="coupon__unit">
 												% Off
-												<span class="coupon__text">Discount</span>
+												<span class="coupon__text">會員折扣</span>
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Member Exclusive Benefit</p>
-											<p class="coupon__text">
-												Join for free and<br>
-												get discounts on future purchases
-											</p>
+											<p class="coupon__title">會員專屬優惠</p>
+											<p class="coupon__text">簡單註冊，未來訂單皆享折扣</p>
 										</div>
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
-											<span class="coupon__flag">Coming Soon</span>
-											<p class="coupon__title">15</p>
+											<span class="coupon__flag">即將登場</span>
+											<p class="coupon__title">88</p>
 											<p class="coupon__unit">
-												% Off
-												<span class="coupon__text">Coupon</span>
+												折
+												<span class="coupon__text">限時優惠</span>
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">
-												Member Days<br>
-												Special Discount Coupon
-											</p>
-											<p class="coupon__text coupon__text--narrow">When you purchase 2 or more LG products</p>
-											<p class="coupon__text coupon__text--secondary">*All products available on LG.com, except “Sparkling Deals”</p>
+											<p class="coupon__title">會員日限定折扣</p>
+											<p class="coupon__text coupon__text--narrow">全館任選2樣產品即享12%優惠</p>
+											<p class="coupon__text coupon__text--secondary">*可與新會員5%折扣/ 會員2%折扣並用,不適用於璀璨周、SIGNATURE系列及配件產品</p>
 										</div>
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon">
 											<p class="coupon__title">5</p>
 											<p class="coupon__unit">
-												% Off
-												<span class="coupon__text">Coupon</span>
+												%
+												<span class="coupon__text">歡迎禮金</span>
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">New Member Benefit</p>
-											<p class="coupon__text">Welcome Coupon for New Members</p>
+											<p class="coupon__title">新會員歡迎禮</p>
+											<p class="coupon__text">凡註冊即可享95折優惠券</p>
 										</div>
 									</li>
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">Sign in and find your Member Days Discount coupon in your MyLG Account</p>
+								<p class="benefit__text">立即註冊 領取優惠</p>
 							</div>
 							<div class="benefit__more">
-								<p class="benefit__text">Even More Member Benefits</p>
+								<p class="benefit__text">更多好康</p>
 								<div class="benefit__button">
 									<a href="#">
 										<i></i>
 										<em>
-											Free Shipping
+											免費宅配
 										</em>
 									</a>
 									<a href="#">
 										<i></i>
 										<em>
-											Free Installation & Disposal
-											<span>* Washing Machine, Refrigerator only</span>
+											免費基本安裝及舊四機回收
+										</em>
+									</a>
+									<a href="#">
+										<i></i>
+										<em>
+											免費尊榮到府教學
+										</em>
+									</a>
+									<a href="#">
+										<i></i>
+										<em>
+											限量加碼贈品
+										</em>
+									</a>
+									<a href="#">
+										<i></i>
+										<em>
+											3天內保證送達
+											<span>部分商品因區域限制除外</span>
 										</em>
 									</a>
 								</div>
@@ -293,51 +311,48 @@
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								Terms &amp; Conditions
+								隱私權及使用者條款
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div>
+					<div class="lottie" onclick="showLotteryModal('1001');"></div>
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Fill Your Day with Sparkle</p>
-							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
+							<p class="section__sub">璀璨閃耀 每個日子</p>
+							<h2 class="section__title">立即參加 即可獲得璀璨好禮</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
 								<div class="event__round">
 									<div class="event__header">
-										<p class="event__category">How to Participate</p>
-										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
-										<p class="event__desc">Participation limited to one member account only</p>
+										<p class="event__category">如何參加</p>
+										<p class="event__title">一起簡單找星星 即刻參加抽獎</p>
+										<p class="event__desc">活動僅限會員參加，註冊另享歡迎禮</p>
 									</div>
 									<div class="event__process">
 										<ol>
 											<li>
 												<span>1</span>
-												<p>Login / Sign-Up</p>
+												<p>登入/ 註冊</p>
 											</li>
 											<li>
 												<span>2</span>
-												<p>
-													Find and click on ALL 5 stars<br>
-													throughout the event page
-												</p>
+												<p>找尋並點擊 活動頁面中的五顆星星</p>
 											</li>
 											<li>
 												<span>3</span>
 												<p>
-													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
-													prize!
+													完成任務 立即領取獎品
+													<em>(獎品採系統隨機抽獎機制)</em>
 												</p>
 											</li>
 										</ol>
 									</div>
-									<p class="event__category">Find All Five Stars</p>
+									<p class="event__category">蒐集完成五顆星星</p>
 									<div class="event__stars">
 										<div class="event__star event__star--actived"></div>
 										<div class="event__star"></div>
@@ -348,36 +363,72 @@
 								</div>
 								<div class="event__round">
 									<div class="event__header">
-										<p class="event__title">Event Prize</p>
-										<p class="event__sub">99% Discount Coupon for one of below products</p>
-										<p class="event__desc event__desc--secondary">Limited to 3 Winners</p>
+										<p class="event__title">首獎</p>
+										<p class="event__sub">旗艦機種 共3名</p>
+										<p class="event__desc event__desc--secondary">以下各乙台乙名</p>
+										<p class="event__desc event__desc--tertiary">OLED evo C2極致系列4K AI物聯網電視55吋 LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白)27” Libero 自由機</p>
 									</div>
 									<div class="event__gift">
-										<img src="${path}/assets/images/img_event_product.png" alt="">
+										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
 									</div>
 									<div class="event__info">
-										<p class="event__text">Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
+										<p class="event__text">得獎者將於活動結束後</p>
+									</div>
+									<div class="event__row">
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">二獎</p>
+												<p class="event__sub">最高6折優惠</p>
+												<p class="event__desc event__desc--secondary">限量20名</p>
+												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
+											</div>
+											<div class="event__coupon">
+												<div class="event__ticket">
+													40
+													<span>%</span>
+												</div>
+												<p class="event__desc event__desc--secondary">Discount coupon</p>
+											</div>
+										</div>
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">參加獎</p>
+												<p class="event__sub">最低85折優惠</p>
+												<p class="event__desc event__desc--secondary">人人有獎</p>
+												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
+											</div>
+											<div class="event__coupon">
+												<div class="event__ticket">
+													15
+													<span>%</span>
+												</div>
+												<p class="event__desc event__desc--secondary">Discount coupon</p>
+											</div>
+										</div>
+									</div>
+									<div class="event__info">
+										<p class="event__text">優惠試用期間: 2022/11/30-12/13</p>
 									</div>
 								</div>
 							</div>
 							<div class="event__bottom">
 								<div class="event__left">
-									<p>Your Prize is Just One Star away</p>
-									<p>Sign Up Now or Login to Participate</p>
+									<p>只差一步 就可贏得大獎</p>
+									<p>立即登入/ 註冊</p>
 								</div>
 								<div class="event__right">
-									<a href="#">LOGIN / SIGN-UP</a>
+									<a href="#">登入 / 註冊</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								Terms &amp; Conditions
+								隱私權及使用者條款
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별2');"></div>
+					<div class="lottie" onclick="showLotteryModal('1002');"></div>
 				</div>
 			</div>
 			<div id="box_content2" class="section">
@@ -387,31 +438,31 @@
 							<li class="tab__item tab__item--home tab__item--active">
 								<a href="#home" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Home</span>
+									<span class="tab__text">舒適家居</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gathering">
 								<a href="#gathering" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Gathering</span>
+									<span class="tab__text">美食聚會</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gameday">
 								<a href="#gameday" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Game Day</span>
+									<span class="tab__text">遊戲時光</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
 								<a href="#pastime" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Pastime</span>
+									<span class="tab__text">休閒時刻</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
 								<a href="#memories" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Memories</span>
+									<span class="tab__text">美好回憶</span>
 								</a>
 							</li>
 						</ul>
@@ -455,19 +506,11 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Home</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">與LG 一起點亮</span> <em>#舒適家居</em>
 									</h2>
-									<p class="section__sub">
-										<span class="break break--mobile">
-											Fresh clothes. Sparkling Home.
-											Now You’re
-										</span>
-										Holiday Ready
-									</p>
+									<p class="section__sub">清新衣物，舒適家居，一起舒適共度冬季佳節</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -480,13 +523,14 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_home01_01.png" alt="LG Turbowash360™ 10.5kg">
+															<img src="${path}/assets/images/tw/img_product_showroom_home01_01.png" alt="LG WashTower™ AI智控洗乾衣機｜Objet Collection®">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Turbowash360™ 10.5kg</p>
+															<p class="product__name">LG WashTower™ AI智控洗乾衣機｜Objet Collection®</p>
 															<ul class="product__desc">
-																<li>All-in one Washer and Dryer</li>
-																<li>Steam+™</li>
+																<li>垂直流線式一體成型設計 全觸控中央控制面板</li>
+																<li>AI DD™人工智慧智選最適洗衣行程</li>
+																<li>TurboWash™360°勁速洗 30分鐘完成洗衣／乾衣預熱準備</li>
 															</ul>
 														</div>
 													</a>
@@ -500,13 +544,37 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_home01_02.png" alt="LG Eco Hybrid™ FDV1109B 9Kg">
+															<img src="${path}/assets/images/tw/img_product_showroom_home01_02.png" alt="Styler®蒸氣電子衣櫥｜Objet Collection® (容量加大款)">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Eco Hybrid™ FDV1109B 9Kg</p>
+															<p class="product__name">Styler®蒸氣電子衣櫥｜Objet Collection® (容量加大款)</p>
 															<ul class="product__desc">
-																<li>DUAL Inverter Heat Pump™ Dryer</li>
-																<li>A+++ Energy Efficiency*</li>
+																<li>清新除臭，去除衣物難聞異味</li>
+																<li>天然蒸氣60°殺菌除蟎 99.9%</li>
+																<li>WiFi遠控，雲端客製衣物護理行程</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
+														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/tw/img_product_showroom_home01_03.png" alt="LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)</p>
+															<ul class="product__desc">
+																<li>自動除塵 雙手真乾淨</li>
+																<li>UVC 紫外線殺菌 抑制灰塵表面細菌孳生</li>
+																<li>隱藏吸頭收納 & 充電</li>
+																<li>濾網可水洗 常保乾淨衛生</li>
+																<li>智慧雙旋濕拖吸頭 吸塵濕拖一次完成</li>
 															</ul>
 														</div>
 													</a>
@@ -527,16 +595,11 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Gathering</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">與LG 一起點亮</span> <em>#美食聚會</em>
 									</h2>
-									<p class="section__sub">
-										<span class="break break--mobile">Set the table, set the vibe, with the help of LG</span>
-										technology
-									</p>
+									<p class="section__sub">與LG智慧家電一起輕鬆打理聚會</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -549,13 +612,13 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gathering01_01.png" alt="InstaView Door-in-Door">
+															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_01.png" alt="InstaView™敲敲看門中門冰箱 星夜黑/734公升">
 														</div>
 														<div class="product__right">
-															<p class="product__name">InstaView Door-in-Door</p>
+															<p class="product__name">InstaView™敲敲看門中門冰箱 星夜黑/734公升</p>
 															<ul class="product__desc">
-																<li>Get easy access with sleek InstaView™ Door-in-Door™.</li>
-																<li>Enjoy personalised operation  with our LG ThinQ™ app.</li>
+																<li>.敲敲看門中門，減少41%冷流流失，保鮮更省電; 直驅變頻壓縮機精準溫控，延長7天保鮮</li>
+																<li>Uvnano 安心飲用</li>
 															</ul>
 														</div>
 													</a>
@@ -569,13 +632,55 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gathering01_02.png" alt="XBOOM 360 XO3">
+															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_02.png" alt="LG NeoChef™智慧變頻蒸烘烤微波爐">
 														</div>
 														<div class="product__right">
-															<p class="product__name">XBOOM 360 XO3</p>
+															<p class="product__name">LG NeoChef™智慧變頻蒸烘烤微波爐</p>
 															<ul class="product__desc">
-																<li>Awarded by iF Design Award and reddot Design Award.</li>
-																<li>[IP54 Water &amp; Dust Proof] Enjoy stunning sound without worrying about humidity or dust.</li>
+																<li>LG NeoChef™智慧變頻科技 、高效率均溫烹調技術</li>
+																<li>蒸氣 燒烤 氣炸 一機多用</li>
+																<li>99.99%抗菌易清潔塗層™</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
+														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_03.png" alt="XBOOM 360˚ 全景聲藍牙音響 (典雅米)">
+														</div>
+														<div class="product__right">
+															<p class="product__name">XBOOM 360˚ 全景聲藍牙音響 (典雅米)</p>
+															<ul class="product__desc">
+																<li>真正 360ﾟ環繞音場, 更清晰、響亮的聽覺體驗</li>
+																<li>自訂 360ﾟ 氣氛燈, 10 小時播放時間</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
+														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_04.png" alt="LG QuadWash™ Steam 四方洗蒸氣洗碗機">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG QuadWash™ Steam 四方洗蒸氣洗碗機</p>
+															<ul class="product__desc">
+																<li>TrueSteam™蒸氣潔亮科技 高效去污 減少水漬殘留</li>
+																<li>QuadWash™超廣角螺旋洗臂 死角洗滌更徹底</li>
+																<li>EasyRack™ Plus 可調式彈性籃架 餐具擺放更靈活</li>
 															</ul>
 														</div>
 													</a>
@@ -596,16 +701,11 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Game Day</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">與LG 一起點亮</span> <em>#遊戲時光</em>
 									</h2>
-									<p class="section__sub">
-										<span class="break break--mobile">Bring the Stadium Home this Holiday Season</span>
-										with OLED TV and Soundbar
-									</p>
+									<p class="section__sub">家就是我的劇院,與LG OLED及英國Meridian調音音響一起享受</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -618,13 +718,13 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gameday01_01.png" alt="LG OLED evo Gallery Edition G2 83">
+															<img src="${path}/assets/images/tw/img_product_showroom_gameday01_01.png" alt="OLED evo C2極致系列4K AI物聯網電視65吋">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG OLED evo Gallery Edition G2 83</p>
+															<p class="product__name">OLED evo C2極致系列4K AI物聯網電視65吋</p>
 															<ul class="product__desc">
-																<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest OLED picture quality</li>
-																<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																<li>LG OLED evo,自體發光 OLED 4K, 智慧增亮引擎(Brightness Booster)</li>
+																<li>極致纖薄邊框, 杜比視界 IQ (Dolby Vision IQ)、杜比全景聲(Dolby ATMOS)</li>
 															</ul>
 														</div>
 													</a>
@@ -638,13 +738,13 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gameday01_02.png" alt="LG Sound Bar S95QR">
+															<img src="${path}/assets/images/tw/img_product_showroom_gameday01_02.png" alt="LG Sound Bar QP5">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Sound Bar S95QR</p>
+															<p class="product__name">LG Sound Bar QP5</p>
 															<ul class="product__desc">
-																<li>Triple Up-Firing Channels + rear speakers included </li>
-																<li>Meridian Audio Technology,AI Room Calibration &amp; AI Sound Pro</li>
+																<li>與英國頂級音響品牌MERIDIAN合作調音技術</li>
+																<li>杜比全景聲(Dolby ATMOS)&DTS:X</li>
 															</ul>
 														</div>
 													</a>
@@ -665,14 +765,13 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Pastime</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">與LG 一起點亮</span>
+										<em>#休閒時刻</em>
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Enjoy Holiday Gaming Together with LG’s Top</span>
+										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來，大顯身手</span>
 										Gaming Gear
 									</p>
 								</div>
@@ -687,13 +786,14 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_pastime01_01.png" alt="48” UltraGear™ UHD 4K OLED Gaming Monitor">
+															<img src="${path}/assets/images/tw/img_product_showroom_pastime01_01.png" alt="32’’ UltraGear™ UHD 4K 專業玩家電競顯示器">
 														</div>
 														<div class="product__right">
-															<p class="product__name">48” UltraGear™ UHD 4K OLED Gaming Monitor</p>
+															<p class="product__name">32’’ UltraGear™ UHD 4K 專業玩家電競顯示器</p>
 															<ul class="product__desc">
-																<li>48” UHD 4K (3840 x 2160) OLED Display</li>
-																<li>Anti-glare & Low reflection</li>
+																<li>32" UHD 4K (3840 x 2160)</li>
+																<li>ATW 技術 Nano IPS 螢幕</li>
+																<li>144Hz(超頻 160Hz)更新率</li>
 															</ul>
 														</div>
 													</a>
@@ -707,13 +807,14 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_pastime01_02.png" alt="LG gram 16 Ultra-Lightweight">
+															<img src="${path}/assets/images/tw/img_product_showroom_pastime01_02.png" alt="LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 沉靜灰 (i5) 配備NVIDIA® GeForce® GTX™">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG gram 16 Ultra-Lightweight</p>
+															<p class="product__name">LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 沉靜灰 (i5) 配備NVIDIA® GeForce® GTX™</p>
 															<ul class="product__desc">
-																<li>16” 16:10 WQXGA (2560 x 1600) IPS Display</li>
-																<li>Intel Evo Platform Powered by 12th Gen Intel® Core™ Processor</li>
+																<li>16” 16:10 WQXGA (2560 x 1600) IPS 螢幕</li>
+																<li>Windows 11 Home</li>
+																<li>第 12 代Intel® Core™ 處理器, NVIDIA® GeForce® GTX™</li>
 															</ul>
 														</div>
 													</a>
@@ -734,16 +835,11 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Memories</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">與LG 一起點亮</span> <em>#美好回憶</em>
 									</h2>
-									<p class="section__sub">
-										<span class="break break--mobile">Save and Share your Holiday Memories with</span>
-										LG Gram
-									</p>
+									<p class="section__sub">用LG gram儲存你的美好假期回憶</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -756,13 +852,13 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_memories01_01.png" alt="39.7’’ Curved UltraWide™ 5K2K Nano IPS Display">
+															<img src="${path}/assets/images/tw/img_product_showroom_memories01_01.png" alt="27" Libero 自由機">
 														</div>
 														<div class="product__right">
-															<p class="product__name">39.7’’ Curved UltraWide™ 5K2K Nano IPS Display</p>
+															<p class="product__name">27" Libero 自由機</p>
 															<ul class="product__desc">
-																<li>39.7-inch 5K2K (5120x2160) UltraWide™</li>
-																<li>5K Daisy Chain</li>
+																<li>27 吋 QHD (2560 x 1440) IPS 螢幕</li>
+																<li>IPS面板達色域 sRGB 99%，色彩準確不失真</li>
 															</ul>
 														</div>
 													</a>
@@ -776,13 +872,34 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_memories01_02.png" alt="LG TONE Free UT90">
+															<img src="${path}/assets/images/tw/img_product_showroom_memories01_02.png" alt="LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 冰雪白(i5)">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG TONE Free UT90</p>
+															<p class="product__name">LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 冰雪白(i5)</p>
 															<ul class="product__desc">
-																<li>WORLD’S 1ST DOLBY ATMOS WIRELESS EARBUDS WITH DOLBY HEAD TRACKING™</li>
-																<li>Enhanced adaptive active noise cancellation</li>
+																<li>16” 16:10 WQXGA (2560 x 1600) IPS 螢幕</li>
+																<li>Windows 11 Home</li>
+																<li>第 12 代Intel® Core™ 處理器，獲 Intel® Evo 平台驗證</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
+														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/tw/img_product_showroom_memories01_03.png" alt="LG TONE Free 真無線藍牙耳機 T90">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG TONE Free 真無線藍牙耳機 T90</p>
+															<ul class="product__desc">
+																<li>世界首創真無線杜比藍牙耳機 - 自然環繞音場</li>
+																<li>石墨烯振膜單體- 減少振動，提供準確清晰的聲音</li>
 															</ul>
 														</div>
 													</a>
@@ -797,16 +914,18 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별3');"></div>
+					<div class="lottie" onclick="showLotteryModal('1003');"></div>
 				</div>
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">Sparkling Deal is coming soon</h2>
-							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
-							<p class="section__sub">
-								<span class="break break--mobile">Save big on our limited stock product</span>for LG Members only
+							<h2 class="section__title">璀璨產品周 即將登場</h2>
+							<p class="section__desc">
+								11/30-12/4 視聽娛樂 豪享周<br>
+								12/5-12/9 居家廚電 豪享周<br>
+								12/10-12/13 清新空氣 清潔居家 豪享周
 							</p>
+							<p class="section__sub">年度最佳優惠 官方會員 限量搶購</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -852,13 +971,13 @@
 												</div>
 											</div>
 											<div class="button">
-												<p class="button__item button__item--disabled">COMING SOON</p>
+												<a href="#" class="button__item button__item--disabled">即將登場</a>
 												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
 											</div>
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
-													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+													<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												</a>
 											</div>
 										</div>
@@ -871,7 +990,7 @@
 							<p class="section__text">*Discount coupons cannot be applied with Sparkling Deal products.</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별4');"></div>
+					<div class="lottie" onclick="showLotteryModal('1004');"></div>
 				</div>
 			</div>
 
@@ -880,9 +999,9 @@
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Add Your Own Sparkle with LG</p>
-							<h2 class="section__title">LG Member Days Special Offer is Coming Soon</h2>
-							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
+							<p class="section__sub">旗艦熱銷 點亮生活</p>
+							<h2 class="section__title">LG 會員日 期間優惠 即將登場</h2>
+							<p class="section__sub">11/30-12/13</p>
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -894,7 +1013,7 @@
 										data-track-name="selectProductCategory" 
 										data-link-name="memberdays_productCategory_tvcinebeam"
 										data-link-area="memberdays_2022"
-										class="tab__button">TV</a>
+										class="tab__button">視聽娛樂</a>
 								</li>
 								<li class="tab__item">
 									<a href="#audio" 
@@ -904,7 +1023,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_audio"
 									data-link-area="memberdays_2022"
-									class="tab__button">Audio</a>
+									class="tab__button">全方位衣物護理專家</a>
 								</li>
 								<li class="tab__item">
 									<a href="#homeappliance" 
@@ -914,7 +1033,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_homeappliance"
 									data-link-area="memberdays_2022"
-									class="tab__button">Home Appliance</a>
+									class="tab__button">廚房家電</a>
 								</li>
 								<li class="tab__item">
 									<a href="#computerproducts" 
@@ -924,7 +1043,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_computerproducts"
 									data-link-area="memberdays_2022"
-									class="tab__button">Computer Products</a>
+									class="tab__button">空氣清淨與吸塵系列</a>
 								</li>
 							</ul>
 							<template class="contents-template">
@@ -968,12 +1087,13 @@
 											</div>
 										</div>
 										<div class="button">
-											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											<a href="#" class="button__item button__item--disabled">即將登場</a>
+											<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a> -->
+											<!-- <a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
 										</div>
 										<div class="learn-more">
 											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
-												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+												<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
 										</div>
@@ -1063,24 +1183,25 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별5');"></div>
+					<div class="lottie" onclick="showLotteryModal('1005');"></div>
 				</div>
 			</div>
 		</div>
 
 		<!-- popup -->
 		<!-- login popup -->
-		<div class="popup">
+		<div class="popup login__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">Login to Participate!</p>
+					<p class="popup__title">立即登入參加
+						簡單找星星　人人享優惠</p>
 					<p class="popup__desc">
-						Not a Member Yet?<br>
-						Join today to enjoy LG Member Exclusive Benefits
+						還不是會員？<br>
+						簡單加入　另享好禮
 					</p>
 					<div class="popup__buttons">
-						<a href="#" class="popup__button">LOGIN / SIGN-UP</a>
+						<a href="#" class="popup__button">登入/註冊</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1089,16 +1210,16 @@
 		<!-- // login popup -->
 
 		<!-- find stars popup -->
-		<div class="popup">
+		<div class="popup redirect__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">Find and Click on <span class="highlight">ALL 5 Stars</span> throughout the event page</p>
+					<p class="popup__title">找尋並點擊 活動頁面中的五顆星星 豐富獎品等著你</p>
 					<div class="popup__stars">
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">START NOW</button>
+						<button type="button" class="popup__button">即刻開始</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1107,11 +1228,11 @@
 		<!-- // find stars popup -->
 
 		<!-- keep going popup -->
-		<div class="popup">
+		<div class="popup collect__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title popup__title--large">Keep Going!</p>
+					<p class="popup__title popup__title--large">繼續加油！</p>
 					<div class="stars">
 						<div class="star star--actived"></div>
 						<div class="star star--actived"></div>
@@ -1119,12 +1240,9 @@
 						<div class="star"></div>
 						<div class="star"></div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">
-						Your Chance to Win a Prize is<br>
-						Just <span class="highlight">Three</span> Stars Away
-					</p>
+					<p class="popup__desc popup__desc--semibold">輕鬆贏得優惠只差幾步！</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">FIND MORE STARS</button>
+						<button type="button" class="popup__button">尋找更多星星</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1133,7 +1251,7 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
-		<div class="popup">
+		<div class="popup fail__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1150,7 +1268,7 @@
 						Thank you for your participation
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="goToSparklingDealArea();">DISCOVER OTHER OFFERS</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1159,33 +1277,23 @@
 		<!-- // fail popup -->
 
 		<!-- win popup -->
-		<div class="popup">
+		<div class="popup win__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
 					<div class="ico">
 						<i class="ico__stars"></i>
 					</div>
-					<p class="popup__title popup__title--large">
-						<span class="highlight">Congratulations,</span>
-						You’ve Won!
-					</p>
+					<p class="popup__title popup__title--large">恭喜您完成任務!</p>
 					<div class="popup__gift">
-						<img src="${path}/assets/images/img_popup_gift.png" alt="">
-						<div class="popup__label">
-							<p>
-								<span>99%</span>Off<br>
-								Coupon
-							</p>
-						</div>
+						<img src="${path}/assets/images/tw/img_popup_gift01.png" alt="">
+						<!-- <img src="${path}/assets/images/tw/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="${path}/assets/images/tw/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">
-						99% discount coupon for<br>
-						<span class="bold">InstaView Door-in-Door</span>
-					</p>
-					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
+					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
+					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">VIEW COUPON</button>
+						<button type="button" class="popup__button">查看優惠</button>
 					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -1194,18 +1302,35 @@
 		</div>
 		<!-- // win popup -->
 
-		<div class="modal fade" id="modal_lgmembersweek_submit" tabindex="-1" role="dialog" data-backdrop="true">
-			<div class="modal-dialog modal-sm modal-simple-alert" role="document">
-				<div class="modal-content">
-					<div class="modal-body">
-						<p>Please select a lifestyle.</p>
+		<!-- win popup -->
+		<div class="popup win__popup__with__coupon">
+			<div class="popup__dimmed"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<div class="ico">
+						<i class="ico__stars"></i>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" id="" data-dismiss="modal">Close</button>
+					<p class="popup__title popup__title--large">恭喜您完成任務!</p>
+					<div class="coupon">
+						<div class="coupon__coupon coupon__coupon--secondary">
+							<p class="coupon__title">40</p>
+							<p class="coupon__unit">
+								% Off
+								<span class="coupon__text">Coupon</span>
+							</p>
+						</div>
 					</div>
+					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列 僅可與2%會員優惠/5%新會員歡迎禮並用</p>
+					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
+					<div class="popup__buttons">
+						<button type="button" class="popup__button">查看優惠</button>
+					</div>
+
+					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
 		</div>
+		<!-- // win popup -->
 		<!-- // popup -->
 
 		<!-- // Content End  -->
@@ -1216,11 +1341,11 @@
 	<!-- // top button -->
 	
 	<!-- footer seo copy -->
-	<c:import url="/${localeCd }/footerSeoCopy"/> 
+	<c:import url="/${localeCd}/footerSeoCopy"/> 
 	<!-- footer seo copy -->
 	
 	<!-- footer main contents -->
-	<c:import url="/${localeCd }/footer">
+	<c:import url="/${localeCd}/footer">
 	    <c:param name="bizType" value="${bizType}"/>
 	    <c:param name="siteType" value="${siteType}"/>
 	</c:import>
@@ -1301,6 +1426,7 @@
   <!-- UI script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>
+	<script src="${path}/assets/js/coupon.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
   <script>
@@ -1308,18 +1434,16 @@
 			var delay = setTimeout(function(){
 				$('.lottie').each(function(){
 					if(!$(this).hasClass('lottie--disabled')) {
-						$(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+						$(this).append("<lottie-player src='${path}/lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
 					}	else {
-						$(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+						$(this).append("<lottie-player src='${path}/lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
 					}
 				});
 				clearTimeout(delay);
 			}, 600);
 		}
 	</script>
-	<!-- <script src="${path}/assets/js/index-ajax.js"></script>
-	<script src="${path}/assets/js/index-add-to-cart.js"></script>
-
+	<!-- 
 	<script type="text/javascript">
 	(function(w, d, a){
     w.__beusablerumclient__ = {

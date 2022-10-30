@@ -298,7 +298,9 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div>
+					<div class="lottie" onclick="showLotteryModal('1001');">
+					</div>
+					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
 				<div class="section__container section__container--event" data-list="eventGift">
@@ -377,7 +379,8 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별2');"></div>
+					<div class="lottie" onclick="showLotteryModal('1002');">
+					</div>
 				</div>
 			</div>
 			<div id="box_content2" class="section">
@@ -797,7 +800,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별3');"></div>
+					<div class="lottie" onclick="showLotteryModal('1003');"></div>
 				</div>
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
@@ -871,7 +874,7 @@
 							<p class="section__text">*Discount coupons cannot be applied with Sparkling Deal products.</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별4');"></div>
+					<div class="lottie" onclick="showLotteryModal('1004');"></div>
 				</div>
 			</div>
 
@@ -1063,14 +1066,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별5');"></div>
+					<div class="lottie" onclick="showLotteryModal('1005');"></div>
 				</div>
 			</div>
 		</div>
 
 		<!-- popup -->
 		<!-- login popup -->
-		<div class="popup">
+		<div class="popup login__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1089,7 +1092,7 @@
 		<!-- // login popup -->
 
 		<!-- find stars popup -->
-		<div class="popup">
+		<div class="popup redirect__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1107,7 +1110,7 @@
 		<!-- // find stars popup -->
 
 		<!-- keep going popup -->
-		<div class="popup">
+		<div class="popup collect__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1133,7 +1136,7 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
-		<div class="popup">
+		<div class="popup fail__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1150,7 +1153,7 @@
 						Thank you for your participation
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="goToSparklingDealArea();">DISCOVER OTHER OFFERS</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1159,7 +1162,7 @@
 		<!-- // fail popup -->
 
 		<!-- win popup -->
-		<div class="popup">
+		<div class="popup win__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1171,41 +1174,54 @@
 						You’ve Won!
 					</p>
 					<div class="popup__gift">
-						<img src="${path}/assets/images/img_popup_gift.png" alt="">
-						<div class="popup__label">
-							<p>
-								<span>99%</span>Off<br>
-								Coupon
-							</p>
-						</div>
+						<img src="./assets/images/img_popup_gift01.png" alt="">
+						<!-- <img src="./assets/images/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="./assets/images/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">
-						99% discount coupon for<br>
-						<span class="bold">InstaView Door-in-Door</span>
-					</p>
-					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
+					<p class="popup__desc popup__desc--semibold">99% discount coupon for</p>
+					<p class="popup__desc popup__desc--bold">LG OLED evo C2 55’’ 4K Smart TV</p>
+					<!-- <p class="popup__desc popup__desc--bold">InstaView Door-in-Door</p> -->
+					<!-- <p class="popup__desc popup__desc--bold">LG gram 16 Ultra-Lightweight</p> -->
+					<p class="popup__desc popup__desc--regular">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">VIEW COUPON</button>
 					</div>
-
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
 		</div>
 		<!-- // win popup -->
 
-		<div class="modal fade" id="modal_lgmembersweek_submit" tabindex="-1" role="dialog" data-backdrop="true">
-			<div class="modal-dialog modal-sm modal-simple-alert" role="document">
-				<div class="modal-content">
-					<div class="modal-body">
-						<p>Please select a lifestyle.</p>
+		<!-- win popup -->
+		<!-- <div class="popup win__popup__with__coupon">
+			<div class="popup__dimmed"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<p class="popup__title popup__title--large">
+						<span class="highlight">Congratulations,</span>
+						You’ve Won!
+					</p>
+					<div class="coupon">
+						<div class="coupon__coupon coupon__coupon--secondary">
+							<p class="coupon__title">15</p>
+							<p class="coupon__unit">
+								% Off
+								<span class="coupon__text">Coupon</span>
+							</p>
+						</div>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" id="" data-dismiss="modal">Close</button>
+					<p class="popup__desc popup__desc--semibold">
+						Applicable only to TVs,<br>
+						Valid from 28<sup>th</sup> Nov. to 20<sup>th</sup> Dec.
+					</p>
+					<div class="popup__buttons">
+						<button type="button" class="popup__button">VIEW COUPON</button>
 					</div>
+					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
-		</div>
+		</div> -->
+		<!-- // win popup -->
 		<!-- // popup -->
 
 		<!-- // Content End  -->
@@ -1298,9 +1314,10 @@
     // }
 	</script>
 	
-  <!-- UI script -->
+	<!-- UI Script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>
+	<script src="${path}/assets/js/coupon.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
   <script>
@@ -1317,10 +1334,9 @@
 			}, 600);
 		}
 	</script>
-	<!-- <script src="${path}/assets/js/index-ajax.js"></script>
-	<script src="${path}/assets/js/index-add-to-cart.js"></script>
+	<!--// UI Script -->
 
-	<script type="text/javascript">
+	<!-- <script type="text/javascript">
 	(function(w, d, a){
     w.__beusablerumclient__ = {
       load : function(src){

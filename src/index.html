@@ -10,17 +10,15 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
-
-	<link rel="canonical" href="https://www.lg.com/uk">
+	<link rel="canonical" href="https://www.lg.com/uk/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG UK">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK">
-	<meta property="og:description"
-		content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
-	<meta property="og:url" content="https://www.lg.com/uk">
-	<meta property="og:image" content="./lg5-common-gp/images/common/share/share-default.jpg">
+	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:url" content="https://www.lg.com/uk/memberdays">
+	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGUK">
 	<script type="application/ld+json">
@@ -29,8 +27,8 @@
 			"@type": "Corporation",
 			"name": "LG UK",
 			"alternateName": "LG Electronics",
-			"url": "https://www.lg.com/uk",
-			"logo": "./lg5-common-gp/images/common/header/logo-b2c.jpg",
+			"url": "https://www.lg.com/uk/memberdays",
+			"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
 			"sameAs": [
 				"https://www.facebook.com/LGUK",
 				"https://twitter.com/LGUK",
@@ -44,13 +42,12 @@
 			"@context": "https://schema.org",
 			"@type": "WebSite",
 			"name": "LG UK",
-			"url": "https://www.lg.com/uk",
+			"url": "https://www.lg.com/uk/memberdays",
 			"potentialAction": {
 				"@type": "SearchAction",
 				"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
-				"query-input": "required name=search_term_string"
+				"query-input": "required name=search_term_string"}
 			}
-		}
 	</script>
 	<meta content="#a50034" name="theme-color">
 
@@ -134,7 +131,7 @@
 		<!-- 여기서부터 컨텐츠 시작 -->
 		<link rel="stylesheet" href="./assets/css/index.css">
 		<link rel="stylesheet" href="./assets/css/index_uk.css">
-		<div class="lgmembersweek">
+		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="visual">
 				<div class="section">
 					<div class="section__inner">
@@ -285,10 +282,12 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div>
+					<div class="lottie" onclick="showLotteryModal('1001');">
+					</div>
+					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 				<div class="anchors" id="MemberDaysEvent"></div>
-				<div class="section__container section__container--event">
+				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">Fill Your Day with Sparkle</p>
@@ -364,7 +363,8 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별2');"></div>
+					<div class="lottie" onclick="showLotteryModal('1002');">
+					</div>
 				</div>
 			</div>
 			<div id="box_content2" class="section">
@@ -1506,9 +1506,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별3');"></div>
+					<div class="lottie" onclick="showLotteryModal('1003');"></div>
 				</div>
-				<div class="section__container section__container--hotdeal">
+				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
 							<h2 class="section__title">Sparkling Deal is coming soon</h2>
@@ -1602,7 +1602,7 @@
 							<p class="section__text">*Discount coupons cannot be applied with Sparkling Deal products.</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별4');"></div>
+					<div class="lottie" onclick="showLotteryModal('1004');"></div>
 				</div>
 			</div>
 
@@ -3317,14 +3317,14 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별5');"></div>
+					<div class="lottie" onclick="showLotteryModal('1005');"></div>
 				</div>
 			</div>
 		</div>
 
 		<!-- popup -->
 		<!-- login popup -->
-		<div class="popup">
+		<div class="popup login__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -3343,7 +3343,7 @@
 		<!-- // login popup -->
 
 		<!-- find stars popup -->
-		<div class="popup">
+		<div class="popup redirect__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -3361,7 +3361,7 @@
 		<!-- // find stars popup -->
 
 		<!-- keep going popup -->
-		<div class="popup">
+		<div class="popup collect__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -3387,7 +3387,7 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
-		<div class="popup">
+		<div class="popup fail__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -3404,7 +3404,7 @@
 						Thank you for your participation
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="goToSparklingDealArea();">DISCOVER OTHER OFFERS</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -3413,7 +3413,7 @@
 		<!-- // fail popup -->
 
 		<!-- win popup -->
-		<div class="popup">
+		<div class="popup win__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -3425,41 +3425,54 @@
 						You’ve Won!
 					</p>
 					<div class="popup__gift">
-						<img src="./assets/images/img_popup_gift.png" alt="">
-						<div class="popup__label">
-							<p>
-								<span>99%</span>Off<br>
-								Coupon
-							</p>
-						</div>
+						<img src="./assets/images/img_popup_gift01.png" alt="">
+						<!-- <img src="./assets/images/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="./assets/images/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">
-						99% discount coupon for<br>
-						<span class="bold">InstaView Door-in-Door</span>
-					</p>
-					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
+					<p class="popup__desc popup__desc--semibold">99% discount coupon for</p>
+					<p class="popup__desc popup__desc--bold">LG OLED evo C2 55’’ 4K Smart TV</p>
+					<!-- <p class="popup__desc popup__desc--bold">InstaView Door-in-Door</p> -->
+					<!-- <p class="popup__desc popup__desc--bold">LG gram 16 Ultra-Lightweight</p> -->
+					<p class="popup__desc popup__desc--regular">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">VIEW COUPON</button>
 					</div>
-
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
 		</div>
 		<!-- // win popup -->
 
-		<div class="modal fade" id="modal_lgmembersweek_submit" tabindex="-1" role="dialog" data-backdrop="true">
-			<div class="modal-dialog modal-sm modal-simple-alert" role="document">
-				<div class="modal-content">
-					<div class="modal-body">
-						<p>Please select a lifestyle.</p>
+		<!-- win popup -->
+		<!-- <div class="popup win__popup__with__coupon">
+			<div class="popup__dimmed"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<p class="popup__title popup__title--large">
+						<span class="highlight">Congratulations,</span>
+						You’ve Won!
+					</p>
+					<div class="coupon">
+						<div class="coupon__coupon coupon__coupon--secondary">
+							<p class="coupon__title">15</p>
+							<p class="coupon__unit">
+								% Off
+								<span class="coupon__text">Coupon</span>
+							</p>
+						</div>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" id="" data-dismiss="modal">Close</button>
+					<p class="popup__desc popup__desc--semibold">
+						Applicable only to TVs,<br>
+						Valid from 28th Nov. to 20th Dec.
+					</p>
+					<div class="popup__buttons">
+						<button type="button" class="popup__button">VIEW COUPON</button>
 					</div>
+					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
-		</div>
+		</div> -->
+		<!-- // win popup -->
 		<!--// 여기까지 컨텐츠 -->
 
 
@@ -3571,7 +3584,8 @@
 	<!-- UI Script -->
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="./assets/js/index.js"></script>
-	<script>
+	<script src="./assets/js/coupon.js"></script>
+	<!-- <script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){
 				$('.lottie').each(function(){
@@ -3584,7 +3598,7 @@
 				clearTimeout(delay);
 			}, 600);
 		}
-	</script>
+	</script> -->
 	<!--// UI Script -->
 
 </body>

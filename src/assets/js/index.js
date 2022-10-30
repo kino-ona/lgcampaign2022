@@ -69,38 +69,38 @@ $(document).ready(function(){
 	});
 
 	// slick
-	// $('.lgmembersweek .product--hotdeal .product__list').slick({
-		// speed: 600,
-		// infinite: false,
-		// slidesToShow: 3,
-		// focusOnSelect: false,
-		// responsive: [
-		// 	{
-		// 		breakpoint: 767,
-		// 		settings: {
-		// 			slidesToShow: 1,
-		// 			focusOnSelect: true
-		// 		}
-		// 	}
-		// ]
-	// });
-	// $('.lgmembersweek .product__swiper').slick({
-	// 	speed: 600,
-	// 	infinite: false,
-	// 	slidesToShow: 5,
-	// 	focusOnSelect: false,
-	// 	swipeToSlide: true,
-	// 	responsive: [
-	// 		{
-	// 			breakpoint: 767,
-	// 			settings: {
-	// 				arrows: false,
-	// 				slidesToShow: 2.4,
-	// 				focusOnSelect: true
-	// 			}
-	// 		}
-	// 	]
-	// });
+	$('.lgmembersweek .product--hotdeal .product__list').slick({
+		speed: 600,
+		infinite: false,
+		slidesToShow: 3,
+		focusOnSelect: false,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					slidesToShow: 1,
+					focusOnSelect: true
+				}
+			}
+		]
+	});
+	$('.lgmembersweek .product__swiper').slick({
+		speed: 600,
+		infinite: false,
+		slidesToShow: 5,
+		focusOnSelect: false,
+		swipeToSlide: true,
+		responsive: [
+			{
+				breakpoint: 767,
+				settings: {
+					arrows: false,
+					slidesToShow: 2.4,
+					focusOnSelect: true
+				}
+			}
+		]
+	});
 	// $('.lgmembersweek .product__showroom').slick({
 	// 	speed: 800,
 	// 	infinite: false,

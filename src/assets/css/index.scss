@@ -63,6 +63,16 @@
 		&--semibold {
 			font-weight: 600;
 		}
+		&--bold {
+			font-weight: 700;
+		}
+		&--regular {
+			font-size: 18px;
+			font-weight: 400;
+			@media (max-width: 1024px) {
+				font-size: 16px;
+			}
+		}
 		& + .popup__desc {
 			margin-top: 10px;
 		}
