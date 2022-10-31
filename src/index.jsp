@@ -145,6 +145,7 @@
 	
 		<!--  Content Start  -->
 		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
         <div class="section">
 					<div class="section__inner">
@@ -207,6 +208,8 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="anchors" id="MemberExclusiveOffers"></div>
 			<div id="box_content1" class="section">
 				<div class="section__container section__container--benefit">
 					<div class="section__inner">
@@ -302,7 +305,10 @@
 					</div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
-				<div class="anchors" id="MemberDaysEvent"></div>
+			</div>
+			
+			<div class="anchors" id="MemberDaysEvent"></div>
+			<div id="box_content1_1" class="section">
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
@@ -383,6 +389,8 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="anchors" id="HolidayCollection"></div>
 			<div id="box_content2" class="section">
 				<div class="section__container section__container--lifestyle" data-list="lifeStyle">
 					<div class="tab">
@@ -802,6 +810,10 @@
 					</div>
 					<div class="lottie" onclick="showLotteryModal('1003');"></div>
 				</div>
+			</div>
+
+			<div class="anchors" id="SparklingDeals"></div>
+			<div id="box_content2_2" class="section">
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
@@ -878,7 +890,7 @@
 				</div>
 			</div>
 
-			<!-- <div class="anchors" id="VolumeProductsAudio"></div> -->
+			<div class="anchors" id="BuymoreSavemore"></div>
 			<div id="box_content3" class="section">
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
