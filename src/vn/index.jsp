@@ -115,21 +115,29 @@
 
 			<!-- Required input ## Model List Start -->
 			<!-- Event Gift Model -->
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07546563"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07560092"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07553060"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07550644"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07555327"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07550735"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07551552"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07552884"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07543403"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07542484"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07554691"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD06216996"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07515556"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07518800"/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07515106|MD07515090|MD07535523|MD07535625"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548335|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532|MD07553060|MD07552999|MD07550947"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07553142|MD07546436|MD07545548|MD07559465|MD07559465|MD07559451|MD07559332"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07548844|MD07559264|MD07548889|MD07521229|MD07521230|MD07521166|MD06061357|MD07560602|MD07544285|MD07544333|MD07544338|MD07530319|MD07530466"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07527542|MD07549194|MD07549314|MD07525606|MD07525615"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07550743|MD07550715|MD07550722|MD07559969|MD07559899"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07518447|MD07506953|MD07557214|MD07560074|MD07561321|MD07560002|MD07561295|MD07555392|MD07555367|MD07555397"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07555425|MD07527328|MD07527366"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07551386|MD07552314|MD05849136|MD07541678|MD06061396|MD07549062|MD07522313|MD07555433"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/hotdeal_product.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/vn/images/hotdeal_product.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
 			<!-- ex. multiple model thumb / alt text 
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
@@ -139,7 +147,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07535403"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07514393"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07548844"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07553045"/>
 		<!-- Required input ## Model List End -->
 	
