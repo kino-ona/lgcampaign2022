@@ -374,13 +374,13 @@
 					&:nth-child(4) {
 
 						i {
-							@include sprite.retina-sprite(sprite.$ico-benefit03-group);
+							@include sprite.retina-sprite(sprite.$ico-benefit04-group);
 						}
 					}
 					&:nth-child(5) {
 
 						i {
-							@include sprite.retina-sprite(sprite.$ico-benefit03-group);
+							@include sprite.retina-sprite(sprite.$ico-benefit05-group);
 						}
 					}
 				}
