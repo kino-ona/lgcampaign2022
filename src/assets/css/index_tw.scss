@@ -180,17 +180,17 @@
 													@include mixins.translate(0, -50%);
 												}
 											}
-											&:nth-child(2) {
-												left: 60.19%;
-												top: 60.74%;
-												.product__target {
-													left: auto;
-													right: 38px;
-													top: 50%;
-													margin-left: 0;
-													@include mixins.translate(0, -50%);
-												}
-											}
+											// &:nth-child(2) {
+											// 	left: 60.19%;
+											// 	top: 60.74%;
+											// 	.product__target {
+											// 		left: auto;
+											// 		right: 38px;
+											// 		top: 50%;
+											// 		margin-left: 0;
+											// 		@include mixins.translate(0, -50%);
+											// 	}
+											// }
 										}
 									}
 								}
