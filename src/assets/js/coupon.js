@@ -6,6 +6,17 @@ const isRedirected = (document.referrer.indexOf('sso.lg.com') > -1 || document.r
 let isLogin = false;
 
 $(function() {
+    const failButton = $('.fail__popup .popup__button');
+
+    failButton.on('click', function(e) {
+        e.preventDefault();
+
+        const id = '#SparklingDeals';
+	    const posY = $(id).offset().top - $('.box_navigation').height();
+
+        $('html, body').stop().animate({scrollTop: posY}, 1000);
+    });
+    
     window.isLogin = checkLogin();
 
     if (window.isLogin) {
@@ -23,7 +34,11 @@ function checkLogin() {
     }
 }
 
-function showLotteryModal(ctaId = null) {
+function showLotteryModal(ctaId = null, el = null) {
+    if (el && $(el).hasClass('lottie--disabled')) {
+        return;
+    }
+
     if (!window.isLogin) {
         $('.login__popup').show();
 
@@ -140,9 +155,7 @@ function redirectToLoginPage() {
     window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays';
 }
 
-function goToSparklingDealArea() {
-    window.location.href = '#sparkling__deal__area';
-
+function hideFailPopup() {
     $('.fail__popup').hide();
 }
 
