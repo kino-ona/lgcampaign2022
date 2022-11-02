@@ -104,7 +104,7 @@
 
 	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="${path}/assets/css/index.css">
-	<link rel="stylesheet" href="${path}/assets/css/index_vn.css">
+	<link rel="stylesheet" href="${path}/assets/css/index_de.css">
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
 
 	<!-- Enter Code Here -->
@@ -125,20 +125,24 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07539436|MD07553686|MD07558680|MD07500784|MD07559190|MD07536623|MD07559110"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07533491"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07516310|MD07533491"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/de/hotdeal_product.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/de/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/de/hotdeal_product02.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
 			<!-- ex. multiple model thumb / alt text 
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
 			-->
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07535403"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07514393"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07553045"/>
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07549514|MD07549244|MD07550687|MD07551349|MD07551348|MD07551110|MD07549461|MD07549883|MD07549539|MD07549258"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07536621|MD07534021|MD07536623|MD07534660|MD07559192|MD07552306|MD07559190|MD07545237|MD07533110|MD07529840|MD07559110|MD07529952|MD07545439|MD07506263|MD07552826|MD07504911"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537955|MD07546828|MD07541029|MD07520777|MD06055056|MD07540963|MD06049916|MD07532590|MD06055076|MD07521087|MD07520055|MD07541621|MD07538023|MD07522369|MD06020158|MD07546795"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07501021|MD07500784|MD07500772|MD07528835|MD07549890|MD07548205|MD07518915|MD07557589|MD05984496|MD07510022|MD06076196|MD07551891|MD07553682|MD07553675|MD07553615|MD07553686"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -148,23 +152,23 @@
         <div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h1 class="section__title">LG MEMBER DAYS COMING SOON</h1>
-							<p class="section__desc">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
-							<p class="section__sub">Make your holidays sparkle with LG</p>
+							<h1 class="section__title">LG Member Days Kampagne startet bald</h1>
+							<p class="section__desc">5. Dezember – 18. Dezember 2022</p>
+							<p class="section__sub">Bringe die Feiertage mit LG zum Strahlen</p>
 							<p class="section__desc">
-								Sign Up and Don’t Miss out on our PRIZE-WINNING EVENT<br>
-								and UPCOMING EXCLUSIVE MEMBER BENEFITS
+								Melde dich gleich an und verpasse nicht unser Gewinnspiel<br>
+								und viele weitere Vorteile für Mitglieder
 							</p>
 						</div>
 						<div class="button">
-							<a href="#box_content1" class="button__item button__item--red">TAKE PART</a>
+							<a href="#MemebershipEvent" class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022" 
                 class="terms__link visual__link">
-                Terms &amp; Conditions
+                Teilnahmebedingungen
                 <i class="visual__arrow"></i>
               </a>
 						</div>
@@ -178,29 +182,35 @@
 							<i class="arrow_ico"></i>
 						</button>
 						<div id="select_list-item" class="select_list-item">
-							<span class="link">VIEW MEMBER EXCLUSIVE OFFERS</span>
+							<span class="link">
+								Exklusive Angebote für<br>
+								Mitglieder anzeigen
+							</span>
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#box_content1" 
+								<a href="#MemberExclusiveOffers" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_benefit" 
 									data-link-area="memberdays_2022" 
-									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
+									class="link">Exklusive Angebote für<br>
+									Mitglieder anzeigen</a>
 							</li>
 							<li class="list-item">
-								<a href="#box_content2" 
+								<a href="#MemebershipEvent" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_design_lifestyle" 
 									data-link-area="memberdays_2022" 
-									class="link">DISCOVER OUR SPARKLING MEMBERSHIP EVENT</a>
+									class="link">Entdecke unsere außergewöhnliche Kampagne,<br>
+									nur für Mitglieder</a>
 							</li>
 							<li class="list-item">
-								<a href="#box_content3" 
+								<a href="#HolidayCollection" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_hottest_product" 
 									data-link-area="memberdays_2022" 
-									class="link">BROWSE OUR HOLIDAY COLLECTION</a>
+									class="link">Durchstöbere<br>
+									unsere exklusiven Angebote</a>
 								</li>
 						</ul>
 					</div>
@@ -212,95 +222,65 @@
 				<div class="section__container section__container--benefit">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Exclusive Benefits for LG Members</p>
+							<p class="section__sub">Exklusive Vorteile für LG Mitglieder</p>
 							<h2 class="section__title">
-								<span class="break break--desktop">Exclusive Benefits &amp; Sparkling Discounts</span>
-								on ALL LG products
+								<span class="break break--desktop">Exklusive Vorteile &amp; strahlende Rabatte auf alle LG</span>
+								Produkte (außer OLED TV)
 							</h2>
 						</div>
 						<div class="benefit">
 							<div class="coupon">
 								<ul class="coupon__list">
 									<li class="coupon__item">
-										<div class="coupon__coupon">
-											<p class="coupon__title">2</p>
-											<p class="coupon__unit">
-												% Off
-												<span class="coupon__text">Discount</span>
-											</p>
-										</div>
-										<div class="coupon__info">
-											<p class="coupon__title">Member Exclusive Benefit</p>
-											<p class="coupon__text">
-												Join for free and<br>
-												get discounts on future purchases
-											</p>
-										</div>
-									</li>
-									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
-											<span class="coupon__flag">Coming Soon</span>
-											<p class="coupon__title">15</p>
-											<p class="coupon__unit">
-												% Off
-												<span class="coupon__text">Coupon</span>
-											</p>
-										</div>
-										<div class="coupon__info">
+											<span class="coupon__flag">bald erhältlich</span>
 											<p class="coupon__title">
-												Member Days<br>
-												Special Discount Coupon
+												<span>1</span>5%
 											</p>
-											<p class="coupon__text coupon__text--narrow">When you purchase 2 or more LG products</p>
-											<p class="coupon__text coupon__text--secondary">*All products available on LG.com, except “Sparkling Deals”</p>
-										</div>
-									</li>
-									<li class="coupon__item">
-										<div class="coupon__coupon">
-											<p class="coupon__title">5</p>
 											<p class="coupon__unit">
-												% Off
-												<span class="coupon__text">Coupon</span>
+												<span class="coupon__text">Gutscheincode</span>
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">New Member Benefit</p>
-											<p class="coupon__text">Welcome Coupon for New Members</p>
+											<p class="coupon__title">Member Days Gutscheincode</p>
+											<p class="coupon__text coupon__text--narrow">Gültig ab einem Einkauf von zwei oder mehreren LG Produkten</p>
+											<p class="coupon__text coupon__text--secondary">*alle verfügbaren Modelle, nicht kombinierbar mit den „Hot Deals“</p>
 										</div>
 									</li>
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">Sign in and find your Member Days Discount coupon in your MyLG Account</p>
+								<p class="benefit__text">Registriere dich und nutze deinen Member Days Rabattcode, welcher in deinem LG Account hinterlegt wurde</p>
 							</div>
 							<div class="benefit__more">
-								<p class="benefit__text">Even More Member Benefits</p>
+								<p class="benefit__text">Exklusive Vorteile für LG Mitglieder</p>
 								<div class="benefit__button">
 									<a href="#">
 										<i></i>
-										<em>
-											Free Shipping
-										</em>
+										<em>kostenloser Versand</em>
 									</a>
 									<a href="#">
 										<i></i>
 										<em>
-											Free Installation & Disposal
-											<span>* Washing Machine, Refrigerator only</span>
+											kostenlose Installation &amp;<br>
+											Altgerätmitnahme
 										</em>
+									</a>
+									<a href="#">
+										<i></i>
+										<em>kostenlose Retoure</em>
 									</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								Terms &amp; Conditions
+								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001');">
-					</div>
+					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 			</div>
@@ -310,40 +290,43 @@
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Fill Your Day with Sparkle</p>
-							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
+							<p class="section__sub">Fülle deinen Tag mit Highlights</p>
+							<h2 class="section__title">
+								Jetzt teilnehmen,<br>
+								um die Chance auf einen funkelnden Preis zu haben
+							</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
 								<div class="event__round">
 									<div class="event__header">
-										<p class="event__category">How to Participate</p>
-										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
-										<p class="event__desc">Participation limited to one member account only</p>
+										<p class="event__category">Los geht´s</p>
+										<p class="event__title">Finde alle Sterne auf der Seite und erhöhe deinen Chancen auf einen Gewinn</p>
+										<p class="event__desc">Teilnahme ist nur für ein Mitgliedskonto möglich</p>
 									</div>
 									<div class="event__process">
 										<ol>
 											<li>
 												<span>1</span>
-												<p>Login / Sign-Up</p>
+												<p>Anmeldung / Registrierung</p>
 											</li>
 											<li>
 												<span>2</span>
 												<p>
-													Find and click on ALL 5 stars<br>
-													throughout the event page
+													<span class="break break--desktop">Finde alle 5 Sterne auf der Seite und</span>
+													markiere diese
 												</p>
 											</li>
 											<li>
 												<span>3</span>
 												<p>
-													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
-													prize!
+													<span class="break break--desktop">Du erfährst sofort, ob du einen Preis</span>
+													gewonnen hast!
 												</p>
 											</li>
 										</ol>
 									</div>
-									<p class="event__category">Find All Five Stars</p>
+									<p class="event__category">Finde alle fünf Sterne</p>
 									<div class="event__stars">
 										<div class="event__star event__star--actived"></div>
 										<div class="event__star"></div>
@@ -354,37 +337,72 @@
 								</div>
 								<div class="event__round">
 									<div class="event__header">
-										<p class="event__title">Event Prize</p>
-										<p class="event__sub">99% Discount Coupon for one of below products</p>
+										<p class="event__title">1. Preis</p>
+										<p class="event__sub">
+											Chance auf den Gewinn von einem der<br>
+											drei nachfolgenden Produkte
+										</p>
 										<p class="event__desc event__desc--secondary">Limited to 3 Winners</p>
 									</div>
 									<div class="event__gift">
-										<img src="${path}/assets/images/img_event_product.png" alt="">
+										<img src="${path}/assets/images/de/img_event_product.png" alt="">
 									</div>
 									<div class="event__info">
-										<p class="event__text">Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
+										<p class="event__text">Die Gewinner werden innerhalb von 2 Wochen nach Ende der Aktion per Email kontaktiert.</p>
+									</div>
+									<div class="event__row">
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">2. Preis</p>
+												<p class="event__sub">10% Gutscheincode</p>
+												<p class="event__desc event__desc--secondary">Limitiert auf 100 Gewinner</p>
+											</div>
+											<div class="event__coupon">
+												<div class="event__ticket">
+													10
+													<span>%</span>
+												</div>
+												<p class="event__desc event__desc--secondary">Discount coupon</p>
+											</div>
+										</div>
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">3. Preis</p>
+												<p class="event__sub">5% Gutscheincode</p>
+												<p class="event__desc event__desc--secondary">Limitiert auf 500 Gewinner</p>
+											</div>
+											<div class="event__coupon">
+												<div class="event__ticket">
+													10
+													<span>%</span>
+												</div>
+												<p class="event__desc event__desc--secondary">Discount coupon</p>
+											</div>
+										</div>
+									</div>
+									<div class="event__info">
+										<p class="event__text">Die Gutscheincodes sind vom 5. Dezember bis zum 18. Dezember 2022 gültig</p>
 									</div>
 								</div>
 							</div>
 							<div class="event__bottom">
 								<div class="event__left">
-									<p>Your Prize is Just One Star away</p>
-									<p>Sign Up Now or Login to Participate</p>
+									<p>Du bist nur noch einen Stern von deinem Gewinn entfernt!</p>
+									<p>Registriere dich jetzt oder melde dich in deinem LG Account an, um teilzunehmen</p>
 								</div>
 								<div class="event__right">
-									<a href="#">LOGIN / SIGN-UP</a>
+									<a href="#">ANMELDUNG / REGISTRIERUNG</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								Terms &amp; Conditions
+								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002');">
-					</div>
+					<div class="lottie" onclick="showLotteryModal('1002', this);"></div>
 				</div>
 			</div>
 
@@ -396,31 +414,31 @@
 							<li class="tab__item tab__item--home tab__item--active">
 								<a href="#home" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Home</span>
+									<span class="tab__text">zu Hause</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gathering">
 								<a href="#gathering" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Gathering</span>
+									<span class="tab__text">Familientreffen</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gameday">
 								<a href="#gameday" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Game Day</span>
+									<span class="tab__text">Gaming</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
 								<a href="#pastime" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Pastime</span>
+									<span class="tab__text">Zeitvertreib</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
 								<a href="#memories" class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Memories</span>
+									<span class="tab__text">Erinnerungen</span>
 								</a>
 							</li>
 						</ul>
@@ -464,18 +482,17 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Home</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">Bringe dein</span>
+										<em>#zu Hause</em>
+										<span class="break break--mobile">mit LG zum</span>
+										Strahlen.
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">
-											Fresh clothes. Sparkling Home.
-											Now You’re
-										</span>
-										Holiday Ready
+										<span class="break break--mobile">Frische Kleidung. Ein strahlendes zu</span>
+										<span class="break break--mobile">Hause. Jetzt bist du bereit für die</span>
+										Feiertage.
 									</p>
 								</div>
 								<div class="product">
@@ -484,18 +501,17 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_a9k-pro1g"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_home01_01.png" alt="LG Turbowash360™ 10.5kg">
+															<img src="${path}/assets/images/de/img_product_showroom_home01_01.png" alt="Handstaubsauger mit zwei Akkus">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Turbowash360™ 10.5kg</p>
+															<p class="product__name">Handstaubsauger mit zwei Akkus</p>
 															<ul class="product__desc">
-																<li>All-in one Washer and Dryer</li>
-																<li>Steam+™</li>
+																<li>Dual Akku: 2 AkkusfürdoppelteLaufzeit (Bis zu 120 Min.) und 3 verschiedene Saugstufen</li>
 															</ul>
 														</div>
 													</a>
@@ -504,18 +520,55 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_lswd100e"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_home01_02.png" alt="LG Eco Hybrid™ FDV1109B 9Kg">
+															<img src="${path}/assets/images/de/img_product_showroom_home01_02.png" alt="LG SIGNATURE Waschtrockner">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Eco Hybrid™ FDV1109B 9Kg</p>
+															<p class="product__name">LG SIGNATURE Waschtrockner</p>
 															<ul class="product__desc">
-																<li>DUAL Inverter Heat Pump™ Dryer</li>
-																<li>A+++ Energy Efficiency*</li>
+																<li>4-fach A: Klasse A in den Bereichen Energieeffizienz Waschen/Trocknen, Schleudern und Geräuschpegel</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/de/trockner/lg-RT8DIH1Q" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_RT8DIH1Q"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/de/img_product_showroom_home01_03.png" alt="LG Trockner mit 8 kg Kapazität">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG Trockner mit 8 kg Kapazität</p>
+															<ul class="product__desc">
+																<li>Dual Inverter Wärmepumpentechnologie für eine schonende Trocknung mit niedrigen Temperaturen und reduziert Allergene um bis zu 99,9%</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_S3BF"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/de/img_product_showroom_home01_04.png" alt="LG Styler S3BF mit Steam">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG Styler S3BF mit Steam</p>
+															<ul class="product__desc">
+																<li>Auffrischung Ihrer Kleidung in nur 20 Minuten möglich! Auch für Schals, Krawatten oder Tücher geeignet</li>
 															</ul>
 														</div>
 													</a>
@@ -536,15 +589,17 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Gathering</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">Bringe dein</span>
+										<em>#Familientreffen</em>
+										<span class="break break--mobile">mit LG zum</span>
+										Strahlen.
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Set the table, set the vibe, with the help of LG</span>
-										technology
+										<span class="break break--mobile">Schaffe mit Hilfe von den LG</span>
+										<span class="break break--mobile">Technologien eine angenehme</span>
+										Atmosphäre
 									</p>
 								</div>
 								<div class="product">
@@ -553,18 +608,17 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
+														data-link-name="memberdays_productMouseHover_gathering_gsxv91mcae"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gathering01_01.png" alt="InstaView Door-in-Door">
+															<img src="${path}/assets/images/de/img_product_showroom_gathering01_01.png" alt="Side-by-Side mit InstaView Door-in-Door®">
 														</div>
 														<div class="product__right">
-															<p class="product__name">InstaView Door-in-Door</p>
+															<p class="product__name">Side-by-Side mit InstaView Door-in-Door®</p>
 															<ul class="product__desc">
-																<li>Get easy access with sleek InstaView™ Door-in-Door™.</li>
-																<li>Enjoy personalised operation  with our LG ThinQ™ app.</li>
+																<li>InstaView Door-in-Door® mit Showeffekt: Alles im Blick und DoorCooling+®</li>
 															</ul>
 														</div>
 													</a>
@@ -573,18 +627,17 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
+														data-link-name="memberdays_productMouseHover_gathering_dxg7qbk"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gathering01_02.png" alt="XBOOM 360 XO3">
+															<img src="${path}/assets/images/de/img_product_showroom_gathering01_02.png" alt="LG XBOOM Go DXG7Q Bluetooth Speaker">
 														</div>
 														<div class="product__right">
-															<p class="product__name">XBOOM 360 XO3</p>
+															<p class="product__name">LG XBOOM Go DXG7Q Bluetooth Speaker</p>
 															<ul class="product__desc">
-																<li>Awarded by iF Design Award and reddot Design Award.</li>
-																<li>[IP54 Water &amp; Dust Proof] Enjoy stunning sound without worrying about humidity or dust.</li>
+																<li>40 Watt Sound, IP67 Spritzwasserschutz und 24 h Akkulaufzeit</li>
 															</ul>
 														</div>
 													</a>
@@ -605,15 +658,15 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Game Day</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">Bringe dein</span>
+										<em>#Gaming</em>
+										<span class="break break--mobile">mit LG zum</span>
+										Strahlen.
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Bring the Stadium Home this Holiday Season</span>
-										with OLED TV and Soundbar
+										<span class="break break--mobile">Hole dir dein ganz persönliches Stadion</span> <span class="break break--mobile">Erlebnis mit dem OLED TV und der</span>Soundbar nach Hause
 									</p>
 								</div>
 								<div class="product">
@@ -622,18 +675,17 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
+														data-link-name="memberdays_productMouseHover_gameday_oled77c27la"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gameday01_01.png" alt="LG OLED evo Gallery Edition G2 83">
+															<img src="${path}/assets/images/de/img_product_showroom_gameday01_01.png" alt="77'' LG 4K OLED evo TV C2">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG OLED evo Gallery Edition G2 83</p>
+															<p class="product__name">77'' LG 4K OLED evo TV C2</p>
 															<ul class="product__desc">
-																<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest OLED picture quality</li>
-																<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
+																<li>4K OLED evo TV mit Brightness Booster für perfektes Schwarz, satte Farben und noch mehr Brillanz. Bestes Bild und bester Ton durch Filmmaker Mode™</li>
 															</ul>
 														</div>
 													</a>
@@ -642,18 +694,17 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
+														data-link-name="memberdays_productMouseHover_gameday_dsp11ra"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_gameday01_02.png" alt="LG Sound Bar S95QR">
+															<img src="${path}/assets/images/de/img_product_showroom_gameday01_02.png" alt="7.1.4 Dolby Atmos® Soundbar mit 770 Watt">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Sound Bar S95QR</p>
+															<p class="product__name">7.1.4 Dolby Atmos® Soundbar mit 770 Watt</p>
 															<ul class="product__desc">
-																<li>Triple Up-Firing Channels + rear speakers included </li>
-																<li>Meridian Audio Technology,AI Room Calibration &amp; AI Sound Pro</li>
+																<li>Mit MERIDIAN-Klangtechnologie und High Resolution Audio</li>
 															</ul>
 														</div>
 													</a>
@@ -674,15 +725,17 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Pastime</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">Bringe dein</span>
+										<em>#Zeitvertreib</em>
+										<span class="break break--mobile">mit LG zum</span>
+										Strahlen.
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Enjoy Holiday Gaming Together with LG’s Top</span>
-										Gaming Gear
+										<span class="break break--mobile">Genieße die Feiertage gemeinsam mit</span>
+										<span class="break break--mobile">den Top Gaming Gear</span>
+										Modellen von LG
 									</p>
 								</div>
 								<div class="product">
@@ -691,38 +744,17 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
+														data-link-name="memberdays_productMouseHover_pastime_48gq900-b"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_pastime01_01.png" alt="48” UltraGear™ UHD 4K OLED Gaming Monitor">
+															<img src="${path}/assets/images/de/img_product_showroom_pastime01_01.png" alt="48 Zoll UltraGear™ Gaming Monitor">
 														</div>
 														<div class="product__right">
-															<p class="product__name">48” UltraGear™ UHD 4K OLED Gaming Monitor</p>
+															<p class="product__name">48 Zoll UltraGear™ Gaming Monitor</p>
 															<ul class="product__desc">
-																<li>48” UHD 4K (3840 x 2160) OLED Display</li>
-																<li>Anti-glare & Low reflection</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
-														data-link-area="memberdays_2022"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_pastime01_02.png" alt="LG gram 16 Ultra-Lightweight">
-														</div>
-														<div class="product__right">
-															<p class="product__name">LG gram 16 Ultra-Lightweight</p>
-															<ul class="product__desc">
-																<li>16” 16:10 WQXGA (2560 x 1600) IPS Display</li>
-																<li>Intel Evo Platform Powered by 12th Gen Intel® Core™ Processor</li>
+																<li>48 Zoll OLED-Display (3.840 x 2.160) mit UHD 4K und Kontrastverhältnis von 1.500.000: 1 und HDR10</li>
 															</ul>
 														</div>
 													</a>
@@ -743,15 +775,17 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Sparkling Moments</p>
+									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Make Your</span>
-										<em>#Memories</em>
-										<span class="break break--mobile">Sparkle with LG</span>
+										<span class="break break--mobile">Bringe dein</span>
+										<em>#Erinnerungen</em>
+										<span class="break break--mobile">mit LG zum</span>
+										Strahlen.
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Save and Share your Holiday Memories with</span>
-										LG Gram
+										<span class="break break--mobile">Teile deine besonderen</span>
+										<span class="break break--mobile">Feiertagserinnerungen</span>
+										mit LG gram
 									</p>
 								</div>
 								<div class="product">
@@ -765,13 +799,12 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_memories01_01.png" alt="39.7’’ Curved UltraWide™ 5K2K Nano IPS Display">
+															<img src="${path}/assets/images/de/img_product_showroom_memories01_01.png" alt="21:9-UltraWide™-IPS-Monitor">
 														</div>
 														<div class="product__right">
-															<p class="product__name">39.7’’ Curved UltraWide™ 5K2K Nano IPS Display</p>
+															<p class="product__name">21:9-UltraWide™-IPS-Monitor</p>
 															<ul class="product__desc">
-																<li>39.7-inch 5K2K (5120x2160) UltraWide™</li>
-																<li>5K Daisy Chain</li>
+																<li>86,6 cm (34”) IPS-Monitor in nahezu rahmenlosem, schlankem Design und Full-HD-Auflösung (2.560 x 1.080 Pixeln)</li>
 															</ul>
 														</div>
 													</a>
@@ -785,13 +818,31 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_memories01_02.png" alt="LG TONE Free UT90">
+															<img src="${path}/assets/images/de/img_product_showroom_memories01_02.png" alt="17’’ Ultraleichtes Notebook">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG TONE Free UT90</p>
+															<p class="product__name">17’’ Ultraleichtes Notebook</p>
 															<ul class="product__desc">
-																<li>WORLD’S 1ST DOLBY ATMOS WIRELESS EARBUDS WITH DOLBY HEAD TRACKING™</li>
-																<li>Enhanced adaptive active noise cancellation</li>
+																<li>17-Zoll WQXGA (2560 x 1600) IPS Display und wiegt nur 1350 g mit einem 80-Wh-Akku (bis zu 19.5 Stunden*)</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
+														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/de/img_product_showroom_memories01_03.png" alt="LG TONE Free DFP9W">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG TONE Free DFP9W</p>
+															<ul class="product__desc">
+																<li>Verbesserte Active Noise Cancellation, Hygienisch und vertrauenswürdig dank Uvnano und MERIDIAN-Klangtechnologie</li>
 															</ul>
 														</div>
 													</a>
@@ -806,7 +857,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1003');"></div>
+					<div class="lottie" onclick="showLotteryModal('1003', this);"></div>
 				</div>
 			</div>
 
@@ -815,11 +866,13 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">Sparkling Deal is coming soon</h2>
-							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
-							<p class="section__sub">
-								<span class="break break--mobile">Save big on our limited stock product</span>for LG Members only
-							</p>
+							<h2 class="section__title">
+								<span class="break break--mobile">Hot Deals sind</span>
+								<span class="break break--mobile">demnächst</span>
+								verfügbar
+							</h2>
+							<p class="section__sub">5. Dezember bis 18. Dezember 2022</p>
+							<p class="section__sub">Sichere dir als LG Mitglied einen Preisvorteil auf limitierte Produkte</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -867,11 +920,11 @@
 											<div class="button">
 												<p class="button__item button__item--disabled">COMING SOON</p>
 												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='demnächst verfügbar'/></a> -->
 											</div>
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
-													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+													<span class="learn-more__text"><spring:message code='component-learnMore' text='>Mehr erfahren'/></span>
 												</a>
 											</div>
 										</div>
@@ -881,10 +934,10 @@
 							</div>
 						</div>
 						<div class="section__footer section__footer--center">
-							<p class="section__text">*Discount coupons cannot be applied with Sparkling Deal products.</p>
+							<p class="section__text">*Der 5% Willkommensgutschein kann mit den Hot Deals Modellen kombiniert werden.</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1004');"></div>
+					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
 				</div>
 			</div>
 
@@ -893,9 +946,20 @@
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Add Your Own Sparkle with LG</p>
-							<h2 class="section__title">LG Member Days Special Offer is Coming Soon</h2>
-							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
+							<p class="section__sub">
+								<span class="break break--mobile">Füge deinen eigenen Glanz</span>
+								mit LG hinzu
+							</p>
+							<h2 class="section__title">
+								<span class="break break--desktop">
+									LG Member Days
+									<span class="break break--mobile">exklusive</span>
+									Angebote sind
+								</span> 
+								<span class="break break--mobile">demnächst</span>
+								verfügbar
+							</h2>
+							<p class="section__sub">5. Dezember bis 18. Dezember 2022</p>
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -927,7 +991,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_homeappliance"
 									data-link-area="memberdays_2022"
-									class="tab__button">Home Appliance</a>
+									class="tab__button">Haushaltsartikel</a>
 								</li>
 								<li class="tab__item">
 									<a href="#computerproducts" 
@@ -937,7 +1001,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_computerproducts"
 									data-link-area="memberdays_2022"
-									class="tab__button">Computer Products</a>
+									class="tab__button">IT Modelle</a>
 								</li>
 							</ul>
 							<template class="contents-template">
@@ -1008,7 +1072,7 @@
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoretvs"
 											data-link-area="memberdays_2022"
-											class="button__item button__item--white">SEE MORE TV</a>
+											class="button__item button__item--white">Mehr TV anzeigen</a>
 									</div>
 								</div>
 							</div>
@@ -1076,7 +1140,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005');"></div>
+					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
 				</div>
 			</div>
 		</div>
