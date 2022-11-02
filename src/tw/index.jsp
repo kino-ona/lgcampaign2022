@@ -315,7 +315,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001');"></div>
+					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
 				</div>
 			</div>
 
@@ -430,7 +430,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002');"></div>
+					<div class="lottie" onclick="showLotteryModal('1002', this);"></div>
 				</div>
 			</div>
 
@@ -522,8 +522,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/washing-machines/lg-wd-s1916w" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_wd-s1916w"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -543,8 +543,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/styler/lg-b723ob" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_b723ob"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -564,8 +564,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/small-appliances/lg-a9t-ultra" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_a9t-ultra"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -611,8 +611,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/refrigerators/lg-gr-ql62st" target="_blank"
+														data-link-name="memberdays_productMouseHover_gathering_gr-ql62st"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -631,8 +631,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/smart-inverter-microwave-oven/lg-mj3965acr" target="_blank"
+														data-link-name="memberdays_productMouseHover_gathering_mj3965acr"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -652,8 +652,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/speakers/lg-rp4g" target="_blank"
+														data-link-name="memberdays_productMouseHover_gathering_rp4g"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -672,8 +672,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/dishwashers/lg-dfb335hs" target="_blank"
+														data-link-name="memberdays_productMouseHover_gathering_GSXV91BSAE"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -717,8 +717,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/oled-tv/lg-oled65c2psc" target="_blank"
+														data-link-name="memberdays_productMouseHover_gameday_oled65c2psc"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -737,8 +737,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/speakers/lg-qp5" target="_blank"
+														data-link-name="memberdays_productMouseHover_gameday_qp5"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -785,8 +785,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/monitors/lg-32gq950-b" target="_blank"
+														data-link-name="memberdays_productMouseHover_pastime_32gq950-b"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -806,8 +806,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/laptop/lg-16z90q-e-aa56c2" target="_blank"
+														data-link-name="memberdays_productMouseHover_pastime_16z90q-e-aa56c2"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -851,12 +851,12 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/monitors/lg-27bq70qc-s" target="_blank"
+														data-link-name="memberdays_productMouseHover_memories_27bq70qc-s"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/tw/img_product_showroom_memories01_01.png" alt="27" Libero 自由機">
+															<img src="${path}/assets/images/tw/img_product_showroom_memories01_01.png" alt="27' Libero 自由機">
 														</div>
 														<div class="product__right">
 															<p class="product__name">27" Libero 自由機</p>
@@ -871,8 +871,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/laptop/lg-16z90q-g-aa54c2" target="_blank"
+														data-link-name="memberdays_productMouseHover_memories_16z90q-g-aa54c2"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -892,8 +892,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/tw/true-wireless-bluetooth-headset/lg-tone-t90q" target="_blank"
+														data-link-name="memberdays_productMouseHover_memories_tone-t90q"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -1219,7 +1219,7 @@
 						簡單加入　另享好禮
 					</p>
 					<div class="popup__buttons">
-						<a href="#" class="popup__button">登入/註冊</a>
+						<a href="#" class="popup__button" onclick="redirectToLoginPage();">登入/註冊</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1269,7 +1269,7 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
-		<div class="popup fail__popup">
+		<!-- <div class="popup fail__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1291,7 +1291,7 @@
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<!-- // fail popup -->
 
 		<!-- win popup -->
