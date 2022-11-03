@@ -131,14 +131,13 @@
 		<!-- 여기서부터 컨텐츠 시작 -->
 		<link rel="stylesheet" href="./assets/css/index.css">
 		<link rel="stylesheet" href="./assets/css/index_uk.css">
-		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersweek phase2" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
 				<div class="section">
 					<div class="section__inner">
 						<div class="section__header">
 							<h1 class="section__title">LG MEMBER DAYS COMING SOON</h1>
-							<p class="section__desc">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">Make your holidays sparkle with LG</p>
 							<p class="section__desc">
 								Sign Up and Don’t Miss out on our PRIZE-WINNING EVENT<br>
@@ -146,7 +145,7 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MemebershipEvent" class="button__item button__item--red">TAKE PART</a>
+							<a href="#MemebershipEvent" class="button__item button__item--red">View Products</a>
 						</div>
 						<div class="visual__terms">
 							<a href="#" target="_blank" class="terms__link visual__link">
@@ -172,21 +171,40 @@
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_benefit" 
 									data-link-area="memberdays_2022" 
-									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
+									class="link">
+									<span>VIEW MEMBER EXCLUSIVE</span>
+									OFFERS
+								</a>
 							</li>
 							<li class="list-item">
 								<a href="#MemebershipEvent" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_design_lifestyle" 
 									data-link-area="memberdays_2022" 
-									class="link">DISCOVER OUR SPARKLING MEMBERSHIP EVENT</a>
+									class="link">
+									<span>DISCOVER OUR</span>
+									SPARKLING MEMBERSHIP EVENT
+								</a>
 							</li>
 							<li class="list-item">
 								<a href="#HolidayCollection" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_hottest_product" 
 									data-link-area="memberdays_2022" 
-									class="link">BROWSE OUR HOLIDAY COLLECTION</a>
+									class="link">
+									<span>DISCOVER OUR</span>
+									SPARKLING DEALS
+								</a>
+							</li>
+							<li class="list-item">
+								<a href="#HolidayCollection" 
+									data-track-group="mic" data-track-name="members_week_anchor_click"
+									data-link-name="memberdays_anchor_click_hottest_product" 
+									data-link-area="memberdays_2022" 
+									class="link">
+									<span>SHOP OUR</span>
+									HOLIDAY COLLECTION
+								</a>
 							</li>
 						</ul>
 					</div>
@@ -288,89 +306,6 @@
 					<div class="lottie" onclick="showLotteryModal('1001');">
 					</div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
-				</div>
-			</div>
-
-			<div class="anchors" id="MemebershipEvent"></div>
-			<div id="box_content1_1" class="section">
-				<div class="section__container section__container--event" data-list="eventGift">
-					<div class="section__inner">
-						<div class="section__header">
-							<p class="section__sub">Fill Your Day with Sparkle</p>
-							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
-						</div>
-						<div class="event">
-							<div class="event__container">
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__category">How to Participate</p>
-										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
-										<p class="event__desc">Participation limited to one member account only</p>
-									</div>
-									<div class="event__process">
-										<ol>
-											<li>
-												<span>1</span>
-												<p>Login / Sign-Up</p>
-											</li>
-											<li>
-												<span>2</span>
-												<p>
-													Find and click on ALL 5 stars<br>
-													throughout the event page
-												</p>
-											</li>
-											<li>
-												<span>3</span>
-												<p>
-													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
-													prize!
-												</p>
-											</li>
-										</ol>
-									</div>
-									<p class="event__category">Find All Five Stars</p>
-									<div class="event__stars">
-										<div class="event__star event__star--actived"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-									</div>
-								</div>
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__title">Event Prize</p>
-										<p class="event__sub">Get a chance to win one of the LG Products below!</p>
-										<p class="event__desc event__desc--secondary">Limited to 3 Winners. Find out your luck!</p>
-									</div>
-									<div class="event__gift">
-										<img src="./assets/images/img_event_product.png" alt="">
-									</div>
-									<div class="event__info">
-										<p class="event__text">99% Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec  2022</p>
-									</div>
-								</div>
-							</div>
-							<div class="event__bottom">
-								<div class="event__left">
-									<p>Your Prize is Just One Star away</p>
-									<p>Sign Up Now or Login to Participate</p>
-								</div>
-								<div class="event__right">
-									<a href="#">LOGIN / SIGN-UP</a>
-								</div>
-							</div>
-						</div>
-						<div class="section__footer">
-							<a href="#" class="section__text">
-								Terms &amp; Conditions
-								<i></i>
-							</a>
-						</div>
-					</div>
-					<div class="lottie" onclick="showLotteryModal('1002');">
-					</div>
 				</div>
 			</div>
 
@@ -1517,6 +1452,89 @@
 				</div>
 			</div>
 
+			<div class="anchors" id="MemebershipEvent"></div>
+			<div id="box_content1_1" class="section">
+				<div class="section__container section__container--event" data-list="eventGift">
+					<div class="section__inner">
+						<div class="section__header">
+							<p class="section__sub">Fill Your Day with Sparkle</p>
+							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
+						</div>
+						<div class="event">
+							<div class="event__container">
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__category">How to Participate</p>
+										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
+										<p class="event__desc">Participation limited to one member account only</p>
+									</div>
+									<div class="event__process">
+										<ol>
+											<li>
+												<span>1</span>
+												<p>Login / Sign-Up</p>
+											</li>
+											<li>
+												<span>2</span>
+												<p>
+													Find and click on ALL 5 stars<br>
+													throughout the event page
+												</p>
+											</li>
+											<li>
+												<span>3</span>
+												<p>
+													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
+													prize!
+												</p>
+											</li>
+										</ol>
+									</div>
+									<p class="event__category">Find All Five Stars</p>
+									<div class="event__stars">
+										<div class="event__star event__star--actived"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+									</div>
+								</div>
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__title">Event Prize</p>
+										<p class="event__sub">99% Discount Coupon for one of below products</p>
+										<p class="event__desc event__desc--secondary">Limited to 3 Winners</p>
+									</div>
+									<div class="event__gift">
+										<img src="./assets/images/img_event_product.png" alt="">
+									</div>
+									<div class="event__info">
+										<p class="event__text">Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec  2022</p>
+									</div>
+								</div>
+							</div>
+							<div class="event__bottom">
+								<div class="event__left">
+									<p>Your Prize is Just One Star away</p>
+									<p>Sign Up Now or Login to Participate</p>
+								</div>
+								<div class="event__right">
+									<a href="#">LOGIN / SIGN-UP</a>
+								</div>
+							</div>
+						</div>
+						<div class="section__footer">
+							<a href="#" class="section__text">
+								Terms &amp; Conditions
+								<i></i>
+							</a>
+						</div>
+					</div>
+					<div class="lottie" onclick="showLotteryModal('1002');">
+					</div>
+				</div>
+			</div>
+
 			<div class="anchors" id="SparklingDeals"></div>
 			<div id="box_content2_2" class="section">
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
@@ -1533,30 +1551,6 @@
 								<div class="product__list">
 									<div class="product__item">
 										<div class="product__img">
-											<p class="product__comming">Coming Soon</p>
-											<p class="hotdeal_bg"></p>
-											<img src="./assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
-											<!-- <div class="product__label">
-												<p>
-													Limited to
-													<span>100</span>
-													units
-												</p>
-											</div> -->
-										</div>
-										<div class="product__info">
-											<p class="product__name">24'' FHD IPS Display</p>
-											<p class="product__sn">24MK430H</p>
-											<div class="learn-more">
-												<a href="#" class="learn-more__link">
-													<span class="learn-more__text">LEARN MORE</span>
-												</a>
-											</div>
-										</div>
-									</div>
-									<div class="product__item">
-										<div class="product__img">
-											<p class="product__comming">Coming Soon</p>
 											<p class="hotdeal_bg hotdeal_soldout"></p>
 											<img src="./assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
 											<!-- <div class="product__label">
@@ -1570,29 +1564,23 @@
 										<div class="product__info">
 											<p class="product__name">24'' FHD IPS Display</p>
 											<p class="product__sn">24MK430H</p>
-											<div class="learn-more">
-												<a href="#" class="learn-more__link">
-													<span class="learn-more__text">LEARN MORE</span>
-												</a>
+											<div class="product__price">
+												<span class="product__discount">£1,049.98</span>
+												<span class="product__highlight">19% Off</span>
 											</div>
-										</div>
-									</div>
-									<div class="product__item">
-										<div class="product__img">
-											<p class="product__comming">Coming Soon</p>
-											<p class="hotdeal_bg"></p>
-											<img src="./assets/images/hotdeal_product.png" alt="24'' FHD IPS Display">
-											<!-- <div class="product__label">
-												<p>
-													Limited to
-													<span>100</span>
-													units
-												</p>
-											</div> -->
-										</div>
-										<div class="product__info">
-											<p class="product__name">24'' FHD IPS Display</p>
-											<p class="product__sn">24MK430H</p>
+											<div class="product__price-now">
+												<p class="product__cost">£849.98</p>
+											</div>
+											<div class="product__members">
+												<span class="product__text">LG Members only</span>
+												<span class="product__highlight">£832.98</span>
+												<div class="product__noti">
+													<p class="product__text">Out of Stock</p>
+												</div>
+											</div>
+											<div class="button">
+												<a href="#" class="button__item button__item--disabled">GET STOCK ALERT</a>
+											</div>
 											<div class="learn-more">
 												<a href="#" class="learn-more__link">
 													<span class="learn-more__text">LEARN MORE</span>
@@ -1617,8 +1605,56 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">Add Your Own Sparkle with LG</p>
-							<h2 class="section__title">LG Member Days Special Offer is Coming Soon</h2>
-							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
+							<h2 class="section__title">
+								Buy More, Save More<br>
+								<span class="break break--mobile">Limited Sales</span>
+								only until 20<sup>th</sup> Dec 2022
+							</h2>
+							<p class="section__desc">
+								Buy More than Two Products and <span class="break break--mobile">get <em class="highlight">15% Discount</em></span>
+								<span>(Sparkling Deal products excluded from <span class="break break--mobile">additional discount offer)</span></span>
+							</p>
+						</div>
+						<div class="discount">
+							<div class="discount__list">
+								<div class="discount__item">
+									<div class="discount__inner">
+										<div class="discount__ico discount__ico--washing">
+											<i></i>
+										</div>
+										<p class="discount__name">Product 1</p>
+									</div>
+								</div>
+								<div class="discount__item">
+									<div class="discount__inner">
+										<div class="discount__ico discount__ico--tv">
+											<i></i>
+										</div>
+										<p class="discount__name">Product 2</p>
+									</div>
+								</div>
+								<div class="discount__item">
+									<div class="discount__inner">
+										<ul class="discount__number">
+											<li>
+												<p class="discount__total">15% Discount</p>
+											</li>
+											<li>
+												<p>2% Member Discount</p>
+											</li>
+											<li>
+												<p>
+													5% Welcome Discount
+													<span>(only applies to newly joined members)</span>
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="discount__noti">
+								<p class="discount__text">Click on the SEE MORE button below to discover more LG promoted products.</p>
+							</div>
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -1664,6 +1700,10 @@
 								</li>
 							</ul>
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
+								<p class="tab__noti">
+									Visit <em>My Basket</em> to check your final discounted price<br>
+									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list">
@@ -1849,6 +1889,10 @@
 								</div>
 							</div>
 							<div id="audio" class="tab__panel">
+								<p class="tab__noti">
+									Visit <em>My Basket</em> to check your final discounted price<br>
+									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list">
@@ -2605,6 +2649,10 @@
 								</div>
 							</div>
 							<div id="homeappliance" class="tab__panel">
+								<p class="tab__noti">
+									Visit <em>My Basket</em> to check your final discounted price<br>
+									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list">
@@ -2940,6 +2988,10 @@
 								</div>
 							</div>
 							<div id="computerproducts" class="tab__panel">
+								<p class="tab__noti">
+									Visit <em>My Basket</em> to check your final discounted price<br>
+									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list">
