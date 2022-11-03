@@ -329,14 +329,6 @@
 						}
 					}
 				}
-
-				&--hotdeal {
-					.product__img {
-						.product__more {
-							font-size: 14px;
-						}
-					}
-				}
 			}
 		}
 	}
@@ -620,11 +612,24 @@
 					top: 20px;
 					left: 50%;
 					font-size: 18px;
+					white-space: nowrap;
 					@include mixins.translate(-50%, 0);
 				}
 				
 				.hotdeal_bg {
 					background-image: url('../images/tw/hotdeal_on.png');
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			&--hotdeal {
+	
+				.product__img {
+					
+					.product__more {
+						font-size: 14px;
+					}
 				}
 			}
 		}
