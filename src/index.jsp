@@ -137,10 +137,10 @@
 			-->
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07535403"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07514393"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07553045"/>
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07550459|MD07546576|MD07550445|MD07546595|MD07534673|MD07550724|MD07550539|MD07550515|MD07526381|MD06090818|MD07548316"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD07551785|MD05180420|MD05096604|MD07532624|MD05941396|MD05818913"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07535480|MD07517580|MD07535313|MD07535474|MD07535404|MD07535414|MD07535502|MD07535502|MD07535542|MD07514347|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07560035|MD07558381|MD05761888|MD07508534|MD06236556|MD06159736|MD07522764|MD07506308|MD07500441|MD07553005|MD07553012|MD07553684|MD07553045|MD07555788|MD07525713|MD07523609"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -373,12 +373,12 @@
 									<p>Sign Up Now or Login to Participate</p>
 								</div>
 								<div class="event__right">
-									<a href="#">LOGIN / SIGN-UP</a>
+									<a href="javascript:redirectToLoginPage();">LOGIN / SIGN-UP</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" class="section__text">
+							<a href="https://www.lg.com/uk/tncs/memberdays" class="section__text">
 								Terms &amp; Conditions
 								<i></i>
 							</a>
@@ -702,26 +702,6 @@
 															<ul class="product__desc">
 																<li>48” UHD 4K (3840 x 2160) OLED Display</li>
 																<li>Anti-glare & Low reflection</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/uk/laptops/lg-16z90q-kar56a1" target="_blank"
-														data-link-name="memberdays_productMouseHover_pastime_16z90q-kar56a1"
-														data-link-area="memberdays_2022"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/img_product_showroom_pastime01_02.png" alt="LG gram 16 Ultra-Lightweight">
-														</div>
-														<div class="product__right">
-															<p class="product__name">LG gram 16 Ultra-Lightweight</p>
-															<ul class="product__desc">
-																<li>16” 16:10 WQXGA (2560 x 1600) IPS Display</li>
-																<li>Intel Evo Platform Powered by 12th Gen Intel® Core™ Processor</li>
 															</ul>
 														</div>
 													</a>
@@ -1112,7 +1092,7 @@
 						Join today to enjoy LG Member Exclusive Benefits
 					</p>
 					<div class="popup__buttons">
-						<a href="#" class="popup__button">LOGIN / SIGN-UP</a>
+						<a href="javascript:redirectToLoginPage();" class="popup__button">LOGIN / SIGN-UP</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>

@@ -20,6 +20,7 @@ $(function() {
     window.isLogin = checkLogin();
 
     if (window.isLogin) {
+        hideLoginLink();
         getLotteryData();
     }
 
@@ -157,6 +158,10 @@ function redirectToLoginPage() {
 
 function hideFailPopup() {
     $('.fail__popup').hide();
+}
+
+function hideLoginLink() {
+    $('.login__link').hide();
 }
 
 function disableStars(cta_info) {

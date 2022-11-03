@@ -102,7 +102,7 @@
 	</c:import> 
 	<!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/memberdays-2022' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="${path}/assets/css/index.css">
 	<link rel="stylesheet" href="${path}/assets/css/index_tw.css">
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
@@ -368,7 +368,7 @@
 										<p class="event__title">首獎</p>
 										<p class="event__sub">旗艦機種 共3名</p>
 										<p class="event__desc event__desc--secondary">以下各乙台乙名</p>
-										<p class="event__desc event__desc--tertiary">OLED evo C2極致系列4K AI物聯網電視55吋 LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白)27” Libero 自由機</p>
+										<p class="event__desc event__desc--tertiary">OLED evo C2極致系列4K AI物聯網電視55吋 LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白) 27” Libero 自由機</p>
 									</div>
 									<div class="event__gift">
 										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
@@ -1269,29 +1269,6 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
-		<!-- <div class="popup fail__popup">
-			<div class="popup__dimmed"></div>
-			<div class="popup__container">
-				<div class="popup__body">
-					<div class="ico">
-						<i class="ico__stars"></i>
-					</div>
-					<p class="popup__title popup__title--large">Sorry :(</p>
-					<div class="ico">
-						<i class="ico__fail"></i>
-					</div>
-					<p class="popup__desc popup__desc--semibold">
-						Unfortunately,<br>
-						you didn’t win this time around.<br>
-						Thank you for your participation
-					</p>
-					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="goToSparklingDealArea();">DISCOVER OTHER OFFERS</button>
-					</div>
-					<button type="button" class="popup__close" aria-label="close"></button>
-				</div>
-			</div>
-		</div> -->
 		<!-- // fail popup -->
 
 		<!-- win popup -->
