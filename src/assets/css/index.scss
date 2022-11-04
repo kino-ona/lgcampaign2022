@@ -2376,7 +2376,7 @@
 					height: 60px;
 					border-radius: 20px;
 					background-color: #fff;
-					font-size: 24px;
+					font-size: 22px;
 				}
 			}
 		}
@@ -2603,7 +2603,8 @@
 			height: 50px;
 		}
 	}
-	.box_navigation .box_nav-position.fixed {
+	.box_navigation .box_nav-position.fixed,
+	.box_navigation .box_nav-position.fixed2  {
 		position: fixed;
 		// margin-top: 1px;
 		border-width: 1px 0px;

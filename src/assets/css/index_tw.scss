@@ -3,7 +3,12 @@
 @use 'sprite/sprite';
 
 .lgmembersweek {
-
+	* {
+		font-family: "LG Smart","Microsoft JhengHei","Segoe UI","Microsoft Sans Serif",sans-serif;
+	}
+	.visual .section {
+		height: 81vh;
+	}
 	// section
 	.section {
 		&__container {

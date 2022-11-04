@@ -213,7 +213,7 @@
 				</div>
 			</div>
 
-			<div class="anchors" id="MemberDaysEvent"></div>
+			<div class="anchors" id="MemberExclusiveOffers"></div>
 			<div id="box_content1" class="section">
 				<div class="section__container section__container--benefit">
 					<div class="section__inner">
@@ -319,7 +319,7 @@
 				</div>
 			</div>
 
-			<div class="anchors" id="MemberDaysEvent"></div>
+			<div class="anchors" id="MemebershipEvent"></div>
 			<div id="box_content1_1" class="section">
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
@@ -419,7 +419,7 @@
 									<p>立即登入/ 註冊</p>
 								</div>
 								<div class="event__right">
-									<a href="#">登入 / 註冊</a>
+									<a href="javascript:redirectToLoginPage();">登入 / 註冊</a>
 								</div>
 							</div>
 						</div>
@@ -803,27 +803,6 @@
 													</a>
 												</div>
 											</div>
-											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/tw/laptop/lg-16z90q-e-aa56c2" target="_blank"
-														data-link-name="memberdays_productMouseHover_pastime_16z90q-e-aa56c2"
-														data-link-area="memberdays_2022"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/tw/img_product_showroom_pastime01_02.png" alt="LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 沉靜灰 (i5) 配備NVIDIA® GeForce® GTX™">
-														</div>
-														<div class="product__right">
-															<p class="product__name">LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 沉靜灰 (i5) 配備NVIDIA® GeForce® GTX™</p>
-															<ul class="product__desc">
-																<li>16” 16:10 WQXGA (2560 x 1600) IPS 螢幕</li>
-																<li>Windows 11 Home</li>
-																<li>第 12 代Intel® Core™ 處理器, NVIDIA® GeForce® GTX™</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
 										</div>
 									</div>
 									<div class="product__track">
@@ -929,9 +908,7 @@
 						<div class="section__header">
 							<h2 class="section__title">璀璨產品周 即將登場</h2>
 							<p class="section__desc">
-								11/30-12/4 視聽娛樂 豪享周<br>
-								12/5-12/9 居家廚電 豪享周<br>
-								12/10-12/13 清新空氣 清潔居家 豪享周
+								11/30-12/13
 							</p>
 							<p class="section__sub">年度最佳優惠 官方會員 限量搶購</p>
 						</div>
@@ -944,6 +921,8 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
+											<p class="product__comming">即將登場</p>
+											<!-- <div class="product__more">視聽娛樂 豪享周</div> -->
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -979,7 +958,6 @@
 												</div>
 											</div>
 											<div class="button">
-												<a href="#" class="button__item button__item--disabled">即將登場</a>
 												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
 											</div>
@@ -1219,7 +1197,7 @@
 						簡單加入　另享好禮
 					</p>
 					<div class="popup__buttons">
-						<a href="#" class="popup__button" onclick="redirectToLoginPage();">登入/註冊</a>
+						<a href="javascript:redirectToLoginPage();" class="popup__button">登入/註冊</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
