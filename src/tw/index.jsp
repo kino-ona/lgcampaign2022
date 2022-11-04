@@ -102,7 +102,7 @@
 	</c:import> 
 	<!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/promotions/memberdays-2022' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/memberdays-2022' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="${path}/assets/css/index.css">
 	<link rel="stylesheet" href="${path}/assets/css/index_tw.css">
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
