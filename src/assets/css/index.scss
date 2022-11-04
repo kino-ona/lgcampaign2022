@@ -48,9 +48,12 @@
 			.highlight {
 				display: block;
 				margin-bottom: 10px;
-				font-size: 20px;
-				line-height: 24px;
 			}
+		}
+
+		.highlight {
+			font-size: 20px;
+			line-height: 24px;
 		}
 	}
 	&__desc {
