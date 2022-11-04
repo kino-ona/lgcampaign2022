@@ -158,6 +158,15 @@ $(document).ready(function(){
 		// $('.brand_product-tabstage').find('.tabproduct_items:nth-child(n+17)').hide();
 		// $('.brandtabs-container').find('.btn_seemore').show();
 	});
+
+	$('.lgmembersweek .tab__indicator .tab__next').on('click', function(){
+		var target = '#' + $(this).closest('.tab__panel').next('.tab__panel').attr('id');
+		$(`a[href="${target}"]`).trigger('click');
+	});
+	$('.lgmembersweek .tab__indicator .tab__prev').on('click', function(){
+		var target = '#' + $(this).closest('.tab__panel').prev('.tab__panel').attr('id');
+		$(`a[href="${target}"]`).trigger('click');
+	});
 	// $('.brandtabs-container .tabs-menu a:first').trigger('click');
 
 	// if($('.brand_product-tabstage').find('.tabproduct_items').length > 0) {
