@@ -102,7 +102,7 @@
 	</c:import> 
 	<!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/memberdays-2022' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/promotions/memberdays-2022' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="${path}/assets/css/index.css">
 	<link rel="stylesheet" href="${path}/assets/css/index_tw.css">
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
@@ -585,6 +585,10 @@
 												</div>
 											</div>
 										</div>
+
+										<div class="tab__indicator">
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -691,6 +695,11 @@
 												</div>
 											</div>
 										</div>
+
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -755,6 +764,11 @@
 												</div>
 											</div>
 										</div>
+										
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -803,6 +817,11 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
 										</div>
 									</div>
 									<div class="product__track">
@@ -888,6 +907,10 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
 										</div>
 									</div>
 									<div class="product__track">
