@@ -161,7 +161,7 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MemebershipEvent" class="button__item button__item--red">Teilnehmen</a>
+							<a href="#MembershipEvent" class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
@@ -197,7 +197,7 @@
 									Mitglieder anzeigen</a>
 							</li>
 							<li class="list-item">
-								<a href="#MemebershipEvent" 
+								<a href="#MembershipEvent" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_design_lifestyle" 
 									data-link-area="memberdays_2022" 
@@ -285,7 +285,7 @@
 				</div>
 			</div>
 			
-			<div class="anchors" id="MemberDaysEvent"></div>
+			<div class="anchors" id="MembershipEvent"></div>
 			<div id="box_content1_1" class="section">
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
@@ -385,13 +385,13 @@
 									</div>
 								</div>
 							</div>
-							<div class="event__bottom">
+							<div class="event__bottom login__link">
 								<div class="event__left">
 									<p>Du bist nur noch einen Stern von deinem Gewinn entfernt!</p>
 									<p>Registriere dich jetzt oder melde dich in deinem LG Account an, um teilzunehmen</p>
 								</div>
 								<div class="event__right">
-									<a href="#">ANMELDUNG / REGISTRIERUNG</a>
+									<a href="javascript:redirectToLoginPage();">ANMELDUNG / REGISTRIERUNG</a>
 								</div>
 							</div>
 						</div>
@@ -575,6 +575,9 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -644,6 +647,10 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -711,6 +718,10 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -760,6 +771,10 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
 										</div>
 									</div>
 									<div class="product__track">
@@ -848,6 +863,9 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
 										</div>
 									</div>
 									<div class="product__track">
@@ -1157,7 +1175,7 @@
 						Join today to enjoy LG Member Exclusive Benefits
 					</p>
 					<div class="popup__buttons">
-						<a href="#" class="popup__button">LOGIN / SIGN-UP</a>
+						<a href="javascript:redirectToLoginPage();" class="popup__button">LOGIN / SIGN-UP</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1198,7 +1216,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">
 						Your Chance to Win a Prize is<br>
-						Just <span class="highlight">Three</span> Stars Away
+						Just <span class="highlight collect__count">Three</span> Stars Away
 					</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">FIND MORE STARS</button>
@@ -1227,7 +1245,7 @@
 						Thank you for your participation
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="goToSparklingDealArea();">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="hideFailPopup();">DISCOVER OTHER OFFERS</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1248,53 +1266,27 @@
 						You’ve Won!
 					</p>
 					<div class="popup__gift">
-						<img src="./assets/images/img_popup_gift01.png" alt="">
-						<!-- <img src="./assets/images/img_popup_gift02.png" alt=""> -->
-						<!-- <img src="./assets/images/img_popup_gift03.png" alt=""> -->
-					</div>
-					<p class="popup__desc popup__desc--semibold">99% discount coupon for</p>
-					<p class="popup__desc popup__desc--bold">LG OLED evo C2 55’’ 4K Smart TV</p>
-					<!-- <p class="popup__desc popup__desc--bold">InstaView Door-in-Door</p> -->
-					<!-- <p class="popup__desc popup__desc--bold">LG gram 16 Ultra-Lightweight</p> -->
-					<p class="popup__desc popup__desc--regular">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
-					<div class="popup__buttons">
-						<button type="button" class="popup__button">VIEW COUPON</button>
-					</div>
-					<button type="button" class="popup__close" aria-label="close"></button>
-				</div>
-			</div>
-		</div>
-		<!-- // win popup -->
-
-		<!-- win popup -->
-		<!-- <div class="popup win__popup__with__coupon">
-			<div class="popup__dimmed"></div>
-			<div class="popup__container">
-				<div class="popup__body">
-					<p class="popup__title popup__title--large">
-						<span class="highlight">Congratulations,</span>
-						You’ve Won!
-					</p>
-					<div class="coupon">
-						<div class="coupon__coupon coupon__coupon--secondary">
-							<p class="coupon__title">15</p>
-							<p class="coupon__unit">
-								% Off
-								<span class="coupon__text">Coupon</span>
+						<img src="{path}/assets/images/img_popup_gift.png" alt="">
+						<div class="popup__label">
+							<p>
+								<span>99%</span>Off<br>
+								Coupon
 							</p>
 						</div>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Applicable only to TVs,<br>
-						Valid from 28<sup>th</sup> Nov. to 20<sup>th</sup> Dec.
+						99% discount coupon for<br>
+						<span class="bold">InstaView Door-in-Door</span>
 					</p>
+					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">VIEW COUPON</button>
 					</div>
+
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<!-- // win popup -->
 		<!-- // popup -->
 

@@ -159,7 +159,7 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MemebershipEvent" class="button__item button__item--red">TAKE PART</a>
+							<a href="#MembershipEvent" class="button__item button__item--red">TAKE PART</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
@@ -191,7 +191,7 @@
 									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
 							</li>
 							<li class="list-item">
-								<a href="#MemebershipEvent" 
+								<a href="#MembershipEvent" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_design_lifestyle" 
 									data-link-area="memberdays_2022" 
@@ -306,7 +306,7 @@
 				</div>
 			</div>
 			
-			<div class="anchors" id="MemebershipEvent"></div>
+			<div class="anchors" id="MembershipEvent"></div>
 			<div id="box_content1_1" class="section">
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
