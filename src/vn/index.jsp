@@ -249,7 +249,7 @@
 											<span class="coupon__flag">Sắp diễn ra</span>
 											<p class="coupon__unit">Coupon giảm giá</p>
 											<p class="coupon__title">
-												15
+												10
 												<span>%</span>
 											</p>
 										</div>
@@ -299,7 +299,6 @@
 						</div>
 					</div>
 					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
-					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 			</div>
 			
@@ -351,30 +350,43 @@
 									</div>
 								</div>
 								<div class="event__round">
-									<div class="event__header">
-										<p class="event__title">Giải Nhất</p>
-										<p class="event__sub">Cơ hội để giành được</p>
-										<p class="event__desc event__desc--secondary">Dành cho 03 người duy nhất</p>
-									</div>
-									<div class="event__gift">
-										<img src="${path}/assets/images/vn/img_event_product.png" alt="">
-									</div>
-									<div class="event__info">
-										<p class="event__text">
-											Người chiến thắng sẽ nhận được email thông báo<br>
-											trong 2 tuần để từ ngày kết thúc chương trình
-										</p>
+									<div class="event__row">
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">Giải Nhất</p>
+												<p class="event__sub">Cơ hội để giành được</p>
+												<p class="event__desc event__desc--secondary">Dành cho 03 người duy nhất</p>
+												<p class="event__desc event__desc--tertiary">Người chiến thắng sẽ nhận được email thông báo trong 2 tuần để từ ngày kết thúc chương trình</p>
+											</div>
+											<div class="event__gift">
+												<img src="{path}/assets/images/vn/img_event_product.png" alt="">
+											</div>
+										</div>
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">Giải Nhì</p>
+												<p class="event__sub">Coupon giảm giá 15%</p>
+												<p class="event__desc event__desc--secondary"><span class="break break--mobile">Dành cho 50 người</span> chơi duy nhất</p>
+											</div>
+											<div class="event__coupon">
+												<div class="event__ticket">
+													-15
+													<span>%</span>
+												</div>
+												<p class="event__desc event__desc--secondary">Coupon giảm giá</p>
+											</div>
+										</div>
 									</div>
 									<div class="event__row">
 										<div class="event__col">
 											<div class="event__header">
 												<p class="event__title">Giải Ba</p>
-												<p class="event__sub">Coupon giảm giá 20%</p>
+												<p class="event__sub">Coupon giảm giá 10%</p>
 												<p class="event__desc event__desc--secondary"><span class="break break--mobile">Dành cho 100 người</span> chơi duy nhất</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
-													20
+													-10
 													<span>%</span>
 												</div>
 												<p class="event__desc event__desc--secondary">Coupon giảm giá</p>
@@ -388,7 +400,7 @@
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
-													10
+													-5
 													<span>%</span>
 												</div>
 												<p class="event__desc event__desc--secondary">Coupon giảm giá</p>
@@ -396,7 +408,7 @@
 										</div>
 									</div>
 									<div class="event__info">
-										<p class="event__text">Thời hạn Coupon: 5/12 – 18/12</p>
+										<p class="event__text">Thời hạn Coupon: 5/12 - 18/12</p>
 									</div>
 								</div>
 							</div>
@@ -406,7 +418,7 @@
 									<p>Đăng ký hoặc Đăng nhập ngay để tham gia</p>
 								</div>
 								<div class="event__right">
-									<a href="#">ĐĂNG NHẬP / ĐĂNG KÝ</a>
+									<a href="javascript:redirectToLoginPage();">ĐĂNG NHẬP / ĐĂNG KÝ</a>
 								</div>
 							</div>
 						</div>
@@ -611,6 +623,9 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -678,6 +693,10 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -743,6 +762,10 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
 										</div>
 									</div>
 									<div class="product__track">
@@ -811,6 +834,10 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -877,6 +904,9 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -895,8 +925,8 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<h2 class="section__title">Ưu đãi Mùa Lễ Hội sắp diễn ra</h2>
-							<p class="section__desc">5<sup>th</sup> Dec - 20<sup>th</sup> Dec</p>
-							<p class="section__sub">Giảm giá cực hời với số lượng có hạn – chỉ áp dụng với thành viên LG</p>
+							<p class="section__desc">5/12 - 18/12</p>
+							<p class="section__sub">Giảm giá cực hời với số lượng có hạn - chỉ áp dụng với thành viên LG</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -907,6 +937,7 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
+											<p class="product__comming">Sắp diễn ra</p>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -942,9 +973,8 @@
 												</div>
 											</div>
 											<div class="button">
-												<p class="button__item button__item--disabled">Sắp diễn ra</p>
-												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
@@ -1063,7 +1093,7 @@
 										</div>
 										<div class="learn-more">
 											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
-												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
+												<span class="learn-more__text"><spring:message code='component-learnMore' text='Tìm hiểu thêm'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
 										</div>
@@ -1164,14 +1194,13 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">立即登入參加
-						簡單找星星　人人享優惠</p>
+					<p class="popup__title">Đăng nhập để tham gia</p>
 					<p class="popup__desc">
-						還不是會員？<br>
-						簡單加入　另享好禮
+						Chưa phải là thành viên?<br>
+						Tham gia ngay hôm nay để tận hưởng đặc quyền cho Thành viên LG
 					</p>
 					<div class="popup__buttons">
-						<a href="#" class="popup__button">登入/註冊</a>
+						<a href="javascript:redirectToLoginPage();" class="popup__button">Đăng nhập / Đăng ký</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1184,12 +1213,15 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">找尋並點擊 活動頁面中的五顆星星 豐富獎品等著你</p>
+					<p class="popup__title">
+						Tìm và nhấp chuột vào <span class="highlight">05 Ngôi Sao</span><br>
+						trên trang sự kiện
+					</p>
 					<div class="popup__stars">
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">即刻開始</button>
+						<button type="button" class="popup__button">Bắt đầu</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1202,7 +1234,7 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title popup__title--large">繼續加油！</p>
+					<p class="popup__title popup__title--large">Tiếp tục nào!</p>
 					<div class="stars">
 						<div class="star star--actived"></div>
 						<div class="star star--actived"></div>
@@ -1210,9 +1242,12 @@
 						<div class="star"></div>
 						<div class="star"></div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">輕鬆贏得優惠只差幾步！</p>
+					<p class="popup__desc popup__desc--semibold">
+						Cơ hội để chiến thắng<br>
+						chỉ cách bạn <span class="highlight">03</span> Ngôi Sao nữa thôi
+					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">尋找更多星星</button>
+						<button type="button" class="popup__button">Tìm thêm Ngôi Sao</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1221,29 +1256,28 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
-		<!-- <div class="popup fail__popup">
+		<div class="popup fail__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
 					<div class="ico">
 						<i class="ico__stars"></i>
 					</div>
-					<p class="popup__title popup__title--large">Sorry :(</p>
+					<p class="popup__title popup__title--large">Rất tiếc :(</p>
 					<div class="ico">
 						<i class="ico__fail"></i>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Unfortunately,<br>
-						you didn’t win this time around.<br>
-						Thank you for your participation
+						Bạn đã không chiến thắng lần này<br>
+						Cảm ơn bạn vì đã tham gia
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="goToSparklingDealArea();">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="hideFailPopup();">Khám phá thêm ưu đãi khủng</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<!-- // fail popup -->
 
 		<!-- win popup -->
@@ -1254,17 +1288,16 @@
 					<div class="ico">
 						<i class="ico__stars"></i>
 					</div>
-					<p class="popup__title popup__title--large">恭喜您完成任務!</p>
+					<p class="popup__title popup__title--large">
+						<span class="highlight">Xin chúc mừng,</span>
+						Bạn đã chiến thắng!
+					</p>
 					<div class="popup__gift">
 						<img src="./assets/images/vn/img_popup_gift01.png" alt="">
 						<!-- <img src="./assets/images/vn/img_popup_gift02.png" alt=""> -->
 						<!-- <img src="./assets/images/vn/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
-					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
-					<div class="popup__buttons">
-						<button type="button" class="popup__button">查看優惠</button>
-					</div>
+					<p class="popup__desc popup__desc--semibold">Người chiến thắng sẽ nhận được email thông báo trong 2 tuần để từ ngày kết thúc chương trình</p>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1280,20 +1313,22 @@
 					<div class="ico">
 						<i class="ico__stars"></i>
 					</div>
-					<p class="popup__title popup__title--large">恭喜您完成任務!</p>
+					<p class="popup__title popup__title--large">
+						<span class="highlight">Xin chúc mừng,</span>
+						Bạn đã chiến thắng!
+					</p>
 					<div class="coupon">
 						<div class="coupon__coupon coupon__coupon--secondary">
-							<p class="coupon__title">40</p>
-							<p class="coupon__unit">
-								% Off
-								<span class="coupon__text">Coupon</span>
+							<p class="coupon__unit">Coupon giảm giá</p>
+							<p class="coupon__title">
+								15
+								<span>%</span>
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列 僅可與2%會員優惠/5%新會員歡迎禮並用</p>
-					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
+					<p class="popup__desc popup__desc--semibold">Giá trị từ 5/12 - 18/12</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">查看優惠</button>
+						<button type="button" class="popup__button">Xem Coupon</button>
 					</div>
 					
 					<button type="button" class="popup__close" aria-label="close"></button>

@@ -367,7 +367,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="event__bottom">
+							<div class="event__bottom login__link">
 								<div class="event__left">
 									<p>Your Prize is Just One Star away</p>
 									<p>Sign Up Now or Login to Participate</p>
@@ -521,6 +521,9 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -590,6 +593,10 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -629,7 +636,7 @@
 															<img src="${path}/assets/images/img_product_showroom_gameday01_01.png" alt="LG OLED evo Gallery Edition G2 83">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG OLED evo Gallery Edition G2 83</p>
+															<p class="product__name">LG OLED evo Gallery Edition G2 83’’</p>
 															<ul class="product__desc">
 																<li>LG 4K SELF-LIT OLED evo for the most advanced and brightest OLED picture quality</li>
 																<li>Designed for the ultimate movie, gaming, sport viewing experience</li>
@@ -658,6 +665,10 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
 										</div>
 									</div>
 									<div class="product__track">
@@ -797,6 +808,9 @@
 												</div>
 											</div>
 										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+										</div>
 									</div>
 									<div class="product__track">
 										<div class="product__swiper"></div>
@@ -817,7 +831,7 @@
 							<h2 class="section__title">Sparkling Deal is coming soon</h2>
 							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">
-								<span class="break break--mobile">Save big on our limited stock product</span>for LG Members only
+								<span class="break break--mobile">Save big on our limited stock product</span> for LG Members only
 							</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
@@ -829,6 +843,7 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
+											<p class="product__comming">Coming Soon</p>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -864,9 +879,8 @@
 												</div>
 											</div>
 											<div class="button">
-												<p class="button__item button__item--disabled">COMING SOON</p>
-												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
@@ -1133,7 +1147,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">
 						Your Chance to Win a Prize is<br>
-						Just <span class="highlight">Three</span> Stars Away
+						Just <span class="highlight collect__count">Three</span> Stars Away
 					</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">FIND MORE STARS</button>
@@ -1202,7 +1216,7 @@
 		<!-- // win popup -->
 
 		<!-- win popup -->
-		<!-- <div class="popup win__popup__with__coupon">
+		<div class="popup win__popup__with__coupon">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -1212,7 +1226,7 @@
 					</p>
 					<div class="coupon">
 						<div class="coupon__coupon coupon__coupon--secondary">
-							<p class="coupon__title">15</p>
+							<p class="coupon__title coupon__percentage">15</p>
 							<p class="coupon__unit">
 								% Off
 								<span class="coupon__text">Coupon</span>
@@ -1229,7 +1243,7 @@
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<!-- // win popup -->
 		<!-- // popup -->
 

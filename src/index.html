@@ -146,13 +146,16 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MemebershipEvent" class="button__item button__item--red">TAKE PART</a>
+							<a href="#MembershipEvent" class="button__item button__item--red">TAKE PART</a>
 						</div>
 						<div class="visual__terms">
-							<a href="#" target="_blank" class="terms__link visual__link">
-								Terms &amp; Conditions
-								<i class="visual__arrow"></i>
-							</a>
+							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
+                data-link-name="memberdays_anchor_click_termsandconditions" 
+                data-link-area="memberdays_2022" 
+                class="terms__link visual__link">
+                Terms &amp; Conditions
+                <i class="visual__arrow"></i>
+              </a>
 						</div>
 					</div>
 				</div>
@@ -175,7 +178,7 @@
 									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
 							</li>
 							<li class="list-item">
-								<a href="#MemebershipEvent" 
+								<a href="#MembershipEvent" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_design_lifestyle" 
 									data-link-area="memberdays_2022" 
@@ -285,13 +288,12 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001');">
-					</div>
+					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 			</div>
 
-			<div class="anchors" id="MemebershipEvent"></div>
+			<div class="anchors" id="MembershipEvent"></div>
 			<div id="box_content1_1" class="section">
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
@@ -352,25 +354,24 @@
 									</div>
 								</div>
 							</div>
-							<div class="event__bottom">
+							<div class="event__bottom login__link">
 								<div class="event__left">
 									<p>Your Prize is Just One Star away</p>
 									<p>Sign Up Now or Login to Participate</p>
 								</div>
 								<div class="event__right">
-									<a href="#">LOGIN / SIGN-UP</a>
+									<a href="javascript:redirectToLoginPage();">LOGIN / SIGN-UP</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" class="section__text">
+							<a href="https://www.lg.com/uk/tncs/memberdays" class="section__text">
 								Terms &amp; Conditions
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002');">
-					</div>
+					<div class="lottie" onclick="showLotteryModal('1002', this);"></div>
 				</div>
 			</div>
 
@@ -3337,7 +3338,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005');"></div>
+					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
 				</div>
 			</div>
 		</div>
@@ -3395,7 +3396,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">
 						Your Chance to Win a Prize is<br>
-						Just <span class="highlight">Three</span> Stars Away
+						Just <span class="highlight collect__count">Three</span> Stars Away
 					</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">FIND MORE STARS</button>
@@ -3474,7 +3475,7 @@
 					</p>
 					<div class="coupon">
 						<div class="coupon__coupon coupon__coupon--secondary">
-							<p class="coupon__title">15</p>
+							<p class="coupon__title coupon__percentage">15</p>
 							<p class="coupon__unit">
 								% Off
 								<span class="coupon__text">Coupon</span>

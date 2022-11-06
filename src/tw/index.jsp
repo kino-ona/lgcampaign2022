@@ -9,14 +9,14 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="https://www.lg.com/tw/promotions/memberdays">
+	<link rel="canonical" href="https://www.lg.com/tw/memberdays-2022">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="zh_TW">
 	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣">
 	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
-	<meta property="og:url" content="https://www.lg.com/tw/promotions/memberdays">
+	<meta property="og:url" content="https://www.lg.com/tw/memberdays-2022">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGTW">
@@ -26,7 +26,7 @@
 		"@type": "Corporation",
 		"name": "LG 台灣",
 		"alternateName": "LG Electronics",
-		"url": "https://www.lg.com/tw/promotions/memberdays",
+		"url": "https://www.lg.com/tw/memberdays-2022",
 		"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
 			"sameAs": [
 		"https://www.facebook.com/LGTaiwan/ ",
@@ -40,7 +40,7 @@
 		"@context": "https://schema.org",
 		"@type": "WebSite",
 		"name": "LG 台灣",
-		"url": "https://www.lg.com/tw/promotions/memberdays",
+		"url": "https://www.lg.com/tw/memberdays-2022",
 			"potentialAction": {
 		"@type": "SearchAction",
 		"target": "https://www.lg.com/tw/search/search-all?search={search_term_string}",
@@ -368,7 +368,7 @@
 										<p class="event__title">首獎</p>
 										<p class="event__sub">旗艦機種 共3名</p>
 										<p class="event__desc event__desc--secondary">以下各乙台乙名</p>
-										<p class="event__desc event__desc--tertiary">OLED evo C2極致系列4K AI物聯網電視55吋 LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白) 27” Libero 自由機</p>
+										<p class="event__desc event__desc--tertiary">OLED evo C2極致系列4K AI物聯網電視55吋 LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器|Objet Collection® (雪霧白) 27” Libero 自由機</p>
 									</div>
 									<div class="event__gift">
 										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
@@ -527,10 +527,10 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/tw/img_product_showroom_home01_01.png" alt="LG WashTower™ AI智控洗乾衣機｜Objet Collection®">
+															<img src="${path}/assets/images/tw/img_product_showroom_home01_01.png" alt="LG WashTower™ AI智控洗乾衣機 | Objet Collection®">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG WashTower™ AI智控洗乾衣機｜Objet Collection®</p>
+															<p class="product__name">LG WashTower™ AI智控洗乾衣機 | Objet Collection®</p>
 															<ul class="product__desc">
 																<li>垂直流線式一體成型設計 全觸控中央控制面板</li>
 																<li>AI DD™人工智慧智選最適洗衣行程</li>
@@ -548,10 +548,10 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/tw/img_product_showroom_home01_02.png" alt="Styler®蒸氣電子衣櫥｜Objet Collection® (容量加大款)">
+															<img src="${path}/assets/images/tw/img_product_showroom_home01_02.png" alt="Styler®蒸氣電子衣櫥 | Objet Collection® (容量加大款)">
 														</div>
 														<div class="product__right">
-															<p class="product__name">Styler®蒸氣電子衣櫥｜Objet Collection® (容量加大款)</p>
+															<p class="product__name">Styler®蒸氣電子衣櫥 | Objet Collection® (容量加大款)</p>
 															<ul class="product__desc">
 																<li>清新除臭，去除衣物難聞異味</li>
 																<li>天然蒸氣60°殺菌除蟎 99.9%</li>
@@ -569,10 +569,10 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/tw/img_product_showroom_home01_03.png" alt="LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)">
+															<img src="${path}/assets/images/tw/img_product_showroom_home01_03.png" alt="LG CordZero™ A9T系列All-in-One濕拖無線吸塵器 | Objet Collection® (雪霧白)">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)</p>
+															<p class="product__name">LG CordZero™ A9T系列All-in-One濕拖無線吸塵器 | Objet Collection® (雪霧白)</p>
 															<ul class="product__desc">
 																<li>自動除塵 雙手真乾淨</li>
 																<li>UVC 紫外線殺菌 抑制灰塵表面細菌孳生</li>
@@ -718,7 +718,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#遊戲時光</em>
 									</h2>
-									<p class="section__sub">家就是我的劇院,與LG OLED及英國Meridian調音音響一起享受</p>
+									<p class="section__sub">家就是我的劇院, 與LG OLED及英國Meridian調音音響一起享受</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -920,7 +920,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1003');"></div>
+					<div class="lottie" onclick="showLotteryModal('1003', this);"></div>
 				</div>
 			</div>
 
@@ -945,7 +945,7 @@
 										</div> -->
 										<div class="product__img">
 											<p class="product__comming">即將登場</p>
-											<!-- <div class="product__more">視聽娛樂 豪享周</div> -->
+											<div class="product__more">視聽娛樂 豪享周</div>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -981,8 +981,8 @@
 												</div>
 											</div>
 											<div class="button">
-												<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
@@ -999,7 +999,7 @@
 							<p class="section__text">會員可合併使用2%會員優惠 及 5%新會員歡迎禮</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1004');"></div>
+					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
 				</div>
 			</div>
 
@@ -1106,9 +1106,9 @@
 											</div>
 										</div>
 										<div class="button">
-											<a href="#" class="button__item button__item--disabled">即將登場</a>
-											<!-- <a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a> -->
-											<!-- <a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a> -->
+											<!-- <a href="#" class="button__item button__item--disabled">即將登場</a> -->
+											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
 											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
@@ -1202,7 +1202,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005');"></div>
+					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
 				</div>
 			</div>
 		</div>
@@ -1400,17 +1400,6 @@
 	<!-- // default code -->
 	
 	<!-- your js -->
-	<script src="/lg5-common-gp/library/modal.min.js"></script>
-	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	
-	<script src="/lg5-common-gp/js/components/animation-asset.min.js"></script>
-	<script src="/lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="/lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="/lg5-common-gp/js/components/thumbnail-loop.min.js"></script>
-	<script src="/lg5-common-gp/js/components/video-asset.min.js"></script>
-
 	<script>
 		// if($('.add-to-cart').length > 0) {
     //   $('.add-to-cart').on('click', function (e) {
