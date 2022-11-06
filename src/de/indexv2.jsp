@@ -300,7 +300,7 @@
 							<div class="event__container">
 								<div class="event__round">
 									<div class="event__header">
-										<p class="event__category">Los geht´s</p>
+										<p class="event__category">Los geht's</p>
 										<p class="event__title">Finde alle Sterne auf der Seite und erhöhe deinen Chancen auf einen Gewinn</p>
 										<p class="event__desc">Teilnahme ist nur für ein Mitgliedskonto möglich</p>
 									</div>
@@ -1266,7 +1266,7 @@
 						You’ve Won!
 					</p>
 					<div class="popup__gift">
-						<img src="{path}/assets/images/img_popup_gift.png" alt="">
+						<img src="${path}/assets/images/img_popup_gift.png" alt="">
 						<div class="popup__label">
 							<p>
 								<span>99%</span>Off<br>

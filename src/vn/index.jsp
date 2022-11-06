@@ -81,7 +81,7 @@
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
 		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG Electronics Việt Nam"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="www.lg.com/uk/memberdays" />
+		<meta itemprop="url" content="www.lg.com/vn/lgmemberdays" />
 		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
@@ -102,7 +102,7 @@
 	</c:import> 
 	<!-- // breadcrumb -->
 
-	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
+	<c:set var='path' value='/${localeCd}/lgmemberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
 	<link rel="stylesheet" href="${path}/assets/css/index.css">
 	<link rel="stylesheet" href="${path}/assets/css/index_vn.css">
 	<link rel="stylesheet" href="/lg5-common-gp/css/customer-mylg-wish-list.min.css"> <!-- For import GET STOCK ALERT css  -->
@@ -137,8 +137,12 @@
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07551386|MD07552314|MD05849136|MD07541678|MD06061396|MD07549062|MD07522313|MD07555433"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/vn/images/hotdeal_product.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/vn/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/vn/hotdeal_product02.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/vn/hotdeal_product03.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
 			<!-- ex. multiple model thumb / alt text 
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
@@ -359,7 +363,7 @@
 												<p class="event__desc event__desc--tertiary">Người chiến thắng sẽ nhận được email thông báo trong 2 tuần để từ ngày kết thúc chương trình</p>
 											</div>
 											<div class="event__gift">
-												<img src="{path}/assets/images/vn/img_event_product.png" alt="">
+												<img src="${path}/assets/images/vn/img_event_product.png" alt="">
 											</div>
 										</div>
 										<div class="event__col">
@@ -569,7 +573,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="../assets/images/vn/img_product_showroom_home01_03.png" alt="Máy giặt sấy 15KG">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_03.png" alt="Máy giặt sấy 15KG">
 														</div>
 														<div class="product__right">
 															<p class="product__name">Máy giặt sấy 15KG</p>
@@ -590,7 +594,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="../assets/images/vn/img_product_showroom_home01_04.png" alt="Máy lọc không khí LG PuriCare 2 tầng (Safeplus)">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_04.png" alt="Máy lọc không khí LG PuriCare 2 tầng (Safeplus)">
 														</div>
 														<div class="product__right">
 															<p class="product__name">Máy lọc không khí LG PuriCare 2 tầng (Safeplus)</p>
@@ -610,7 +614,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="../assets/images/vn/img_product_showroom_home01_05.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_05.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
 														</div>
 														<div class="product__right">
 															<p class="product__name">Tủ chăm sóc quần áo thông minh - LG Styler</p>
@@ -1293,9 +1297,9 @@
 						Bạn đã chiến thắng!
 					</p>
 					<div class="popup__gift">
-						<img src="./assets/images/vn/img_popup_gift01.png" alt="">
-						<!-- <img src="./assets/images/vn/img_popup_gift02.png" alt=""> -->
-						<!-- <img src="./assets/images/vn/img_popup_gift03.png" alt=""> -->
+						<img src="${path}/assets/images/vn/img_popup_gift01.png" alt="">
+						<!-- <img src="${path}/assets/images/vn/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="${path}/assets/images/vn/img_popup_gift03.png" alt=""> -->
 					</div>
 					<p class="popup__desc popup__desc--semibold">Người chiến thắng sẽ nhận được email thông báo trong 2 tuần để từ ngày kết thúc chương trình</p>
 
@@ -1409,17 +1413,6 @@
 	<!-- // default code -->
 	
 	<!-- your js -->
-	<script src="/lg5-common-gp/library/modal.min.js"></script>
-	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	
-	<script src="/lg5-common-gp/js/components/animation-asset.min.js"></script>
-	<script src="/lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="/lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="/lg5-common-gp/js/components/thumbnail-loop.min.js"></script>
-	<script src="/lg5-common-gp/js/components/video-asset.min.js"></script>
-
 	<script>
 		// if($('.add-to-cart').length > 0) {
     //   $('.add-to-cart').on('click', function (e) {
@@ -1439,9 +1432,9 @@
 			var delay = setTimeout(function(){
 				$('.lottie').each(function(){
 					if(!$(this).hasClass('lottie--disabled')) {
-						$(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+						$(this).append("<lottie-player src='${path}/lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
 					}	else {
-						$(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+						$(this).append("<lottie-player src='${path}/lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
 					}
 				});
 				clearTimeout(delay);
