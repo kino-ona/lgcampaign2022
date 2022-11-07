@@ -19,7 +19,7 @@
 	<meta property="og:url" content="www.lg.com/de/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@LGUK">
+	<meta name="twitter:site" content="@LGDE">
 	<script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
