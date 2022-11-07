@@ -26,24 +26,24 @@
 	"@type": "Corporation",
 	"name": "LG Deutschland",
 	"alternateName": "LG Electronics",
-	"url": "www.lg.com/de/memberdays",
+	"url": "https://www.lg.com/de",
 	"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-	"sameAs": [
- "https://www.facebook.com/LGDeutschland",
- "https://twitter.com/lgdeutschland",
- "https://www.youtube.com/LGGermany",
- "https://www.instagram.com/lg_deutschland/"
- ]}
+	 "sameAs": [
+	"https://www.facebook.com/LGDeutschland",
+	"https://twitter.com/lgdeutschland",
+	"https://www.youtube.com/LGGermany",
+	"https://www.instagram.com/lg_deutschland/"
+	]}
 	</script>
 	<script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
 	"@type": "WebSite",
 	"name": "LG Deutschland",
-	"url": "www.lg.com/de/memberdays",
+	"url": "https://www.lg.com/de",
 	 "potentialAction": {
 	"@type": "SearchAction",
-	"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
+	"target": "https://www.lg.com/de/search/search-all?search={search_term_string}",
 	"query-input": "required name=search_term_string"}
 	}
 	</script>
@@ -152,7 +152,7 @@
         <div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h1 class="section__title">LG Member Days Kampagne startet bald</h1>
+							<h1 class="section__title">LG Member Days starten bald</h1>
 							<p class="section__desc">5. Dezember - 18. Dezember 2022</p>
 							<p class="section__sub">Bringe die Feiertage mit LG zum Strahlen</p>
 							<p class="section__desc">
@@ -164,7 +164,7 @@
 							<a href="#MembershipEvent" class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
-							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
+							<a href="#" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022" 
                 class="terms__link visual__link">
@@ -224,8 +224,8 @@
 						<div class="section__header">
 							<p class="section__sub">Exklusive Vorteile für LG Mitglieder</p>
 							<h2 class="section__title">
-								<span class="break break--desktop">Exklusive Vorteile &amp; strahlende Rabatte auf alle LG</span>
-								Produkte (außer OLED TV)
+								<span class="break break--desktop"><span class="break break--mobile">Exklusive Vorteile &amp; strahlende</span> Rabatte</span>
+								auf alle <span class="break break--mobile">LG Produkte</span>
 							</h2>
 						</div>
 						<div class="benefit">
@@ -362,7 +362,7 @@
 													10
 													<span>%</span>
 												</div>
-												<p class="event__desc event__desc--secondary">Discount coupon</p>
+												<p class="event__desc event__desc--secondary">Gutscheincode</p>
 											</div>
 										</div>
 										<div class="event__col">
@@ -376,7 +376,7 @@
 													10
 													<span>%</span>
 												</div>
-												<p class="event__desc event__desc--secondary">Discount coupon</p>
+												<p class="event__desc event__desc--secondary">Gutscheincode</p>
 											</div>
 										</div>
 									</div>
@@ -487,7 +487,7 @@
 										<span class="break break--mobile">Bringe dein</span>
 										<em>#zu Hause</em>
 										<span class="break break--mobile">mit LG zum</span>
-										Strahlen.
+										Strahlen!
 									</h2>
 									<p class="section__sub">
 										<span class="break break--mobile">Frische Kleidung. Ein strahlendes zu</span>
@@ -597,7 +597,7 @@
 										<span class="break break--mobile">Bringe dein</span>
 										<em>#Familientreffen</em>
 										<span class="break break--mobile">mit LG zum</span>
-										Strahlen.
+										Strahlen!
 									</h2>
 									<p class="section__sub">
 										<span class="break break--mobile">Schaffe mit Hilfe von den LG</span>
@@ -668,9 +668,9 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#Gaming</em>
+										<em>#Game day</em>
 										<span class="break break--mobile">mit LG zum</span>
-										Strahlen.
+										Strahlen!
 									</h2>
 									<p class="section__sub">
 										<span class="break break--mobile">Hole dir dein ganz persönliches Stadion</span> <span class="break break--mobile">Erlebnis mit dem OLED TV und der</span>Soundbar nach Hause
@@ -795,12 +795,12 @@
 										<span class="break break--mobile">Bringe dein</span>
 										<em>#Erinnerungen</em>
 										<span class="break break--mobile">mit LG zum</span>
-										Strahlen.
+										Strahlen!
 									</h2>
 									<p class="section__sub">
 										<span class="break break--mobile">Teile deine besonderen</span>
 										<span class="break break--mobile">Feiertagserinnerungen</span>
-										mit LG gram
+										mit dem LG gram
 									</p>
 								</div>
 								<div class="product">
@@ -1081,7 +1081,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/tvs" 
+										<a href="https://www.lg.com/de/tv" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1100,7 +1100,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/speakers-sound-systems" 
+										<a href="https://www.lg.com/de/audio" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1110,7 +1110,7 @@
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
 											data-link-area="memberdays_2022"
 											class="button__item button__item--white">SEE MORE SOUND SYSTEMS</a>
-										<a href="https://www.lg.com/uk/true-wireless-earbuds" 
+										<a href="https://www.lg.com/de/bluetooth-kopfhoerer" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1129,7 +1129,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/appliances" 
+										<a href="https://www.lg.com/de/haushaltsgeraete" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1148,7 +1148,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/computer-products" 
+										<a href="https://www.lg.com/de/it-produkte" 
 											target="_blank" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022"
@@ -1361,23 +1361,12 @@
 	<!-- // default code -->
 	
 	<!-- your js -->
-	<script src="/lg5-common-gp/library/modal.min.js"></script>
-	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	
-	<script src="/lg5-common-gp/js/components/animation-asset.min.js"></script>
-	<script src="/lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="/lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="/lg5-common-gp/js/components/thumbnail-loop.min.js"></script>
-	<script src="/lg5-common-gp/js/components/video-asset.min.js"></script>
-
 	<script>
-		// if($('.add-to-cart').length > 0) {
-    //   $('.add-to-cart').on('click', function (e) {
-    //     fbq('trackCustom', '2022GMCMemberDay AddToBasket');
-    //   });
-    // }
+		if($('.add-to-cart').length > 0) {
+      $('.add-to-cart').on('click', function (e) {
+        fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+      });
+    }
 	</script>
 	
 	<!-- UI Script -->
@@ -1402,7 +1391,7 @@
 	</script>
 	<!--// UI Script -->
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 	(function(w, d, a){
     w.__beusablerumclient__ = {
       load : function(src){
@@ -1412,6 +1401,6 @@
       }
     };w.__beusablerumclient__.load(a);
 	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
-	</script> -->
+	</script>
 </body>
 </html>

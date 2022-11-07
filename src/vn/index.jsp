@@ -116,26 +116,18 @@
 			<!-- Required input ## Model List Start -->
 			<!-- Event Gift Model -->
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07550644"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07555327"/>
+			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07530466"/>
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07550735"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07551552"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07552884"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07543403"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07542484"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07554691"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD06216996"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07515556"/>
-			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07518800"/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07548844|MD07559264|MD07548889|MD07521229|MD07521230|MD07521166|MD06061357|MD07560602|MD07544285|MD07544333|MD07544338|MD07530319|MD07530466"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07563138|MD07559264|MD07548889|MD07521229|MD07521230|MD07521166|MD06061357|MD07560602|MD07544285|MD07544333|MD07544338|MD07530319|MD07530466"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07527542|MD07549194|MD07549314|MD07525606|MD07525615"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07550743|MD07550715|MD07550722|MD07559969|MD07559899"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07551331|MD07550715|MD07550722|MD07559969|MD07559899"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07518447|MD07506953|MD07557214|MD07560074|MD07561321|MD07560002|MD07561295|MD07555392|MD07555367|MD07555397"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07555425|MD07527328|MD07527366"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07551386|MD07552314|MD05849136|MD07541678|MD06061396|MD07549062|MD07522313|MD07555433"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07549062|MD07525606|MD07525612|MD07550722|MD07523845|MD07551573|MD05849136|MD05849142|MD07549398|MD07550509|MD07544285|MD07544333|MD07544338|MD07553545|MD07555327|MD07506953|MD07524754|MD07555425"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/vn/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
@@ -143,16 +135,42 @@
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/vn/hotdeal_product03.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-			<!-- ex. multiple model thumb / alt text 
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			-->
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/vn/hotdeal_product04.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/vn/hotdeal_product05.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/vn/hotdeal_product06.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb7" value="${path}/assets/images/vn/hotdeal_product07.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt7" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb8" value="${path}/assets/images/vn/hotdeal_product08.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt8" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb9" value="${path}/assets/images/vn/hotdeal_product09.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt9" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb10" value="${path}/assets/images/vn/hotdeal_product10.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt10" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb11" value="${path}/assets/images/vn/hotdeal_product11.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt11" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb12" value="${path}/assets/images/vn/hotdeal_product12.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt12" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/vn/hotdeal_product13.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb14" value="${path}/assets/images/vn/hotdeal_product14.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt14" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb15" value="${path}/assets/images/vn/hotdeal_product15.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt15" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb16" value="${path}/assets/images/vn/hotdeal_product16.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt16" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb17" value="${path}/assets/images/vn/hotdeal_product17.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt17" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb18" value="${path}/assets/images/vn/hotdeal_product18.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt18" value="Limited to 100 units"/>
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07546571"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07535403"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07548844"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07553045"/>
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07551482|MD07551504|MD07551331|MD07551385|MD07551392|MD07551393|MD07551512|MD07551564|MD07551573|MD07553101|MD07552962|MD07552957|MD07551203|MD07551233|MD07551239|MD07551245"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07530013|MD07530005|MD07514112|MD07507391|MD07510843|MD07510755|MD07535558|MD07537967|MD07537988|MD07537974"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07516997|MD07515551|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07549912|MD07560908|MD07560884|MD07554691|MD07555673|MD07553698|MD07522264|MD07544522"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07507428|MD07524665|MD07527480|MD07553471|MD07553537|MD07529949|MD07555288|MD07510661|MD07533754|MD07557204|MD07527350|MD07521897|MD07527461|MD07533848|MD07555367|MD07550771"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -163,7 +181,7 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<h1 class="section__title">NGÀY HỘI THÀNH VIÊN LG SẮP QUAY TRỞ LẠI</h1>
-							<p class="section__desc">28/11 – 18/12</p>
+							<p class="section__desc">5/12 - 18/12</p>
 							<p class="section__sub">Thắp sáng mùa lễ hội với LG</p>
 							<p class="section__desc">
 								Đăng ký để không bỏ lỡ giải thưởng cực hấp dẫn<br>
@@ -171,14 +189,14 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MembershipEvent" class="button__item button__item--red">THAM GIA NGAY</a>
+							<a href="#MembershipEvent" class="button__item button__item--red">Tham gia ngay</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022" 
                 class="terms__link visual__link">
-								Điều khoảng & Điều kiện
+								Điều khoảng &amp; Điều kiện
                 <i class="visual__arrow"></i>
               </a>
 						</div>
@@ -297,7 +315,7 @@
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								Điều khoản và Điều kiện
+								Điều khoảng &amp; Điều kiện
 								<i></i>
 							</a>
 						</div>
@@ -370,7 +388,7 @@
 											<div class="event__header">
 												<p class="event__title">Giải Nhì</p>
 												<p class="event__sub">Coupon giảm giá 15%</p>
-												<p class="event__desc event__desc--secondary"><span class="break break--mobile">Dành cho 50 người</span> chơi duy nhất</p>
+												<p class="event__desc event__desc--secondary"><span class="break break--mobile">Dành cho 59 người</span> chơi duy nhất</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
@@ -399,8 +417,8 @@
 										<div class="event__col">
 											<div class="event__header">
 												<p class="event__title">Giải Khuyến Khích</p>
-												<p class="event__sub">Coupon giảm giá 10%</p>
-												<p class="event__desc event__desc--secondary"><span class="break break--mobile">Dành cho 1000 người</span> chơi duy nhất</p>
+												<p class="event__sub">Coupon giảm giá 5%</p>
+												<p class="event__desc event__desc--secondary"><span class="break break--mobile">Dành cho 300 người</span> chơi duy nhất</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
@@ -428,7 +446,7 @@
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								Điều khoản và Điều kiện
+								Điều khoảng &amp; Điều kiện
 								<i></i>
 							</a>
 						</div>
@@ -517,7 +535,7 @@
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Trang trí cho</span>
-										<em>#Ngôi Nhà</em>
+										<em>#TổẤm</em>
 										<span class="break break--mobile">của bạn cùng LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Quần áo thơm mới. Ngôi nhà ấm cúng. Bạn</span> có thể bắt đầu mùa Lễ Hội rồi</p>
@@ -533,68 +551,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_home01_01.png" alt="Máy hút bụi cầm tay LG CordZero với All-in-one Tower">
-														</div>
-														<div class="product__right">
-															<p class="product__name">Máy hút bụi cầm tay LG CordZero với All-in-one Tower</p>
-															<ul class="product__desc">
-																<li>Giải pháp hút bụi toàn diện</li>
-																<li>Thùng chứa với chế độ tự động đổ rác</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_dvhp09b"
-														data-link-area="memberdays_2022"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_home01_02.png" alt="Máy sấy LG DUAL Inverter Heat Pump™ 9kg (đen) DVHP09B">
-														</div>
-														<div class="product__right">
-															<p class="product__name">Máy sấy LG DUAL Inverter Heat Pump™ 9kg (đen) DVHP09B</p>
-															<ul class="product__desc">
-																<li>Điều khiển thông minh với ThinQ™</li>
-																<li>Công nghệ DUAL Inverter Heat Pump™ tối ưu hiệu quả sấy và tiết kiệm điện</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_f2515rtgb"
-														data-link-area="memberdays_2022"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_home01_03.png" alt="Máy giặt sấy 15KG">
-														</div>
-														<div class="product__right">
-															<p class="product__name">Máy giặt sấy 15KG</p>
-															<ul class="product__desc">
-																<li>Làm sạch sâu, đem lại sự nhẹ nhàng</li>
-																<li>Chăm sóc thông minh với khả năng bảo vệ vải tốt hơn 15%</li>
-																<li>Giặt nhanh và sạch với TurboWash™</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
-											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_as10gdwh0"
-														data-link-area="memberdays_2022"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_home01_04.png" alt="Máy lọc không khí LG PuriCare 2 tầng (Safeplus)">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_01.png" alt="Máy lọc không khí LG PuriCare 2 tầng (Safeplus)">
 														</div>
 														<div class="product__right">
 															<p class="product__name">Máy lọc không khí LG PuriCare 2 tầng (Safeplus)</p>
@@ -609,18 +566,59 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/styler/lg-s3mfc" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_s3mfc"
+													<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_dvhp09b"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_home01_05.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_02.png" alt="LG WashTower™ Tháp giặt sấy cao cấp với bộ điều khiển trung tâm">
+														</div>
+														<div class="product__right">
+															<p class="product__name">LG WashTower™ Tháp giặt sấy cao cấp với bộ điều khiển trung tâm</p>
+															<ul class="product__desc">
+																<li>Trung tâm điều khiển</li>
+																<li>Tích hợp giải pháp giặt thông minh</li>
+																<li>TurboWash™ 360 / Sấy khô</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_f2515rtgb"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_03.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
 														</div>
 														<div class="product__right">
 															<p class="product__name">Tủ chăm sóc quần áo thông minh - LG Styler</p>
 															<ul class="product__desc">
 																<li>Loại bỏ nếp nhăn và mùi</li>
 																<li>Ngăn ngừa sự co vải và hư hỏng</li>
+															</ul>
+														</div>
+													</a>
+												</div>
+											</div>
+											<div class="product__layer">
+												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<div class="product__target">
+													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
+														data-link-name="memberdays_productMouseHover_home_as10gdwh0"
+														data-link-area="memberdays_2022"
+														class="product__link">
+														<div class="product__img">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_04.png" alt="Máy hút bụi cầm tay LG CordZero với All-in-one Tower">
+														</div>
+														<div class="product__right">
+															<p class="product__name">Máy hút bụi cầm tay LG CordZero với All-in-one Tower</p>
+															<ul class="product__desc">
+																<li>Giải pháp hút bụi toàn diện</li>
+																<li>Thùng chứa với chế độ tự động đổ rác</li>
 															</ul>
 														</div>
 													</a>
@@ -718,8 +716,8 @@
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Giúp</span>
-										<em>#Cuộc chơi</em>
-										<span class="break break--mobile">thêm vui cùng LG</span>
+										<em>#Cuộc chơi</em> thêm
+										<span class="break break--mobile">náo nhiệt cùng LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Mang sân bóng về Ngôi nhà của bạn với</span> OLED TV và Loa Thanh</p>
 								</div>
@@ -734,13 +732,13 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_gameday01_01.png" alt="LG A2 77 inch">
+															<img src="${path}/assets/images/vn/img_product_showroom_gameday01_01.png" alt="NanoCell">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG A2 77 inch</p>
+															<p class="product__name">NanoCell</p>
 															<ul class="product__desc">
-																<li>LG OLED, SELF-LIT OLED 4K</li>
-																<li>Bộ xử lý AI α7 Thế hệ 5</li>
+																<li>Màu sắc tinh khiết, chân thực 4K</li>
+																<li>Công nghệ NanoCell</li>
 															</ul>
 														</div>
 													</a>
@@ -858,9 +856,9 @@
 								<div class="section__header">
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Giúp những
-										<em>#Khoảnh</em></span>
-										Khắc của bạn thêm đáng nhớ với LG
+										<span class="break break--mobile">Giúp những</span>
+										<em>#Khoảnh khắc</em> của bạn
+										<span class="break break--mobile">thêm đáng nhớ với LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Lưu lại trọn vẹn và chia sẻ những khoảnh</span> khắc trong kì nghỉ lễ của bạn với LG gram</p>
 								</div>
@@ -930,7 +928,7 @@
 						<div class="section__header">
 							<h2 class="section__title">Ưu đãi Mùa Lễ Hội sắp diễn ra</h2>
 							<p class="section__desc">5/12 - 18/12</p>
-							<p class="section__sub">Giảm giá cực hời với số lượng có hạn - chỉ áp dụng với thành viên LG</p>
+							<p class="section__sub">Ưu đãi tới 50% - Số lượng có hạn - Chỉ áp dụng với thành viên LG</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -1110,7 +1108,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/tvs" 
+										<a href="https://www.lg.com/vn/tivi" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1129,7 +1127,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/speakers-sound-systems" 
+										<a href="https://www.lg.com/vn/sound-bar" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1139,7 +1137,7 @@
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
 											data-link-area="memberdays_2022"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
-										<a href="https://www.lg.com/uk/true-wireless-earbuds" 
+										<a href="https://www.lg.com/vn/tai-nghe-khong-day" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1158,7 +1156,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/appliances" 
+										<a href="https://www.lg.com/vn/thiet-bi-dien-gia-dung" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1177,7 +1175,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/computer-products" 
+										<a href="https://www.lg.com/vn/san-pham-tin-hoc" 
 											target="_blank" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022"
@@ -1414,11 +1412,11 @@
 	
 	<!-- your js -->
 	<script>
-		// if($('.add-to-cart').length > 0) {
-    //   $('.add-to-cart').on('click', function (e) {
-    //     fbq('trackCustom', '2022GMCMemberDay AddToBasket');
-    //   });
-    // }
+		if($('.add-to-cart').length > 0) {
+      $('.add-to-cart').on('click', function (e) {
+        fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+      });
+    }
 	</script>
 	
 	<!-- UI Script -->
@@ -1443,7 +1441,7 @@
 	</script>
 	<!--// UI Script -->
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 	(function(w, d, a){
     w.__beusablerumclient__ = {
       load : function(src){
@@ -1453,6 +1451,6 @@
       }
     };w.__beusablerumclient__.load(a);
 	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
-	</script> -->
+	</script>
 </body>
 </html>

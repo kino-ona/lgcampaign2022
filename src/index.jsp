@@ -1318,23 +1318,12 @@
 	<!-- // default code -->
 	
 	<!-- your js -->
-	<script src="/lg5-common-gp/library/modal.min.js"></script>
-	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.event.move.min.js"></script>
-	<script src="/lg5-common-gp/library/jquery.twentytwenty.min.js"></script>
-	
-	<script src="/lg5-common-gp/js/components/animation-asset.min.js"></script>
-	<script src="/lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="/lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="/lg5-common-gp/js/components/thumbnail-loop.min.js"></script>
-	<script src="/lg5-common-gp/js/components/video-asset.min.js"></script>
-
 	<script>
-		// if($('.add-to-cart').length > 0) {
-    //   $('.add-to-cart').on('click', function (e) {
-    //     fbq('trackCustom', '2022GMCMemberDay AddToBasket');
-    //   });
-    // }
+		if($('.add-to-cart').length > 0) {
+      $('.add-to-cart').on('click', function (e) {
+        fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+      });
+    }
 	</script>
 	
 	<!-- UI Script -->
@@ -1359,7 +1348,7 @@
 	</script>
 	<!--// UI Script -->
 
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 	(function(w, d, a){
     w.__beusablerumclient__ = {
       load : function(src){
@@ -1369,6 +1358,6 @@
       }
     };w.__beusablerumclient__.load(a);
 	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
-	</script> -->
+	</script>
 </body>
 </html>

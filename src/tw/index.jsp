@@ -151,6 +151,7 @@
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537152||MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07543873|MD07524907|MD07544495|MD07537639|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07562781|MD07555523"/>
+			<input type="hidden" data-model-group="hottest" data-type="screen" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07562781|MD07555523"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -163,10 +164,10 @@
 							<h1 class="section__title">LG璀璨會員日 即將登場</h1>
 							<p class="section__desc">11/30-12/13</p>
 							<p class="section__sub">點亮您的冬季佳節</p>
-							<p class="section__desc">立即註冊 就有機會贏得大獎 以及獨家優惠</p>
+							<p class="section__desc">簡單註冊  即有機會贏得大獎及獨家優惠</p>
 						</div>
 						<div class="button">
-							<a href="#MembershipEvent" class="button__item button__item--red">立即參加</a>
+							<a href="#MembershipEvent" class="button__item button__item--red">查看詳情</a>
 						</div>
 						<div class="visual__terms">
 							<a href="#" target="_blank" class="terms__link visual__link">
@@ -220,7 +221,7 @@
 						<div class="section__header">
 							<p class="section__sub">LG會員獨家</p>
 							<h2 class="section__title">全系列產品 限定璀璨折扣</h2>
-							<p class="section__sub">以下三項優惠，會員可合併使用</p>
+							<p class="section__sub">以下三項優惠, 會員可合併使用</p>
 						</div>
 						<div class="benefit">
 							<div class="coupon">
@@ -235,7 +236,7 @@
 										</div>
 										<div class="coupon__info">
 											<p class="coupon__title">會員專屬優惠</p>
-											<p class="coupon__text">簡單註冊，未來訂單皆享折扣</p>
+											<p class="coupon__text">簡單註冊, 未來訂單皆享折扣</p>
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -325,15 +326,15 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">璀璨閃耀 每個日子</p>
-							<h2 class="section__title">立即參加 即可獲得璀璨好禮</h2>
+							<h2 class="section__title">立即解鎖任務 獲得璀璨好禮</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
 								<div class="event__round">
 									<div class="event__header">
-										<p class="event__category">如何參加</p>
-										<p class="event__title">一起簡單找星星 即刻參加抽獎</p>
-										<p class="event__desc">活動僅限會員參加，註冊另享歡迎禮</p>
+										<p class="event__category">如何解鎖任務</p>
+										<p class="event__title">找星星 抽大獎</p>
+										<p class="event__desc">活動僅限會員參加, 註冊另享歡迎禮</p>
 									</div>
 									<div class="event__process">
 										<ol>
@@ -374,13 +375,13 @@
 										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
 									</div>
 									<div class="event__info">
-										<p class="event__text">得獎者將於活動結束後</p>
+										<p class="event__text">得獎者將於活動結束後3周內公布並通知</p>
 									</div>
 									<div class="event__row">
 										<div class="event__col">
 											<div class="event__header">
 												<p class="event__title">二獎</p>
-												<p class="event__sub">最高6折優惠</p>
+												<p class="event__sub">6折優惠序號</p>
 												<p class="event__desc event__desc--secondary">限量20名</p>
 												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
 											</div>
@@ -395,7 +396,7 @@
 										<div class="event__col">
 											<div class="event__header">
 												<p class="event__title">參加獎</p>
-												<p class="event__sub">最低85折優惠</p>
+												<p class="event__sub">85折優惠序號</p>
 												<p class="event__desc event__desc--secondary">人人有獎</p>
 												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
 											</div>
@@ -416,10 +417,9 @@
 							<div class="event__bottom">
 								<div class="event__left">
 									<p>只差一步 就可贏得大獎</p>
-									<p>立即登入/ 註冊</p>
 								</div>
 								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();">登入 / 註冊</a>
+									<a href="javascript:redirectToLoginPage();">立即登入/註冊</a>
 								</div>
 							</div>
 						</div>
@@ -514,7 +514,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#舒適家居</em>
 									</h2>
-									<p class="section__sub">清新衣物，舒適家居，一起舒適共度冬季佳節</p>
+									<p class="section__sub">輕鬆打理居家環境, 共度舒適冬季佳節</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -553,9 +553,9 @@
 														<div class="product__right">
 															<p class="product__name">Styler®蒸氣電子衣櫥 | Objet Collection® (容量加大款)</p>
 															<ul class="product__desc">
-																<li>清新除臭，去除衣物難聞異味</li>
+																<li>清新除臭, 去除衣物難聞異味</li>
 																<li>天然蒸氣60°殺菌除蟎 99.9%</li>
-																<li>WiFi遠控，雲端客製衣物護理行程</li>
+																<li>WiFi遠控, 雲端客製衣物護理行程</li>
 															</ul>
 														</div>
 													</a>
@@ -607,7 +607,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#美食聚會</em>
 									</h2>
-									<p class="section__sub">與LG智慧家電一起輕鬆打理聚會</p>
+									<p class="section__sub">備餐、清潔好幫手, 歡樂相聚無負擔</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -625,7 +625,7 @@
 														<div class="product__right">
 															<p class="product__name">InstaView™敲敲看門中門冰箱 星夜黑/734公升</p>
 															<ul class="product__desc">
-																<li>.敲敲看門中門，減少41%冷流流失，保鮮更省電; 直驅變頻壓縮機精準溫控，延長7天保鮮</li>
+																<li>.敲敲看門中門, 減少41%冷流流失, 保鮮更省電; 直驅變頻壓縮機精準溫控, 延長7天保鮮</li>
 																<li>Uvnano 安心飲用</li>
 															</ul>
 														</div>
@@ -718,7 +718,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#遊戲時光</em>
 									</h2>
-									<p class="section__sub">家就是我的劇院, 與LG OLED及英國Meridian調音音響一起享受</p>
+									<p class="section__sub">LG OLED還原真實色彩, 簡單打造家庭劇院</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -789,7 +789,7 @@
 										<em>#休閒時刻</em>
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來，大顯身手</span>
+										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來, 大顯身手</span>
 										Gaming Gear
 									</p>
 								</div>
@@ -841,7 +841,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#美好回憶</em>
 									</h2>
-									<p class="section__sub">用LG gram儲存你的美好假期回憶</p>
+									<p class="section__sub">假期回憶, 值得安心珍藏</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -860,7 +860,7 @@
 															<p class="product__name">27" Libero 自由機</p>
 															<ul class="product__desc">
 																<li>27 吋 QHD (2560 x 1440) IPS 螢幕</li>
-																<li>IPS面板達色域 sRGB 99%，色彩準確不失真</li>
+																<li>IPS面板達色域 sRGB 99%, 色彩準確不失真</li>
 															</ul>
 														</div>
 													</a>
@@ -881,7 +881,7 @@
 															<ul class="product__desc">
 																<li>16” 16:10 WQXGA (2560 x 1600) IPS 螢幕</li>
 																<li>Windows 11 Home</li>
-																<li>第 12 代Intel® Core™ 處理器，獲 Intel® Evo 平台驗證</li>
+																<li>第 12 代Intel® Core™ 處理器, 獲 Intel® Evo 平台驗證</li>
 															</ul>
 														</div>
 													</a>
@@ -901,7 +901,7 @@
 															<p class="product__name">LG TONE Free 真無線藍牙耳機 T90</p>
 															<ul class="product__desc">
 																<li>世界首創真無線杜比藍牙耳機 - 自然環繞音場</li>
-																<li>石墨烯振膜單體- 減少振動，提供準確清晰的聲音</li>
+																<li>石墨烯振膜單體- 減少振動, 提供準確清晰的聲音</li>
 															</ul>
 														</div>
 													</a>
@@ -929,11 +929,8 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">璀璨產品周 即將登場</h2>
-							<p class="section__desc">
-								11/30-12/13
-							</p>
-							<p class="section__sub">年度最佳優惠 官方會員 限量搶購</p>
+							<h2 class="section__title">限量璀璨價 搶購倒數</h2>
+							<p class="section__desc">年終鉅獻 限量8折</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -945,7 +942,6 @@
 										</div> -->
 										<div class="product__img">
 											<p class="product__comming">即將登場</p>
-											<div class="product__more">視聽娛樂 豪享周</div>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -996,7 +992,10 @@
 							</div>
 						</div>
 						<div class="section__footer section__footer--center">
-							<p class="section__text">會員可合併使用2%會員優惠 及 5%新會員歡迎禮</p>
+							<p class="section__text">
+								會員可合併使用2%會員優惠及5%新會員歡迎禮<br>
+								折扣優惠將顯示於結帳購物車頁面
+							</p>
 						</div>
 					</div>
 					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
@@ -1009,7 +1008,7 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">旗艦熱銷 點亮生活</p>
-							<h2 class="section__title">LG 會員日 期間優惠 即將登場</h2>
+							<h2 class="section__title">熱銷精選 限時優惠</h2>
 							<p class="section__sub">11/30-12/13</p>
 						</div>
 						<div class="tab">
@@ -1125,7 +1124,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/tvs" 
+										<a href="https://www.lg.com/tw/tv-home-entertainment" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1144,7 +1143,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/speakers-sound-systems" 
+										<a href="https://www.lg.com/tw/speakers" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1154,7 +1153,7 @@
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
 											data-link-area="memberdays_2022"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
-										<a href="https://www.lg.com/uk/true-wireless-earbuds" 
+										<a href="https://www.lg.com/tw/true-wireless-bluetooth-headset" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1173,7 +1172,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/appliances" 
+										<a href="https://www.lg.com/tw/home-appliances" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1192,7 +1191,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/computer-products" 
+										<a href="https://www.lg.com/tw/it-products" 
 											target="_blank" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022"
@@ -1227,11 +1226,13 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">立即登入參加
-						簡單找星星　人人享優惠</p>
+					<p class="popup__title">
+						立即登入參加<br>
+						找星星抽大獎任務!
+					</p>
 					<p class="popup__desc">
 						還不是會員？<br>
-						簡單加入　另享好禮
+						立即註冊加贈歡迎禮
 					</p>
 					<div class="popup__buttons">
 						<a href="javascript:redirectToLoginPage();" class="popup__button">登入/註冊</a>
@@ -1273,7 +1274,7 @@
 						<div class="star"></div>
 						<div class="star"></div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">輕鬆贏得優惠只差幾步！</p>
+					<p class="popup__desc popup__desc--semibold">贏得優惠 只差幾步!</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">尋找更多星星</button>
 					</div>
@@ -1330,7 +1331,7 @@
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列 僅可與2%會員優惠/5%新會員歡迎禮並用</p>
+					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列僅可與2%會員優惠/5%新會員歡迎禮合併使用</p>
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">查看優惠</button>
@@ -1415,11 +1416,11 @@
 	
 	<!-- your js -->
 	<script>
-		// if($('.add-to-cart').length > 0) {
-    //   $('.add-to-cart').on('click', function (e) {
-    //     fbq('trackCustom', '2022GMCMemberDay AddToBasket');
-    //   });
-    // }
+		if($('.add-to-cart').length > 0) {
+      $('.add-to-cart').on('click', function (e) {
+        fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+      });
+    }
 	</script>
 	
   <!-- UI script -->
@@ -1442,7 +1443,7 @@
 			}, 600);
 		}
 	</script>
-	<!-- 
+	
 	<script type="text/javascript">
 	(function(w, d, a){
     w.__beusablerumclient__ = {
@@ -1453,6 +1454,6 @@
       }
     };w.__beusablerumclient__.load(a);
 	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
-	</script> -->
+	</script>
 </body>
 </html>
