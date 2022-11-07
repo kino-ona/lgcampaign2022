@@ -154,19 +154,21 @@
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
-		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersweek phase2" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
 				<div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h1 class="section__title">LG璀璨會員日 即將登場</h1>
-							<p class="section__desc">11/30-12/13</p>
+							<h1 class="section__title">LG 璀璨會員日</h1>
 							<p class="section__sub">點亮您的冬季佳節</p>
-							<p class="section__desc">立即註冊 就有機會贏得大獎 以及獨家優惠</p>
+							<p class="section__desc">
+								超值優惠 官方會員獨享<br>
+								即日起至12/13
+							</p>
 						</div>
 						<div class="button">
-							<a href="#MembershipEvent" class="button__item button__item--red">立即參加</a>
+							<a href="#MembershipEvent" class="button__item button__item--red">查看產品</a>
 						</div>
 						<div class="visual__terms">
 							<a href="#" target="_blank" class="terms__link visual__link">
@@ -202,12 +204,15 @@
 									class="link">發掘會員精彩活動</a>
 							</li>
 							<li class="list-item">
-								<a href="#HolidayCollection" 
+								<a href="#SparklingDeals" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_hottest_product" 
 									data-link-area="memberdays_2022" 
-									class="link">瀏覽我們的節日精選</a>
-								</li>
+									class="link">查看產品周優惠</a>
+              </li>
+              <li class="list-item">
+                <a href="#HolidayCollection" class="link">查看熱銷精選</a>
+              </li>
 						</ul>
 					</div>
 				</div>
@@ -240,7 +245,6 @@
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
-											<span class="coupon__flag">即將登場</span>
 											<p class="coupon__title">88</p>
 											<p class="coupon__unit">
 												折
@@ -585,7 +589,6 @@
 												</div>
 											</div>
 										</div>
-
 										<div class="tab__indicator">
 											<button type="button" class="tab__next"></button>
 										</div>
@@ -695,7 +698,6 @@
 												</div>
 											</div>
 										</div>
-
 										<div class="tab__indicator">
 											<button type="button" class="tab__prev"></button>
 											<button type="button" class="tab__next"></button>
@@ -763,8 +765,7 @@
 													</a>
 												</div>
 											</div>
-										</div>
-										
+										</div>								
 										<div class="tab__indicator">
 											<button type="button" class="tab__prev"></button>
 											<button type="button" class="tab__next"></button>
@@ -817,8 +818,7 @@
 													</a>
 												</div>
 											</div>
-										</div>
-										
+										</div>	
 										<div class="tab__indicator">
 											<button type="button" class="tab__prev"></button>
 											<button type="button" class="tab__next"></button>
@@ -908,7 +908,6 @@
 												</div>
 											</div>
 										</div>
-										
 										<div class="tab__indicator">
 											<button type="button" class="tab__prev"></button>
 										</div>
@@ -1009,8 +1008,52 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">旗艦熱銷 點亮生活</p>
-							<h2 class="section__title">LG 會員日 期間優惠 即將登場</h2>
-							<p class="section__sub">11/30-12/13</p>
+							<h2 class="section__title">
+								盡情採買 優惠加倍<br>
+								限量優惠 只到12/13
+							</h2>
+							<p class="section__desc">
+								購買兩件以上產品 最高享88折 <em class="highlight">(最低95折，會員可合併使用2%會員優惠 及 5%歡迎禮)</em>
+								<span>(璀璨產品周之優惠、SIGNATURE、配件產品不適用)</span>
+							</p>
+						</div>
+            <div class="discount">
+							<div class="discount__list">
+								<div class="discount__item">
+									<div class="discount__inner">
+										<div class="discount__ico discount__ico--washing">
+											<i></i>
+										</div>
+										<p class="discount__name">Product 1</p>
+									</div>
+								</div>
+								<div class="discount__item">
+									<div class="discount__inner">
+										<div class="discount__ico discount__ico--tv">
+											<i></i>
+										</div>
+										<p class="discount__name">Product 2</p>
+									</div>
+								</div>
+								<div class="discount__item">
+									<div class="discount__inner">
+										<ul class="discount__number">
+											<li>
+												<p class="discount__total">最低95折</p>
+											</li>
+											<li>
+												<p>會員可合併使用2%會員優惠 及</p>
+											</li>
+											<li>
+												<p>5%新會員歡迎禮</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="discount__noti">
+								<p class="discount__text">點擊查看更多產品</p>
+							</div>
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -1120,6 +1163,10 @@
 								</li>
 							</template>
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
+								<p class="tab__noti">
+									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									會員即可點擊購物車內優惠券！
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1139,6 +1186,10 @@
 								</div>
 							</div>
 							<div id="audio" class="tab__panel">
+								<p class="tab__noti">
+									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									會員即可點擊購物車內優惠券！
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1168,6 +1219,10 @@
 								</div>
 							</div>
 							<div id="homeappliance" class="tab__panel">
+								<p class="tab__noti">
+									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									會員即可點擊購物車內優惠券！
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1187,20 +1242,10 @@
 								</div>
 							</div>
 							<div id="computerproducts" class="tab__panel">
-								<div class="product">
-									<div class="product__mask">
-										<ul class="product__list"></ul>
-									</div>
-									<div class="button">
-										<a href="https://www.lg.com/uk/computer-products" 
-											target="_blank" 
-											data-link-name="memberdays_plp_click_seemorecomputerproducts"
-											data-link-area="memberdays_2022"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
-									</div>
-								</div>
-							</div>
-							<div id="screen" class="tab__panel">
+								<p class="tab__noti">
+									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									會員即可點擊購物車內優惠券！
+								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
