@@ -344,6 +344,12 @@
 			background: {
 				image: url('../images/tw/bg_visual.png');
 			};
+			
+			.section__desc {
+				&:not(:first-of-type) {
+					margin-top: 0;
+				}
+			}
 		}
 		
 		@media (max-width: 1024px)  {
@@ -638,6 +644,21 @@
 					.product__more {
 						font-size: 14px;
 					}
+				}
+			}
+		}
+	}
+}
+
+.phase2 {
+
+	.visual {
+
+		.section {
+
+			.section__desc {
+				&:not(:first-of-type) {
+					margin-top: 20px;
 				}
 			}
 		}
