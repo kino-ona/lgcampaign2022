@@ -54,8 +54,8 @@
 									&:nth-child(1) {
 										.product__layer {
 											&:nth-child(1) {
-												left: 12.04%;
-												top: 62.22%;
+												left: 16.3%;
+												top: 58.52%;
 												.product__target {
 													left: 38px;
 													top: 50%;
@@ -65,7 +65,7 @@
 											}
 											&:nth-child(2) {
 												left: 56.11%;
-												top: 15.19%;
+												top: 17.04%;
 												.product__target {
 													left: 38px;
 													top: 50%;
@@ -74,18 +74,8 @@
 												}
 											}
 											&:nth-child(3) {
-												left: 56.11%;
-												top: 46.3%;
-												.product__target {
-													left: 38px;
-													top: 50%;
-													margin-left: 0;
-													@include mixins.translate(0, -50%);
-												}
-											}
-											&:nth-child(4) {
-												left: 70.37%;
-												top: 30.74%;
+												left: 72.22%;
+												top: 36.3%;
 												.product__target {
 													left: auto;
 													right: 38px;
@@ -94,8 +84,8 @@
 													@include mixins.translate(0, -50%);
 												}
 											}
-											&:nth-child(5) {
-												left: 81.48%;
+											&:nth-child(4) {
+												left: 83.33%;
 												top: 71.48%;
 												.product__target {
 													left: auto;
