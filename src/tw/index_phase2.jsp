@@ -936,7 +936,6 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
-											<div class="product__more">視聽娛樂 豪享周</div>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -1161,7 +1160,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/tvs" 
+										<a href="https://www.lg.com/tw/tv-home-entertainment" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1184,7 +1183,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/speakers-sound-systems" 
+										<a href="https://www.lg.com/tw/speakers" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1194,7 +1193,7 @@
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
 											data-link-area="memberdays_2022"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
-										<a href="https://www.lg.com/uk/true-wireless-earbuds" 
+										<a href="https://www.lg.com/tw/true-wireless-bluetooth-headset" 
 											target="_blank"
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1217,7 +1216,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/appliances" 
+										<a href="https://www.lg.com/tw/home-appliances" 
 											target="_blank" 
 											tabindex="0" 
 											data-track-group="mic" 
@@ -1240,7 +1239,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/computer-products" 
+										<a href="https://www.lg.com/tw/it-products" 
 											target="_blank" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022"

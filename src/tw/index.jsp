@@ -1205,7 +1205,7 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/uk/computer-products" 
+										<a href="https://www.lg.com/tw/it-products" 
 											target="_blank" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022"
