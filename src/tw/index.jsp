@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣</title>
+	<title>LG璀璨會員日 最高6折| LG台灣</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta name="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/tw/memberdays-2022">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="zh_TW">
 	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:title" content="LG璀璨會員日 最高6折| LG台灣">
+	<meta property="og:description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠">
 	<meta property="og:url" content="https://www.lg.com/tw/memberdays-2022">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -79,10 +79,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣"/>
+		<meta itemprop="name" content="LG璀璨會員日 最高6折| LG台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/tw/promotions/memberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	

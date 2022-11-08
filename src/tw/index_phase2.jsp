@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣</title>
+	<title>LG璀璨會員日 最高6折| LG台灣</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta name="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/tw/memberdays-2022">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="zh_TW">
 	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:title" content="LG璀璨會員日 最高6折| LG台灣">
+	<meta property="og:description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠">
 	<meta property="og:url" content="https://www.lg.com/tw/memberdays-2022">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -79,10 +79,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG 台灣"/>
+		<meta itemprop="name" content="LG璀璨會員日 最高6折| LG台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/tw/promotions/memberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -222,7 +222,7 @@
 						<div class="section__header">
 							<p class="section__sub">LG會員獨家</p>
 							<h2 class="section__title">全系列產品 限定璀璨折扣</h2>
-							<p class="section__sub">以下三項優惠，會員可合併使用</p>
+							<p class="section__sub">以下三項優惠, 會員可合併使用</p>
 						</div>
 						<div class="benefit">
 							<div class="coupon">
@@ -237,7 +237,7 @@
 										</div>
 										<div class="coupon__info">
 											<p class="coupon__title">會員專屬優惠</p>
-											<p class="coupon__text">簡單註冊，未來訂單皆享折扣</p>
+											<p class="coupon__text">簡單註冊, 未來訂單皆享折扣</p>
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -400,7 +400,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#舒適家居</em>
 									</h2>
-									<p class="section__sub">輕鬆打理居家環境，共度舒適冬季佳節</p>
+									<p class="section__sub">輕鬆打理居家環境, 共度舒適冬季佳節</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -439,9 +439,9 @@
 														<div class="product__right">
 															<p class="product__name">Styler®蒸氣電子衣櫥 | Objet Collection® (容量加大款)</p>
 															<ul class="product__desc">
-																<li>清新除臭，去除衣物難聞異味</li>
+																<li>清新除臭, 去除衣物難聞異味</li>
 																<li>天然蒸氣60°殺菌除蟎 99.9%</li>
-																<li>WiFi遠控，雲端客製衣物護理行程</li>
+																<li>WiFi遠控, 雲端客製衣物護理行程</li>
 															</ul>
 														</div>
 													</a>
@@ -492,7 +492,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#美食聚會</em>
 									</h2>
-									<p class="section__sub">備餐、清潔好幫手，歡樂相聚無負擔</p>
+									<p class="section__sub">備餐、清潔好幫手, 歡樂相聚無負擔</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -510,7 +510,7 @@
 														<div class="product__right">
 															<p class="product__name">InstaView™敲敲看門中門冰箱 星夜黑/734公升</p>
 															<ul class="product__desc">
-																<li>.敲敲看門中門，減少41%冷流流失，保鮮更省電; 直驅變頻壓縮機精準溫控，延長7天保鮮</li>
+																<li>.敲敲看門中門, 減少41%冷流流失, 保鮮更省電; 直驅變頻壓縮機精準溫控, 延長7天保鮮</li>
 																<li>Uvnano 安心飲用</li>
 															</ul>
 														</div>
@@ -602,7 +602,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#遊戲時光</em>
 									</h2>
-									<p class="section__sub">LG OLED還原真實色彩，簡單打造家庭劇院</p>
+									<p class="section__sub">LG OLED還原真實色彩, 簡單打造家庭劇院</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -672,7 +672,7 @@
 										<em>#休閒時刻</em>
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來，大顯身手</span>
+										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來, 大顯身手</span>
 										Gaming Gear
 									</p>
 								</div>
@@ -723,7 +723,7 @@
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span> <em>#美好回憶</em>
 									</h2>
-									<p class="section__sub">假期回憶，值得安心珍藏</p>
+									<p class="section__sub">假期回憶, 值得安心珍藏</p>
 								</div>
 								<div class="product">
 									<div class="product__showroom">
@@ -742,7 +742,7 @@
 															<p class="product__name">27" Libero 自由機</p>
 															<ul class="product__desc">
 																<li>27 吋 QHD (2560 x 1440) IPS 螢幕</li>
-																<li>IPS面板達色域 sRGB 99%，色彩準確不失真</li>
+																<li>IPS面板達色域 sRGB 99%, 色彩準確不失真</li>
 															</ul>
 														</div>
 													</a>
@@ -763,7 +763,7 @@
 															<ul class="product__desc">
 																<li>16” 16:10 WQXGA (2560 x 1600) IPS 螢幕</li>
 																<li>Windows 11 Home</li>
-																<li>第 12 代Intel® Core™ 處理器，獲 Intel® Evo 平台驗證</li>
+																<li>第 12 代Intel® Core™ 處理器, 獲 Intel® Evo 平台驗證</li>
 															</ul>
 														</div>
 													</a>
@@ -783,7 +783,7 @@
 															<p class="product__name">LG TONE Free 真無線藍牙耳機 T90</p>
 															<ul class="product__desc">
 																<li>世界首創真無線杜比藍牙耳機 - 自然環繞音場</li>
-																<li>石墨烯振膜單體- 減少振動，提供準確清晰的聲音</li>
+																<li>石墨烯振膜單體- 減少振動, 提供準確清晰的聲音</li>
 															</ul>
 														</div>
 													</a>
@@ -819,7 +819,7 @@
 									<div class="event__header">
 										<p class="event__category">如何解鎖任務</p>
 										<p class="event__title">找星星 抽大獎</p>
-										<p class="event__desc">活動僅限會員參加，註冊另享歡迎禮</p>
+										<p class="event__desc">活動僅限會員參加, 註冊另享歡迎禮</p>
 									</div>
 									<div class="event__process">
 										<ol>
@@ -1001,7 +1001,7 @@
 							<p class="section__sub">即日起至12/13</p>
 							<h2 class="section__title">熱銷精選 限時優惠</h2>
 							<p class="section__desc">
-								購買兩件以上產品 最高享88折 <em class="highlight">(最低95折，會員可合併使用2%會員優惠 及 5%歡迎禮)</em>
+								購買兩件以上產品 最高享88折 <em class="highlight">(最低95折, 會員可合併使用2%會員優惠 及 5%歡迎禮)</em>
 								<span>(璀璨產品周之優惠、SIGNATURE、配件產品不適用)</span>
 							</p>
 						</div>
@@ -1152,7 +1152,7 @@
 							</template>
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
 								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									秘密優惠將揭曉於購物車中, 趕緊前往查看！<br>
 									會員即可點擊購物車內優惠券！
 								</p>
 								<div class="product">
@@ -1175,7 +1175,7 @@
 							</div>
 							<div id="audio" class="tab__panel">
 								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									秘密優惠將揭曉於購物車中, 趕緊前往查看！<br>
 									會員即可點擊購物車內優惠券！
 								</p>
 								<div class="product">
@@ -1208,7 +1208,7 @@
 							</div>
 							<div id="homeappliance" class="tab__panel">
 								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									秘密優惠將揭曉於購物車中, 趕緊前往查看！<br>
 									會員即可點擊購物車內優惠券！
 								</p>
 								<div class="product">
@@ -1231,7 +1231,7 @@
 							</div>
 							<div id="computerproducts" class="tab__panel">
 								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
+									秘密優惠將揭曉於購物車中, 趕緊前往查看！<br>
 									會員即可點擊購物車內優惠券！
 								</p>
 								<div class="product">

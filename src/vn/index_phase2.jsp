@@ -24,26 +24,26 @@
 	{
 	"@context": "https://schema.org",
 	"@type": "Corporation",
-	"name": "LG Electronics Việt Nam",
+	"name": "LG Việt Nam",
 	"alternateName": "LG Electronics",
-	"url": "www.lg.com/vn/lgmemberdays",
+	"url": "https://www.lg.com/vn",
 	"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-	"sameAs": [
- "https://www.facebook.com/lge.vietnam ",
- "https://www.youtube.com/user/LgCinema3DVietnam?feature=g-all-u ",
- "https://www.instagram.com/lgvietnam",
- "viber://pa/info?uri=customercareservice"
- ]}
+		"sameAs": [
+	"https://www.facebook.com/lge.vietnam ",
+	"https://www.youtube.com/user/LgCinema3DVietnam?feature=g-all-u ",
+	"https://www.instagram.com/lgvietnam",
+	"viber://pa/info?uri=customercareservice"
+	]}
 	</script>
 	<script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
 	"@type": "WebSite",
-	"name": "LG Electronics Việt Nam",
-	"url": "www.lg.com/vn/lgmemberdays",
-	 "potentialAction": {
+	"name": "LG Việt Nam",
+	"url": "https://www.lg.com/vn",
+		"potentialAction": {
 	"@type": "SearchAction",
-	"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
+	"target": "https://www.lg.com/vn/search/search-all?search={search_term_string}",
 	"query-input": "required name=search_term_string"}
 	}
 	</script>
@@ -234,7 +234,7 @@
 									data-track-group="mic" data-track-name="members_week_anchor_click"
 									data-link-name="memberdays_anchor_click_hottest_product" 
 									data-link-area="memberdays_2022" 
-									class="link">KHÁM PHÁ CÁC ƯU ĐÃI MÙA LỄ HỘI</a>ㅈ
+									class="link">KHÁM PHÁ CÁC ƯU ĐÃI MÙA LỄ HỘI</a>
               </li>
               <li class="list-item">
                 <a href="#BuymoreSavemore" class="link">MUA SẮM NGAY</a>
@@ -504,7 +504,7 @@
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
-															<img src="../assets/images/vn/img_product_showroom_home01_05.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
+															<img src="${path}/assets/images/vn/img_product_showroom_home01_05.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
 														</div>
 														<div class="product__right">
 															<p class="product__name">Tủ chăm sóc quần áo thông minh - LG Styler</p>

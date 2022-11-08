@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG Electronics Việt Nam</title>
+	<title>Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta name="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="www.lg.com/vn/lgmemberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Electronics Việt Nam">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG Electronics Việt Nam">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:title" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG">
+	<meta property="og:description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022.">
 	<meta property="og:url" content="www.lg.com/vn/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -24,26 +24,26 @@
 	{
 	"@context": "https://schema.org",
 	"@type": "Corporation",
-	"name": "LG Electronics Việt Nam",
+	"name": "LG Việt Nam",
 	"alternateName": "LG Electronics",
-	"url": "www.lg.com/vn/lgmemberdays",
+	"url": "https://www.lg.com/vn",
 	"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-	"sameAs": [
- "https://www.facebook.com/lge.vietnam ",
- "https://www.youtube.com/user/LgCinema3DVietnam?feature=g-all-u ",
- "https://www.instagram.com/lgvietnam",
- "viber://pa/info?uri=customercareservice"
- ]}
+		"sameAs": [
+	"https://www.facebook.com/lge.vietnam ",
+	"https://www.youtube.com/user/LgCinema3DVietnam?feature=g-all-u ",
+	"https://www.instagram.com/lgvietnam",
+	"viber://pa/info?uri=customercareservice"
+	]}
 	</script>
 	<script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
 	"@type": "WebSite",
-	"name": "LG Electronics Việt Nam",
-	"url": "www.lg.com/vn/lgmemberdays",
-	 "potentialAction": {
+	"name": "LG Việt Nam",
+	"url": "https://www.lg.com/vn",
+		"potentialAction": {
 	"@type": "SearchAction",
-	"target": "https://www.lg.com/uk/search/search-all?search={search_term_string}",
+	"target": "https://www.lg.com/vn/search/search-all?search={search_term_string}",
 	"query-input": "required name=search_term_string"}
 	}
 	</script>
@@ -79,10 +79,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG Electronics Việt Nam"/>
+		<meta itemprop="name" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/vn/lgmemberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	

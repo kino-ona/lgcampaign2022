@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG UK</title>
+	<title>LG Member Days Promotion: Up to 22% Off Only For Members | LG UK</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/uk/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG UK">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:title" content="LG Member Days Promotion: Up to 22% Off Only For Members | LG UK">
+	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022.">
 	<meta property="og:url" content="https://www.lg.com/uk/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -79,10 +79,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG UK"/>
+		<meta itemprop="name" content="LG Member Days Promotion: Up to 22% Off Only For Members | LG UK"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/uk/memberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL 20th December 2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
