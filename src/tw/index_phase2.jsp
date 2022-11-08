@@ -127,19 +127,19 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555527|MD07558781|MD07562207|MD07558410|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07562207|MD07558615|MD07537152|MD07555403|MD07537639"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07546009|MD07562207|MD07558615|MD07558410|MD07561784"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product02.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product06.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product02_2.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product05.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product06.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product01.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product05.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product03.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product05_2.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product04.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product06_2.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
 			<!-- ex. multiple model thumb / alt text 
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
