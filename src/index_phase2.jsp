@@ -144,7 +144,7 @@
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
-		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersweek phase2" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
         <div class="section">
@@ -195,6 +195,16 @@
 									OFFERS
 								</a>
 							</li>
+              <li class="list-item">
+                <a href="#HolidayCollection" 
+                  data-track-group="mic" data-track-name="members_week_anchor_click"
+                  data-link-name="memberdays_anchor_click_hottest_product" 
+                  data-link-area="memberdays_2022" 
+                  class="link">
+                  SHOP OUR<br>
+                  HOLIDAY COLLECTION
+                </a>
+              </li>
 							<li class="list-item">
 								<a href="#MembershipEvent" 
 									data-track-group="mic" data-track-name="members_week_anchor_click"
@@ -214,16 +224,6 @@
 									DISCOVER OUR<br>
 									SPARKLING DEALS
 								</a>
-              </li>
-              <li class="list-item">
-                <a href="#BuymoreSavemore" 
-                  data-track-group="mic" data-track-name="members_week_anchor_click"
-                  data-link-name="memberdays_anchor_click_hottest_product" 
-                  data-link-area="memberdays_2022" 
-                  class="link">
-                  SHOP OUR<br>
-                  HOLIDAY COLLECTION
-                </a>
               </li>
 						</ul>
 					</div>

@@ -35,7 +35,7 @@ $(document).ready(function(){
 			$contents.each(function (index) {
 				var $this = $(this);
 				if($('.lgmembersweek').hasClass('phase2')) {
-					if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height()) {
+					if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() - 20) {
 						targetIndex = index;
 						return false;
 					}

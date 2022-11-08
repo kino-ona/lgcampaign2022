@@ -809,8 +809,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
+														data-link-name="memberdays_productMouseHover_memories_34wq65x-w"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -828,8 +828,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
+														data-link-name="memberdays_productMouseHover_memories_17z90p-gaa82g"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
@@ -847,8 +847,8 @@
 											<div class="product__layer">
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
-														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
+													<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
+														data-link-name="memberdays_productMouseHover_memories_tone-dfp9w"
 														data-link-area="memberdays_2022"
 														class="product__link">
 														<div class="product__img">
