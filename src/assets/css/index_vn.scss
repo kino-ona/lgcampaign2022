@@ -607,9 +607,24 @@
 					font-size: 18px;
 					@include mixins.translate(-50%, 0);
 				}
+				.product__comming {
+					left: 67px;
+				}
 				
 				.hotdeal_bg {
 					background-image: url('../images/vn/hotdeal_on.png');
+				}
+			}
+		}
+
+		@media (max-width: 1024px) {
+			&--hotdeal {
+				
+				.product__img {
+	
+					.product__comming {
+						left: 51px;
+					}
 				}
 			}
 		}
