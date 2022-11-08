@@ -1817,8 +1817,9 @@
 			}
 			.product__info {
 				position: relative;
-				max-width: 260px;
-				margin: -30px auto 0;
+				// max-width: 260px;
+				// margin: -30px auto 0;
+				margin-top: -30px;
 
 				.product__highlight {
 					color: #FFC400;
@@ -1826,6 +1827,12 @@
 				.product__discount {
 					color: inherit;
 					opacity: 0.5;
+				}
+
+				.product__name,
+				.button {
+					max-width: 260px;
+					margin: 0 auto;
 				}
 			}
 			.product__sn {
@@ -2215,7 +2222,12 @@
 					}
 				}
 				.product__info {
-					max-width: 250px;
+					// max-width: 250px;
+
+					.product__name,
+					.button {
+						max-width: 250px;
+					}
 				}
 				.product__cost {
 					order: 1;
