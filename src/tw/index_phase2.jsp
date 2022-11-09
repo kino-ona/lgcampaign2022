@@ -120,10 +120,10 @@
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07558781"/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07559123|MD07537152|MD07559316|MD07537639"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07559123|MD07537152|MD07559316|MD07537639|MD07564756"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07548653|MD07547887|MD07555403|MD07543873|MD07524907"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07553837|MD07556844|MD07553944|MD07556788|MD07547888"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558671|MD07561784"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558671|MD07558615|MD07535742|MD07535177"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555527|MD07558781|MD07562207|MD07558410|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->

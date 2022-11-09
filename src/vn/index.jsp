@@ -1246,7 +1246,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">
 						Cơ hội để chiến thắng<br>
-						chỉ cách bạn <span class="highlight">03</span> Ngôi Sao nữa thôi
+						chỉ cách bạn <span class="highlight collect__count">03</span> Ngôi Sao nữa thôi
 					</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">Tìm thêm Ngôi Sao</button>
