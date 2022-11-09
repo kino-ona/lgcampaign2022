@@ -171,7 +171,7 @@
 						</div>
 						<div class="visual__terms">
 							<a href="#" target="_blank" class="terms__link visual__link">
-								隱私權及使用者條款
+								活動辦法
 								<i class="visual__arrow"></i>
 							</a>
 						</div>
@@ -311,7 +311,7 @@
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								隱私權及使用者條款
+								活動辦法
 								<i></i>
 							</a>
 						</div>
@@ -349,8 +349,8 @@
 											<li>
 												<span>3</span>
 												<p>
-													完成任務 立即領取獎品
-													<em>(獎品採系統隨機抽獎機制)</em>
+													完成任務 即有機會獲得右方獎項
+													<em>(每帳號限定參加乙次)</em>
 												</p>
 											</li>
 										</ol>
@@ -395,9 +395,9 @@
 										</div>
 										<div class="event__col">
 											<div class="event__header">
-												<p class="event__title">參加獎</p>
+												<p class="event__title">三獎</p>
 												<p class="event__sub">85折優惠序號</p>
-												<p class="event__desc event__desc--secondary">人人有獎</p>
+												<p class="event__desc event__desc--secondary">限量2000名</p>
 												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
 											</div>
 											<div class="event__coupon">
@@ -425,7 +425,7 @@
 						</div>
 						<div class="section__footer">
 							<a href="#" class="section__text">
-								隱私權及使用者條款
+								活動辦法
 								<i></i>
 							</a>
 						</div>
@@ -532,9 +532,10 @@
 														<div class="product__right">
 															<p class="product__name">LG WashTower™ AI智控洗乾衣機 | Objet Collection®</p>
 															<ul class="product__desc">
-																<li>垂直流線式一體成型設計 全觸控中央控制面板</li>
+																<li>垂直流線式一體成型 全觸控中央控制面板</li>
 																<li>AI DD™人工智慧智選最適洗衣行程</li>
-																<li>TurboWash™360°勁速洗 30分鐘完成洗衣／乾衣預熱準備</li>
+																<li>TurboWash™360°勁速洗 30分鐘完成洗衣</li>
+																<li>乾衣預熱準備</li>
 															</ul>
 														</div>
 													</a>
@@ -553,9 +554,9 @@
 														<div class="product__right">
 															<p class="product__name">Styler®蒸氣電子衣櫥 | Objet Collection® (容量加大款)</p>
 															<ul class="product__desc">
-																<li>清新除臭, 去除衣物難聞異味</li>
 																<li>天然蒸氣60°殺菌除蟎 99.9%</li>
-																<li>WiFi遠控, 雲端客製衣物護理行程</li>
+																<li>清新除臭, 去除衣物難聞異味</li>
+																<li>11坪室內空間除濕, 溫和烘乾保護衣料</li>
 															</ul>
 														</div>
 													</a>
@@ -574,11 +575,9 @@
 														<div class="product__right">
 															<p class="product__name">LG CordZero™ A9T系列All-in-One濕拖無線吸塵器 | Objet Collection® (雪霧白)</p>
 															<ul class="product__desc">
-																<li>自動除塵 雙手真乾淨</li>
-																<li>UVC 紫外線殺菌 抑制灰塵表面細菌孳生</li>
-																<li>隱藏吸頭收納 & 充電</li>
-																<li>濾網可水洗 常保乾淨衛生</li>
-																<li>智慧雙旋濕拖吸頭 吸塵濕拖一次完成</li>
+																<li>自動除塵, 髒污不沾手 </li>
+																<li>紫外線殺菌, 避免細菌異味滋生</li>
+																<li>隱藏吸頭收納, 兩顆電池輪流充電</li>
 															</ul>
 														</div>
 													</a>
@@ -625,7 +624,8 @@
 														<div class="product__right">
 															<p class="product__name">InstaView™敲敲看門中門冰箱 星夜黑/734公升</p>
 															<ul class="product__desc">
-																<li>.敲敲看門中門, 減少41%冷流流失, 保鮮更省電; 直驅變頻壓縮機精準溫控, 延長7天保鮮</li>
+																<li>敲敲看門中門, 減少41%冷流流失更省電</li>
+																<li>直驅變頻壓縮機精準溫控, 延長7天保鮮</li>
 																<li>Uvnano 安心飲用</li>
 															</ul>
 														</div>
@@ -645,7 +645,7 @@
 														<div class="product__right">
 															<p class="product__name">LG NeoChef™智慧變頻蒸烘烤微波爐</p>
 															<ul class="product__desc">
-																<li>LG NeoChef™智慧變頻科技 、高效率均溫烹調技術</li>
+																<li>LG NeoChef™智慧變頻科技 、高效率均溫</li>
 																<li>蒸氣 燒烤 氣炸 一機多用</li>
 																<li>99.99%抗菌易清潔塗層™</li>
 															</ul>
@@ -666,7 +666,7 @@
 														<div class="product__right">
 															<p class="product__name">XBOOM 360˚ 全景聲藍牙音響 (典雅米)</p>
 															<ul class="product__desc">
-																<li>真正 360ﾟ環繞音場, 更清晰、響亮的聽覺體驗</li>
+																<li>真正 360ﾟ環繞音場, 更清晰、響亮</li>
 																<li>自訂 360ﾟ 氣氛燈, 10 小時播放時間</li>
 															</ul>
 														</div>
@@ -686,9 +686,9 @@
 														<div class="product__right">
 															<p class="product__name">LG QuadWash™ Steam 四方洗蒸氣洗碗機</p>
 															<ul class="product__desc">
-																<li>TrueSteam™蒸氣潔亮科技 高效去污 減少水漬殘留</li>
-																<li>QuadWash™超廣角螺旋洗臂 死角洗滌更徹底</li>
-																<li>EasyRack™ Plus 可調式彈性籃架 餐具擺放更靈活</li>
+																<li>TrueSteam™蒸氣潔亮科技 高效去污少水漬</li>
+																<li>QuadWash™超廣角螺旋洗臂 死角洗滌</li>
+																<li>EasyRack™ Plus 可調式彈性籃架 </li>
 															</ul>
 														</div>
 													</a>
@@ -736,8 +736,10 @@
 														<div class="product__right">
 															<p class="product__name">OLED evo C2極致系列4K AI物聯網電視65吋</p>
 															<ul class="product__desc">
-																<li>LG OLED evo,自體發光 OLED 4K, 智慧增亮引擎(Brightness Booster)</li>
-																<li>極致纖薄邊框, 杜比視界 IQ (Dolby Vision IQ)、杜比全景聲(Dolby ATMOS)</li>
+																<li>自體發光 OLED 4K, 智慧增亮引擎 (Brightness Booster)</li>
+																<li>極致纖薄邊框</li>
+																<li>杜比視界 IQ (Dolby Vision IQ)</li>
+																<li>杜比全景聲(Dolby ATMOS)</li>
 															</ul>
 														</div>
 													</a>
@@ -756,7 +758,7 @@
 														<div class="product__right">
 															<p class="product__name">LG Sound Bar QP5</p>
 															<ul class="product__desc">
-																<li>與英國頂級音響品牌MERIDIAN合作調音技術</li>
+																<li>英國頂級音響MERIDIAN合作調音技術</li>
 																<li>杜比全景聲(Dolby ATMOS)&DTS:X</li>
 															</ul>
 														</div>
@@ -811,7 +813,6 @@
 															<ul class="product__desc">
 																<li>32" UHD 4K (3840 x 2160)</li>
 																<li>ATW 技術 Nano IPS 螢幕</li>
-																<li>144Hz(超頻 160Hz)更新率</li>
 															</ul>
 														</div>
 													</a>
@@ -860,7 +861,7 @@
 															<p class="product__name">27" Libero 自由機</p>
 															<ul class="product__desc">
 																<li>27 吋 QHD (2560 x 1440) IPS 螢幕</li>
-																<li>IPS面板達色域 sRGB 99%, 色彩準確不失真</li>
+																<li>IPS面板達色域 sRGB 99%</li>
 															</ul>
 														</div>
 													</a>
@@ -881,7 +882,8 @@
 															<ul class="product__desc">
 																<li>16” 16:10 WQXGA (2560 x 1600) IPS 螢幕</li>
 																<li>Windows 11 Home</li>
-																<li>第 12 代Intel® Core™ 處理器, 獲 Intel® Evo 平台驗證</li>
+																<li>第 12 代Intel® Core™ 處理器</li>
+																<li>NVIDIA® GeForce® GTX™</li>
 															</ul>
 														</div>
 													</a>
@@ -900,8 +902,8 @@
 														<div class="product__right">
 															<p class="product__name">LG TONE Free 真無線藍牙耳機 T90</p>
 															<ul class="product__desc">
-																<li>世界首創真無線杜比藍牙耳機 - 自然環繞音場</li>
-																<li>石墨烯振膜單體- 減少振動, 提供準確清晰的聲音</li>
+																<li>世界首創真無線杜比藍牙耳機</li>
+																<li>石墨烯振膜單體- 減少振動</li>
 															</ul>
 														</div>
 													</a>
@@ -930,7 +932,8 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<h2 class="section__title">限量璀璨價 搶購倒數</h2>
-							<p class="section__desc">年終鉅獻 限量8折</p>
+							<p class="section__desc">11/30 - 12/13</p>
+							<p class="section__sub">年終鉅獻 限量8折</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">

@@ -278,19 +278,19 @@
 							<div class="benefit__more">
 								<p class="benefit__text">Even More Member Benefits</p>
 								<div class="benefit__button">
-									<a href="#">
+									<p>
 										<i></i>
 										<em>
 											Free Shipping
 										</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>
 											Free Installation & Disposal
 											<span>* Washing Machine, Refrigerator only</span>
 										</em>
-									</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -718,6 +718,10 @@
 													</a>
 												</div>
 											</div>
+										</div>
+										<div class="tab__indicator">
+											<button type="button" class="tab__prev"></button>
+											<button type="button" class="tab__next"></button>
 										</div>
 									</div>
 									<div class="product__track">
