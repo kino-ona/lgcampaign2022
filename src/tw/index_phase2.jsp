@@ -127,30 +127,31 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555527|MD07558781|MD07562207|MD07558410|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07546009|MD07562207|MD07558615|MD07558410|MD07561784"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07546009|MD07561784|MD07537152|MD07522018|MD07543873|MD07537639|MD07515571|MD07564756"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product02.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product02_2.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product02.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product06.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product03.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product05.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product04.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product05_2.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product05.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product06_2.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product06.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
-			<!-- ex. multiple model thumb / alt text 
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			-->
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb7" value="${path}/assets/images/tw/hotdeal_product07.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt7" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb8" value="${path}/assets/images/tw/hotdeal_product08.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt8" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb9" value="${path}/assets/images/tw/hotdeal_product09.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt9" value="Limited to 100 units"/>
 
 			<!-- Hottest Gift Model -->
-			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537152||MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07543873|MD07524907|MD07544495|MD07537639|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07562781|MD07555523"/>
+			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640|MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07524907|MD07544495|MD07519443|MD07554092|MD07553944|MD07542594|MD07530531"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07555504|MD07555527"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -1059,17 +1060,7 @@
 										data-track-name="selectProductCategory" 
 										data-link-name="memberdays_productCategory_tvcinebeam"
 										data-link-area="memberdays_2022"
-										class="tab__button">視聽娛樂</a>
-								</li>
-								<li class="tab__item">
-									<a href="#audio" 
-									data-tab-name="audio" 
-									data-track-group="mic" 
-									data-track-opt="category" 
-									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_productCategory_audio"
-									data-link-area="memberdays_2022"
-									class="tab__button">全方位衣物護理專家</a>
+										class="tab__button">電視/視聽產品</a>
 								</li>
 								<li class="tab__item">
 									<a href="#homeappliance" 
@@ -1079,7 +1070,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_homeappliance"
 									data-link-area="memberdays_2022"
-									class="tab__button">廚房家電</a>
+									class="tab__button">生活家電</a>
 								</li>
 								<li class="tab__item">
 									<a href="#computerproducts" 
@@ -1089,17 +1080,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_computerproducts"
 									data-link-area="memberdays_2022"
-									class="tab__button">空氣清淨與吸塵系列</a>
-								</li>
-								<li class="tab__item">
-									<a href="#screen" 
-									data-tab-name="computerproducts" 
-									data-track-group="mic" 
-									data-track-opt="category" 
-									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_productCategory_computerproducts"
-									data-link-area="memberdays_2022"
-									class="tab__button">筆電與螢幕</a>
+									class="tab__button">資訊產品</a>
 								</li>
 							</ul>
 							<template class="contents-template">
@@ -1174,39 +1155,6 @@
 											data-track-val="TVS" 
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoretvs"
-											data-link-area="memberdays_2022"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
-									</div>
-								</div>
-							</div>
-							<div id="audio" class="tab__panel">
-								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
-									會員即可點擊購物車內優惠券！
-								</p>
-								<div class="product">
-									<div class="product__mask">
-										<ul class="product__list"></ul>
-									</div>
-									<div class="button">
-										<a href="https://www.lg.com/tw/speakers" 
-											target="_blank" 
-											tabindex="0" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="SOUND SYSTEMS" 
-											data-track-name="plpClick" 
-											data-link-name="memberdays_plp_click_seemoresoundsystems"
-											data-link-area="memberdays_2022"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
-										<a href="https://www.lg.com/tw/true-wireless-bluetooth-headset" 
-											target="_blank"
-											tabindex="0" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="SOUND WIRELESS EARBUDS"  
-											data-track-name="plpClick" 
-											data-link-name="memberdays_plp_click_seemorewirelessearbuds"
 											data-link-area="memberdays_2022"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
