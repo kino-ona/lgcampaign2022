@@ -933,7 +933,7 @@
 						<div class="section__header">
 							<h2 class="section__title">限量璀璨價 搶購倒數</h2>
 							<p class="section__desc">11/30 - 12/13</p>
-							<p class="section__sub">年終鉅獻 限量8折</p>
+							<p class="section__sub">LG會員限定價 加碼再8折<br>可合併使用5%新會員歡迎禮</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -996,7 +996,6 @@
 						</div>
 						<div class="section__footer section__footer--center">
 							<p class="section__text">
-								會員可合併使用2%會員優惠及5%新會員歡迎禮<br>
 								折扣優惠將顯示於結帳購物車頁面
 							</p>
 						</div>
