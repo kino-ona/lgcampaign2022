@@ -195,7 +195,7 @@ function getLotteryResult(ctaId) {
 }
 
 function redirectToLoginPage() {
-    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/promotions/memberdays-2022';
+    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays-2022';
 }
 
 function hideFailPopup() {
