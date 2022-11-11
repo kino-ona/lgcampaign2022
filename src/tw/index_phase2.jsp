@@ -317,7 +317,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('001', this);"></div>
 				</div>
 			</div>
 
@@ -804,7 +804,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1003', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
 
@@ -918,7 +918,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
 
@@ -995,7 +995,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('004', this);"></div>
 				</div>
 			</div>
 
@@ -1202,7 +1202,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('005', this);"></div>
 				</div>
 			</div>
 		</div>

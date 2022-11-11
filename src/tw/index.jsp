@@ -22,7 +22,7 @@
 	<meta name="twitter:site" content="@LGTW">
 	<script type="application/ld+json">
 	{
-		"@context": "https://schema.org",
+		"@context": "https://schema.org",ß
 		"@type": "Corporation",
 		"name": "LG 台灣",
 		"alternateName": "LG Electronics",
@@ -316,7 +316,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('001', this);"></div>
 				</div>
 			</div>
 
@@ -430,7 +430,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
 
@@ -922,7 +922,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1003', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
 
@@ -1000,7 +1000,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('004', this);"></div>
 				</div>
 			</div>
 
@@ -1154,12 +1154,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
+					<div class="lottie" onclick="showLotteryModal('005', this);"></div>
 				</div>
 			</div>
 		</div>
 
-		<!-- popup -->
+		<!-- popup -->ß
 		<!-- login popup -->
 		<div class="popup login__popup">
 			<div class="popup__dimmed"></div>
