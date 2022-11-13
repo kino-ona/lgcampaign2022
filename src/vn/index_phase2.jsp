@@ -52,6 +52,15 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69014947-27"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-69014947-27');
+	</script>
 
 	<!-- Facebook Pixel Code -->
 	<script>
@@ -79,10 +88,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG Electronics Việt Nam"/>
+		<meta itemprop="name" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/vn/lgmemberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -188,12 +197,15 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MembershipEvent" class="button__item button__item--red">Xem sản phẩm</a>
+							<a href="#MembershipEvent" 
+								data-link-name="memberdays_mainbanner_click" 
+								data-link-area="memberdays_2022H2" 
+								class="button__item button__item--red">Xem sản phẩm</a>
 						</div>
 						<div class="visual__terms">
-							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
+							<a href="https://www.lg.com/vn/lgmemberdays/tnc/index.jsp" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022" 
+                data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
 								Điều khoảng &amp; Điều kiện
                 <i class="visual__arrow"></i>
@@ -214,16 +226,16 @@
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers" 
-									data-track-group="mic" data-track-name="members_week_anchor_click"
-									data-link-name="memberdays_anchor_benefit" 
-									data-link-area="memberdays_2022" 
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-name="memberdays_anchor_memberexclusiveoffers" 
+								data-link-area="memberdays_2022H2" 
 									class="link">XEM ĐẶC QUYỀN THÀNH VIÊN</a>
 							</li>
 							<li class="list-item">
 								<a href="#MembershipEvent" 
-									data-track-group="mic" data-track-name="members_week_anchor_click"
-									data-link-name="memberdays_anchor_click_design_lifestyle" 
-									data-link-area="memberdays_2022" 
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-name="memberdays_anchor_membershipevent" 
+								data-link-area="memberdays_2022H2" 
 									class="link">
 									KHÁM PHÁ SỰ KIỆN THÀNH<br>
 									VIÊN CỦA CHÚNG TÔI
@@ -231,13 +243,17 @@
 							</li>
 							<li class="list-item">
 								<a href="#SparklingDeals" 
-									data-track-group="mic" data-track-name="members_week_anchor_click"
-									data-link-name="memberdays_anchor_click_hottest_product" 
-									data-link-area="memberdays_2022" 
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-name="memberdays_anchor_click_sparkingdeals" 
+								data-link-area="memberdays_2022H2" 
 									class="link">KHÁM PHÁ CÁC ƯU ĐÃI MÙA LỄ HỘI</a>
               </li>
               <li class="list-item">
-                <a href="#BuymoreSavemore" class="link">MUA SẮM NGAY</a>
+                <a href="#BuymoreSavemore" 
+								data-track-group="mic" data-track-name="memberdays_anchor_click"
+								data-link-name="memberdays_anchor_click_holidaycollection" 
+								data-link-area="memberdays_2022H2" 
+								class="link">MUA SẮM NGAY</a>
               </li>
 						</ul>
 					</div>
@@ -306,25 +322,31 @@
 							<div class="benefit__more">
 								<p class="benefit__text">Ưu đãi không chỉ có vậy</p>
 								<div class="benefit__button">
-									<a href="#">
+									<p>
 										<i></i>
 										<em>Miễn phí vận chuyển</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>Miễn phí lắp đặt &amp; Đổi trả</em>
-									</a>
+									</p>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" class="section__text">
+							<a href="https://www.lg.com/vn/lgmemberdays/tnc/index.jsp" target="_blank" 
+                data-link-name="memberdays_anchor_click_termsandconditions" 
+                data-link-area="memberdays_2022H2" 
+								class="section__text">
 								Điều khoảng &amp; Điều kiện
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
 				</div>
 			</div>
 
@@ -334,31 +356,46 @@
 					<div class="tab">
 						<ul class="tab__list">
 							<li class="tab__item tab__item--home tab__item--active">
-								<a href="#home" class="tab__button">
+								<a href="#home" 
+									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="home" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Ngôi Nhà</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gathering">
-								<a href="#gathering" class="tab__button">
+								<a href="#gathering"
+									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="gathering" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Gathering</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gameday">
-								<a href="#gameday" class="tab__button">
+								<a href="#gameday"
+									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="gameday" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Game Day</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
-								<a href="#pastime" class="tab__button">
+								<a href="#pastime"
+									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="pastime" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Pastime</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
-								<a href="#memories" class="tab__button">
+								<a href="#memories"
+									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="memories" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Memories</span>
 								</a>
@@ -420,7 +457,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_a9t-ultra"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_home01_01.png" alt="Máy hút bụi cầm tay LG CordZero với All-in-one Tower">
@@ -440,7 +477,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_dvhp09b"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_home01_02.png" alt="Máy sấy LG DUAL Inverter Heat Pump™ 9kg (đen) DVHP09B">
@@ -460,7 +497,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_f2515rtgb"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_home01_03.png" alt="Máy giặt sấy 15KG">
@@ -481,7 +518,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_as10gdwh0"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_home01_04.png" alt="Máy lọc không khí LG PuriCare 2 tầng (Safeplus)">
@@ -501,7 +538,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsxv91bsae" target="_blank"
 														data-link-name="memberdays_productMouseHover_greenlife_GSXV91BSAE"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_home01_05.png" alt="Tủ chăm sóc quần áo thông minh - LG Styler">
@@ -550,7 +587,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x257mc" target="_blank"
 														data-link-name="memberdays_productMouseHover_gathering_gr-x257mc"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_gathering01_01.png" alt="Tủ lạnh LG mới với InstaView ThinQ™">
@@ -570,7 +607,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/dieu-hoa/lg-v10apfuv" target="_blank"
 														data-link-name="memberdays_productMouseHover_gathering_v10apfuv"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_gathering01_02.png" alt="LG DUALCOOL™ Điều hòa Inverter">
@@ -621,7 +658,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/tivi/lg-oled77a2psa" target="_blank"
 														data-link-name="memberdays_productMouseHover_gameday_oled77a2psa"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_gameday01_01.png" alt="NanoCell">
@@ -641,7 +678,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/sound-bar/lg-s75q" target="_blank"
 														data-link-name="memberdays_productMouseHover_gameday_s75q"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_gameday01_02.png" alt="LG Sound Bar S75Q">
@@ -691,7 +728,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up850n-w" target="_blank"
 														data-link-name="memberdays_productMouseHover_pastime_27up850n-w"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_pastime01_01.png" alt="Màn hình LG 27’’ UHD 4K IPS với VESA">
@@ -712,7 +749,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/loa-di-dong/lg-xg7qbk" target="_blank"
 														data-link-name="memberdays_productMouseHover_pastime_xg7qbk"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_pastime01_02.png" alt="LG XBOOM Go XG7QBK">
@@ -762,7 +799,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up600-w" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_27up600-w"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_memories01_01.png" alt="Màn hình máy tính LG UHD 4K 27’’ IPS VESA">
@@ -782,7 +819,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/laptops/lg-16z90q-gah54a5" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_6z90q-gah54a5"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/vn/img_product_showroom_memories01_02.png" alt="Laptop LG gram 17''">
@@ -809,7 +846,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1003', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
 			
@@ -929,19 +969,27 @@
 									<p>Đăng ký hoặc Đăng nhập ngay để tham gia</p>
 								</div>
 								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();">ĐĂNG NHẬP / ĐĂNG KÝ</a>
+									<a href="javascript:redirectToLoginPage();"
+										data-link-name="memberdays_signup_click" 
+										data-link-area="memberdays_2022H2"
+									>ĐĂNG NHẬP / ĐĂNG KÝ</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" class="section__text">
+							<a href="https://www.lg.com/vn/lgmemberdays/tnc/index.jsp" target="_blank" 
+                data-link-name="memberdays_anchor_click_termsandconditions" 
+                data-link-area="memberdays_2022H2" 
+								class="section__text">
 								Điều khoảng &amp; Điều kiện
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002', this);">
-					</div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
 
@@ -963,7 +1011,6 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
-											<!-- <p class="product__comming">Sắp diễn ra</p> -->
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -999,11 +1046,11 @@
 												</div>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparkling_add_to_cart_click" data-link-name="sparkling_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div>
 											<div class="learn-more">
-												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
+												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='Tìm hiểu thêm'/></span>
 												</a>
 											</div>
@@ -1017,7 +1064,10 @@
 							<p class="section__text">*Coupon giảm giá không áp dụng với sản phẩm thuộc Mùa Lễ Hội</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
 				</div>
 			</div>
 
@@ -1082,8 +1132,8 @@
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-name="memberdays_productCategory_tvcinebeam"
-										data-link-area="memberdays_2022"
+										data-link-name="memberdays_productCategory_TV"
+										data-link-area="memberdays_2022H2"
 										class="tab__button">TV</a>
 								</li>
 								<li class="tab__item">
@@ -1093,7 +1143,7 @@
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_audio"
-									data-link-area="memberdays_2022"
+									data-link-area="memberdays_2022H2"
 									class="tab__button">Âm thanh</a>
 								</li>
 								<li class="tab__item">
@@ -1103,7 +1153,7 @@
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_homeappliance"
-									data-link-area="memberdays_2022"
+									data-link-area="memberdays_2022H2"
 									class="tab__button">Gia dụng</a>
 								</li>
 								<li class="tab__item">
@@ -1113,7 +1163,7 @@
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_computerproducts"
-									data-link-area="memberdays_2022"
+									data-link-area="memberdays_2022H2"
 									class="tab__button">Sản phẩm máy tính</a>
 								</li>
 							</ul>
@@ -1158,11 +1208,11 @@
 											</div>
 										</div>
 										<div class="button">
-											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
+											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='Tìm hiểu thêm'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1188,7 +1238,7 @@
 											data-track-val="TVS" 
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoretvs"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">XEM THÊM TV</a>
 									</div>
 								</div>
@@ -1211,7 +1261,7 @@
 											data-track-val="SOUND SYSTEMS" 
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 										<a href="https://www.lg.com/vn/tai-nghe-khong-day" 
 											target="_blank"
@@ -1221,7 +1271,7 @@
 											data-track-val="SOUND WIRELESS EARBUDS"  
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorewirelessearbuds"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
 								</div>
@@ -1244,7 +1294,7 @@
 											data-track-val="HOME APPLIANCES"  
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorehomeappliances"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
 								</div>
@@ -1261,15 +1311,22 @@
 									<div class="button">
 										<a href="https://www.lg.com/vn/san-pham-tin-hoc" 
 											target="_blank" 
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-val="Computer Products"  
+											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
 				</div>
 			</div>
 		</div>
@@ -1286,7 +1343,10 @@
 						Tham gia ngay hôm nay để tận hưởng đặc quyền cho Thành viên LG
 					</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToLoginPage();" class="popup__button">Đăng nhập / Đăng ký</a>
+						<a href="javascript:redirectToLoginPage();" 
+							data-link-name="memberdays_signup_click" 
+							data-link-area="memberdays_2022H2"
+							class="popup__button">Đăng nhập / Đăng ký</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1330,7 +1390,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">
 						Cơ hội để chiến thắng<br>
-						chỉ cách bạn <span class="highlight">03</span> Ngôi Sao nữa thôi
+						chỉ cách bạn <span class="highlight collect__count">03</span> Ngôi Sao nữa thôi
 					</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">Tìm thêm Ngôi Sao</button>
@@ -1414,7 +1474,11 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">Giá trị từ 5/12 - 18/12</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">Xem Coupon</button>
+						<a href="#" 
+							data-link-name="starstamp_coupon_download_click"
+							data-link-area="memberdays_2022H2" 
+							data-track-name="starstamp_coupon_download" 
+							class="popup__button">Xem Coupon</a>
 					</div>
 					
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -1457,7 +1521,7 @@
 		_dl = 
 		{
 			"page_name" : {
-				"super_category" : "membersweek2022",
+				"super_category" : "memberdays2022H2",
 				"bu" : "",
 				"gmc_bu" : "",
 				"sub_category_list" : "",
@@ -1470,7 +1534,7 @@
 			"isLogin" : "",
 			"country_code" : "${localeCd}",
 			"language_code" : "${languageCd}",
-			"page_category_l1" : "${localeCd}:membersweek2022",
+			"page_category_l1" : "${localeCd}:memberdays2022H2",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",
@@ -1498,7 +1562,7 @@
 	<script>
 		if($('.add-to-cart').length > 0) {
       $('.add-to-cart').on('click', function (e) {
-        fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+        fbq('trackCustom', '2022MemberDays AddToBasket');
       });
     }
 	</script>
@@ -1524,17 +1588,5 @@
 		}
 	</script>
 	<!--// UI Script -->
-
-	<script type="text/javascript">
-	(function(w, d, a){
-    w.__beusablerumclient__ = {
-      load : function(src){
-          var b = d.createElement("script");
-          b.src = src; b.async=true; b.type = "text/javascript";
-          d.getElementsByTagName("head")[0].appendChild(b);
-      }
-    };w.__beusablerumclient__.load(a);
-	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
-	</script>
 </body>
 </html>

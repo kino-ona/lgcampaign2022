@@ -101,20 +101,20 @@
 		<!-- Hot Deal Model / thumb - alt text -->
 		<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07562207|MD07558615|MD07537152|MD07555403|MD07537639"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product02.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="../assets/images/tw/hotdeal_product02.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product06.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="../assets/images/tw/hotdeal_product06.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product05.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="../assets/images/tw/hotdeal_product05.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product01.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="../assets/images/tw/hotdeal_product01.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product03.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="../assets/images/tw/hotdeal_product03.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product04.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="../assets/images/tw/hotdeal_product04.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
 		<!-- ex. multiple model thumb / alt text 
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/hotdeal_product.png"/>
+		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="../assets/images/hotdeal_product.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
 		-->
 
@@ -2354,16 +2354,17 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">
-						立即登入參加<br>
-						找星星抽大獎任務!
-					</p>
+					<p class="popup__title">立即登入參加
+						簡單找星星　人人享優惠</p>
 					<p class="popup__desc">
 						還不是會員？<br>
-						立即註冊加贈歡迎禮
+						簡單加入　另享好禮
 					</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToLoginPage();" class="popup__button">登入/註冊</a>
+						<a href="javascript:redirectToLoginPage();"
+							data-link-name="memberdays_signup_click" 
+							data-link-area="memberdays_2022H2"
+							class="popup__button">登入/註冊</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -2402,7 +2403,7 @@
 						<div class="star"></div>
 						<div class="star"></div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">贏得優惠 只差幾步!</p>
+					<p class="popup__desc popup__desc--semibold">輕鬆贏得優惠只差幾步！</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button">尋找更多星星</button>
 					</div>
@@ -2482,10 +2483,14 @@
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列僅可與2%會員優惠/5%新會員歡迎禮合併使用</p>
+					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列 僅可與2%會員優惠/5%新會員歡迎禮並用</p>
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">查看優惠</button>
+						<a href="#" 
+							data-link-name="starstamp_coupon_download_click"
+							data-link-area="memberdays_2022H2" 
+							data-track-name="starstamp_coupon_download" 
+							class="popup__button">查看優惠</a>
 					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -2570,20 +2575,6 @@
 	<script src="../lg5-common-gp/js/e-privacy.min.js"></script>
 	<script src="../lg5-common-gp/js/customer/add-to-cart.min.js"></script>
 	<script src="../lg5-common-gp/js/customer/wishlist.min.js"></script>
-	<!-- <script src="../lg5-common-gp/js/components/animation-asset.min.js"></script> -->
-	<!-- <script src="../lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="../lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="../lg5-common-gp/js/components/thumbnail-loop.min.js"></script> -->
-	<!-- <script src="../lg5-common-gp/js/components/video-asset.min.js"></script>
-	<script src="../lg5-common-gp/js/components/category-filter.min.js"></script> -->
-	<!-- <script src="../lg5-common-gp/js/components/GPC0150.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0101.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0003.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0064.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0065.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0022.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0055.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0078.min.js"></script> -->
 
 	<!-- UI Script -->
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

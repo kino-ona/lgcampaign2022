@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Promotion: Up to 15% Off Only For Members | LG Deutschland</title>
+	<title>LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta name="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="www.lg.com/de/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Deutschland">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG Deutschland">
-	<meta property="og:description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022.">
+	<meta property="og:title" content="LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland">
+	<meta property="og:description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022.">
 	<meta property="og:url" content="www.lg.com/de/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -52,6 +52,15 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-css.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/font-woff.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/head/head-script.jsp" />
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69014947-15"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-69014947-15');
+	</script>
 
 	<!-- Facebook Pixel Code -->
 	<script>
@@ -79,10 +88,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Promotion: Up to 15% Off Only For Members | LG Deutschland"/>
+		<meta itemprop="name" content="LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/de/memberdays" />
-		<meta itemprop="description" content="Become LG.com Member and get access to Member-exclusive offers, Prize-Winning Events, and more. LG Member Days benefits last ONLY UNTIL DD December 2022." />
+		<meta itemprop="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
@@ -177,12 +186,15 @@
 							</p>
 						</div>
 						<div class="button">
-							<a href="#MembershipEvent" class="button__item button__item--red">Teilnehmen</a>
+							<a href="#MembershipEvent"
+								data-link-name="memberdays_mainbanner_click" 
+								data-link-area="memberdays_2022H2" 
+								class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
 							<a href="#" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022" 
+                data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
                 Teilnahmebedingungen
                 <i class="visual__arrow"></i>
@@ -206,25 +218,25 @@
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers" 
-									data-track-group="mic" data-track-name="members_week_anchor_click"
-									data-link-name="memberdays_anchor_benefit" 
-									data-link-area="memberdays_2022" 
+									data-track-group="mic" data-track-name="memberdays_anchor_click"
+									data-link-name="memberdays_anchor_memberexclusiveoffers" 
+									data-link-area="memberdays_2022H2" 
 									class="link">Exklusive Angebote für<br>
 									Mitglieder anzeigen</a>
 							</li>
 							<li class="list-item">
-								<a href="#MembershipEvent" 
-									data-track-group="mic" data-track-name="members_week_anchor_click"
-									data-link-name="memberdays_anchor_click_design_lifestyle" 
-									data-link-area="memberdays_2022" 
+								<a href="#MembershipEvent"
+									data-track-group="mic" data-track-name="memberdays_anchor_click"
+									data-link-name="memberdays_anchor_click_membershipevent" 
+									data-link-area="memberdays_2022H2" 
 									class="link">Entdecke unsere außergewöhnliche Kampagne,<br>
 									nur für Mitglieder</a>
 							</li>
 							<li class="list-item">
 								<a href="#HolidayCollection" 
-									data-track-group="mic" data-track-name="members_week_anchor_click"
-									data-link-name="memberdays_anchor_click_hottest_product" 
-									data-link-area="memberdays_2022" 
+									data-track-group="mic" data-track-name="memberdays_anchor_click"
+									data-link-name="memberdays_anchor_holidaycollection"  
+									data-link-area="memberdays_2022H2" 
 									class="link">Durchstöbere<br>
 									unsere exklusiven Angebote</a>
 								</li>
@@ -290,13 +302,19 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" class="section__text">
+							<a href="#" target="_blank" 
+                data-link-name="memberdays_anchor_click_termsandconditions" 
+                data-link-area="memberdays_2022H2" 
+								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1001', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 			</div>
@@ -407,18 +425,27 @@
 									<p>Registriere dich jetzt oder melde dich in deinem LG Account an, um teilzunehmen</p>
 								</div>
 								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();">ANMELDUNG / REGISTRIERUNG</a>
+									<a href="javascript:redirectToLoginPage();"
+										data-link-name="memberdays_signup_click" 
+										data-link-area="memberdays_2022H2"
+									>ANMELDUNG / REGISTRIERUNG</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" class="section__text">
+							<a href="#" target="_blank" 
+                data-link-name="memberdays_anchor_click_termsandconditions" 
+                data-link-area="memberdays_2022H2" 
+								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1002', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
 
@@ -428,31 +455,46 @@
 					<div class="tab">
 						<ul class="tab__list">
 							<li class="tab__item tab__item--home tab__item--active">
-								<a href="#home" class="tab__button">
+								<a href="#home"
+									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="home" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">zu Hause</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gathering">
-								<a href="#gathering" class="tab__button">
+								<a href="#gathering"
+									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="gathering" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Familientreffen</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gameday">
-								<a href="#gameday" class="tab__button">
+								<a href="#gameday"
+									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="gameday" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Gaming</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
-								<a href="#pastime" class="tab__button">
+								<a href="#pastime"
+									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="pastime" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Zeitvertreib</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
-								<a href="#memories" class="tab__button">
+								<a href="#memories"
+									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
+									data-track-val="memories" data-track-name="selectThemeDisplay"
+									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Erinnerungen</span>
 								</a>
@@ -519,7 +561,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_a9k-pro1g"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_01.png" alt="Handstaubsauger mit zwei Akkus">
@@ -538,7 +580,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_lswd100e"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_02.png" alt="LG SIGNATURE Waschtrockner">
@@ -557,7 +599,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/trockner/lg-RT8DIH1Q" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_RT8DIH1Q"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_03.png" alt="LG Trockner mit 8 kg Kapazität">
@@ -576,7 +618,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_S3BF"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_04.png" alt="LG Styler S3BF mit Steam">
@@ -629,7 +671,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
 														data-link-name="memberdays_productMouseHover_gathering_gsxv91mcae"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gathering01_01.png" alt="Side-by-Side mit InstaView Door-in-Door®">
@@ -648,7 +690,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
 														data-link-name="memberdays_productMouseHover_gathering_dxg7qbk"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gathering01_02.png" alt="LG XBOOM Go DXG7Q Bluetooth Speaker">
@@ -700,7 +742,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
 														data-link-name="memberdays_productMouseHover_gameday_oled77c27la"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gameday01_01.png" alt="77'' LG 4K OLED evo TV C2">
@@ -719,7 +761,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
 														data-link-name="memberdays_productMouseHover_gameday_dsp11ra"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gameday01_02.png" alt="7.1.4 Dolby Atmos® Soundbar mit 770 Watt">
@@ -773,7 +815,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
 														data-link-name="memberdays_productMouseHover_pastime_48gq900-b"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_pastime01_01.png" alt="48 Zoll UltraGear™ Gaming Monitor">
@@ -827,7 +869,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_34wq65x-w"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_memories01_01.png" alt="21:9-UltraWide™-IPS-Monitor">
@@ -846,7 +888,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_17z90p-gaa82g"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_memories01_02.png" alt="17’’ Ultraleichtes Notebook">
@@ -865,7 +907,7 @@
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_tone-dfp9w"
-														data-link-area="memberdays_2022"
+														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_memories01_03.png" alt="LG TONE Free DFP9W">
@@ -891,7 +933,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1003', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
 
@@ -953,11 +998,11 @@
 												</div>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparklingdeals_add_to_cart_click" data-link-name="sparklingdeals_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='demnächst verfügbar'/></a>
 											</div>
 											<div class="learn-more">
-												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
+												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='Mehr erfahren'/></span>
 												</a>
 											</div>
@@ -971,7 +1016,10 @@
 							<p class="section__text">*Der 5% Willkommensgutschein kann mit den Hot Deals Modellen kombiniert werden.</p>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1004', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
 				</div>
 			</div>
 
@@ -1003,8 +1051,8 @@
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-name="memberdays_productCategory_tvcinebeam"
-										data-link-area="memberdays_2022"
+										data-link-name="memberdays_productCategory_tv"
+										data-link-area="memberdays_2022H2"
 										class="tab__button">TV</a>
 								</li>
 								<li class="tab__item">
@@ -1014,7 +1062,7 @@
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_audio"
-									data-link-area="memberdays_2022"
+									data-link-area="memberdays_2022H2"
 									class="tab__button">Audio</a>
 								</li>
 								<li class="tab__item">
@@ -1024,7 +1072,7 @@
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_homeappliance"
-									data-link-area="memberdays_2022"
+									data-link-area="memberdays_2022H2"
 									class="tab__button">Haushaltsartikel</a>
 								</li>
 								<li class="tab__item">
@@ -1034,7 +1082,7 @@
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
 									data-link-name="memberdays_productCategory_computerproducts"
-									data-link-area="memberdays_2022"
+									data-link-area="memberdays_2022H2"
 									class="tab__button">IT Modelle</a>
 								</li>
 							</ul>
@@ -1079,11 +1127,11 @@
 											</div>
 										</div>
 										<div class="button">
-											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
+											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='Mehr erfahren'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1105,7 +1153,7 @@
 											data-track-val="TVS" 
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoretvs"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">Mehr TV anzeigen</a>
 									</div>
 								</div>
@@ -1124,7 +1172,7 @@
 											data-track-val="SOUND SYSTEMS" 
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE SOUND SYSTEMS</a>
 										<a href="https://www.lg.com/de/bluetooth-kopfhoerer" 
 											target="_blank"
@@ -1134,7 +1182,7 @@
 											data-track-val="SOUND WIRELESS EARBUDS"  
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorewirelessearbuds"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE WIRELESS EARBUDS</a>
 									</div>
 								</div>
@@ -1153,7 +1201,7 @@
 											data-track-val="HOME APPLIANCES"  
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorehomeappliances"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE HOME APPLIANCES</a>
 									</div>
 								</div>
@@ -1167,14 +1215,17 @@
 										<a href="https://www.lg.com/de/it-produkte" 
 											target="_blank" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
-											data-link-area="memberdays_2022"
+											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE COMPUTER PRODUCTS</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="lottie" onclick="showLotteryModal('1005', this);"></div>
+					<div class="lottie" 
+						data-link-name="starstamp_click" 
+						data-link-area="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
 				</div>
 			</div>
 		</div>
@@ -1185,13 +1236,16 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">Login to Participate!</p>
+					<p class="popup__title">Anmelden um teilzunehmen!</p>
 					<p class="popup__desc">
-						Not a Member Yet?<br>
-						Join today to enjoy LG Member Exclusive Benefits
+						Noch kein LG Account?<br>
+						Registriere dich jetzt, um von den exklusiven LG Member Vorteilen profitieren zu können
 					</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToLoginPage();" class="popup__button">LOGIN / SIGN-UP</a>
+						<a href="javascript:redirectToLoginPage();"
+							data-link-name="memberdays_signup_click" 
+							data-link-area="memberdays_2022H2"
+							class="popup__button">Anmeldung / Registrierung</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1204,12 +1258,12 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">Find and Click on <span class="highlight">ALL 5 Stars</span> throughout the event page</p>
+					<p class="popup__title">Finde alle <span class="highlight">fünf Sterne</span> auf der Aktionsseite und markiere diese</p>
 					<div class="popup__stars">
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">START NOW</button>
+						<button type="button" class="popup__button">Jetzt starten</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1222,7 +1276,7 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title popup__title--large">Keep Going!</p>
+					<p class="popup__title popup__title--large">Weiter so!</p>
 					<div class="stars">
 						<div class="star star--actived"></div>
 						<div class="star star--actived"></div>
@@ -1231,11 +1285,11 @@
 						<div class="star"></div>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Your Chance to Win a Prize is<br>
-						Just <span class="highlight collect__count">Three</span> Stars Away
+						Deine Chance auf einen Preis,<br>
+						ist nur noch <span class="highlight collect__count">drei</span> Sterne entfernt
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">FIND MORE STARS</button>
+						<button type="button" class="popup__button">Finde mehr Sterne</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1256,12 +1310,11 @@
 						<i class="ico__fail"></i>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Unfortunately,<br>
-						you didn’t win this time around.<br>
-						Thank you for your participation
+						Leider hast du dieses Mal nicht gewonnen.<br> 
+						Herzlichen Dank für deine Teilnahme. 
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="hideFailPopup();">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="hideFailPopup();">Entdecke weitere tolle Angebote</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1278,25 +1331,55 @@
 						<i class="ico__stars"></i>
 					</div>
 					<p class="popup__title popup__title--large">
-						<span class="highlight">Congratulations,</span>
-						You’ve Won!
+						<span class="highlight">Herzlichen Glückwunsch!</span>
+						Du hast gewonnen
 					</p>
 					<div class="popup__gift">
-						<img src="${path}/assets/images/img_popup_gift.png" alt="">
-						<div class="popup__label">
-							<p>
-								<span>99%</span>Off<br>
-								Coupon
+						<img src="${path}/assets/images/tw/img_popup_gift01.png" alt="">
+						<!-- <img src="${path}/assets/images/tw/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="${path}/assets/images/tw/img_popup_gift03.png" alt=""> -->
+					</div>
+					<p class="popup__desc popup__desc--semibold">
+						Die Gewinner werden innerhalb von 2 Wochen nach Ende der Aktion per E-Mail benachrichtigt.
+					</p>
+
+					<button type="button" class="popup__close" aria-label="close"></button>
+				</div>
+			</div>
+		</div>
+		<!-- // win popup -->
+
+		<!-- win popup -->
+		<div class="popup win__popup__with__coupon">
+			<div class="popup__dimmed"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<div class="ico">
+						<i class="ico__stars"></i>
+					</div>
+					<p class="popup__title popup__title--large">
+						<span class="highlight">Herzlichen Glückwunsch!</span>
+						Du hast gewonnen
+					</p>
+					<div class="coupon">
+						<div class="coupon__coupon coupon__coupon--secondary">
+							<p class="coupon__title coupon__percentage">10</p>
+							<p class="coupon__unit">
+								% Off
+								<span class="coupon__text">Coupon</span>
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">
-						99% discount coupon for<br>
-						<span class="bold">InstaView Door-in-Door</span>
+					<p class="popup__desc popup__desc">
+						Gültig<br>
+						vom 5. Dezember bis zum 18. Dezember 2022
 					</p>
-					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">VIEW COUPON</button>
+						<a href="#" 
+							data-link-name="starstamp_coupon_download_click"
+							data-link-area="memberdays_2022H2" 
+							data-track-name="starstamp_coupon_download" 
+							class="popup__button">Rabattcode anzeigen</a>
 					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>

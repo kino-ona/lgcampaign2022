@@ -104,10 +104,6 @@
 		<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="../assets/images/de/hotdeal_product03.png"/>
 		<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-		<!-- ex. multiple model thumb / alt text 
-		<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="../assets/images/hotdeal_product.png"/>
-		<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-		-->
 
 		<!-- Hottest Gift Model -->
 		<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07549514|MD07549244|MD07550687|MD07551349|MD07551348|MD07551110|MD07549461|MD07549883|MD07549539|MD07549258"/>
@@ -1620,13 +1616,16 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">Login to Participate!</p>
+					<p class="popup__title">Anmelden um teilzunehmen!</p>
 					<p class="popup__desc">
-						Not a Member Yet?<br>
-						Join today to enjoy LG Member Exclusive Benefits
+						Noch kein LG Account?<br>
+						Registriere dich jetzt, um von den exklusiven LG Member Vorteilen profitieren zu können
 					</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToLoginPage();" class="popup__button">LOGIN / SIGN-UP</a>
+						<a href="javascript:redirectToLoginPage();"
+							data-link-name="memberdays_signup_click" 
+							data-link-area="memberdays_2022H2"
+							class="popup__button">Anmeldung / Registrierung</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1639,12 +1638,12 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">Find and Click on <span class="highlight">ALL 5 Stars</span> throughout the event page</p>
+					<p class="popup__title">Finde alle <span class="highlight">fünf Sterne</span> auf der Aktionsseite und markiere diese</p>
 					<div class="popup__stars">
 						<img src="../assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">START NOW</button>
+						<button type="button" class="popup__button">Jetzt starten</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1657,7 +1656,7 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title popup__title--large">Keep Going!</p>
+					<p class="popup__title popup__title--large">Weiter so!</p>
 					<div class="stars">
 						<div class="star star--actived"></div>
 						<div class="star star--actived"></div>
@@ -1666,11 +1665,11 @@
 						<div class="star"></div>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Your Chance to Win a Prize is<br>
-						Just <span class="highlight collect__count">Three</span> Stars Away
+						Deine Chance auf einen Preis,<br>
+						ist nur noch <span class="highlight collect__count">drei</span> Sterne entfernt
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">FIND MORE STARS</button>
+						<button type="button" class="popup__button">Finde mehr Sterne</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1691,12 +1690,11 @@
 						<i class="ico__fail"></i>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Unfortunately,<br>
-						you didn’t win this time around.<br>
-						Thank you for your participation
+						Leider hast du dieses Mal nicht gewonnen.<br> 
+						Herzlichen Dank für deine Teilnahme. 
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="hideFailPopup();">DISCOVER OTHER OFFERS</button>
+						<button type="button" class="popup__button" onclick="hideFailPopup();">Entdecke weitere tolle Angebote</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1713,26 +1711,17 @@
 						<i class="ico__stars"></i>
 					</div>
 					<p class="popup__title popup__title--large">
-						<span class="highlight">Congratulations,</span>
-						You’ve Won!
+						<span class="highlight">Herzlichen Glückwunsch!</span>
+						Du hast gewonnen
 					</p>
 					<div class="popup__gift">
-						<img src="../assets/images/img_popup_gift.png" alt="">
-						<div class="popup__label">
-							<p>
-								<span>99%</span>Off<br>
-								Coupon
-							</p>
-						</div>
+						<img src="../assets/images/tw/img_popup_gift01.png" alt="">
+						<!-- <img src="../assets/images/tw/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="../assets/images/tw/img_popup_gift03.png" alt=""> -->
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						99% discount coupon for<br>
-						<span class="bold">InstaView Door-in-Door</span>
+						Die Gewinner werden innerhalb von 2 Wochen nach Ende der Aktion per E-Mail benachrichtigt.
 					</p>
-					<p class="popup__desc popup__desc--secondary">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
-					<div class="popup__buttons">
-						<button type="button" class="popup__button">VIEW COUPON</button>
-					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1740,35 +1729,46 @@
 		</div>
 		<!-- // win popup -->
 
-		<div class="modal fade" id="modal_lgmembersweek_submit" tabindex="-1" role="dialog" data-backdrop="true">
-			<div class="modal-dialog modal-sm modal-simple-alert" role="document">
-				<div class="modal-content">
-					<div class="modal-body">
-						<p>Please select a lifestyle.</p>
+		<!-- win popup -->
+		<div class="popup win__popup__with__coupon">
+			<div class="popup__dimmed"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<div class="ico">
+						<i class="ico__stars"></i>
 					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-primary" id="" data-dismiss="modal">Close</button>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--// 여기까지 컨텐츠 -->
-
-
-
-		<div class="container-fluid iw_section" id="sectionjx5blnlw">
-			<div class="row iw_row iw_container" id="rowjx5blnlx">
-				<div class="iw_columns col-lg-12" id="coljx5blnly">
-					<div class="iw_component" id="iw_comp1550549369689">
-						<div class="GPC0076 floating-menu top call-yet">
-							<div class="back-to-top">
-								<button type="button"><span class="sr-only">Go to page top</span></button>
-							</div>
+					<p class="popup__title popup__title--large">
+						<span class="highlight">Herzlichen Glückwunsch!</span>
+						Du hast gewonnen
+					</p>
+					<div class="coupon">
+						<div class="coupon__coupon coupon__coupon--secondary">
+							<p class="coupon__title coupon__percentage">10</p>
+							<p class="coupon__unit">
+								% Off
+								<span class="coupon__text">Coupon</span>
+							</p>
 						</div>
 					</div>
+					<p class="popup__desc popup__desc">
+						Gültig<br>
+						vom 5. Dezember bis zum 18. Dezember 2022
+					</p>
+					<div class="popup__buttons">
+						<a href="#" 
+							data-link-name="starstamp_coupon_download_click"
+							data-link-area="memberdays_2022H2" 
+							data-track-name="starstamp_coupon_download" 
+							class="popup__button">Rabattcode anzeigen</a>
+					</div>
+
+					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
 		</div>
+		<!-- // win popup -->
+		<!--// 여기까지 컨텐츠 -->
+		
 		<!-- footer -->
 		@@include('../inc/footer.inc',{
 		"webroot":".."
@@ -1845,20 +1845,6 @@
 	<script src="../lg5-common-gp/js/e-privacy.min.js"></script>
 	<script src="../lg5-common-gp/js/customer/add-to-cart.min.js"></script>
 	<script src="../lg5-common-gp/js/customer/wishlist.min.js"></script>
-	<!-- <script src="../lg5-common-gp/js/components/animation-asset.min.js"></script> -->
-	<!-- <script src="../lg5-common-gp/js/components/compare-cookie.min.js"></script>
-	<script src="../lg5-common-gp/js/components/model-switcher.min.js"></script>
-	<script src="../lg5-common-gp/js/components/thumbnail-loop.min.js"></script> -->
-	<!-- <script src="../lg5-common-gp/js/components/video-asset.min.js"></script>
-	<script src="../lg5-common-gp/js/components/category-filter.min.js"></script> -->
-	<!-- <script src="../lg5-common-gp/js/components/GPC0150.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0101.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0003.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0064.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0065.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0022.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0055.min.js"></script>
-	<script src="../lg5-common-gp/js/components/GPC0078.min.js"></script> -->
 
 	<!-- UI Script -->
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
