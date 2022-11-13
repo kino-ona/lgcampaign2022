@@ -1384,9 +1384,9 @@
 						Du hast gewonnen
 					</p>
 					<div class="popup__gift">
-						<img src="${path}/assets/images/tw/img_popup_gift01.png" alt="">
-						<!-- <img src="${path}/assets/images/tw/img_popup_gift02.png" alt=""> -->
-						<!-- <img src="${path}/assets/images/tw/img_popup_gift03.png" alt=""> -->
+						<img src="${path}/assets/images/de/img_popup_gift01.png" alt="">
+						<!-- <img src="${path}/assets/images/de/img_popup_gift02.png" alt=""> -->
+						<!-- <img src="${path}/assets/images/de/img_popup_gift03.png" alt=""> -->
 					</div>
 					<p class="popup__desc popup__desc--semibold">
 						Die Gewinner werden innerhalb von 2 Wochen nach Ende der Aktion per E-Mail benachrichtigt.

@@ -229,6 +229,11 @@
 			&--hotdeal {
 				margin-top: -1px;
 			}
+			&--event {
+				.lottie {
+					top: 10.0vw;
+				}
+			}
 		}
 
 		@media (max-width: 1024px) {

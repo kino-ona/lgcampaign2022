@@ -324,11 +324,15 @@
 								<div class="benefit__button">
 									<p>
 										<i></i>
-										<em>Miễn phí vận chuyển</em>
+										<em>Vận chuyển miễn phí</em>
 									</p>
 									<p>
 										<i></i>
-										<em>Miễn phí lắp đặt &amp; Đổi trả</em>
+										<em>Trả góp miễn phí</em>
+									</p>
+									<p>
+										<i></i>
+										<em>Hỗ trợ đổi trả trong<br>vòng 15 ngày</em>
 									</p>
 								</div>
 							</div>
