@@ -176,14 +176,16 @@
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
-							data-link-name="memberdays_mainbanner_click" 
-							data-link-area="memberdays_2022H2" 
-							class="button__item button__item--red">查看產品</a>
+								data-link-name="memberdays_mainbanner_click" 
+								data-track-name="memberdays_mainbanner_click"
+								data-link-area="memberdays_2022H2" 
+								class="button__item button__item--red">查看產品</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022H2" 
+								data-link-name="memberdays_anchor_click_termsandconditions" 
+								data-track-name="memberdays_anchor_click_termsandconditions"
+								data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
 								活動辦法
 								<i class="visual__arrow"></i>
@@ -1299,7 +1301,7 @@
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">即刻開始</button>
+						<button type="button" class="popup__button" onclick="hideRedirectPopup();">即刻開始</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1322,7 +1324,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">輕鬆贏得優惠只差幾步！</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">尋找更多星星</button>
+						<button type="button" class="popup__button" onclick="hideCollectPopup();">尋找更多星星</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1373,7 +1375,7 @@
 					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
 					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">查看優惠</button>
+						<button type="button" class="popup__button" onclick="redirectToMypage();">查看優惠</button>
 					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>

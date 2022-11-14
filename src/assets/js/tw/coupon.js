@@ -10,17 +10,6 @@ const prodLotteryResultPath = '/rest/V1/lotteryCoupon/result';
 let isLogin = false;
 
 $(function() {
-    const failButton = $('.fail__popup .popup__button');
-
-    failButton.on('click', function(e) {
-        e.preventDefault();
-
-        const id = '#SparklingDeals';
-	    const posY = $(id).offset().top - $('.box_navigation').height();
-
-        $('html, body').stop().animate({scrollTop: posY}, 1000);
-    });
-    
     window.isLogin = checkLogin();
 
     if (window.isLogin) {
@@ -159,19 +148,19 @@ function getLotteryResult(ctaId) {
                 }
     
                 // if win
-                if (/^win\_[1-3]$/i.test(rewardCode)) {
+                if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
                     $('.win__popup').show();
     
                     return;
                 }
     
-                if (/^win\_4$/i.test(rewardCode)) {
+                if (/^win(\_|\-)4$/i.test(rewardCode)) {
                     $('.win__popup__with__coupon .coupon__title').text('40');
                     $('.win__popup__with__coupon').show();
     
                     return;
                 }
-                if (/^win\_5$/i.test(rewardCode)) {
+                if (/^win(\_|\-)5$/i.test(rewardCode)) {
                     $('.win__popup__with__coupon .coupon__title').text('15');
                     $('.win__popup__with__coupon').show();
     
@@ -198,8 +187,24 @@ function redirectToLoginPage() {
     window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays-2022';
 }
 
+function redirectToMypage() {
+    window.location.href = '/' + locale + '/shop/multicoupon/mycoupon/couponlist/';
+}
+
 function hideFailPopup() {
+    const id = '#SparklingDeals';
+    const posY = $(id).offset().top - $('.box_navigation').height();
+
     $('.fail__popup').hide();
+    $('html, body').stop().animate({ scrollTop: posY }, 1000);
+}
+
+function hideRedirectPopup() {
+    $('.redirect__popup').hide();
+}
+
+function hideCollectPopup() {
+    $('.collect__popup').hide();
 }
 
 function hideLoginLink() {
@@ -212,13 +217,25 @@ function disableStars(cta_info) {
 
     for (let i = 0; i < cta_info.length; i++) {
         if (cta_info[i].datetime) {
-            const index = parseInt(cta_info[i].cta_id.replace(/^100/, '')) - 1;
+            const index = parseInt(cta_info[i].cta_id.replace(/^00/, '')) - 1;
 
+            // lottie.eq(index).hide();
             lottie.eq(index).attr('class', 'lottie lottie--disabled');
-            lottie.eq(index).empty();
-            lottie.eq(index).append("<lottie-player src='../lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
         }
     }
+
+    const delay = setTimeout(function () {
+        $('.lottie').each(function () {
+            if (!$(this).hasClass('lottie--disabled')) {
+                $(this).empty();
+                $(this).append("<lottie-player src='/" + locale + "/memberdays-2022/lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+            } else {
+                $(this).empty();
+                $(this).append("<lottie-player src='/" + locale + "/memberdays-2022/lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+            }
+        });
+        clearTimeout(delay);
+    }, 600);
 }
 
 function getStarCountText(clicked) {

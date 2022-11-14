@@ -191,7 +191,7 @@
 							class="button__item button__item--red">Produktübersicht</a>
 						</div>
 						<div class="visual__terms">
-							<a href="#" target="_blank" 
+							<a href="${path}/TNCMemberDays.pdf" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
@@ -316,7 +316,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" target="_blank" 
+							<a href="${path}/TNCMemberDays.pdf" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">
@@ -929,15 +929,18 @@
 									<p>Registriere dich jetzt oder melde dich in deinem LG Account an, um teilzunehmen</p>
 								</div>
 								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();">ANMELDUNG / REGISTRIERUNG</a>
+									<a href="javascript:redirectToLoginPage();"
+										data-link-name="memberdays_signup_click" 
+										data-link-area="memberdays_2022H2"
+									>ANMELDUNG / REGISTRIERUNG</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" target="_blank" 
+							<a href="${path}/RaffleMemberDays.pdf" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
-                class="terms__link visual__link">
+								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
 							</a>

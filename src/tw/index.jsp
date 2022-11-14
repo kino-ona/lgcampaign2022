@@ -177,13 +177,16 @@
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
+							data-track-group="mic"
 							data-link-name="memberdays_mainbanner_click" 
+							data-track-name="memberdays_mainbanner_click"
 							data-link-area="memberdays_2022H2" 
 							class="button__item button__item--red">查看詳情</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
+								data-track-name="memberdays_anchor_click_termsandconditions"
                 data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
 								活動辦法
@@ -1197,6 +1200,10 @@
 									<div class="button">
 										<a href="https://www.lg.com/tw/it-products" 
 											target="_blank" 
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-val="ㅊComputer Products" 
+											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
@@ -1249,7 +1256,7 @@
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">即刻開始</button>
+						<button type="button" class="popup__button" onclick="hideRedirectPopup();">即刻開始</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1272,7 +1279,7 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">贏得優惠 只差幾步!</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">尋找更多星星</button>
+						<button type="button" class="popup__button" onclick="hideCollectPopup();">尋找更多星星</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1281,6 +1288,29 @@
 		<!-- // keep going popup -->
 
 		<!-- fail popup -->
+		<div class="popup fail__popup">
+			<div class="popup__dimmed"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<div class="ico">
+						<i class="ico__stars"></i>
+					</div>
+					<p class="popup__title popup__title--large">您與獎品擦肩而過…</p>
+					<div class="ico">
+						<i class="ico__fail"></i>
+					</div>
+					<p class="popup__desc popup__desc--semibold">
+						感謝您的參與!<br>
+						很可惜，本次您尚未抽得獎項。<br>
+						但8折限量璀璨價仍等待著您!
+					</p>
+					<div class="popup__buttons">
+						<button type="button" class="popup__button" onclick="hideFailPopup();">探索限量璀璨價</button>
+					</div>
+					<button type="button" class="popup__close" aria-label="close"></button>
+				</div>
+			</div>
+		</div>
 		<!-- // fail popup -->
 
 		<!-- win popup -->
@@ -1300,7 +1330,7 @@
 					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
 					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">查看優惠</button>
+						<button type="button" class="popup__button" onclick="redirectToMypage();">查看優惠</button>
 					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>

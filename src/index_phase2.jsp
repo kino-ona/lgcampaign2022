@@ -133,7 +133,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548378|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07553142|MD07546436|MD07545548|MD07559451|MD07559332|MD07553060|MD07559465|MD07552999|MD07550947|MD06006237"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07546436|MD07552999|MD07550947|MD07559465|MD07553142|MD07553060|MD07559451|MD07559332|MD07545548|MD06006237"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
@@ -144,7 +144,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07550459|MD07546576|MD07550445|MD07546595|MD07534673|MD07550724|MD07550539|MD07550515|MD07526381|MD06090818|MD07548316"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD07551785|MD05180420|MD05096604|MD07532624|MD05941396|MD05818913"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07535480|MD07517580|MD07535313|MD07535474|MD07535404|MD07535414|MD07535502|MD07535502|MD07535542|MD07514347|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912|MD07535335"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07535480|MD07517580|MD07535313|MD07535474|MD07535404|MD07535414|MD07535502|MD07535335|MD07535502|MD07535542|MD07514347|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07560035|MD07558381|MD05761888|MD07508534|MD06236556|MD06159736|MD07522764|MD07506308|MD07500441|MD07553005|MD07553012|MD07553684|MD07553045|MD07555788|MD07525713|MD07523609"/>
 		<!-- Required input ## Model List End -->
 	
@@ -270,7 +270,7 @@
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
-											<p class="coupon__title">15</p>
+											<p class="coupon__title">10</p>
 											<p class="coupon__unit">
 												% Off
 												<span class="coupon__text">Coupon</span>
@@ -539,7 +539,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/washing-machines/lg-f4v1112btsa" target="_blank"
+													data-link-name="memberdays_productMouseHover_home_f4v1112btsa"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/washing-machines/lg-f4v1112btsa" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_f4v1112btsa"
@@ -558,7 +560,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109b" target="_blank"
+													data-link-name="memberdays_productMouseHover_home_fdv1109b"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/tumble-dryers/lg-fdv1109b" target="_blank"
 														data-link-name="memberdays_productMouseHover_home_fdv1109b"
@@ -610,7 +614,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/fridge-freezers/lg-gsqv90pzae" target="_blank"
+													data-link-name="memberdays_productMouseHover_gathering_gsqv90pzae"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/fridge-freezers/lg-gsqv90pzae" target="_blank"
 														data-link-name="memberdays_productMouseHover_gathering_gsqv90pzae"
@@ -630,7 +636,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/speakers-sound-systems/lg-xo3qbk" target="_blank"
+													data-link-name="memberdays_productMouseHover_gathering_xo3qbk"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/speakers-sound-systems/lg-xo3qbk" target="_blank"
 														data-link-name="memberdays_productMouseHover_gathering_xo3qbk"
@@ -683,10 +691,12 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/tvs/lg-oled83g26la" target="_blank"
+													data-link-name="memberdays_productMouseHover_gameday_oled83g26la"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/tvs/lg-oled65g26la" target="_blank"
-														data-link-name="memberdays_productMouseHover_gameday_oled65g26la"
+													<a href="https://www.lg.com/uk/tvs/lg-oled83g26la" target="_blank"
+														data-link-name="memberdays_productMouseHover_gameday_oled83g26la"
 														data-link-area="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -703,7 +713,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/speakers-sound-systems/lg-s95qr" target="_blank"
+													data-link-name="memberdays_productMouseHover_gameday_s95qr"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/speakers-sound-systems/lg-s95qr" target="_blank"
 														data-link-name="memberdays_productMouseHover_gameday_s95qr"
@@ -716,7 +728,7 @@
 															<p class="product__name">LG Sound Bar S95QR</p>
 															<ul class="product__desc">
 																<li>Triple Up-Firing Channels + rear speakers included </li>
-																<li>Meridian Audio Technology,AI Room Calibration &amp; AI Sound Pro</li>
+																<li>Meridian Audio Technology,<br>AI Room Calibration &amp; AI Sound Pro</li>
 															</ul>
 														</div>
 													</a>
@@ -756,7 +768,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/monitors/lg-48gq900-b" target="_blank"
+													data-link-name="memberdays_productMouseHover_pastime_48gq900-b"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/monitors/lg-48gq900-b" target="_blank"
 														data-link-name="memberdays_productMouseHover_pastime_48gq900-b"
@@ -809,7 +823,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/monitors/lg-40wp95c-w" target="_blank"
+													data-link-name="memberdays_productMouseHover_memories_40wp95c-w"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/monitors/lg-40wp95c-w" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_40wp95c-w"
@@ -829,7 +845,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/true-wireless-earbuds/lg-tone-ut90q" target="_blank"
+													data-link-name="memberdays_productMouseHover_memories_tone-ut90q"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/true-wireless-earbuds/lg-tone-ut90q" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_tone-ut90q"
@@ -849,7 +867,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/uk/laptops/lg-16z90q-kar56a1" target="_blank"
+													data-link-name="memberdays_productMouseHover_memories_16z90q-kar56a1"
+													data-link-area="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/uk/laptops/lg-16z90q-kar56a1" target="_blank"
 														data-link-name="memberdays_productMouseHover_memories_16z90q-kar56a1"
@@ -980,7 +1000,7 @@
 								only until 20<sup>th</sup> Dec 2022
 							</h2>
 							<p class="section__desc">
-								Buy More than Two Products and <span class="break break--mobile">get <em class="highlight">15% Discount</em></span>
+								Get <em class="highlight">10% Discount</em> on ALL LG products <span class="break break--mobile">when you buy More than Two Products</span>
 								<span>(Sparkling Deal products excluded from <span class="break break--mobile">additional discount offer)</span></span>
 							</p>
 						</div>
@@ -1006,7 +1026,7 @@
 									<div class="discount__inner">
 										<ul class="discount__number">
 											<li>
-												<p class="discount__total">15% Discount</p>
+												<p class="discount__total">10% Discount</p>
 											</li>
 											<li>
 												<p>2% Member Discount</p>
@@ -1124,7 +1144,7 @@
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
 								<p class="tab__noti">
 									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
 								</p>
 								<div class="product">
 									<div class="product__mask">
@@ -1147,7 +1167,7 @@
 							<div id="audio" class="tab__panel">
 								<p class="tab__noti">
 									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
 								</p>
 								<div class="product">
 									<div class="product__mask">
@@ -1170,7 +1190,7 @@
 							<div id="homeappliance" class="tab__panel">
 								<p class="tab__noti">
 									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
 								</p>
 								<div class="product">
 									<div class="product__mask">
@@ -1193,7 +1213,7 @@
 							<div id="computerproducts" class="tab__panel">
 								<p class="tab__noti">
 									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 15% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
+									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
 								</p>
 								<div class="product">
 									<div class="product__mask">

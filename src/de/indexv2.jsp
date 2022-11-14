@@ -192,7 +192,7 @@
 								class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
-							<a href="#" target="_blank" 
+							<a href="${path}/TNCMemberDays.pdf" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
@@ -302,7 +302,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" target="_blank" 
+							<a href="${path}/TNCMemberDays.pdf" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">
@@ -433,7 +433,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="#" target="_blank" 
+							<a href="${path}/RaffleMemberDays.pdf" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">
