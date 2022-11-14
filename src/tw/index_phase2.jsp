@@ -947,7 +947,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="event__bottom">
+							<div class="event__bottom login__link">
 								<div class="event__left">
 									<p>只差一步 就可贏得大獎</p>
 								</div>
@@ -1405,7 +1405,7 @@
 					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列 僅可與2%會員優惠/5%新會員歡迎禮並用</p>
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
-						<a href="#" 
+						<a href="javascript:redirectToMypage();" 
 							data-link-name="starstamp_coupon_download_click"
 							data-link-area="memberdays_2022H2" 
 							data-track-name="starstamp_coupon_download" 

@@ -129,11 +129,11 @@
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07550735"/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07563138|MD07559264|MD07548889|MD07521229|MD07521230|MD07521166|MD06061357|MD07560602|MD07544285|MD07544333|MD07544338|MD07530319|MD07530466"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07527542|MD07549194|MD07549314|MD07525606|MD07525615"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07563138|MD07559264|MD07548889|MD07521229|MD07521230|MD07515551|MD07521166|MD06061357|MD07560602|MD07544285|MD07544333|MD07544338|MD07530319|MD07530466|"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07527542|MD07549194|MD07549314|MD07525606|MD07525615|MD07525612"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07551331|MD07550715|MD07550722|MD07559969|MD07559899"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07518447|MD07506953|MD07557214|MD07560074|MD07561321|MD07560002|MD07561295|MD07555392|MD07555367|MD07555397"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07555425|MD07527328|MD07527366"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07518447|MD07506953|MD07557214|MD07560074|MD07561321|MD07560002|MD07561295"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07555425|MD07527328|MD07527366|MD07563896"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07549062|MD07525606|MD07525612|MD07550722|MD07523845|MD07551573|MD05849136|MD05849142|MD07549398|MD07550509|MD07544285|MD07544333|MD07544338|MD07553545|MD07555327|MD07506953|MD07524754|MD07555425"/>
@@ -178,7 +178,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07551482|MD07551504|MD07551331|MD07551385|MD07551392|MD07551393|MD07551512|MD07551564|MD07551573|MD07553101|MD07552962|MD07552957|MD07551203|MD07551233|MD07551239|MD07551245"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07530013|MD07530005|MD07514112|MD07507391|MD07510843|MD07510755|MD07535558|MD07537967|MD07537988|MD07537974"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07516997|MD07515551|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07549912|MD07560908|MD07560884|MD07554691|MD07555673|MD07553698|MD07522264|MD07544522"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07516997|MD07515551|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07549912|MD07560908|MD07560884|MD07554691|MD07560894|MD07555673|MD07553698|MD07522264|MD07544522|MD07522356|MD07522333"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07507428|MD07524665|MD07527480|MD07553471|MD07553537|MD07529949|MD07555288|MD07510661|MD07533754|MD07557204|MD07527350|MD07521897|MD07527461|MD07533848|MD07555367|MD07550771"/>
 		<!-- Required input ## Model List End -->
 	
@@ -290,9 +290,9 @@
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Coupon giảm giá tại Ngày Hội Thành Viên LG</p>
-											<p class="coupon__text coupon__text--narrow">Khi mua sắm từ 2 sản phẩm LG</p>
-											<p class="coupon__text coupon__text--secondary">*Tất cả các sản phẩm đều có mặt trên LG.com, ngoại trừ “Khuyến mại Mùa Lễ Hội”</p>
+											<p class="coupon__title">Coupon giảm giá đặc biệt tại LG Member Days</p>
+											<p class="coupon__text coupon__text--narrow">Khi mua sắm từ 2 sản phẩm LG bất kỳ</p>
+											<p class="coupon__text coupon__text--secondary">*Ngoại trừ các sản phẩm thuộc danh sách “Ưu đãi Đặc biệt”</p>
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -311,10 +311,10 @@
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">Đang nhập và tìm kiếm ngay Coupon giảm giá Ngày Hội Thành Viên LG tại “LG của tôi”</p>
+								<p class="benefit__text">Đăng nhập và tìm kiếm ngay Coupon giảm giá LG Member Days tại “LG của tôi”</p>
 							</div>
 							<div class="benefit__more">
-								<p class="benefit__text">Ưu đãi không chỉ có vậy</p>
+								<p class="benefit__text">Ưu đãi hấp dẫn khác</p>
 								<div class="benefit__button">
 									<p>
 										<i></i>
@@ -353,8 +353,8 @@
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Một ngày tuyệt vời hơn với Sparkle</p>
-							<h2 class="section__title">Tham gia ngay để có cơ hội nhận giải thưởng Sparkle</h2>
+							<p class="section__sub">Một ngày tuyệt vời hơn với Ưu đãi Đặc biệt</p>
+							<h2 class="section__title">Tham gia ngay để có cơ hội nhận Giải thưởng Đặc biệt</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
@@ -380,8 +380,7 @@
 											<li>
 												<span>3</span>
 												<p>
-													<span class="break break--mobile">Tìm kiếm NGAY</span>
-													nếu bạn đã chiến thắng!
+													<span class="break break--desktop">Tìm hiểu NGAY bạn đã giành được giải</span> thưởng hay chưa!
 												</p>
 											</li>
 										</ol>
@@ -402,7 +401,7 @@
 												<p class="event__title">Giải Nhất</p>
 												<p class="event__sub">Cơ hội để giành được</p>
 												<p class="event__desc event__desc--secondary">Dành cho 03 người duy nhất</p>
-												<p class="event__desc event__desc--tertiary">Người chiến thắng sẽ nhận được email thông báo trong 2 tuần để từ ngày kết thúc chương trình</p>
+												<p class="event__desc event__desc--tertiary">Người chiến thắng sẽ nhận được email thông báo trong 3 tuần kể từ ngày kết thúc chương trình</p>
 											</div>
 											<div class="event__gift">
 												<img src="${path}/assets/images/vn/img_event_product.png" alt="">
@@ -500,7 +499,7 @@
 									data-track-val="home" data-track-name="selectThemeDisplay"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Ngôi Nhà</span>
+									<span class="tab__text">Tổ Ấm</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gathering">
@@ -509,7 +508,7 @@
 									data-track-val="gathering" data-track-name="selectThemeDisplay"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Gathering</span>
+									<span class="tab__text">Sum họp</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gameday">
@@ -518,7 +517,7 @@
 									data-track-val="gameday" data-track-name="selectThemeDisplay"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Game Day</span>
+									<span class="tab__text">Cuộc chơi</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
@@ -527,7 +526,7 @@
 									data-track-val="pastime" data-track-name="selectThemeDisplay"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Pastime</span>
+									<span class="tab__text">Giải Trí</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
@@ -536,7 +535,7 @@
 									data-track-val="memories" data-track-name="selectThemeDisplay"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Memories</span>
+									<span class="tab__text">Khoảnh khắc</span>
 								</a>
 							</li>
 						</ul>
@@ -977,7 +976,7 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">Ưu đãi Mùa Lễ Hội sắp diễn ra</h2>
+							<h2 class="section__title">Ưu đãi Đặc biệt sắp diễn ra</h2>
 							<p class="section__desc">5/12 - 18/12</p>
 							<p class="section__sub">Ưu đãi tới 50% - Số lượng có hạn - Chỉ áp dụng với thành viên LG</p>
 						</div>
@@ -1001,8 +1000,8 @@
 										-->
 										<div class="product__info products-info">
 											<p class="product__name">*userFriendlyName*</p>
-											<p class="product__sn sku">*modelName*</p>
-											<div class="product__price">
+											<!-- <p class="product__sn sku">*modelName*</p> -->
+											<!-- <div class="product__price">
 												<span class="product__discount">
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*originPrice*</span>
@@ -1024,11 +1023,11 @@
 												<div class="product__noti d-none">
 													<p class="product__text">*reStockAlertText*</p>
 												</div>
-											</div>
-											<div class="button">
+											</div> -->
+											<!-- <div class="button">
 												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparkling_add_to_cart_click" data-link-name="sparkling_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
-											</div>
+											</div> -->
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='Tìm hiểu thêm'/></span>
@@ -1190,7 +1189,7 @@
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemoresoundsystems"
 											data-link-area="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">XEM THÊM Âm thanh</a>
 										<a href="https://www.lg.com/vn/tai-nghe-khong-day" 
 											target="_blank"
 											tabindex="0" 
@@ -1200,7 +1199,7 @@
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorewirelessearbuds"
 											data-link-area="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">XEM THÊM Tai nghe không dây</a>
 									</div>
 								</div>
 							</div>
@@ -1219,7 +1218,7 @@
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorehomeappliances"
 											data-link-area="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">XEM THÊM Gia dụng</a>
 									</div>
 								</div>
 							</div>
@@ -1237,7 +1236,7 @@
 											data-track-name="plpClick" 
 											data-link-name="memberdays_plp_click_seemorecomputerproducts"
 											data-link-area="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">XEM THÊM Sản phẩm máy tính</a>
 									</div>
 								</div>
 							</div>

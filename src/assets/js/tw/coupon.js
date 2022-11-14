@@ -10,25 +10,17 @@ const prodLotteryResultPath = '/rest/V1/lotteryCoupon/result';
 let isLogin = false;
 
 $(function() {
-    window.isLogin = checkLogin();
+    getAccessTokenForLottery(function(token) {
+        window.isLogin = true;
 
-    if (window.isLogin) {
         hideLoginLink();
-        getLotteryData();
-    }
+        getLotteryData(token);
+    });
 
     return;
 });
 
-function checkLogin() {
-    if ($('.navigation .right-btm .login').hasClass('logged')) {
-        return true;
-    } else {
-        return false;
-    }
-}
-
-function getAccessTokenForLottery(success) {
+function getAccessTokenForLottery(success, failed = null) {
     $.ajax({
         url: '/' + locale + '/mkt/ajax/commonmodule/getAccessToken',
         type: 'POST',
@@ -39,6 +31,10 @@ function getAccessTokenForLottery(success) {
             if (token) {
                 success(token);
             } else {
+                if (failed) {
+                    failed();
+                }
+
                 console.log('getAccessTokenForLotteryFailed');
             }
         },
@@ -50,136 +46,132 @@ function getAccessTokenForLottery(success) {
 }
 
 function showLotteryModal(ctaId = null, el = null) {
-    if (el && $(el).hasClass('lottie--disabled')) {
-        return;
-    }
-    
-    if (!window.isLogin) {
+    getAccessTokenForLottery(function (token) {
+        if (el && $(el).hasClass('lottie--disabled')) {
+            return;
+        }
+
+        if (ctaId) {
+            getLotteryResult(ctaId, token);
+
+            return;
+        }
+    }, function() {
         $('.login__popup').show();
 
-        setTimeout(function() {
+        setTimeout(function () {
             redirectToLoginPage();
         }, 1000);
 
         return;
-    }
-
-    if (ctaId) {
-        getLotteryResult(ctaId);
-
-        return;
-    }
-}
-
-function getLotteryData() {
-    getAccessTokenForLottery(function(token) {
-        $.ajax({
-            url: devHost + devLotteryGetPath + '?micrositeId=' + micrositeId,
-            type: 'POST',
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader('Authorization', 'Bearer ' + token);
-            },
-            success: function(data) {
-                const result = data.data;
-                const clicked = result.general_info.clicked;
-                const coupon = result.result.coupon;
-    
-                disableStars(result.cta_info);
-    
-                // star reset
-                const eventStars = $('.event__stars .event__star');
-                eventStars.attr('class', 'event__star');
-    
-                // star activate
-                for (let i = 0; i < clicked; i++) {
-                    eventStars.eq(i).attr('class', 'event__star event__star--actived');
-                }
-    
-                // if redirected
-                if (isRedirected) {
-                    $('.redirect__popup').show();
-                }
-    
-                return;
-            },
-            error: function(err) {
-                return;
-            }
-        });
     });
 }
 
-function getLotteryResult(ctaId) {
-    getAccessTokenForLottery(function(token) {
-        $.ajax({
-            url: devHost + devLotteryResultPath + '?micrositeId=' + micrositeId + '&ctaId=' + ctaId,
-            type: 'POST',
-            beforeSend: function(xhr) {
-                xhr.setRequestHeader('Authorization', 'Bearer ' + token);
-            },
-            success: function(data) {
-                const result = data.data;
-                const clicked = result.general_info.clicked;
-                const rewardCode = result.result.reward_code;
-                const coupon = result.result.coupon;
-    
-                disableStars(result.cta_info);
-    
-                // if click counts under 5
-                if (clicked < 5) {
-                    // star reset
-                    const lotteryStars = $('.collect__popup .star')
-                    const eventStars = $('.event__stars .event__star').attr('class', 'event__star');
-                    
-                    lotteryStars.attr('class', 'star');
-                    eventStars.attr('class', 'event__star');
-    
-                    // star activate
-                    for (let i = 0; i < clicked; i++) {
-                        lotteryStars.eq(i).attr('class', 'star star--actived');
-                        eventStars.eq(i).attr('class', 'event__star event__star--actived');
-                    }
-    
-                    // set popup text
-                    $('.collect__popup .collect__count').text(getStarCountText(clicked));
-                    $('.collect__popup').show();
-    
-                    return;
+function getLotteryData(token) {
+    $.ajax({
+        url: devHost + devLotteryGetPath + '?micrositeId=' + micrositeId,
+        type: 'POST',
+        beforeSend: function (xhr) {
+            xhr.setRequestHeader('Authorization', 'Bearer ' + token);
+        },
+        success: function (data) {
+            const result = data.data;
+            const clicked = result.general_info.clicked;
+            const coupon = result.result.coupon;
+
+            disableStars(result.cta_info);
+
+            // star reset
+            const eventStars = $('.event__stars .event__star');
+            eventStars.attr('class', 'event__star');
+
+            // star activate
+            for (let i = 0; i < clicked; i++) {
+                eventStars.eq(i).attr('class', 'event__star event__star--actived');
+            }
+
+            // if redirected
+            if (isRedirected) {
+                $('.redirect__popup').show();
+            }
+
+            return;
+        },
+        error: function (err) {
+            return;
+        }
+    });
+}
+
+function getLotteryResult(ctaId, token) {
+    $.ajax({
+        url: devHost + devLotteryResultPath + '?micrositeId=' + micrositeId + '&ctaId=' + ctaId,
+        type: 'POST',
+        beforeSend: function (xhr) {
+            xhr.setRequestHeader('Authorization', 'Bearer ' + token);
+        },
+        success: function (data) {
+            const result = data.data;
+            const clicked = result.general_info.clicked;
+            const rewardCode = result.result.reward_code;
+            const coupon = result.result.coupon;
+
+            disableStars(result.cta_info);
+
+            // if click counts under 5
+            if (clicked < 5) {
+                // star reset
+                const lotteryStars = $('.collect__popup .star')
+                const eventStars = $('.event__stars .event__star').attr('class', 'event__star');
+
+                lotteryStars.attr('class', 'star');
+                eventStars.attr('class', 'event__star');
+
+                // star activate
+                for (let i = 0; i < clicked; i++) {
+                    lotteryStars.eq(i).attr('class', 'star star--actived');
+                    eventStars.eq(i).attr('class', 'event__star event__star--actived');
                 }
-    
-                // if win
-                if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
-                    $('.win__popup').show();
-    
-                    return;
-                }
-    
-                if (/^win(\_|\-)4$/i.test(rewardCode)) {
-                    $('.win__popup__with__coupon .coupon__title').text('40');
-                    $('.win__popup__with__coupon').show();
-    
-                    return;
-                }
-                if (/^win(\_|\-)5$/i.test(rewardCode)) {
-                    $('.win__popup__with__coupon .coupon__title').text('15');
-                    $('.win__popup__with__coupon').show();
-    
-                    return;
-                }
-    
-                // if loss
-                if (/^loss$/i.test(rewardCode)) {
-                    $('.fail__popup').show();
-    
-                    return;
-                }
-    
-                return;
-            },
-            error: function(err) {
+
+                // set popup text
+                $('.collect__popup .collect__count').text(getStarCountText(clicked));
+                $('.collect__popup').show();
+
                 return;
             }
-        });
+
+            // if win
+            if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
+                $('.win__popup').show();
+
+                return;
+            }
+
+            if (/^win(\_|\-)4$/i.test(rewardCode)) {
+                $('.win__popup__with__coupon .coupon__title').text('40');
+                $('.win__popup__with__coupon').show();
+
+                return;
+            }
+            if (/^win(\_|\-)5$/i.test(rewardCode)) {
+                $('.win__popup__with__coupon .coupon__title').text('15');
+                $('.win__popup__with__coupon').show();
+
+                return;
+            }
+
+            // if loss
+            if (/^loss$/i.test(rewardCode)) {
+                $('.fail__popup').show();
+
+                return;
+            }
+
+            return;
+        },
+        error: function (err) {
+            return;
+        }
     });
 }
 

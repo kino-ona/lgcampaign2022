@@ -438,7 +438,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="event__bottom">
+							<div class="event__bottom login__link">
 								<div class="event__left">
 									<p>只差一步 就可贏得大獎</p>
 								</div>
@@ -1006,8 +1006,8 @@
 										-->
 										<div class="product__info products-info">
 											<p class="product__name">*userFriendlyName*</p>
-											<p class="product__sn sku">*modelName*</p>
-											<div class="product__price">
+											<!-- <p class="product__sn sku">*modelName*</p> -->
+											<!-- <div class="product__price">
 												<span class="product__discount">
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*originPrice*</span>
@@ -1029,11 +1029,11 @@
 												<div class="product__noti d-none">
 													<p class="product__text">*reStockAlertText*</p>
 												</div>
-											</div>
-											<div class="button">
+											</div> -->
+											<!-- <div class="button">
 												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparklingdeals_add_to_cart_click" data-link-name="sparklingdeals_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='加入購物車'/></a>
-											</div>
+											</div> -->
 											<div class="learn-more">
 												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
@@ -1360,7 +1360,7 @@
 					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列僅可與2%會員優惠/5%新會員歡迎禮合併使用</p>
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
-						<a href="#" 
+						<a href="javascript:redirectToMypage();" 
 							data-link-name="starstamp_coupon_download_click"
 							data-link-area="memberdays_2022H2" 
 							data-track-name="starstamp_coupon_download" 

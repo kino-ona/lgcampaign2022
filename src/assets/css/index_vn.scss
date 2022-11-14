@@ -37,11 +37,13 @@
 		.section__title {
 			width: 55%;
 			margin: 0 auto;
+			line-height: 65px;
 			@media (max-width: 1500px) {
 				width: 65%;
 			}
 			@media (max-width: 1300px) {
 				width: 70%;
+				line-height: 40px;
 			}
 			@media (max-width: 1200px) {
 				width: 75%;
@@ -367,7 +369,6 @@
 	.visual {
 		
 		.section {
-			height: 80vh;
 			background: {
 				image: url('../images/vn/bg_visual.png');
 			};
@@ -667,6 +668,11 @@
 				.hotdeal_bg {
 					background-image: url('../images/vn/hotdeal_on.png');
 				}
+			}
+		}
+		>.button {
+			.button__item {
+				max-width: 330px;
 			}
 		}
 

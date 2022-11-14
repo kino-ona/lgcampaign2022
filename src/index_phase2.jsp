@@ -912,10 +912,10 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">Sparkling Deal is coming soon</h2>
+							<h2 class="section__title">Sparkling Deal</h2>
 							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">
-								<span class="break break--mobile">Save big on our limited stock product</span> for LG Members only
+								<span class="break break--mobile">Save 37% OFF on our limited stock product</span> for LG Members only
 							</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
@@ -927,7 +927,6 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
-											<p class="product__comming">Coming Soon</p>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>

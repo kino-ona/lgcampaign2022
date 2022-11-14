@@ -1759,6 +1759,8 @@
 			.product__img {
 				img {
 					width: 100%;
+					max-width: 100%;
+					max-height: inherit;
 				}
 
 				.product__label,
@@ -2065,8 +2067,15 @@
 			}
 		}
 		&__img {
+			text-align: center;
 			img {
 				max-width: 100%;
+				max-width: 160px;
+				max-height: 160px;
+				@media (max-width: 1024px)  {
+					max-width: 100%;
+					max-height: inherit;
+				}
 			}
 		}
 		&__flags {
@@ -2136,6 +2145,10 @@
 			align-items: center;
 			margin-top: 16px;
 			min-height: 22px;
+
+			@media (max-width: 1024px) {
+				flex-direction: column;
+			}
 		}
 		&__price-now {
 			justify-content: center;
@@ -2625,6 +2638,7 @@
 				height: 36px;
 				padding: 0;
 				font-size: 14px;
+				line-height: 1;
 			}
 		}
 	}

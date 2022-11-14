@@ -235,6 +235,9 @@
 				}
 			}
 		}
+		&__desc {
+			margin-top: 15px;
+		}
 
 		@media (max-width: 1024px) {
 			&__container {
@@ -334,7 +337,8 @@
 	.visual {
 		
 		.section {
-			height: 80vh;
+			// height: 80vh;
+			// height: 51vw;
 			background: {
 				image: url('../images/de/bg_visual.png');
 			};
