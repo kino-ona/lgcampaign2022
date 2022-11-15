@@ -453,9 +453,9 @@
 								<div class="section__header">
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Trang trí cho</span>
-										<em>#Tổ Ấm</em>
-										<span class="break break--mobile">của bạn cùng LG</span>
+										<span class="break break--mobile">Buổi</span>
+										<em>#Sum họp</em>
+										<span class="break break--mobile">thêm ấm cúng với LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Quần áo thơm mới. Ngôi nhà ấm cúng. Bạn</span> có thể bắt đầu mùa Lễ Hội rồi</p>
 								</div>

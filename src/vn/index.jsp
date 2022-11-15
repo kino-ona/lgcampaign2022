@@ -703,9 +703,9 @@
 								<div class="section__header">
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Trang trí cho</span>
-										<em>#Gathering</em>
-										<span class="break break--mobile">của bạn cùng LG</span>
+										<span class="break break--mobile">Buổi</span>
+										<em>#Sum họp</em>
+										<span class="break break--mobile">thêm ấm cúng với LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Chuẩn bị bàn tiệc, không khí thật chill</span> cùng công nghệ của LG</p>
 								</div>
@@ -1069,7 +1069,7 @@
 						<div class="section__header">
 							<p class="section__sub">Thêm niềm vui cùng LG</p>
 							<h2 class="section__title">Đặc quyền thành viên LG sắp diễn ra</h2>
-							<!-- <p class="section__sub"></p> -->
+							<p class="section__sub">05/12 - 18/12</p>
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">

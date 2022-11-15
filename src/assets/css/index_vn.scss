@@ -35,21 +35,24 @@
 .lgmembersweek {
 	.visual .section {
 		.section__title {
-			width: 55%;
+			// width: 55%;
 			margin: 0 auto;
-			line-height: 65px;
-			@media (max-width: 1500px) {
-				width: 65%;
-			}
+			// line-height: 65px;
+			// @media (max-width: 1500px) {
+			// 	width: 65%;
+			// }
 			@media (max-width: 1300px) {
-				width: 70%;
-				line-height: 40px;
+				font-size: 65px;
+				// width: 70%;
+				// line-height: 40px;
 			}
 			@media (max-width: 1200px) {
-				width: 75%;
+				// width: 75%;
+				font-size: 55px;
 			}
 			@media (max-width: 1024px) {
-				width: 100%;
+				// width: 100%;
+				font-size: 29px;
 			}
 		}
 	}
@@ -408,6 +411,9 @@
 					font-size: 24px;
 				}
 			}
+		}
+		.coupon__info .coupon__text--secondary {
+			font-size: 15px;
 		}
 	}
 	.benefit__more {
