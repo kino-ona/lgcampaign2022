@@ -90,7 +90,7 @@
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
 		<meta itemprop="name" content="LG璀璨會員日 最高6折| LG台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="www.lg.com/tw/promotions/memberdays" />
+		<meta itemprop="url" content="https://www.lg.com/tw/memberdays-2022" />
 		<meta itemprop="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠" />
 		<meta itemprop="keywords" content="" />
 	</div>
@@ -381,7 +381,7 @@
 									</div>
 									<p class="event__category">蒐集完成五顆星星</p>
 									<div class="event__stars">
-										<div class="event__star event__star--actived"></div>
+										<div class="event__star"></div>
 										<div class="event__star"></div>
 										<div class="event__star"></div>
 										<div class="event__star"></div>

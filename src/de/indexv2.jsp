@@ -9,14 +9,14 @@
 	<meta name="keywords" content="">
 	<meta name="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
-	<link rel="canonical" href="www.lg.com/de/memberdays">
+	<link rel="canonical" href="https://www.lg.com/de/memberdays">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Deutschland">
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland">
 	<meta property="og:description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022.">
-	<meta property="og:url" content="www.lg.com/de/memberdays">
+	<meta property="og:url" content="https://www.lg.com/de/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@LGDE">
@@ -90,7 +90,7 @@
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
 		<meta itemprop="name" content="LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
-		<meta itemprop="url" content="www.lg.com/de/memberdays" />
+		<meta itemprop="url" content="https://www.lg.com/de/memberdays" />
 		<meta itemprop="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
@@ -192,7 +192,7 @@
 								class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
-							<a href="${path}/TNCMemberDays.pdf" target="_blank" 
+							<a href="${path}/member-days-lg-tnc" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
@@ -302,7 +302,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="${path}/TNCMemberDays.pdf" target="_blank" 
+							<a href="${path}/member-days-lg-tnc" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">
@@ -362,7 +362,7 @@
 									</div>
 									<p class="event__category">Finde alle fünf Sterne</p>
 									<div class="event__stars">
-										<div class="event__star event__star--actived"></div>
+										<div class="event__star"></div>
 										<div class="event__star"></div>
 										<div class="event__star"></div>
 										<div class="event__star"></div>
@@ -433,7 +433,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="${path}/RaffleMemberDays.pdf" target="_blank" 
+							<a href="${path}/member-days-lg-tnc" target="_blank" 
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">

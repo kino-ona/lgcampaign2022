@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG</title>
+	<title>Ưu đãi Ngày Hội Thành Viên: Giảm tới 17% cho thành viên LG | LG Việt Nam</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
@@ -14,12 +14,12 @@
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Electronics Việt Nam">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG">
+	<meta property="og:title" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 17% cho thành viên LG | LG Việt Nam">
 	<meta property="og:description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022.">
 	<meta property="og:url" content="www.lg.com/vn/lgmemberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@LGUK">
+	<meta name="twitter:site" content="@LGVN">
 	<script type="application/ld+json">
 	{
 	"@context": "https://schema.org",
@@ -88,7 +88,7 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 22% cho thành viên LG"/>
+		<meta itemprop="name" content="Ưu đãi Ngày Hội Thành Viên: Giảm tới 17% cho thành viên LG | LG Việt Nam"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="www.lg.com/vn/lgmemberdays" />
 		<meta itemprop="description" content="Trở thành thành viên LG và tận hưởng các đặc quyền hấp dẫn. Chương trình Ngày Hội Thành Viên LG chỉ diễn tới ngày 18/12/2022." />
@@ -189,9 +189,9 @@
         <div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h1 class="section__title">NGÀY HỘI THÀNH VIÊN LG SẮP QUAY TRỞ LẠI</h1>
+							<h1 class="section__title">LG MEMBER DAYS SẮP QUAY TRỞ LẠI</h1>
 							<p class="section__desc">5/12 - 18/12</p>
-							<p class="section__sub">Thắp sáng mùa lễ hội với LG</p>
+							<p class="section__sub">Cùng LG thắp sáng mùa lễ hội</p>
 							<p class="section__desc">
 								Đăng ký để không bỏ lỡ giải thưởng cực hấp dẫn<br>
 								và NHỮNG ĐẶC QUYỀN CHO RIÊNG THÀNH VIÊN
@@ -210,8 +210,7 @@
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
                 class="terms__link visual__link">
-								Điều khoảng &amp; Điều kiện
-                <i class="visual__arrow"></i>
+								Thể lệ chương trình<i class="visual__arrow"></i>
               </a>
 						</div>
 					</div>
@@ -224,7 +223,7 @@
 							<i class="arrow_ico"></i>
 						</button>
 						<div id="select_list-item" class="select_list-item">
-							<span class="link">XEM ĐẶC QUYỀN THÀNH VIÊN</span>
+							<span class="link">ĐẶC QUYỀN CỦA THÀNH VIÊN</span>
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
@@ -232,14 +231,14 @@
 									data-track-group="mic" data-track-name="memberdays_anchor_click"
 									data-link-name="memberdays_anchor_memberexclusiveoffers" 
 									data-link-area="memberdays_2022H2" 
-									class="link">XEM ĐẶC QUYỀN THÀNH VIÊN</a>
+									class="link">ĐẶC QUYỀN CỦA THÀNH VIÊN</a>
 							</li>
 							<li class="list-item">
 								<a href="#MembershipEvent" 
 									data-track-group="mic" data-track-name="memberdays_anchor_click"
 									data-link-name="memberdays_anchor_membershipevent" 
 									data-link-area="memberdays_2022H2" 
-									class="link">KHÁM PHÁ SỰ KIỆN THÀNH VIÊN CỦA CHÚNG TÔI</a>
+									class="link">KHÁM PHÁ SỰ KIỆN THÀNH VIÊN</a>
 							</li>
 							<li class="list-item">
 								<a href="#HolidayCollection" 
@@ -258,10 +257,10 @@
 				<div class="section__container section__container--benefit">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Quyền lợi cho thành viên LG</p>
+							<p class="section__sub">Đặc quyền thành viên LG</p>
 							<h2 class="section__title">
 								<span class="break break--desktop break break--mobile">Đặc quyền và khuyến mại đặc biệt cho</span>
-								MỌI sản phẩm LG
+								TẤT CẢ sản phẩm LG
 							</h2>
 						</div>
 						<div class="benefit">
@@ -276,8 +275,8 @@
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Quyền lợi đặc biệt cho thành viên</p>
-											<p class="coupon__text">Tham gia và nhận ngay ưu đãi cho những đơn hàng sau</p>
+											<p class="coupon__title">Đặc quyền thành viên</p>
+											<p class="coupon__text">Tham gia để nhận thêm ưu đãi<br>cho tất cả các đơn hàng</p>
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -290,7 +289,7 @@
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Coupon giảm giá đặc biệt tại LG Member Days</p>
+											<p class="coupon__title">Coupon giảm giá đặc biệt tại<br>LG Member Days</p>
 											<p class="coupon__text coupon__text--narrow">Khi mua sắm từ 2 sản phẩm LG bất kỳ</p>
 											<p class="coupon__text coupon__text--secondary">*Ngoại trừ các sản phẩm thuộc danh sách “Ưu đãi Đặc biệt”</p>
 										</div>
@@ -336,7 +335,7 @@
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">
-								Điều khoảng &amp; Điều kiện
+								Thể lệ chương trình
 								<i></i>
 							</a>
 						</div>
@@ -387,7 +386,7 @@
 									</div>
 									<p class="event__category">Tìm kiếm 05 Ngôi Sao</p>
 									<div class="event__stars">
-										<div class="event__star event__star--actived"></div>
+										<div class="event__star"></div>
 										<div class="event__star"></div>
 										<div class="event__star"></div>
 										<div class="event__star"></div>
@@ -457,7 +456,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="event__bottom">
+							<div class="event__bottom login__link">
 								<div class="event__left">
 									<p>Bạn chỉ cách giải thưởng 01 Ngôi Sao nữa thôi</p>
 									<p>Đăng ký hoặc Đăng nhập ngay để tham gia</p>
@@ -475,7 +474,7 @@
                 data-link-name="memberdays_anchor_click_termsandconditions" 
                 data-link-area="memberdays_2022H2" 
 								class="section__text">
-								Điều khoảng &amp; Điều kiện
+								Thể lệ chương trình
 								<i></i>
 							</a>
 						</div>
@@ -559,7 +558,7 @@
 										<p class="product__name">*userFriendlyName*</p>
 										<p class="product__sn sku">*modelName*</p>
 										<div class="button">
-											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='Thêm vào giỏ hàng'/></a>
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
@@ -579,10 +578,10 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
+									<p class="section__sub">Khoảnh khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Trang trí cho</span>
-										<em>#TổẤm</em>
+										<em>#Tổ Ấm</em>
 										<span class="break break--mobile">của bạn cùng LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Quần áo thơm mới. Ngôi nhà ấm cúng. Bạn</span> có thể bắt đầu mùa Lễ Hội rồi</p>
@@ -978,7 +977,7 @@
 						<div class="section__header">
 							<h2 class="section__title">Ưu đãi Đặc biệt sắp diễn ra</h2>
 							<p class="section__desc">5/12 - 18/12</p>
-							<p class="section__sub">Ưu đãi tới 50% - Số lượng có hạn - Chỉ áp dụng với thành viên LG</p>
+							<p class="section__sub">Ưu đãi tới 45% - Số lượng có hạn - Chỉ áp dụng với thành viên LG</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -1025,7 +1024,7 @@
 												</div>
 											</div> -->
 											<!-- <div class="button">
-												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparkling_add_to_cart_click" data-link-name="sparkling_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparkling_add_to_cart_click" data-link-name="sparkling_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='Thêm vào giỏ hàng'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div> -->
 											<div class="learn-more">
@@ -1055,9 +1054,9 @@
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">Thêm niềm vui cho Mùa Lễ Hội cùng LG</p>
+							<p class="section__sub">Thêm niềm vui cùng LG</p>
 							<h2 class="section__title">Đặc quyền thành viên LG sắp diễn ra</h2>
-							<p class="section__sub">Đặc quyền thành viên LG sắp diễn ra</p>
+							<!-- <p class="section__sub"></p> -->
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -1143,7 +1142,7 @@
 											</div>
 										</div>
 										<div class="button">
-											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='Thêm vào giỏ hàng'/></a>
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
@@ -1362,7 +1361,7 @@
 						<!-- <img src="${path}/assets/images/vn/img_popup_gift02.png" alt=""> -->
 						<!-- <img src="${path}/assets/images/vn/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">Người chiến thắng sẽ nhận được email thông báo trong 2 tuần để từ ngày kết thúc chương trình</p>
+					<p class="popup__desc popup__desc--semibold">Người chiến thắng sẽ nhận được email thông báo trong 3 tuần để từ ngày kết thúc chương trình</p>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>

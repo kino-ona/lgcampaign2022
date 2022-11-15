@@ -118,35 +118,38 @@ function getLotteryResult(ctaId, token) {
 
             disableStars(result.cta_info);
 
-            // if click counts under 5
+            // star reset
+            const lotteryStars = $('.collect__popup .star')
+            const eventStars = $('.event__stars .event__star').attr('class', 'event__star');
+
+            lotteryStars.attr('class', 'star');
+            eventStars.attr('class', 'event__star');
+
+            // star activate
+            for (let i = 0; i < clicked; i++) {
+                lotteryStars.eq(i).attr('class', 'star star--actived');
+                eventStars.eq(i).attr('class', 'event__star event__star--actived');
+            }
+
+            // set popup text
+            $('.collect__popup .collect__count').text(getStarCountText(clicked));
+            $('.collect__popup').show();
+
+            // if click counts under 5, no popup
             if (clicked < 5) {
-                // star reset
-                const lotteryStars = $('.collect__popup .star')
-                const eventStars = $('.event__stars .event__star').attr('class', 'event__star');
-
-                lotteryStars.attr('class', 'star');
-                eventStars.attr('class', 'event__star');
-
-                // star activate
-                for (let i = 0; i < clicked; i++) {
-                    lotteryStars.eq(i).attr('class', 'star star--actived');
-                    eventStars.eq(i).attr('class', 'event__star event__star--actived');
-                }
-
-                // set popup text
-                $('.collect__popup .collect__count').text(getStarCountText(clicked));
-                $('.collect__popup').show();
-
                 return;
             }
 
             // if win
             if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
+                const image = $('<img src="../assets/images/tw/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
+
+                $('.win__popup .popup__gift').html(image);
                 $('.win__popup').show();
 
                 return;
             }
-
+ 
             if (/^win(\_|\-)4$/i.test(rewardCode)) {
                 $('.win__popup__with__coupon .coupon__title').text('40');
                 $('.win__popup__with__coupon').show();
