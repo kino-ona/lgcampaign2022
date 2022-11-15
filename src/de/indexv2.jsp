@@ -187,14 +187,17 @@
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
-								data-link-name="memberdays_mainbanner_click" 
-								data-link-area="memberdays_2022H2" 
+								data-track-group="mic"
+								data-link-area="memberdays_mainbanner_click" 
+								data-track-name="memberdays_mainbanner_click"
+								data-link-name="memberdays_2022H2" 
 								class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
-							<a href="${path}/member-days-lg-tnc" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022H2" 
+							<a href="${path}/member-days-lg-tnc" target="_blank"
+								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-track-name="memberdays_anchor_click_termsandconditions"
+								data-link-name="memberdays_2022H2" 
                 class="terms__link visual__link">
                 Teilnahmebedingungen
                 <i class="visual__arrow"></i>
@@ -217,26 +220,26 @@
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#MemberExclusiveOffers" 
-									data-track-group="mic" data-track-name="memberdays_anchor_click"
-									data-link-name="memberdays_anchor_memberexclusiveoffers" 
-									data-link-area="memberdays_2022H2" 
+								<a href="#MemberExclusiveOffers"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click"
+									data-link-area="memberdays_H2_Anchor_click_memberexclusiveoffers" 
+									data-link-name="memberdays_2022H2" 
 									class="link">Exklusive Angebote für<br>
 									Mitglieder anzeigen</a>
 							</li>
 							<li class="list-item">
 								<a href="#MembershipEvent"
-									data-track-group="mic" data-track-name="memberdays_anchor_click"
-									data-link-name="memberdays_anchor_click_membershipevent" 
-									data-link-area="memberdays_2022H2" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click"
+									data-link-area="memberdays_H2_Anchor_click_membershipevent" 
+									data-link-name="memberdays_2022H2" 
 									class="link">Entdecke unsere außergewöhnliche Kampagne,<br>
 									nur für Mitglieder</a>
 							</li>
 							<li class="list-item">
 								<a href="#HolidayCollection" 
-									data-track-group="mic" data-track-name="memberdays_anchor_click"
-									data-link-name="memberdays_anchor_holidaycollection"  
-									data-link-area="memberdays_2022H2" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click"
+									data-link-area="memberdays_H2_Anchor_click_holidaycollection"  
+									data-link-name="memberdays_2022H2" 
 									class="link">Durchstöbere<br>
 									unsere exklusiven Angebote</a>
 								</li>
@@ -303,8 +306,8 @@
 						</div>
 						<div class="section__footer">
 							<a href="${path}/member-days-lg-tnc" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022H2" 
+								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-link-name="memberdays_2022H2" 
 								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
@@ -312,8 +315,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click"  
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
@@ -426,16 +429,16 @@
 								</div>
 								<div class="event__right">
 									<a href="javascript:redirectToLoginPage();"
-										data-link-name="memberdays_signup_click" 
-										data-link-area="memberdays_2022H2"
+										data-link-area="memberdays_signup_click" 
+										data-link-name="memberdays_2022H2"
 									>ANMELDUNG / REGISTRIERUNG</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
 							<a href="${path}/member-days-lg-tnc" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022H2" 
+								data-link-area="memberdays_anchor_click_termsandconditions" 
+                data-link-name="memberdays_2022H2" 
 								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
@@ -443,8 +446,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
@@ -458,6 +461,8 @@
 								<a href="#home"
 									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="home" data-track-name="selectThemeDisplay"
+									data-link-area="memberdays_H2_Theme_click_HOME"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">zu Hause</span>
@@ -466,7 +471,9 @@
 							<li class="tab__item tab__item--gathering">
 								<a href="#gathering"
 									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="gathering" data-track-name="selectThemeDisplay"
+									data-track-val="gathering" data-track-name="selectThemeDisplay" 
+									data-link-area="memberdays_H2_Theme_click_Gathering"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Familientreffen</span>
@@ -476,6 +483,8 @@
 								<a href="#gameday"
 									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="gameday" data-track-name="selectThemeDisplay"
+									data-link-area="memberdays_H2_Theme_click_Gameday"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Gaming</span>
@@ -485,6 +494,8 @@
 								<a href="#pastime"
 									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="pastime" data-track-name="selectThemeDisplay"
+									data-link-area="memberdays_H2_Theme_click_Pastime"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Zeitvertreib</span>
@@ -494,6 +505,8 @@
 								<a href="#memories"
 									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="memories" data-track-name="selectThemeDisplay"
+									data-link-area="memberdays_H2_Theme_click_Memories"
+									data-link-name="memberdays_2022H2" 
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Erinnerungen</span>
@@ -560,8 +573,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_a9k-pro1g"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_01.png" alt="Handstaubsauger mit zwei Akkus">
@@ -579,8 +592,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_lswd100e"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_lswd100e"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_02.png" alt="LG SIGNATURE Waschtrockner">
@@ -598,8 +611,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/trockner/lg-RT8DIH1Q" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_RT8DIH1Q"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_RT8DIH1Q"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_03.png" alt="LG Trockner mit 8 kg Kapazität">
@@ -617,8 +630,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
-														data-link-name="memberdays_productMouseHover_home_S3BF"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_home01_04.png" alt="LG Styler S3BF mit Steam">
@@ -670,8 +683,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
-														data-link-name="memberdays_productMouseHover_gathering_gsxv91mcae"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gathering_gsxv91mcae"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gathering01_01.png" alt="Side-by-Side mit InstaView Door-in-Door®">
@@ -689,8 +702,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
-														data-link-name="memberdays_productMouseHover_gathering_dxg7qbk"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gathering_dxg7qbk"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gathering01_02.png" alt="LG XBOOM Go DXG7Q Bluetooth Speaker">
@@ -741,8 +754,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
-														data-link-name="memberdays_productMouseHover_gameday_oled77c27la"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77c27la"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gameday01_01.png" alt="77'' LG 4K OLED evo TV C2">
@@ -760,8 +773,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
-														data-link-name="memberdays_productMouseHover_gameday_dsp11ra"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gameday_dsp11ra"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_gameday01_02.png" alt="7.1.4 Dolby Atmos® Soundbar mit 770 Watt">
@@ -814,8 +827,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
-														data-link-name="memberdays_productMouseHover_pastime_48gq900-b"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_pastime_48gq900-b"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_pastime01_01.png" alt="48 Zoll UltraGear™ Gaming Monitor">
@@ -868,8 +881,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
-														data-link-name="memberdays_productMouseHover_memories_34wq65x-w"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_34wq65x-w"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_memories01_01.png" alt="21:9-UltraWide™-IPS-Monitor">
@@ -887,8 +900,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
-														data-link-name="memberdays_productMouseHover_memories_17z90p-gaa82g"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_17z90p-gaa82g"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_memories01_02.png" alt="17’’ Ultraleichtes Notebook">
@@ -906,8 +919,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
-														data-link-name="memberdays_productMouseHover_memories_tone-dfp9w"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_tone-dfp9w"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/de/img_product_showroom_memories01_03.png" alt="LG TONE Free DFP9W">
@@ -934,8 +947,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
@@ -1017,8 +1030,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
 				</div>
 			</div>
@@ -1051,8 +1064,8 @@
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-name="memberdays_productCategory_tv"
-										data-link-area="memberdays_2022H2"
+										data-link-area="memberdays_H2_Category_click_tv"
+										data-link-name="memberdays_2022H2"
 										class="tab__button">TV</a>
 								</li>
 								<li class="tab__item">
@@ -1061,8 +1074,8 @@
 									data-track-group="mic" 
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_productCategory_audio"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Category_click_audio"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">Audio</a>
 								</li>
 								<li class="tab__item">
@@ -1071,8 +1084,8 @@
 									data-track-group="mic" 
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_productCategory_homeappliance"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Category_click_homeappliance"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">Haushaltsartikel</a>
 								</li>
 								<li class="tab__item">
@@ -1081,8 +1094,8 @@
 									data-track-group="mic" 
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_productCategory_computerproducts"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Category_click_computerproducts"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">IT Modelle</a>
 								</li>
 							</ul>
@@ -1152,8 +1165,8 @@
 											data-track-opt="category" 
 											data-track-val="TVS" 
 											data-track-name="plpClick" 
-											data-link-name="memberdays_plp_click_seemoretvs"
-											data-link-area="memberdays_2022H2"
+											data-link-area="memberdays_H2_PLP_click_seemoretvs"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">Mehr TV anzeigen</a>
 									</div>
 								</div>
@@ -1171,8 +1184,8 @@
 											data-track-opt="category" 
 											data-track-val="SOUND SYSTEMS" 
 											data-track-name="plpClick" 
-											data-link-name="memberdays_plp_click_seemoresoundsystems"
-											data-link-area="memberdays_2022H2"
+											data-link-area="memberdays_H2_PLP_click_seemoresoundsystems"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE SOUND SYSTEMS</a>
 										<a href="https://www.lg.com/de/bluetooth-kopfhoerer" 
 											target="_blank"
@@ -1181,8 +1194,8 @@
 											data-track-opt="category" 
 											data-track-val="SOUND WIRELESS EARBUDS"  
 											data-track-name="plpClick" 
-											data-link-name="memberdays_plp_click_seemorewirelessearbuds"
-											data-link-area="memberdays_2022H2"
+											data-link-area="memberdays_H2_PLP_click_seemorewirelessearbuds"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE WIRELESS EARBUDS</a>
 									</div>
 								</div>
@@ -1200,8 +1213,8 @@
 											data-track-opt="category" 
 											data-track-val="HOME APPLIANCES"  
 											data-track-name="plpClick" 
-											data-link-name="memberdays_plp_click_seemorehomeappliances"
-											data-link-area="memberdays_2022H2"
+											data-link-area="memberdays_H2_PLP_click_seemorehomeappliances"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE HOME APPLIANCES</a>
 									</div>
 								</div>
@@ -1214,8 +1227,12 @@
 									<div class="button">
 										<a href="https://www.lg.com/de/it-produkte" 
 											target="_blank" 
-											data-link-name="memberdays_plp_click_seemorecomputerproducts"
-											data-link-area="memberdays_2022H2"
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-val="Computer Products" 
+											data-track-name="plpClick" 
+											data-link-area="memberdays_H2_PLP_click_seemorecomputerproducts"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE COMPUTER PRODUCTS</a>
 									</div>
 								</div>
@@ -1223,8 +1240,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
 				</div>
 			</div>
@@ -1243,8 +1260,8 @@
 					</p>
 					<div class="popup__buttons">
 						<a href="javascript:redirectToLoginPage();"
-							data-link-name="memberdays_signup_click" 
-							data-link-area="memberdays_2022H2"
+							data-link-area="memberdays_signup_click" 
+							data-link-name="memberdays_2022H2"
 							class="popup__button">Anmeldung / Registrierung</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -1263,7 +1280,7 @@
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">Jetzt starten</button>
+						<button type="button" class="popup__button" onclick="hideRedirectPopup();">Jetzt starten</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1278,8 +1295,8 @@
 				<div class="popup__body">
 					<p class="popup__title popup__title--large">Weiter so!</p>
 					<div class="stars">
-						<div class="star star--actived"></div>
-						<div class="star star--actived"></div>
+						<div class="star"></div>
+						<div class="star"></div>
 						<div class="star"></div>
 						<div class="star"></div>
 						<div class="star"></div>
@@ -1289,7 +1306,7 @@
 						ist nur noch <span class="highlight collect__count">drei</span> Sterne entfernt
 					</p>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button">Finde mehr Sterne</button>
+						<button type="button" class="popup__button" onclick="hideCollectPopup();">Finde mehr Sterne</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1375,9 +1392,9 @@
 						vom 5. Dezember bis zum 18. Dezember 2022
 					</p>
 					<div class="popup__buttons">
-						<a href="#" 
-							data-link-name="starstamp_coupon_download_click"
-							data-link-area="memberdays_2022H2" 
+						<a href="javascript:redirectToMypage();" 
+							data-link-area="starstamp_coupon_download_click"
+							data-link-name="memberdays_2022H2" 
 							data-track-name="starstamp_coupon_download" 
 							class="popup__button">Rabattcode anzeigen</a>
 					</div>
@@ -1397,11 +1414,11 @@
 	<!-- // top button -->
 	
 	<!-- footer seo copy -->
-	<c:import url="/${localeCd }/footerSeoCopy"/> 
+	<c:import url="/${localeCd}/footerSeoCopy"/> 
 	<!-- footer seo copy -->
 	
 	<!-- footer main contents -->
-	<c:import url="/${localeCd }/footer">
+	<c:import url="/${localeCd}/footer">
 	    <c:param name="bizType" value="${bizType}"/>
 	    <c:param name="siteType" value="${siteType}"/>
 	</c:import>
@@ -1422,7 +1439,7 @@
 		_dl = 
 		{
 			"page_name" : {
-				"super_category" : "membersweek2022",
+				"super_category" : "memberdays2022H2",
 				"bu" : "",
 				"gmc_bu" : "",
 				"sub_category_list" : "",
@@ -1435,7 +1452,7 @@
 			"isLogin" : "",
 			"country_code" : "${localeCd}",
 			"language_code" : "${languageCd}",
-			"page_category_l1" : "${localeCd}:membersweek2022",
+			"page_category_l1" : "${localeCd}:memberdays2022H2",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",
@@ -1463,7 +1480,7 @@
 	<script>
 		if($('.add-to-cart').length > 0) {
       $('.add-to-cart').on('click', function (e) {
-        fbq('trackCustom', '2022GMCMemberDay AddToBasket');
+        fbq('trackCustom', '2022H2MemberDays AddToBasket');
       });
     }
 	</script>
@@ -1479,9 +1496,9 @@
 			var delay = setTimeout(function(){
 				$('.lottie').each(function(){
 					if(!$(this).hasClass('lottie--disabled')) {
-						$(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+						$(this).append("<lottie-player src='${path}/lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
 					}	else {
-						$(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+						$(this).append("<lottie-player src='${path}/lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
 					}
 				});
 				clearTimeout(delay);
@@ -1489,17 +1506,5 @@
 		}
 	</script>
 	<!--// UI Script -->
-
-	<script type="text/javascript">
-	(function(w, d, a){
-    w.__beusablerumclient__ = {
-      load : function(src){
-          var b = d.createElement("script");
-          b.src = src; b.async=true; b.type = "text/javascript";
-          d.getElementsByTagName("head")[0].appendChild(b);
-      }
-    };w.__beusablerumclient__.load(a);
-	})(window, document, "//rum.beusable.net/script/b180412e115004u874/9de67effc7");
-	</script>
 </body>
 </html>

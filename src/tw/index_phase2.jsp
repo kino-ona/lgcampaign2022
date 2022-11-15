@@ -176,14 +176,14 @@
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
-								data-link-name="memberdays_mainbanner_click" 
+								data-link-area="memberdays_mainbanner_click" 
 								data-track-name="memberdays_mainbanner_click"
-								data-link-area="memberdays_2022H2" 
+								data-link-name="memberdays_2022H2" 
 								class="button__item button__item--red">查看產品</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
-								data-link-name="memberdays_anchor_click_termsandconditions" 
+								data-link-area="memberdays_anchor_click_termsandconditions" 
 								data-track-name="memberdays_anchor_click_termsandconditions"
 								data-link-name="memberdays_2022H2" 
                 class="terms__link visual__link">
@@ -207,29 +207,29 @@
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers" 
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-name="memberdays_H2_Anchor_click_P2_memberexclusiveoffers" 
-									data-link-area="memberdays_2022H2" 
+									data-link-area="memberdays_H2_Anchor_click_P2_memberexclusiveoffers" 
+									data-link-name="memberdays_2022H2" 
 									class="link">查看會員獨家優惠</a>
 							</li>
 							<li class="list-item">
-								<a href="#HolidayCollection" 
+								<a href="#HolidayCollection"  
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-name="memberdays_H2_Anchor_click_P2_membershipevent" 
-									data-link-area="memberdays_2022H2" 
+									data-link-area="memberdays_H2_Anchor_click_P2_holidaycollection" 
+									data-link-name="memberdays_2022H2" 
 									class="link">查看產品周優惠</a>
               </li>
 							<li class="list-item">
-								<a href="#MembershipEvent" 
+								<a href="#MembershipEvent"
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-name="memberdays_H2_Anchor_click_P2_holidaycollection" 
-									data-link-area="memberdays_2022H2" 
+									data-link-area="memberdays_H2_Anchor_click_P2_membershipevent" 
+									data-link-name="memberdays_2022H2" 
 									class="link">發掘會員精彩活動</a>
 							</li>
               <li class="list-item">
                 <a href="#SparklingDeals"
 								data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-								data-link-name="memberdays_H2_Anchor_click_P2_sparklingdeals" 
-								data-link-area="memberdays_2022H2" 
+								data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
+								data-link-name="memberdays_2022H2" 
 								 class="link">查看熱銷精選</a>
               </li>
 						</ul>
@@ -333,8 +333,8 @@
 						</div>
 						<div class="section__footer">
 							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022H2" 
+                data-link-area="memberdays_anchor_click_termsandconditions" 
+                data-link-name="memberdays_2022H2" 
 								class="section__text">
 								活動辦法
 								<i></i>
@@ -342,8 +342,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
 				</div>
 			</div>
@@ -357,8 +357,8 @@
 								<a href="#home" 
 									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="home" data-track-name="selectThemeDisplay"
-									data-link-name="memberdays_H2_Theme_click_HOME"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Theme_click_HOME"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">舒適家居</span>
@@ -368,8 +368,8 @@
 								<a href="#gathering"
 									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="gathering" data-track-name="selectThemeDisplay"
-									data-link-name="memberdays_H2_Theme_click_Gathering"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Theme_click_Gathering"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">美食聚會</span>
@@ -379,8 +379,8 @@
 								<a href="#gameday"
 									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="gameday" data-track-name="selectThemeDisplay"
-									data-link-name="memberdays_H2_Theme_click_Gameday"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Theme_click_Gameday"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">遊戲時光</span>
@@ -390,8 +390,8 @@
 								<a href="#pastime"
 									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="pastime" data-track-name="selectThemeDisplay"
-									data-link-name="memberdays_H2_Theme_click_Pastime"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Theme_click_Pastime"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">休閒時刻</span>
@@ -401,8 +401,8 @@
 								<a href="#memories"
 									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="memories" data-track-name="selectThemeDisplay"
-									data-link-name="memberdays_H2_Theme_click_Memories"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Theme_click_Memories"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">美好回憶</span>
@@ -462,8 +462,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/washing-machines/lg-wd-s1916w" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_home_wd-s1916w"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_wd-s1916w"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_home01_01.png" alt="LG WashTower™ AI智控洗乾衣機 | Objet Collection®">
@@ -484,8 +484,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/styler/lg-b723ob" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_home_b723ob"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_b723ob"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_home01_02.png" alt="Styler®蒸氣電子衣櫥 | Objet Collection® (容量加大款)">
@@ -505,8 +505,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/small-appliances/lg-a9t-ultra" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_home_a9t-ultra"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_home01_03.png" alt="LG CordZero™ A9T系列All-in-One濕拖無線吸塵器 | Objet Collection® (雪霧白)">
@@ -553,8 +553,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/refrigerators/lg-gr-ql62st" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_gathering_gr-ql62st"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gathering_gr-ql62st"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_01.png" alt="InstaView™敲敲看門中門冰箱 星夜黑/734公升">
@@ -574,8 +574,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/smart-inverter-microwave-oven/lg-mj3965acr" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_gathering_mj3965acr"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gathering_mj3965acr"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_02.png" alt="LG NeoChef™智慧變頻蒸烘烤微波爐">
@@ -595,8 +595,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/speakers/lg-rp4g" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_gathering_rp4g"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gathering_rp4g"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_03.png" alt="XBOOM 360˚ 全景聲藍牙音響 (典雅米)">
@@ -615,8 +615,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/dishwashers/lg-dfb335hs" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_gathering_GSXV91BSAE"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gathering_GSXV91BSAE"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_gathering01_04.png" alt="LG QuadWash™ Steam 四方洗蒸氣洗碗機">
@@ -664,8 +664,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/oled-tv/lg-oled65c2psc" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_gameday_oled65c2psc"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled65c2psc"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_gameday01_01.png" alt="OLED evo C2極致系列4K AI物聯網電視65吋">
@@ -686,8 +686,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/speakers/lg-qp5" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_gameday_qp5"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_gameday_qp5"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_gameday01_02.png" alt="LG Sound Bar QP5">
@@ -738,8 +738,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/monitors/lg-32gq950-b" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_pastime_32gq950-b"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_pastime_32gq950-b"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_pastime01_01.png" alt="32’’ UltraGear™ UHD 4K 專業玩家電競顯示器">
@@ -786,8 +786,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/monitors/lg-27bq70qc-s" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_memories_27bq70qc-s"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_27bq70qc-s"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_memories01_01.png" alt="27' Libero 自由機">
@@ -806,8 +806,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/laptop/lg-16z90q-g-aa54c2" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_memories_16z90q-g-aa54c2"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_16z90q-g-aa54c2"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_memories01_02.png" alt="LG gram 16’’ 輕贏隨型 極致輕薄筆電 - 冰雪白(i5)">
@@ -828,8 +828,8 @@
 												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/tw/true-wireless-bluetooth-headset/lg-tone-t90q" target="_blank"
-														data-link-name="memberdays_H2_Product_Mouseover_memories_tone-t90q"
-														data-link-area="memberdays_2022H2"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_tone-t90q"
+														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
 															<img src="${path}/assets/images/tw/img_product_showroom_memories01_03.png" alt="LG TONE Free 真無線藍牙耳機 T90">
@@ -857,8 +857,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
@@ -963,16 +963,16 @@
 								</div>
 								<div class="event__right">
 									<a href="javascript:redirectToLoginPage();"
-										data-link-name="memberdays_signup_click" 
-										data-link-area="memberdays_2022H2"
+										data-link-area="memberdays_signup_click" 
+										data-link-name="memberdays_2022H2"
 									>立即登入/註冊</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
 							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
-                data-link-name="memberdays_anchor_click_termsandconditions" 
-                data-link-area="memberdays_2022H2" 
+                data-link-area="memberdays_anchor_click_termsandconditions" 
+                data-link-name="memberdays_2022H2" 
 								class="section__text">
 								活動辦法
 								<i></i>
@@ -980,8 +980,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
@@ -1060,8 +1060,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
 				</div>
 			</div>
@@ -1124,8 +1124,8 @@
 										data-track-group="mic" 
 										data-track-opt="category" 
 										data-track-name="selectProductCategory" 
-										data-link-name="memberdays_H2_Category_click_tv"
-										data-link-area="memberdays_2022H2"
+										data-link-area="memberdays_H2_Category_click_tv"
+										data-link-name="memberdays_2022H2"
 										class="tab__button">電視/視聽產品</a>
 								</li>
 								<li class="tab__item">
@@ -1134,8 +1134,8 @@
 									data-track-group="mic" 
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_H2_Category_click_homeappliance"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Category_click_homeappliance"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">生活家電</a>
 								</li>
 								<li class="tab__item">
@@ -1144,8 +1144,8 @@
 									data-track-group="mic" 
 									data-track-opt="category" 
 									data-track-name="selectProductCategory" 
-									data-link-name="memberdays_H2_Category_click_computerproducts"
-									data-link-area="memberdays_2022H2"
+									data-link-area="memberdays_H2_Category_click_computerproducts"
+									data-link-name="memberdays_2022H2"
 									class="tab__button">資訊產品</a>
 								</li>
 							</ul>
@@ -1220,8 +1220,8 @@
 											data-track-opt="category" 
 											data-track-val="TVS" 
 											data-track-name="plpClick" 
-											data-link-name="memberdays_H2_PLP_click_seemoretvs"
-											data-link-area="memberdays_2022H2"
+											data-link-area="memberdays_H2_PLP_click_seemoretvs"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
 								</div>
@@ -1243,8 +1243,8 @@
 											data-track-opt="category" 
 											data-track-val="HOME APPLIANCES"  
 											data-track-name="plpClick" 
-											data-link-name="memberdays_H2_PLP_click_seemorehomeappliances"
-											data-link-area="memberdays_2022H2"
+											data-link-area="memberdays_H2_PLP_click_seemorehomeappliances"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
 								</div>
@@ -1261,8 +1261,12 @@
 									<div class="button">
 										<a href="https://www.lg.com/tw/it-products" 
 											target="_blank" 
-											data-link-name="memberdays_H2_PLP_click_seemorecomputerproducts"
-											data-link-area="memberdays_2022H2"
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-val="Computer Products"  
+											data-track-name="plpClick" 
+											data-link-area="memberdays_H2_PLP_click_seemorecomputerproducts"
+											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">查看更多 視聽娛樂</a>
 									</div>
 								</div>
@@ -1270,8 +1274,8 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-name="starstamp_click" 
-						data-link-area="memberdays_2022H2" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
 				</div>
 			</div>
@@ -1291,8 +1295,8 @@
 					</p>
 					<div class="popup__buttons">
 						<a href="javascript:redirectToLoginPage();"
-							data-link-name="memberdays_signup_click" 
-							data-link-area="memberdays_2022H2"
+							data-link-area="memberdays_signup_click" 
+							data-link-name="memberdays_2022H2"
 							class="popup__button">登入/註冊</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -1326,8 +1330,8 @@
 				<div class="popup__body">
 					<p class="popup__title popup__title--large">繼續加油！</p>
 					<div class="stars">
-						<div class="star star--actived"></div>
-						<div class="star star--actived"></div>
+						<div class="star"></div>
+						<div class="star"></div>
 						<div class="star"></div>
 						<div class="star"></div>
 						<div class="star"></div>
@@ -1416,8 +1420,8 @@
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
 						<a href="javascript:redirectToMypage();" 
-							data-link-name="starstamp_coupon_download_click"
-							data-link-area="memberdays_2022H2" 
+							data-link-area="starstamp_coupon_download_click"
+							data-link-name="memberdays_2022H2" 
 							data-track-name="starstamp_coupon_download" 
 							class="popup__button">查看優惠</a>
 					</div>
@@ -1503,7 +1507,7 @@
 	<script>
 		if($('.add-to-cart').length > 0) {
       $('.add-to-cart').on('click', function (e) {
-        fbq('trackCustom', '2022MemberDays AddToBasket');
+        fbq('trackCustom', '2022H2MemberDays AddToBasket');
       });
     }
 	</script>
