@@ -5,17 +5,17 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG璀璨會員日 最高6折| LG台灣</title>
+	<title>LG璀璨會員日 抽限量6折 | LG台灣</title>
 	<meta name="keywords" content="">
-	<meta name="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠">
+	<meta name="description" content="LG會員獨享, 11/24至12/13, 註冊並完成任務急有機會抽中萬元好禮或限量6折券, 任選兩件產品最高享82折, 年終最優惠。">
 	<meta name="robots" content="NOODP, NOYDIR">
 	<link rel="canonical" href="https://www.lg.com/tw/memberdays-2022">
 	<meta property="fb:app_id" content="">
 	<meta property="og:locale" content="zh_TW">
 	<meta property="og:site_name" content="LG 台灣">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG璀璨會員日 最高6折| LG台灣">
-	<meta property="og:description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠">
+	<meta property="og:title" content="LG璀璨會員日 抽限量6折 | LG台灣">
+	<meta property="og:description" content="LG會員獨享, 11/24至12/13, 註冊並完成任務急有機會抽中萬元好禮或限量6折券, 任選兩件產品最高享82折, 年終最優惠。">
 	<meta property="og:url" content="https://www.lg.com/tw/memberdays-2022">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
 	<meta name="twitter:card" content="summary_large_image">
@@ -88,10 +88,10 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG璀璨會員日 最高6折| LG台灣"/>
+		<meta itemprop="name" content="LG璀璨會員日 抽限量6折 | LG台灣"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/tw/memberdays-2022" />
-		<meta itemprop="description" content="LG會員獨享, 11/24至12/13限定, 人人有獎, 全年最優惠" />
+		<meta itemprop="description" content="LG會員獨享, 11/24至12/13, 註冊並完成任務急有機會抽中萬元好禮或限量6折券, 任選兩件產品最高享82折, 年終最優惠。" />
 		<meta itemprop="keywords" content="" />
 	</div>
 	
