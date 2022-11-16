@@ -212,7 +212,7 @@ function disableStars(cta_info = []) {
     const lottie = $('.lottie');
 
     for (let i = 0; i < cta_info.length; i++) {
-        const index = parseInt(cta_info[i].cta_id.replace(/^00/, '')) - 1;
+        const index = parseInt(cta_info[i].cta_id.replace(/^03/, '')) - 1;
 
         if (cta_info[i].datetime) {
             lottie.eq(index).attr('class', 'lottie lottie--disabled');
@@ -234,6 +234,7 @@ function disableStars(cta_info = []) {
         clearTimeout(delay);
     }, 600);
 }
+
 function getStarCountText(clicked) {
     const lastStars = 5 - clicked;
 

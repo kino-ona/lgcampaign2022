@@ -36,7 +36,7 @@
 	&__title {
 		font-weight: 700;
 		font-size: 24px;
-		line-height: 26px;
+		line-height: 24px;
 		text-align: center;
 		&:not(:last-child) {
 			margin-bottom: 20px;
@@ -48,6 +48,16 @@
 			.highlight {
 				display: block;
 				margin-bottom: 10px;
+			}
+		}
+		&--default {
+			margin-top: -10px !important;
+			font-size: 14px;
+			font-weight: normal;
+			@media (max-width: 1024px)  {
+				margin-top: -5px !important;
+				font-size: 12px !important;
+				line-height: 1.3 !important;
 			}
 		}
 

@@ -375,6 +375,9 @@
 
 	// benefit
 	.benefit {
+		&__text {
+			color:#ffffff;
+		}
 		&__more {
 			.benefit__button {
 
@@ -487,6 +490,7 @@
 								display: block;
 								margin-top: 2px;
 								font-size: 18px;
+								font-weight: normal;
 							}
 						}
 					}
@@ -536,7 +540,7 @@
 					height: 66px;
 					color: #000;
 					font-weight: 700;
-					font-size: 40px;
+					font-size: 50px;
 					letter-spacing: -3px;
 					background: {
 						image: url('../images/bg_event_coupon.png');
@@ -546,9 +550,15 @@
 					};
 
 					span {
-						margin-left: 2px;
+						margin-left: 4px;
 						font-size: 23px;
 						letter-spacing: 0;
+						line-height: 0.9;
+						text-align: left;
+						em {
+							display: block;
+							font-size: 20px;
+						}
 					}
 				}
 			}

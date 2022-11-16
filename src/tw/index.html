@@ -349,7 +349,7 @@
 											<div class="event__coupon">
 												<div class="event__ticket">
 													40
-													<span>%</span>
+													<span>% <em>off</em></span>
 												</div>
 												<p class="event__desc event__desc--secondary">Discount coupon</p>
 											</div>
@@ -364,7 +364,7 @@
 											<div class="event__coupon">
 												<div class="event__ticket">
 													15
-													<span>%</span>
+													<span>% <em>off</em></span>
 												</div>
 												<p class="event__desc event__desc--secondary">Discount coupon</p>
 											</div>
@@ -391,7 +391,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="lottie" onclick="alert('별2');"></div>
+					<div class="lottie" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
 
@@ -2353,7 +2353,7 @@
 
 		<!-- popup -->
 		<!-- login popup -->
-		<div class="popup login__popup" style="display:block">
+		<div class="popup login__popup">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -2443,7 +2443,7 @@
 		<!-- // fail popup -->
 
 		<!-- win popup -->
-		<div class="popup win__popup">
+		<div class="popup win__popup" style="display:block">
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
@@ -2451,6 +2451,7 @@
 						<i class="ico__stars"></i>
 					</div>
 					<p class="popup__title popup__title--large">恭喜您完成任務!</p>
+					<p class="popup__title popup__title--default">您已獲得 OLED evo C2極致系列4K AI物聯網電視55吋</p>
 					<div class="popup__gift">
 						<img src="../assets/images/tw/img_popup_gift01.png" alt="">
 						<!-- <img src="../assets/images/tw/img_popup_gift02.png" alt=""> -->
@@ -2458,16 +2459,12 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
 					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
-					<div class="popup__buttons">
-						<button type="button" class="popup__button">查看優惠</button>
-					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
 			</div>
 		</div>
 		<!-- // win popup -->
-
 		<!-- win popup -->
 		<div class="popup win__popup__with__coupon">
 			<div class="popup__dimmed"></div>
@@ -2583,6 +2580,7 @@
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="../assets/js/index.js"></script>
 	<script src="../assets/js/index-ajax.js"></script>
+	<script src="../assets/js/coupon.js"></script>
 	<script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){
@@ -2597,6 +2595,10 @@
 			}, 600);
 		}
 	</script>
+
+<script>
+	$('.win__popup .popup__title--default').html('您已獲得 LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)');
+</script>
 	<!--// UI Script -->
 
 </body>

@@ -133,7 +133,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07548653|MD07547887|MD07555403|MD07543873|MD07524907"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07553837|MD07556844|MD07553944|MD07556788|MD07547888"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558671|MD07558615|MD07535742|MD07535177"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07558781|MD07562207|MD07558410|MD07562207"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555526|MD07561784|MD07558781|MD07562207|MD07558410|MD07562206|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07546009|MD07561784|MD07537152|MD07522018|MD07543873|MD07537639|MD07515571|MD07564756"/>
@@ -219,7 +219,7 @@
 									class="link">參加會員抽獎任務</a>
               </li>
 							<li class="list-item">
-								<a href="#memberdays_H2_Anchor_click_P2_sparklingdeals"
+								<a href="#SparklingDeals"
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
 									data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
 									data-link-name="memberdays_2022H2" 
@@ -1442,6 +1442,9 @@
 						<i class="ico__stars"></i>
 					</div>
 					<p class="popup__title popup__title--large">恭喜您完成任務!</p>
+					<p class="popup__title popup__title--default">您已獲得 OLED evo C2極致系列4K AI物聯網電視55吋</p>
+					<!-- <p class="popup__title popup__title--default">您已獲得 LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)</p>
+					<p class="popup__title popup__title--default">您已獲得 27” Libero 自由機</p> -->
 					<div class="popup__gift">
 						<img src="${path}/assets/images/tw/img_popup_gift01.png" alt="">
 						<!-- <img src="${path}/assets/images/tw/img_popup_gift02.png" alt=""> -->
@@ -1531,13 +1534,19 @@
 				"sub_category" : "",
 				"page_purpose" : "MICROSITE",
 				"model_year" : "",
+				"model_name" : "",
+				"model_code" : "",
+				"sales_model_code" : "",
+				"currency_code" : "",
+				"price" : "",
 				"category" : "",
-				"sku" : ""
+				"sku" : "",
+				"theme" : "",
 			},
 			"isLogin" : "",
-			"country_code" : "${localeCd}",
-			"language_code" : "${languageCd}",
-			"page_category_l1" : "${localeCd}:memberdays2022H2",
+			"country_code" : "${country}",
+			"language_code" : "${language}",
+			"page_category_l1" : "${country}:memberdays2022H2",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",

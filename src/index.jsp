@@ -1166,7 +1166,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('035', this);"></div>
 				</div>
 			</div>
 		</div>
@@ -1340,13 +1340,19 @@
 				"sub_category" : "",
 				"page_purpose" : "MICROSITE",
 				"model_year" : "",
+				"model_name" : "",
+				"model_code" : "",
+				"sales_model_code" : "",
+				"currency_code" : "",
+				"price" : "",
 				"category" : "",
-				"sku" : ""
+				"sku" : "",
+				"theme" : "",
 			},
 			"isLogin" : "",
-			"country_code" : "${localeCd}",
-			"language_code" : "${languageCd}",
-			"page_category_l1" : "${localeCd}:memberdays2022H2",
+			"country_code" : "${country}",
+			"language_code" : "${language}",
+			"page_category_l1" : "${country}:memberdays2022H2",
 			"page_category_l2" : "",
 			"page_category_l3" : "",
 			"page_category_l4" : "",

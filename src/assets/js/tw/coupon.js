@@ -149,7 +149,13 @@ function getLotteryResult(ctaId, token) {
             // if win
             if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
                 const image = $('<img src="' + path + '/assets/images/tw/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
+                const productNames = [
+                    '您已獲得 OLED evo C2極致系列4K AI物聯網電視55吋',
+                    '您已獲得 LG CordZero™ A9T系列All-in-One濕拖無線吸塵器｜Objet Collection® (雪霧白)',
+                    '您已獲得 27” Libero 自由機'
+                ];
 
+                $('.win__popup .popup__title.popup__title--default').text(productNames[rewardIndex - 1])
                 $('.win__popup .popup__gift').html(image);
                 $('.win__popup').show();
 
