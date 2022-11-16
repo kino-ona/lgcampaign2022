@@ -317,7 +317,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click"  
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('011', this);"></div>
 					<!-- <div class="lottie lottie--disabled" onclick="alert('이미 클릭한 별-비활성화');"></div> -->
 				</div>
 			</div>
@@ -448,7 +448,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('012', this);"></div>
 				</div>
 			</div>
 
@@ -949,7 +949,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('013', this);"></div>
 				</div>
 			</div>
 
@@ -1032,7 +1032,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('014', this);"></div>
 				</div>
 			</div>
 
@@ -1242,7 +1242,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('015', this);"></div>
 				</div>
 			</div>
 		</div>

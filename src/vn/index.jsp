@@ -346,7 +346,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('021', this);"></div>
 				</div>
 			</div>
 			
@@ -485,7 +485,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('002', this);">
+						data-track-group="starstamp" onclick="showLotteryModal('022', this);">
 					</div>
 				</div>
 			</div>
@@ -978,7 +978,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('023', this);"></div>
 				</div>
 			</div>
 
@@ -1057,7 +1057,7 @@
 					<div class="lottie"
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('024', this);"></div>
 				</div>
 			</div>
 
@@ -1256,7 +1256,7 @@
 					<div class="lottie" 
 						data-link-name="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('025', this);"></div>
 				</div>
 			</div>
 		</div>
