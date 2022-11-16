@@ -164,7 +164,7 @@ function getLotteryResult(ctaId, token) {
             }
 
             if (/^win(\_|\-)5$/i.test(rewardCode)) {
-                $('.win__popup__with__coupon .coupon__title').text('10<span>%</span>');
+                $('.win__popup__with__coupon .coupon__title').html('10<span>%</span>');
                 $('.win__popup__with__coupon').show();
 
                 return;
