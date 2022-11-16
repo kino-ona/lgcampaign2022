@@ -347,6 +347,7 @@ $(document).ready(function() {
 			let tmp = $this.data('trackGroup'),
 				option = $this.data('trackOpt') ? $this.data('trackOpt') : '',
 				value = $this.data('trackVal') ? $this.data('trackVal') : '',
+				sku = $this.data('trackSku'),
 				bu = 'HE, HA, BS_IT_B2C, BS',
 				dataLayerTemp = {}, $dataMetaButton;
 
@@ -375,6 +376,7 @@ $(document).ready(function() {
 
 					dataLayerTemp['bu'] = bu;
 					dataLayerTemp['pageType'] = "MICROSITE";
+					dataLayerTemp['sku'] = sku;
 					if(option != '' && value != '') dataLayerTemp[option] = value;
 				break;
 				case 'product':
@@ -493,12 +495,13 @@ $(document).ready(function() {
 					.attr('data-link-name','memberdays_luckydraw_submit_click_' + chooseTheme);
 			});
 			// lifeStyle showroom
-			$('[data-list="lifeStyle"] .product__anchor').each(function(){
+			$('[data-list="lifeStyle"] .product__anchor, [data-list="lifeStyle"] .product__link').each(function(){
 				$(this).data({
 					'trackGroup': 'mic',
 					'trackOpt': 'theme',
 					'trackVal': $(this).closest('.tab__panel').attr('id'),
-					'trackName': 'productMouseHover'
+					'trackName': 'productMouseHover',
+					'trackSku': $(this).attr('data-track-sku')
 				})
 			});
 

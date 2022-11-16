@@ -284,7 +284,6 @@
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
-											<span class="coupon__flag">Sắp diễn ra</span>
 											<p class="coupon__unit">Coupon giảm giá</p>
 											<p class="coupon__title">
 												10
@@ -453,9 +452,9 @@
 								<div class="section__header">
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Buổi</span>
-										<em>#Sum họp</em>
-										<span class="break break--mobile">thêm ấm cúng với LG</span>
+										<span class="break break--mobile">Trang trí cho</span>
+										<em>#Tổ Ấm</em>
+										<span class="break break--mobile">của bạn cùng LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Quần áo thơm mới. Ngôi nhà ấm cúng. Bạn</span> có thể bắt đầu mùa Lễ Hội rồi</p>
 								</div>
@@ -584,7 +583,7 @@
 									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Buổi</span>
-										<em>#Sum</em> thêm ấm
+										<em>#Sum họp</em> thêm ấm
 										<span class="break break--mobile">cúng với LG</span>
 									</h2>
 									<p class="section__sub"><span class="break break--mobile">Chuẩn bị bàn tiệc, không khí thật chill</span> cùng công nghệ của LG</p>
@@ -748,7 +747,6 @@
 															<ul class="product__desc">
 																<li>UHD 4K IPS Monitor</li>
 																<li>Chân đế có thể điều chỉnh độ cao & xoay & nghiêng</li>
-																<li>144Hz(超頻 160Hz)更新率</li>
 															</ul>
 														</div>
 													</a>

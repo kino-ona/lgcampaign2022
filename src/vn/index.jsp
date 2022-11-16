@@ -868,7 +868,6 @@
 															<ul class="product__desc">
 																<li>UHD 4K IPS Monitor</li>
 																<li>Chân đế có thể điều chỉnh độ cao & xoay & nghiêng</li>
-																<li>144Hz(超頻 160Hz)更新率</li>
 															</ul>
 														</div>
 													</a>
