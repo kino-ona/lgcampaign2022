@@ -46,11 +46,17 @@ function getAccessTokenForLottery(success, failed = null) {
 }
 
 function showLotteryModal(ctaId = null, el = null) {
-    getAccessTokenForLottery(function (token) {
-        if (el && $(el).hasClass('lottie--disabled')) {
-            return;
-        }
+    if (el && $(el).hasClass('lottie--disabled')) {
+        return;
+    }
 
+    if (el && !$(el).hasClass('lottie--disabled')) {
+        $(el).addClass('lottie--disabled');
+
+        disableStars();
+    }
+
+    getAccessTokenForLottery(function (token) {
         if (ctaId) {
             getLotteryResult(ctaId, token);
 
@@ -91,7 +97,7 @@ function getLotteryData(token) {
             }
 
             // if redirected
-            if (isRedirected) {
+            if (clicked < 5) {
                 $('.redirect__popup').show();
             }
 
@@ -131,18 +137,18 @@ function getLotteryResult(ctaId, token) {
                 eventStars.eq(i).attr('class', 'event__star event__star--actived');
             }
 
-            // set popup text
-            $('.collect__popup .collect__count').text(getStarCountText(clicked));
-            $('.collect__popup').show();
-
             // if click counts under 5, no popup
             if (clicked < 5) {
+                // set popup text
+                $('.collect__popup .collect__count').text(getStarCountText(clicked));
+                $('.collect__popup').show();
+
                 return;
             }
 
             // if win
             if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
-                const image = $('<img src="../assets/images/tw/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
+                const image = $('<img src="' + path + '/assets/images/tw/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
 
                 $('.win__popup .popup__gift').html(image);
                 $('.win__popup').show();
@@ -206,16 +212,17 @@ function hideLoginLink() {
     $('.login__link').hide();
 }
 
-function disableStars(cta_info) {
+function disableStars(cta_info = []) {
     // hide clicked stars
     const lottie = $('.lottie');
 
     for (let i = 0; i < cta_info.length; i++) {
-        if (cta_info[i].datetime) {
-            const index = parseInt(cta_info[i].cta_id.replace(/^00/, '')) - 1;
+        const index = parseInt(cta_info[i].cta_id.replace(/^00/, '')) - 1;
 
-            // lottie.eq(index).hide();
+        if (cta_info[i].datetime) {
             lottie.eq(index).attr('class', 'lottie lottie--disabled');
+        } else {
+            lottie.eq(index).attr('class', 'lottie');
         }
     }
 

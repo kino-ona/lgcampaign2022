@@ -133,7 +133,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07548653|MD07547887|MD07555403|MD07543873|MD07524907"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07553837|MD07556844|MD07553944|MD07556788|MD07547888"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558671|MD07558615|MD07535742|MD07535177"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555527|MD07558781|MD07562207|MD07558410|MD07562207"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07558781|MD07562207|MD07558410|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07563893|MD07546009|MD07561784|MD07537152|MD07522018|MD07543873|MD07537639|MD07515571|MD07564756"/>
@@ -159,7 +159,7 @@
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640|MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07524907|MD07544495|MD07519443|MD07554092|MD07553944|MD07542594|MD07530531"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07524907|MD07544495|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07555504|MD07555527"/>
 		<!-- Required input ## Model List End -->
 	
@@ -172,7 +172,7 @@
 						<div class="section__header">
 							<h1 class="section__title">LG 璀璨會員日</h1>
 							<p class="section__sub">點亮您的冬季佳節</p>
-							<p class="section__desc">即日起至12/13 超值優惠 官方會員獨享</p>
+							<p class="section__desc">即日起至12/13 官方會員獨享超值優惠</p>
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
@@ -207,30 +207,30 @@
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers" 
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_memberexclusiveoffers" 
+									data-link-area="memberdays_H2_Anchor_click_P2_MemberExclusiveOffers" 
 									data-link-name="memberdays_2022H2" 
 									class="link">查看會員獨家優惠</a>
 							</li>
 							<li class="list-item">
-								<a href="#HolidayCollection"  
+								<a href="#MembershipEvent"  
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_holidaycollection" 
+									data-link-area="memberdays_H2_Anchor_click_P2_MembershipEvent" 
 									data-link-name="memberdays_2022H2" 
-									class="link">查看產品周優惠</a>
+									class="link">參加會員抽獎任務</a>
               </li>
 							<li class="list-item">
-								<a href="#MembershipEvent"
+								<a href="#memberdays_H2_Anchor_click_P2_sparklingdeals"
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_membershipevent" 
+									data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
 									data-link-name="memberdays_2022H2" 
-									class="link">發掘會員精彩活動</a>
+									class="link">查看限量璀璨價</a>
 							</li>
               <li class="list-item">
-                <a href="#SparklingDeals"
+                <a href="#BuymoreSavemore"
 								data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-								data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
+								data-link-area="memberdays_H2_Anchor_click_P2_BuymoreSavemore" 
 								data-link-name="memberdays_2022H2" 
-								 class="link">查看熱銷精選</a>
+								 class="link">瀏覽年度精選商品</a>
               </li>
 						</ul>
 					</div>
@@ -242,8 +242,8 @@
 				<div class="section__container section__container--benefit">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">LG會員獨家</p>
-							<h2 class="section__title">全系列產品 限定璀璨折扣</h2>
+							<!-- <p class="section__sub">LG會員獨家</p> -->
+							<h2 class="section__title">官網會員獨家優惠</h2>
 							<p class="section__sub">以下三項優惠, 會員可合併使用</p>
 						</div>
 						<div class="benefit">
@@ -253,81 +253,82 @@
 										<div class="coupon__coupon">
 											<p class="coupon__title">2</p>
 											<p class="coupon__unit">
-												%
+												% OFF
 												<span class="coupon__text">會員折扣</span>
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">會員專屬優惠</p>
+											<p class="coupon__title">LG會員限定價</p>
 											<p class="coupon__text">簡單註冊, 未來訂單皆享折扣</p>
 										</div>
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
+											<span class="coupon__flag">即將登場</span>
 											<p class="coupon__title">88</p>
 											<p class="coupon__unit">
 												折
-												<span class="coupon__text">限時優惠</span>
+												<span class="coupon__text">限定優惠</span>
 											</p>
 										</div>
 										<div class="coupon__info">
 											<p class="coupon__title">會員日限定折扣</p>
-											<p class="coupon__text coupon__text--narrow">全館任選2樣產品即享12%優惠</p>
-											<p class="coupon__text coupon__text--secondary">*可與新會員5%折扣/ 會員2%折扣並用,不適用於璀璨周、SIGNATURE系列及配件產品</p>
+											<p class="coupon__text coupon__text--narrow">全館任選2樣產品即享88折</p>
+											<!-- <p class="coupon__text coupon__text--secondary">*可與新會員5%折扣/ 會員2%折扣並用,不適用於璀璨周、SIGNATURE系列及配件產品</p> -->
 										</div>
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon">
 											<p class="coupon__title">5</p>
 											<p class="coupon__unit">
-												%
+												% OFF
 												<span class="coupon__text">歡迎禮金</span>
 											</p>
 										</div>
 										<div class="coupon__info">
 											<p class="coupon__title">新會員歡迎禮</p>
-											<p class="coupon__text">凡註冊即可享95折優惠券</p>
+											<p class="coupon__text">活動期間內註冊會員<br>即享95折優惠序號</p>
 										</div>
 									</li>
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">立即註冊 領取優惠</p>
+								<p class="benefit__text">立即於LG線上商城會員帳戶查看88折優惠券</p>
 							</div>
 							<div class="benefit__more">
 								<p class="benefit__text">更多好康</p>
 								<div class="benefit__button">
-									<p>
+									<a href="#">
 										<i></i>
 										<em>
 											免費宅配
 										</em>
-									</p>
-									<p>
+									</a>
+									<a href="#">
 										<i></i>
 										<em>
 											免費基本安裝及舊四機回收
 										</em>
-									</p>
-									<p>
+									</a>
+									<a href="#">
 										<i></i>
 										<em>
 											免費尊榮到府教學
 										</em>
-									</p>
-									<p>
+									</a>
+									<a href="#">
 										<i></i>
 										<em>
 											限量加碼贈品
 										</em>
-									</p>
-									<p>
+									</a>
+									<a href="#">
 										<i></i>
 										<em>
 											3天內保證送達
 											<span>部分商品因區域限制除外</span>
 										</em>
-									</p>
+									</a>
 								</div>
 							</div>
 						</div>
@@ -926,8 +927,7 @@
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">璀璨閃耀 每個日子</p>
-							<h2 class="section__title">立即解鎖任務 獲得璀璨好禮</h2>
+							<h2 class="section__title">優惠登場前 先解任務抽好禮</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
@@ -935,7 +935,7 @@
 									<div class="event__header">
 										<p class="event__category">如何解鎖任務</p>
 										<p class="event__title">找星星 抽大獎</p>
-										<p class="event__desc">活動僅限會員參加，註冊另享歡迎禮</p>
+										<p class="event__desc">活動僅限會員參加</p>
 									</div>
 									<div class="event__process">
 										<ol>
@@ -950,13 +950,14 @@
 											<li>
 												<span>3</span>
 												<p>
-													完成任務 即有機會獲得右方獎項
+													完成任務，即有機會獲得右方獎項
 													<em>(每帳號限定參加乙次)</em>
+													<em>(獎項將以電腦隨機抽獎)</em>
 												</p>
 											</li>
 										</ol>
 									</div>
-									<p class="event__category">蒐集完成五顆星星</p>
+									<p class="event__category">完成蒐集五顆星星</p>
 									<div class="event__stars">
 										<div class="event__star"></div>
 										<div class="event__star"></div>
@@ -970,7 +971,11 @@
 										<p class="event__title">首獎</p>
 										<p class="event__sub">旗艦機種 共3名</p>
 										<p class="event__desc event__desc--secondary">以下各乙台乙名</p>
-										<p class="event__desc event__desc--tertiary">OLED evo C2極致系列4K AI物聯網電視55吋 LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器|Objet Collection® (雪霧白) 27” Libero 自由機</p>
+										<p class="event__desc event__desc--tertiary">
+											OLED evo C2 4K AI物聯網電視55吋<br>
+											LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器|Objet Collection® (雪霧白)<br>
+											27” Libero 自由機
+										</p>
 									</div>
 									<div class="event__gift">
 										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
@@ -984,14 +989,13 @@
 												<p class="event__title">二獎</p>
 												<p class="event__sub">6折優惠序號</p>
 												<p class="event__desc event__desc--secondary">限量20名</p>
-												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
+												<p class="event__desc event__desc--tertiary">僅限與LG會員限定價98折合併使用<br>不適用產品: SIGNATURE、配件、耗材全系列</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
 													40
-													<span>%</span>
+													<span>% OFF</span>
 												</div>
-												<p class="event__desc event__desc--secondary">Discount coupon</p>
 											</div>
 										</div>
 										<div class="event__col">
@@ -999,19 +1003,18 @@
 												<p class="event__title">三獎</p>
 												<p class="event__sub">85折優惠序號</p>
 												<p class="event__desc event__desc--secondary">限量2000名</p>
-												<p class="event__desc event__desc--tertiary">此優惠不適用於SIGNATURE及配件耗材系列,僅可與2%會員優惠/5%新會員歡迎禮並用</p>
+												<p class="event__desc event__desc--tertiary">僅限與LG會員限定價98折合併使用<br>不適用產品: SIGNATURE、配件、耗材全系列</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
 													15
-													<span>%</span>
+													<span>% OFF</span>
 												</div>
-												<p class="event__desc event__desc--secondary">Discount coupon</p>
 											</div>
 										</div>
 									</div>
 									<div class="event__info">
-										<p class="event__text">優惠試用期間: 2022/11/30-12/13</p>
+										<p class="event__text">優惠適用期間:2022/11/30-12/13</p>
 									</div>
 								</div>
 							</div>
@@ -1040,7 +1043,7 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
 				</div>
 			</div>
 
@@ -1049,9 +1052,9 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">限量璀璨價</h2>
+							<h2 class="section__title"> 限量璀璨價 8折搶購中</h2>
 							<p class="section__desc">11/30 - 12/13</p>
-							<p class="section__sub">LG會員限定價 加碼再8折<br>可合併使用5%新會員歡迎禮</p>
+							<p class="section__sub">最高可享約74折優惠</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -1113,7 +1116,8 @@
 						</div>
 						<div class="section__footer section__footer--center">
 							<p class="section__text">
-								折扣優惠將顯示於結帳購物車頁面
+								*折扣優惠將顯示於結帳購物車頁面<br>
+								*限量璀璨價8折優惠將以LG會員限定價(建議售價98折)為基準適用,<br>另僅可與新會員歡迎禮95折合併使用,最高可享約74折優惠
 							</p>
 						</div>
 					</div>
@@ -1130,10 +1134,9 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">即日起至12/13</p>
-							<h2 class="section__title">熱銷精選 限時優惠</h2>
+							<h2 class="section__title">年度精選商品</h2>
 							<p class="section__desc">
-								購買兩件以上產品 最高享88折 <em class="highlight">(最低95折，會員可合併使用2%會員優惠 及 5%歡迎禮)</em>
-								<span>(璀璨產品周之優惠、SIGNATURE、配件產品不適用)</span>
+								任選2件以上產品,享88折優惠
 							</p>
 						</div>
             <div class="discount">
@@ -1158,13 +1161,13 @@
 									<div class="discount__inner">
 										<ul class="discount__number">
 											<li>
-												<p class="discount__total">最低95折</p>
+												<p class="discount__total">最低82折</p>
 											</li>
 											<li>
-												<p>會員可合併使用2%會員優惠 及</p>
+												<p>以上折扣為與新會員歡迎禮95折及</p>
 											</li>
 											<li>
-												<p>5%新會員歡迎禮</p>
+												<p>LG會員限定價98折合併使用後之優惠</p>
 											</li>
 										</ul>
 									</div>
@@ -1280,7 +1283,7 @@
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemoretvs"
 											data-link-name="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">查看更多 電視/視聽產品</a>
 									</div>
 								</div>
 							</div>
@@ -1303,7 +1306,7 @@
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemorehomeappliances"
 											data-link-name="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">查看更多 生活家電</a>
 									</div>
 								</div>
 							</div>
@@ -1325,7 +1328,7 @@
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemorecomputerproducts"
 											data-link-name="memberdays_2022H2"
-											class="button__item button__item--white">查看更多 視聽娛樂</a>
+											class="button__item button__item--white">查看更多 資訊產品</a>
 									</div>
 								</div>
 							</div>
@@ -1446,9 +1449,6 @@
 					</div>
 					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
 					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
-					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="redirectToMypage();">查看優惠</button>
-					</div>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1568,6 +1568,10 @@
         fbq('trackCustom', '2022H2MemberDays AddToBasket');
       });
     }
+	</script>
+
+	<script>
+		const path = '${path}';
 	</script>
 	
   <!-- UI script -->

@@ -6,10 +6,17 @@
 	* {
 		font-family: "LG Smart","Microsoft JhengHei","Segoe UI","Microsoft Sans Serif",sans-serif;
 	}
-	// .visual .section {
-	// 	height: 51vw;
-	// }
+	.visual .section {
+		// height: 51vw;
+		.section__title {
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+	}
 	// section
+	.section__container--event .lottie {
+		left: 15.17vw;
+	}
 	.section {
 		&__container {
 			&--lifestyle {
@@ -246,6 +253,7 @@
 
 				.section__desc {
 					margin-top: 10px;
+					font-size: 26px;
 				}
 			}
 			&--hottest {
@@ -253,6 +261,11 @@
 				.section__sub {
 					font-size: 26px;
 					line-height: 24px;
+				}
+			}
+			&--benefit {
+				.lottie {
+					top: 3.69vw;
 				}
 			}
 		}
@@ -392,6 +405,9 @@
 
 		.coupon {
 			&__item {
+				&:before {
+					display: none;
+				}
 				&:nth-child(2) {
 
 					.coupon__coupon {
@@ -401,6 +417,9 @@
 						}
 					}
 				}
+			}
+			&__info {
+				color:#ffffff;
 			}
 			&__coupon {
 
@@ -456,6 +475,9 @@
 					}
 				}
 				.event__process {
+					&:before {
+						display: none;
+					}
 
 					li {
 						
@@ -514,7 +536,7 @@
 					height: 66px;
 					color: #000;
 					font-weight: 700;
-					font-size: 50px;
+					font-size: 40px;
 					letter-spacing: -3px;
 					background: {
 						image: url('../images/bg_event_coupon.png');
@@ -525,7 +547,7 @@
 
 					span {
 						margin-left: 2px;
-						font-size: 30px;
+						font-size: 23px;
 						letter-spacing: 0;
 					}
 				}
