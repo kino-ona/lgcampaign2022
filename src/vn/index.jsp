@@ -1502,6 +1502,10 @@
       });
     }
 	</script>
+
+	<script>
+		const path = '${path}';
+	</script>
 	
 	<!-- UI Script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
