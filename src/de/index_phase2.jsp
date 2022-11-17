@@ -180,8 +180,8 @@
 							<h1 class="section__title">LG Member Days</h1>
 							<p class="section__sub">Bringe die Feiertage mit LG zum Strahlen</p>
 							<p class="section__desc">
-								Sichere dir exklusive Mitgliederrabatte auf LG Produkte<br>
-								(Das Angebot ist zeitlich begrenzt, nur gültig für LG Mitglieder und endet am 18. Dezember 2022)
+								Sichere dir exklusive Mitgliederrabatte auf LG Produkte* 
+								<span>*Das Angebot ist zeitlich begrenzt, <span class="break--mobile"></span>nur gültig für LG Mitglieder und endet am 18. Dezember 2022</span>
 							</p>
 						</div>
 						<div class="button">
@@ -299,21 +299,21 @@
 							<div class="benefit__more">
 								<p class="benefit__text">Exklusive Vorteile für LG Mitglieder</p>
 								<div class="benefit__button">
-									<a href="#">
+									<p>
 										<i></i>
 										<em>kostenloser Versand</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>
 											kostenlose Installation &amp;<br>
 											Altgerätmitnahme
 										</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>kostenlose Retoure</em>
-									</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -621,7 +621,7 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#Game day</em>
+										<em>#Sportliche Highlights</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
 									</h2>
@@ -692,7 +692,7 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#Zeitvertreib</em>
+										<em>#Gaming</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen.
 									</h2>
@@ -1054,10 +1054,9 @@
 							</p>
 							<h2 class="section__title">
 								<span class="break break--desktop">Schnell sein lohnt sich!</span>
-								<span class="break break--desktop">Limitierte Angebote bis zum 18. Dezember</span>
-								gültig
+								<span class="break break--desktop">Entdecke limitierte LG Member Days Angebote</span>
 							</h2>
-							<p class="section__sub">5. Dezember bis 18. Dezember 2022</p>
+							<p class="section__sub">*Aktion gültig vom 5. Dezember bis 18. Dezember 2022</p>
 						</div>
             <div class="discount">
 							<div class="discount__list">

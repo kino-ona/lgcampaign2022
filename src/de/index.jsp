@@ -286,21 +286,21 @@
 							<div class="benefit__more">
 								<p class="benefit__text">Exklusive Vorteile für LG Mitglieder</p>
 								<div class="benefit__button">
-									<a href="#">
+									<p>
 										<i></i>
 										<em>kostenloser Versand</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>
 											kostenlose Installation &amp;<br>
 											Altgerätmitnahme
 										</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>kostenlose Retoure</em>
-									</a>
+									</p>
 								</div>
 							</div>
 						</div>
@@ -739,7 +739,7 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#Game day</em>
+										<em>#Sportliche Highlights</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
 									</h2>
@@ -810,7 +810,7 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#Zeitvertreib</em>
+										<em>#Gaming</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen.
 									</h2>
