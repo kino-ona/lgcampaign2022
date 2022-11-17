@@ -158,7 +158,7 @@ function getLotteryResult(ctaId, token) {
                 ];
 
                 $('.win__popup .popup__gift').html(image);
-                $('.win__popup .win__product__name').text(productNames[rewardIndex - 1]);
+                $('.win__popup .popup__desc--bold').text(productNames[rewardIndex - 1]);
                 $('.win__popup').show();
 
                 return;

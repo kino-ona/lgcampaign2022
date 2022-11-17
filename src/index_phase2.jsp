@@ -340,97 +340,6 @@
 						data-track-group="starstamp" onclick="showLotteryModal('031', this);"></div>
 				</div>
 			</div>
-			
-			<div class="anchors" id="MembershipEvent"></div>
-			<div id="box_content1_1" class="section">
-				<div class="section__container section__container--event" data-list="eventGift">
-					<div class="section__inner">
-						<div class="section__header">
-							<p class="section__sub">Fill Your Day with Sparkle</p>
-							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
-						</div>
-						<div class="event">
-							<div class="event__container">
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__category">How to Participate</p>
-										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
-										<p class="event__desc">Participation limited to one member account only</p>
-									</div>
-									<div class="event__process">
-										<ol>
-											<li>
-												<span>1</span>
-												<p>Login / Sign-Up</p>
-											</li>
-											<li>
-												<span>2</span>
-												<p>
-													Find and click on ALL 5 stars<br>
-													throughout the event page
-												</p>
-											</li>
-											<li>
-												<span>3</span>
-												<p>
-													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
-													prize!
-												</p>
-											</li>
-										</ol>
-									</div>
-									<p class="event__category">Find All Five Stars</p>
-									<div class="event__stars">
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-									</div>
-								</div>
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__title">Event Prize</p>
-										<p class="event__sub">Get a chance to win one of the LG Products below!</p>
-										<p class="event__desc event__desc--secondary">Limited to 3 Winners. Find out your luck!</p>
-									</div>
-									<div class="event__gift">
-										<img src="${path}/assets/images/img_event_product.png" alt="">
-									</div>
-									<div class="event__info">
-										<p class="event__text">99% Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec  2022</p>
-									</div>
-								</div>
-							</div>
-							<div class="event__bottom login__link">
-								<div class="event__left">
-									<p>Your Prize is Just One Star away</p>
-									<p>Sign Up Now or Login to Participate</p>
-								</div>
-								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();"
-										data-link-area="memberdays_signup_click" 
-										data-link-name="memberdays_2022H2"
-									>LOGIN / SIGN-UP</a>
-								</div>
-							</div>
-						</div>
-						<div class="section__footer">
-							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank"
-								data-link-area="memberdays_anchor_click_termsandconditions" 
-								data-link-name="memberdays_2022H2" 
-								class="section__text">
-								Terms &amp; Conditions
-								<i></i>
-							</a>
-						</div>
-					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click" 
-						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
-				</div>
-			</div>
 
 			<div class="anchors" id="HolidayCollection"></div>
 			<div id="box_content2" class="section">
@@ -916,6 +825,97 @@
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('033', this);"></div>
+				</div>
+			</div>
+			
+			<div class="anchors" id="MembershipEvent"></div>
+			<div id="box_content1_1" class="section">
+				<div class="section__container section__container--event" data-list="eventGift">
+					<div class="section__inner">
+						<div class="section__header">
+							<p class="section__sub">Fill Your Day with Sparkle</p>
+							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
+						</div>
+						<div class="event">
+							<div class="event__container">
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__category">How to Participate</p>
+										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
+										<p class="event__desc">Participation limited to one member account only</p>
+									</div>
+									<div class="event__process">
+										<ol>
+											<li>
+												<span>1</span>
+												<p>Login / Sign-Up</p>
+											</li>
+											<li>
+												<span>2</span>
+												<p>
+													Find and click on ALL 5 stars<br>
+													throughout the event page
+												</p>
+											</li>
+											<li>
+												<span>3</span>
+												<p>
+													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
+													prize!
+												</p>
+											</li>
+										</ol>
+									</div>
+									<p class="event__category">Find All Five Stars</p>
+									<div class="event__stars">
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+									</div>
+								</div>
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__title">Event Prize</p>
+										<p class="event__sub">Get a chance to win one of the LG Products below!</p>
+										<p class="event__desc event__desc--secondary">Limited to 3 Winners. Find out your luck!</p>
+									</div>
+									<div class="event__gift">
+										<img src="${path}/assets/images/img_event_product.png" alt="">
+									</div>
+									<div class="event__info">
+										<p class="event__text">99% Coupons are valid from 7<sup>th</sup> Dec to 20<sup>th</sup> Dec  2022</p>
+									</div>
+								</div>
+							</div>
+							<div class="event__bottom login__link">
+								<div class="event__left">
+									<p>Your Prize is Just One Star away</p>
+									<p>Sign Up Now or Login to Participate</p>
+								</div>
+								<div class="event__right">
+									<a href="javascript:redirectToLoginPage();"
+										data-link-area="memberdays_signup_click" 
+										data-link-name="memberdays_2022H2"
+									>LOGIN / SIGN-UP</a>
+								</div>
+							</div>
+						</div>
+						<div class="section__footer">
+							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank"
+								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-link-name="memberdays_2022H2" 
+								class="section__text">
+								Terms &amp; Conditions
+								<i></i>
+							</a>
+						</div>
+					</div>
+					<div class="lottie" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
 				</div>
 			</div>
 

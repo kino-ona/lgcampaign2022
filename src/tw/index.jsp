@@ -160,7 +160,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640|MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07524907|MD07544495|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
-			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07555504|MD07555527"/>
+			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07562781|MD07555523"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
@@ -173,7 +173,7 @@
 							<p class="section__desc">11/30-12/13</p>
 							<h1 class="section__title">LG璀璨會員日 即將登場</h1>
 							<p class="section__desc">點亮您的冬季佳節</p>
-							<p class="section__desc">簡單註冊  即有機會贏得大獎及獨家優惠</p>
+							<p class="section__desc">立即註冊，即有機會贏得大獎及獨家優惠</p>
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
@@ -293,31 +293,31 @@
 							<div class="benefit__more">
 								<p class="benefit__text">更多好康</p>
 								<div class="benefit__button">
-									<a href="#">
+									<p>
 										<i></i>
 										<em>
 											免費宅配
 										</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>
 											免費基本安裝及舊四機回收
 										</em>
-									</a>
-									<a href="#">
+									</p>
+									<p>
 										<i></i>
 										<em>
 											免費尊榮到府教學
 										</em>
-									</a>
-									<a href="#">
+									</p>
+									<a href="${path}/tnc/index.jsp" target="_blank">
 										<i></i>
 										<em>
 											限量加碼贈品
 										</em>
 									</a>
-									<a href="#">
+									<a href="${path}/tnc/index.jsp" target="_blank">
 										<i></i>
 										<em>
 											3天內保證送達
@@ -395,9 +395,9 @@
 										<p class="event__sub">旗艦機種 共3名</p>
 										<p class="event__desc event__desc--secondary">以下各乙台乙名</p>
 										<p class="event__desc event__desc--tertiary">
-											OLED evo C2 4K AI物聯網電視55吋<br>
-											LG CordZero™ A9T系列All-in-One 濕拖無線吸塵器|Objet Collection® (雪霧白)<br>
-											27” Libero 自由機
+											<span>OLED evo C2 4K AI物聯網電視55吋</span>
+											<span>LG CordZero™ A9T系列All-in-One 濕 拖無線吸塵器|Objet Collection® (雪霧白)</span>
+											<span>27” Libero 自由機</span>
 										</p>
 									</div>
 									<div class="event__gift">
@@ -412,7 +412,10 @@
 												<p class="event__title">二獎</p>
 												<p class="event__sub">6折優惠序號</p>
 												<p class="event__desc event__desc--secondary">限量20名</p>
-												<p class="event__desc event__desc--tertiary">僅限與LG會員限定價98折合併使用<br>不適用產品: SIGNATURE、配件、耗材全系列</p>
+												<p class="event__desc event__desc--tertiary">
+													<span>僅限與LG會員限定價98折合併使用</span>
+													<span>不適用產品: SIGNATURE、配件、耗材全系列</span>
+												</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
@@ -426,7 +429,10 @@
 												<p class="event__title">三獎</p>
 												<p class="event__sub">85折優惠序號</p>
 												<p class="event__desc event__desc--secondary">限量2000名</p>
-												<p class="event__desc event__desc--tertiary">僅限與LG會員限定價98折合併使用<br>不適用產品: SIGNATURE、配件、耗材全系列</p>
+												<p class="event__desc event__desc--tertiary">
+													<span>僅限與LG會員限定價98折合併使用</span>
+													<span>不適用產品: SIGNATURE、配件、耗材全系列</span>
+												</p>
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
@@ -437,7 +443,7 @@
 										</div>
 									</div>
 									<div class="event__info">
-										<p class="event__text">優惠適用期間:2022/11/30-12/13</p>
+										<p class="event__text">優惠試用期間 : 2022/11/30-12/13</p>
 									</div>
 								</div>
 							</div>

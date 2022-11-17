@@ -155,7 +155,7 @@ function getLotteryResult(ctaId, token) {
                     '您已獲得 27” Libero 自由機'
                 ];
 
-                $('.win__popup .popup__title.popup__title--default').text(productNames[rewardIndex - 1])
+                $('.win__popup .popup__title.popup__title--default').text(productNames[rewardCode.replace(/[^0-9]/g, '') - 1])
                 $('.win__popup .popup__gift').html(image);
                 $('.win__popup').show();
 
