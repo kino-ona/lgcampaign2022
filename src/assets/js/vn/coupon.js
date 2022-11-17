@@ -157,7 +157,7 @@ function getLotteryResult(ctaId, token) {
             }
 
             if (/^win(\_|\-)4$/i.test(rewardCode)) {
-                $('.win__popup__with__coupon .coupon__title').html('20<span>%</span>');
+                $('.win__popup__with__coupon .coupon__title').html('15<span>%</span>');
                 $('.win__popup__with__coupon').show();
 
                 return;
@@ -165,6 +165,13 @@ function getLotteryResult(ctaId, token) {
 
             if (/^win(\_|\-)5$/i.test(rewardCode)) {
                 $('.win__popup__with__coupon .coupon__title').html('10<span>%</span>');
+                $('.win__popup__with__coupon').show();
+
+                return;
+            }
+			
+			if (/^win(\_|\-)6$/i.test(rewardCode)) {
+                $('.win__popup__with__coupon .coupon__title').html('5<span>%</span>');
                 $('.win__popup__with__coupon').show();
 
                 return;

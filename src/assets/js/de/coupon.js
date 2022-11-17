@@ -148,7 +148,7 @@ function getLotteryResult(ctaId, token) {
 
             // if win
             if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
-                const image = $('<img src="' + path + '/assets/images/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
+                const image = $('<img src="' + path + '/assets/images/de/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
 
                 $('.win__popup .popup__gift').html(image);
                 $('.win__popup').show();
