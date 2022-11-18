@@ -754,3 +754,136 @@
 		}
 	}
 }
+
+.lgmembersweek-terms {
+	* {
+		color: #333333;
+		font-size: 20px;
+		word-break: break-all;
+
+		@media (max-width: 1024px) {
+			font-size: 16px;
+  		line-height: 24px;
+		}
+	}
+	
+	&__wrap {
+		position: relative;
+  	padding: 5.21vw 0 6.25vw;
+		max-width: 1344px;
+  	margin: 0 auto;
+		padding-top: 90px;
+		text-align: left;
+
+		@media (max-width: 1024px) {
+			padding: 120px 6.25vw;
+		}
+	}
+
+	h3 {
+		margin-left: -30px;
+		margin-bottom: 120px;
+		color: #000000;
+		font-size: 60px;
+		line-height: 60px;
+		font-weight: 600;
+
+		@media (max-width: 1024px) {
+			margin-bottom: 60px;
+			margin-left: -15px;
+			font-size: 36px;
+  		line-height: 44px;
+		}
+
+		@media (max-width: 767px) {
+			font-size: 26px;
+  		line-height: 30px;
+		}
+	}
+
+	.sub-title {
+		display: inline-block;
+		position: relative;
+		margin-left: -10px;
+
+		&::before {
+			display: inline-block;
+			position: absolute;
+			bottom: 4px;
+			left: 10px;
+			right: 0;
+			width: calc(100% - 20px);
+			height: 1px;
+			background-color: #333333;
+			content: '';
+		}
+	}
+
+	.list {
+		margin-top: 10px;
+
+		li {
+			position: relative;
+			margin: 25px 0;
+			padding-left: 25px;
+			line-height: 1.8;
+
+			@media (max-width: 1024px) {
+				margin: 10px 0;
+			}
+		}
+
+		span {
+			position: absolute;
+			left: 0;
+		}
+	}
+
+	.list + .sub-title {
+		margin-top: 60px;
+	}
+
+	.info {
+		margin-top: 60px;
+
+		p {
+			position: relative;
+			margin: 20px 0;
+			padding-left: 15px;
+		}
+
+		span {
+			position: absolute;
+			top: 3px;
+			left: 0;
+		}
+	}
+
+	.info-2 + .list {
+		margin-top: 60px;
+		margin-bottom: 120px;
+	}
+
+	table {
+		border: 1px solid #000;
+
+		th {
+			padding: 15px;
+			background-color: #99999942;
+		}
+		th + th {
+			border-left: 1px solid #000
+		}
+
+		td {
+			padding: 15px;
+			border-top: 1px solid #000000;
+			border-left: 1px solid #000000;
+		}
+	}
+
+	table + .list {
+		margin-top: 120px;
+	}
+
+}
