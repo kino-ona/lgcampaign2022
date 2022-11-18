@@ -452,7 +452,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
@@ -471,7 +473,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_lswd100e"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_lswd100e"
@@ -490,26 +494,30 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/de/trockner/lg-RT8DIH1Q" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_RT8DIH1Q"
+													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/de/img_product_showroom_home01_03.png" alt="LG Trockner mit 8 kg Kapazität">
+															<img src="${path}/assets/images/de/img_product_showroom_home01_03.png" alt="LG Styler S3BF mit Steam">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Trockner mit 8 kg Kapazität</p>
+															<p class="product__name">LG Styler S3BF mit Steam</p>
 															<ul class="product__desc">
-																<li>Dual Inverter Wärmepumpentechnologie für eine schonende Trocknung mit niedrigen Temperaturen und reduziert Allergene um bis zu 99,9%</li>
+																<li>Auffrischung Ihrer Kleidung in nur 20 Minuten möglich! Auch für Schals, Krawatten oder Tücher geeignet</li>
 															</ul>
 														</div>
 													</a>
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
@@ -562,7 +570,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gathering_gsxv91mcae"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_gsxv91mcae"
@@ -581,7 +591,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gathering_dxg7qbk"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_dxg7qbk"
@@ -633,7 +645,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77c27la"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77c27la"
@@ -652,7 +666,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gameday_dsp11ra"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_dsp11ra"
@@ -706,7 +722,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_pastime_48gq900-b"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_pastime_48gq900-b"
@@ -760,7 +778,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_34wq65x-w"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_34wq65x-w"
@@ -779,7 +799,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_17z90p-gaa82g"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_17z90p-gaa82g"
@@ -798,7 +820,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_tone-dfp9w"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_tone-dfp9w"

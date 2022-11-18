@@ -343,7 +343,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('001', this);"></div>
 				</div>
@@ -916,7 +916,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
 				</div>
@@ -1047,9 +1047,9 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
 
@@ -1106,11 +1106,11 @@
 												</div>
 											</div>
 											<div class="button">
-												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparklingdeals_add_to_cart_click" data-link-name="sparklingdeals_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
+												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparkling_add_to_cart_click" data-link-name="sparkling_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='加入購物車'/></a>
 											</div>
 											<div class="learn-more">
-												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
+												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												</a>
 											</div>
@@ -1128,7 +1128,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('004', this);"></div>
 				</div>
@@ -1341,7 +1341,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('005', this);"></div>
 				</div>
@@ -1487,7 +1487,7 @@
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
 						<a href="javascript:redirectToMypage();" 
-							data-link-area="starstamp_coupon_download_click"
+							data-link-area="memberdays_H2_starstamp_click_download"
 							data-link-name="memberdays_2022H2" 
 							data-track-name="starstamp_coupon_download" 
 							class="popup__button">查看優惠</a>
@@ -1592,7 +1592,7 @@
   <!-- UI script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>
-	<script src="${path}/assets/js/coupon.js"></script>
+	<script src="${path}/assets/js/coupon_phase2.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
   <script>
