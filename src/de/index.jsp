@@ -131,16 +131,26 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07537889|MD07538000|MD07556806|MD07560566|MD07560577|MD07560571"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07547712|MD07549539|MD07549467|MD07529840|MD07551967|MD07559183"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07557592|MD07530428|MD07502402"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07539436|MD07553686|MD07558680|MD07563688|MD07559190|MD07536623|MD07559110"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07539436|MD07553686|MD07558680|MD07500784|MD07563688|MD07559190|MD07536623|MD07559110"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07565227|MD07533491|MD07560566|MD07560577|MD07560571|MD07560641|MD07559192|MD07559190|MD07559182|MD07559819|MD07560745"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07556670|MD07556670|MD07565227|MD07533491|MD07533491|MD07533491|MD07533491|MD07560566|MD07560577|MD07560571|MD07560641|MD07559192|MD07559190|MD07559182|MD07559819"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/de/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/de/hotdeal_product13.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/de/hotdeal_product13.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/de/hotdeal_product02.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
 			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/de/hotdeal_product04.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
@@ -165,7 +175,7 @@
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07549514|MD07549244|MD07550687|MD07551349|MD07551348|MD07551110|MD07549461|MD07549883|MD07549539|MD07549258"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07536621|MD07552306|MD07559190|MD07545237|MD07533110|MD07529840|MD07559110|MD07529952|MD07545439|MD07506263|MD07552826|MD07504911"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07536621|MD07552306|MD07534021|MD07536623|MD07534660|MD07545237|MD07533110|MD07529840|MD07559110|MD07529952|MD07545439|MD07506263|MD07552826|MD07504911"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537955|MD07546828|MD07541029|MD07520777|MD06055056|MD07540963|MD06049916|MD07532590|MD06055076|MD07521087|MD07520055|MD07541621|MD07538023|MD07522369|MD06020158|MD07546795"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07501021|MD07500784|MD07500772|MD07528835|MD07549890|MD07548205|MD07518915|MD07557589|MD05984496|MD07510022|MD06076196|MD07551891|MD07553682|MD07553675|MD07553615|MD07553686"/>
 		<!-- Required input ## Model List End -->
@@ -194,7 +204,7 @@
 								class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
-							<a href="${path}/member-days-lg-tnc" target="_blank"
+							<a href="/${localeCd}/member-days-lg-tnc" target="_blank"
 								data-link-area="memberdays_anchor_click_termsandconditions" 
 								data-track-name="memberdays_anchor_click_termsandconditions"
 								data-link-name="memberdays_2022H2" 
@@ -305,7 +315,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="${path}/member-days-lg-tnc" target="_blank" 
+							<a href="/${localeCd}/member-days-lg-tnc" target="_blank" 
 								data-link-area="memberdays_anchor_click_termsandconditions" 
 								data-link-name="memberdays_2022H2" 
 								class="section__text">
@@ -410,7 +420,7 @@
 											</div>
 											<div class="event__coupon">
 												<div class="event__ticket">
-													10
+													5
 													<span>%</span>
 												</div>
 												<p class="event__desc event__desc--secondary">Gutscheincode</p>
@@ -436,7 +446,7 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="${path}/member-days-lg-tnc" target="_blank" 
+							<a href="/${localeCd}/member-days-lg-tnc" target="_blank" 
 								data-link-area="memberdays_anchor_click_termsandconditions" 
                 data-link-name="memberdays_2022H2" 
 								class="section__text">
@@ -1039,7 +1049,7 @@
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='demnächst verfügbar'/></a>
 											</div> -->
 											<div class="learn-more">
-												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
+												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now" target="_blank">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='Mehr erfahren'/></span>
 												</a>
 											</div>
@@ -1168,7 +1178,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='Mehr erfahren'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>

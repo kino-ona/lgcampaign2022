@@ -159,6 +159,7 @@ function getLotteryResult(ctaId, token) {
 
                 $('.win__popup .popup__gift').html(image);
                 $('.win__popup .popup__desc--bold').text(productNames[rewardIndex - 1]);
+                // $('.win__popup .win__product__name').text(productNames[rewardIndex - 1]);
                 $('.win__popup').show();
 
                 return;
@@ -180,7 +181,7 @@ function getLotteryResult(ctaId, token) {
 }
 
 function redirectToLoginPage() {
-    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays/index.jsp';
+    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays/index_phase2.jsp';
 }
 
 function redirectToMypage() {

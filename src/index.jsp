@@ -243,7 +243,7 @@
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Member Exclusive Benefit</p>
+											<p class="coupon__title">Exclusive Member Benefit</p>
 											<p class="coupon__text">
 												Join for free and<br>
 												get discounts on future purchases
@@ -316,7 +316,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('031', this);"></div>
 				</div>
@@ -407,7 +407,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
 				</div>
@@ -894,7 +894,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('033', this);"></div>
 				</div>
@@ -975,7 +975,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('034', this);"></div>
 				</div>
@@ -1164,7 +1164,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('035', this);"></div>
 				</div>

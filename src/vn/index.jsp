@@ -178,7 +178,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07551482|MD07551504|MD07551331|MD07551385|MD07551392|MD07551393|MD07551512|MD07551564|MD07551573|MD07553101|MD07552962|MD07552957|MD07551203|MD07551233|MD07551239|MD07551245"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07530013|MD07530005|MD07514112|MD07507391|MD07510843|MD07510755|MD07535558|MD07537967|MD07537988|MD07537974"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07516997|MD07515551|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07549912|MD07560908|MD07560884|MD07554691|MD07560894|MD07555673|MD07553698|MD07522264|MD07544522|MD07522356|MD07522333"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07516997|MD07515551|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07549912|MD07560908|MD07560884|MD07554691|MD07560894|MD07555673|MD07553698"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07507428|MD07524665|MD07527480|MD07553471|MD07553537|MD07529949|MD07555288|MD07510661|MD07533754|MD07557204|MD07527350|MD07521897|MD07527461|MD07533848|MD07555367|MD07550771"/>
 		<!-- Required input ## Model List End -->
 	
@@ -344,7 +344,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('021', this);"></div>
 				</div>
@@ -363,7 +363,7 @@
 								<div class="event__round">
 									<div class="event__header">
 										<p class="event__category">Cách thức tham gia</p>
-										<p class="event__title">Tìm tất cả các ngôi sao trên trang sự kiện để có cơ hội thắng giải</p>
+										<p class="event__title">Tìm tất cả các ngôi sao trên trang sự<br>kiện để có cơ hội thắng giải</p>
 										<p class="event__desc">Giới hạn một tài khoản thành viên cho mỗi người tham gia</p>
 									</div>
 									<div class="event__process">
@@ -403,7 +403,7 @@
 												<p class="event__title">Giải Nhất</p>
 												<p class="event__sub">Cơ hội để giành được</p>
 												<p class="event__desc event__desc--secondary">Dành cho 03 người duy nhất</p>
-												<p class="event__desc event__desc--tertiary">Người chiến thắng sẽ nhận được email thông báo trong 3 tuần kể từ ngày kết thúc chương trình</p>
+												<p class="event__desc event__desc--tertiary" style="letter-spacing: -0.04em;">Người chiến thắng sẽ nhận được email thông báo trong 3 tuần kể từ ngày kết thúc chương trình</p>
 											</div>
 											<div class="event__gift">
 												<img src="${path}/assets/images/vn/img_event_product.png" alt="">
@@ -483,7 +483,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('022', this);">
 					</div>
@@ -603,7 +603,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
@@ -623,7 +625,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_dvhp09b"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_dvhp09b"
@@ -644,7 +648,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_f2515rtgb"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_f2515rtgb"
@@ -664,7 +670,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_as10gdwh0"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_as10gdwh0"
@@ -713,7 +721,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x257mc" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gathering_gr-x257mc"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x257mc" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_gr-x257mc"
@@ -733,7 +743,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/dieu-hoa/lg-v10apfuv" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gathering_v10apfuv"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/dieu-hoa/lg-v10apfuv" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_v10apfuv"
@@ -784,7 +796,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/tivi/lg-oled77a2psa" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77a2psa"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/tivi/lg-oled77a2psa" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77a2psa"
@@ -804,7 +818,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/sound-bar/lg-s75q" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gameday_s75q"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/sound-bar/lg-s75q" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_s75q"
@@ -854,7 +870,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up850n-w" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_pastime_27up850n-w"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up850n-w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_pastime_27up850n-w"
@@ -874,7 +892,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/loa-di-dong/lg-xg7qbk" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_pastime_xg7qbk"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/loa-di-dong/lg-xg7qbk" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_pastime_xg7qbk"
@@ -924,7 +944,9 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up600-w" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_27up600-w"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up600-w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_27up600-w"
@@ -944,7 +966,9 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="#" class="product__anchor"><span class="sr-only">detail view</span></a>
+												<a href="https://www.lg.com/vn/laptops/lg-16z90q-gah54a5" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_6z90q-gah54a5"
+												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/laptops/lg-16z90q-gah54a5" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_6z90q-gah54a5"
@@ -976,7 +1000,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('023', this);"></div>
 				</div>
@@ -1055,7 +1079,7 @@
 						</div>
 					</div>
 					<div class="lottie"
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('024', this);"></div>
 				</div>
@@ -1158,7 +1182,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='Tìm hiểu thêm'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1254,7 +1278,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('025', this);"></div>
 				</div>
@@ -1270,7 +1294,7 @@
 					<p class="popup__title">Đăng nhập để tham gia</p>
 					<p class="popup__desc">
 						Chưa phải là thành viên?<br>
-						Tham gia ngay hôm nay để tận hưởng đặc quyền cho Thành viên LG
+						Tham gia ngay hôm nay để tận hưởng<br>đặc quyền cho Thành viên LG
 					</p>
 					<div class="popup__buttons">
 						<a href="javascript:redirectToLoginPage();" 
@@ -1373,7 +1397,7 @@
 						<!-- <img src="${path}/assets/images/vn/img_popup_gift02.png" alt=""> -->
 						<!-- <img src="${path}/assets/images/vn/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">Người chiến thắng sẽ nhận được email thông báo trong 3 tuần để từ ngày kết thúc chương trình</p>
+					<p class="popup__desc popup__desc--semibold" style="letter-spacing: -0.04em;">Người chiến thắng sẽ nhận được email thông báo<br>trong 2 tuần để từ ngày kết thúc chương trình</p>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>

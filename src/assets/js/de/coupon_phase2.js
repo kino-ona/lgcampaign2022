@@ -1,5 +1,5 @@
-const micrositeId = '600'; // microsite id
-const locale = 'uk';
+const micrositeId = '400'; // microsite id
+const locale = 'de';
 const isRedirected = (document.referrer.indexOf('sso.lg.com') > -1 || document.referrer.indexOf('ssodev.lg.com') > -1 || document.referrer.indexOf('change-password-reminder') > -1) || getUrlParams('referrer').referrer == 'gnb';
 const devHost = 'https://wwwstg.lg.com/' + locale;
 const devLotteryGetPath = '/shop/rest/V1/lotteryCoupon/get';
@@ -8,7 +8,6 @@ const productionHost = 'https://obs.lg.com/' + locale;
 const prodLotteryGetPath = '/rest/V1/lotteryCoupon/get';
 const prodLotteryResultPath = '/rest/V1/lotteryCoupon/result';
 let isLogin = false;
-
 
 $(function () {
     getAccessTokenForLottery(function (token) {
@@ -149,17 +148,23 @@ function getLotteryResult(ctaId, token) {
 
             // if win
             if (/^win(\_|\-)[1-3]$/i.test(rewardCode)) {
-                const rewardIndex = parseInt(rewardCode.replace(/[^0-9]/g, ''));
-                const image = $('<img src="' + path + '/assets/images/vn/img_popup_gift0' + rewardIndex + '.png" alt="">');
-                const productNames = [
-                    'LG OLED evo C2 55’’ 4K Smart TV',
-                    'InstaView Door-in-Door',
-                    'LG gram 16 Ultra-Lightweight'
-                ];
+                const image = $('<img src="' + path + '/assets/images/de/img_popup_gift0' + rewardCode.replace(/[^0-9]/g, '') + '.png" alt="">');
 
                 $('.win__popup .popup__gift').html(image);
-                $('.win__popup .popup__desc--bold').text(productNames[rewardIndex - 1]);
                 $('.win__popup').show();
+
+                return;
+            }
+
+            if (/^win(\_|\-)4$/i.test(rewardCode)) {
+                $('.win__popup__with__coupon .coupon__title').text('10');
+                $('.win__popup__with__coupon').show();
+
+                return;
+            }
+            if (/^win(\_|\-)5$/i.test(rewardCode)) {
+                $('.win__popup__with__coupon .coupon__title').text('5');
+                $('.win__popup__with__coupon').show();
 
                 return;
             }
@@ -180,7 +185,7 @@ function getLotteryResult(ctaId, token) {
 }
 
 function redirectToLoginPage() {
-    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays/index.jsp';
+    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays/index_phase2.jsp';
 }
 
 function redirectToMypage() {
@@ -212,7 +217,7 @@ function disableStars(cta_info = []) {
     const lottie = $('.lottie');
 
     for (let i = 0; i < cta_info.length; i++) {
-        const index = parseInt(cta_info[i].cta_id.replace(/^03/, '')) - 1;
+        const index = parseInt(cta_info[i].cta_id.replace(/^01/, '')) - 1;
 
         if (cta_info[i].datetime) {
             lottie.eq(index).attr('class', 'lottie lottie--disabled');
@@ -225,10 +230,10 @@ function disableStars(cta_info = []) {
         $('.lottie').each(function () {
             if (!$(this).hasClass('lottie--disabled')) {
                 $(this).empty();
-                $(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+                $(this).append('<lottie-player src="' + path + '/lottie/star.json" background="transparent" speed="1" loop autoplay></lottie-player>');
             } else {
                 $(this).empty();
-                $(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+                $(this).append('<lottie-player src="' + path + '/lottie/star_off.json" background="transparent" speed="1" loop autoplay></lottie-player>');
             }
         });
         clearTimeout(delay);
@@ -240,21 +245,21 @@ function getStarCountText(clicked) {
 
     switch (lastStars) {
         case 1:
-            return 'One';
+            return 'eins';
 
         case 2:
-            return 'Two';
+            return 'zwei';
 
         case 3:
-            return 'Three';
+            return 'drei';
 
         case 4:
-            return 'Four';
+            return 'vier';
 
         case 5:
-            return 'Five';
+            return 'fünf';
 
         default:
-            return 'Zero';
+            return 'null';
     }
 } 

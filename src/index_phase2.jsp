@@ -263,7 +263,7 @@
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Member Exclusive Benefit</p>
+											<p class="coupon__title">Exclusive Member Benefit</p>
 											<p class="coupon__text">
 												Join for free and<br>
 												get discounts on future purchases
@@ -335,7 +335,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('031', this);"></div>
 				</div>
@@ -822,9 +822,9 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('033', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
 				</div>
 			</div>
 			
@@ -913,9 +913,9 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
+						data-track-group="starstamp" onclick="showLotteryModal('033', this);"></div>
 				</div>
 			</div>
 
@@ -993,7 +993,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('034', this);"></div>
 				</div>
@@ -1246,7 +1246,7 @@
 						</div>
 					</div>
 					<div class="lottie" 
-						data-link-area="starstamp_click" 
+						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('035', this);"></div>
 				</div>
@@ -1286,7 +1286,7 @@
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
 					<div class="popup__buttons">
-						<button type="button" class="popup__button" onclick="hideRedirectPopup();"></button>>START NOW</button>
+						<button type="button" class="popup__button" onclick="hideRedirectPopup();">START NOW</button>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1474,7 +1474,7 @@
 	<!-- UI Script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>
-	<script src="${path}/assets/js/coupon.js"></script>
+	<script src="${path}/assets/js/coupon_phase2.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
   <script>

@@ -239,6 +239,29 @@
 			margin-top: 15px;
 		}
 
+		.section__container--hottest {
+			.section__title{
+				& + .section__sub {
+					span {
+						display: block;
+						font-size: 18px;
+						font-weight: 400;
+						&:first-child {
+							margin-bottom: 5px;
+						}
+					}
+					em {
+						color:#A50034;
+					}
+					@media (max-width: 1024px) {
+						span {
+							font-size: 14px;
+						}
+					}
+				}
+			}
+		}
+
 		@media (max-width: 1024px) {
 			&__container {
 				&--benefit {
