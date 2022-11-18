@@ -178,7 +178,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07551482|MD07551504|MD07551331|MD07551385|MD07551392|MD07551393|MD07551512|MD07551564|MD07551573|MD07553101|MD07552962|MD07552957|MD07551203|MD07551233|MD07551239|MD07551245"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07530013|MD07530005|MD07514112|MD07507391|MD07510843|MD07510755|MD07535558|MD07537967|MD07537988|MD07537974"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07516997|MD07515551|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07549912|MD07560908|MD07560884|MD07554691|MD07560894|MD07555673|MD07553698"/>
+			김<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07559324|MD07559573|MD07541703|MD07542145|MD07515578|MD07541676|MD07542146|MD07549311|MD06041696|MD07549791|MD07542553|MD07560918|MD07560852|MD07549398|MD07549813|MD07560908|MD07560884|MD07554691|MD07560894|MD07555673|MD07522264|MD07544522|MD07522356|MD07522333"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07507428|MD07524665|MD07527480|MD07553471|MD07553537|MD07529949|MD07555288|MD07510661|MD07533754|MD07557204|MD07527350|MD07521897|MD07527461|MD07533848|MD07555367|MD07550771"/>
 		<!-- Required input ## Model List End -->
 	
@@ -1397,7 +1397,7 @@
 						<!-- <img src="${path}/assets/images/vn/img_popup_gift02.png" alt=""> -->
 						<!-- <img src="${path}/assets/images/vn/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold" style="letter-spacing: -0.04em;">Người chiến thắng sẽ nhận được email thông báo<br>trong 2 tuần để từ ngày kết thúc chương trình</p>
+					<p class="popup__desc popup__desc--semibold" style="letter-spacing: -0.04em;">Người chiến thắng sẽ nhận được email thông báo<br>trong 3 tuần để từ ngày kết thúc chương trình</p>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
