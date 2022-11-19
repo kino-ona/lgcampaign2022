@@ -226,7 +226,7 @@
 								</a>
 							</li>
 							<li class="list-item">
-								<a href="#HolidayCollection" 
+								<a href="#BuymoreSavemore" 
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
 									data-link-area="memberdays_H2_Anchor_click_P2_holidaycollection" 
 									data-link-name="memberdays_2022H2" 
@@ -1261,7 +1261,7 @@
 				<div class="popup__body">
 					<p class="popup__title">Login to Participate!</p>
 					<p class="popup__desc">
-						Not a Member Yet?<br>
+						Not yet a Member?<br>
 						Join today to enjoy LG Member Exclusive Benefits
 					</p>
 					<div class="popup__buttons">

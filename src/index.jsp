@@ -1179,7 +1179,7 @@
 				<div class="popup__body">
 					<p class="popup__title">Login to Participate!</p>
 					<p class="popup__desc">
-						Not a Member Yet?<br>
+						Not yet a Member?<br>
 						Join today to enjoy LG Member Exclusive Benefits
 					</p>
 					<div class="popup__buttons">
