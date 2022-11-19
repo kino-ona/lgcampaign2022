@@ -776,7 +776,7 @@
 		text-align: left;
 
 		@media (max-width: 1024px) {
-			padding: 120px 6.25vw;
+			padding: 60px 6.25vw;
 		}
 	}
 
@@ -796,8 +796,9 @@
 		}
 
 		@media (max-width: 767px) {
-			font-size: 26px;
+			font-size: 24px;
   		line-height: 30px;
+			letter-spacing: -1px;
 		}
 	}
 
