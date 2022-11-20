@@ -228,10 +228,15 @@
 			}
 			&--hotdeal {
 				margin-top: -1px;
+				@media (max-width: 1024px) {
+					.lottie {
+						left: -5.62vw;
+					}
+				}
 			}
 			&--event {
 				.lottie {
-					top: 10.0vw;
+					top: -80px;
 				}
 			}
 		}

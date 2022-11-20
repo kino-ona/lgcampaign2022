@@ -35,16 +35,9 @@
 .lgmembersweek {
 	.visual .section {
 		.section__title {
-			// width: 55%;
 			margin: 0 auto;
-			// line-height: 65px;
-			// @media (max-width: 1500px) {
-			// 	width: 65%;
-			// }
 			@media (max-width: 1300px) {
 				font-size: 65px;
-				// width: 70%;
-				// line-height: 40px;
 			}
 			@media (max-width: 1200px) {
 				// width: 75%;
@@ -280,6 +273,10 @@
 							}
 						}
 					}
+				}
+				.lottie {
+					right: 2.67vw;
+					top: 19.85vw;
 				}
 			}
 			&--hotdeal {

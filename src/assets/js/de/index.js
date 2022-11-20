@@ -57,7 +57,11 @@ $(document).ready(function(){
 			$('.list_navigation').find('.list-item').each(function () {
 				$(this).find('a').on('click', function(e){
 					var $this = $(this).html()
-					$('#select_list-item').find('span').html($this)
+					$('#select_list-item').find('span').html($this);
+					if($('.box_navigation .smooth-scroll').css('display') == 'block') {
+						$('.box_navigation .smooth-scroll').css('display', 'none');
+						$('.box_navigation .arrow_btn').removeClass('show');
+					}
 				})
 			});
 		}

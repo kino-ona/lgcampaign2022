@@ -57,7 +57,11 @@ $(document).ready(function(){
 			$('.list_navigation').find('.list-item').each(function () {
 				$(this).find('a').on('click', function(e){
 					var $this = $(this).html()
-					$('#select_list-item').find('span').html($this)
+					$('#select_list-item').find('span').html($this);
+					if($('.box_navigation .smooth-scroll').css('display') == 'block') {
+						$('.box_navigation .smooth-scroll').css('display', 'none');
+						$('.box_navigation .arrow_btn').removeClass('show');
+					}
 				})
 			});
 		}
@@ -123,25 +127,25 @@ $(document).ready(function(){
 	// 		}
 	// 	]
 	// });
-	$('.lgmembersweek .product--hotdeal .product__list').slick({
-		speed: 600,
-		infinite: false,
-		rows: 2,
-		slidesToShow: 3,
-		slidesToScroll: 3,
-		focusOnSelect: false,
-		responsive: [
-			{
-				breakpoint: 767,
-				settings: {
-					rows: 1,
-					slidesToShow: 1,
-					slidesToScroll: 1,
-					focusOnSelect: true
-				}
-			}
-		]
-	});
+	// $('.lgmembersweek .product--hotdeal .product__list').slick({
+	// 	speed: 600,
+	// 	infinite: false,
+	// 	rows: 2,
+	// 	slidesToShow: 3,
+	// 	slidesToScroll: 3,
+	// 	focusOnSelect: false,
+	// 	responsive: [
+	// 		{
+	// 			breakpoint: 767,
+	// 			settings: {
+	// 				rows: 1,
+	// 				slidesToShow: 1,
+	// 				slidesToScroll: 1,
+	// 				focusOnSelect: true
+	// 			}
+	// 		}
+	// 	]
+	// });
 
 	// 제품 레이어
 	if ($(window).width() > 767) {
