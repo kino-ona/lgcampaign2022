@@ -171,7 +171,7 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__desc">11/30-12/13</p>
-							<h1 class="section__title">LG璀璨會員日 即將登場</h1>
+							<h1 class="section__title">LG璀璨會員日 <span class="break--mobile"></span>即將登場</h1>
 							<p class="section__desc">點亮您的冬季佳節</p>
 							<p class="section__desc">立即註冊，即有機會贏得大獎及獨家優惠</p>
 						</div>
@@ -350,7 +350,7 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<!-- <p class="section__sub">璀璨閃耀 每個日子</p> -->
-							<h2 class="section__title">優惠登場前 先解任務抽好禮</h2>
+							<h2 class="section__title">優惠登場前 <span class="break--mobile"></span>先解任務抽好禮</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">

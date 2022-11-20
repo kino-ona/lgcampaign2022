@@ -927,7 +927,7 @@
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">優惠登場前 先解任務抽好禮</h2>
+							<h2 class="section__title">優惠登場前 <span class="break--mobile"></span>先解任務抽好禮</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
@@ -997,7 +997,7 @@
 											<div class="event__coupon">
 												<div class="event__ticket">
 													40
-													<span>% OFF</span>
+													<span>% <em>off</em></span>
 												</div>
 											</div>
 										</div>
@@ -1014,7 +1014,7 @@
 											<div class="event__coupon">
 												<div class="event__ticket">
 													15
-													<span>% OFF</span>
+													<span>% <em>off</em></span>
 												</div>
 											</div>
 										</div>
@@ -1058,7 +1058,7 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title"> 限量璀璨價 8折搶購中</h2>
+							<h2 class="section__title">限量璀璨價 <span class="break--mobile"></span>8折搶購中</h2>
 							<p class="section__desc">11/30 - 12/13</p>
 							<p class="section__sub">最高可享約74折優惠</p>
 						</div>

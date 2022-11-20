@@ -35,16 +35,9 @@ $(document).ready(function(){
 			$contents.each(function (index) {
 				var $this = $(this);
 				if($('.lgmembersweek').hasClass('phase2')) {
-					if($(window).width() < 1024) {
-						if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() - 60) {
-							targetIndex = index;
-							return false;
-						}
-					} else {
-						if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() - 10) {
-							targetIndex = index;
-							return false;
-						}
+					if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() + 10) {
+						targetIndex = index;
+						return false;
 					}
 				} else {
 					if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() - 2) {

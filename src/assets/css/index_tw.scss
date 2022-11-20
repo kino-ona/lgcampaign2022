@@ -714,6 +714,38 @@
 					background-image: url('../images/tw/hotdeal_on.png');
 				}
 			}
+			.product__item {
+				&:nth-child(1),
+				&:nth-child(3) {
+					.hotdeal_bg {
+						background-image: url('../images/tw/hotdeal5_on.png');
+						&.hotdeal_soldout {
+							background-image: url('../images/tw/hotdeal_close.png');
+						}
+					}
+				}
+				&:nth-child(2),
+				&:nth-child(4),
+				&:nth-child(5),
+				&:nth-child(6) {
+					.hotdeal_bg {
+						background-image: url('../images/tw/hotdeal10_on.png');
+						&.hotdeal_soldout {
+							background-image: url('../images/tw/hotdeal_close.png');
+						}
+					}
+				}
+				&:nth-child(7),
+				&:nth-child(8),
+				&:nth-child(9) {
+					.hotdeal_bg {
+						background-image: url('../images/tw/hotdeal20_on.png');
+						&.hotdeal_soldout {
+							background-image: url('../images/tw/hotdeal_close.png');
+						}
+					}
+				}
+			}
 		}
 
 		@media (max-width: 1024px) {
@@ -743,13 +775,15 @@
 			}
 		}
 	}
-}
 
-.product--hotdeal {
-	.product__img {
-		.hotdeal_bg {
-			&.hotdeal_soldout {
-				background-image: url('../images/tw/hotdeal_close.png');
+	.product{
+		&--hotdeal {
+			.product__img {
+				.hotdeal_bg {
+					&.hotdeal_soldout {
+						background-image: url('../images/tw/hotdeal_soldout.png') !important;
+					}
+				}
 			}
 		}
 	}
