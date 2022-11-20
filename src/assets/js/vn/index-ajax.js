@@ -61,6 +61,7 @@ $(document).ready(function() {
 			infinite: false,
 			rows: 2,
 			slidesToShow: 3,
+      slidesPerRow: 3,
 			slidesToScroll: 3,
 			focusOnSelect: false,
 			responsive: [

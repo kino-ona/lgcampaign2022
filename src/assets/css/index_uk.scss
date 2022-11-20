@@ -3,13 +3,6 @@
 @use 'sprite/sprite';
 
 .lgmembersweek {
-
-	// .visual {
-	// 	.section {
-	// 		// height: 80vh;
-	// 		height: 51vw;
-	// 	}
-	// }
 	.section {
 		&__container {
 			&--lifestyle {
@@ -313,6 +306,19 @@
 					height: 60px;
 					font-size: 16px;
 					line-height: 18px;
+				}
+			}
+		}
+	}
+
+
+	.product{
+		&--hotdeal {
+			.product__img {
+				.hotdeal_bg {
+					&.hotdeal_soldout {
+						background-image: url('../images/hotdeal_soldout.png');
+					}
 				}
 			}
 		}

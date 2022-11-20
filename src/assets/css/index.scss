@@ -639,8 +639,8 @@
 				}
 
 				.lottie {
-					right: 16.67vw;
-					top: 38.85vw;
+					right: 5.67vw;
+					top: 40.85vw;
 				}
 			}
 			&--hotdeal {
@@ -653,7 +653,7 @@
 
 				.lottie {
 					left: 9.38vw;
-					top: 6.56vw;
+					top: 1vw;
 				}
 			}
 			&--hottest {
@@ -890,7 +890,9 @@
 					
 					.lottie {
 						right: 0;
-						top: 115.90vw;
+						top: inherit;
+						bottom: -28vw;
+						z-index: 1;
 					}
 				}
 				&--hotdeal {
@@ -908,7 +910,7 @@
 					
 					.lottie {
 						right: 0;
-						top: 106.67vw;
+						top: 32.67vw;
 					}
 				}
 				&--hottest {
@@ -2262,8 +2264,10 @@
 
 					.product__label,
 					.hotdeal_bg {
-						right: 20px;
-						top: 20px;
+						right: 25px;
+						top: 25px;
+						width: 70px;
+						height: 70px;
 					}
 					.product__comming {
 						left: 51px;

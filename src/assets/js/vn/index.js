@@ -35,7 +35,7 @@ $(document).ready(function(){
 			$contents.each(function (index) {
 				var $this = $(this);
 				if($('.lgmembersweek').hasClass('phase2')) {
-					if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() - 20) {
+					if (windowTop < $this.offset().top - $('.box_navigation').height() + $this.height() + 10) {
 						targetIndex = index;
 						return false;
 					}
@@ -194,20 +194,7 @@ $(document).ready(function(){
 		$(`a[href="${target}"]`).trigger('click');
 	});
 	// $('.brandtabs-container .tabs-menu a:first').trigger('click');
-
-	// if($('.brand_product-tabstage').find('.tabproduct_items').length > 0) {
-	// 	$('#producttab-01').find('.btn_seemore').on('click', function (e) {
-	// 		$('#producttab-01').find('.tabproduct_items').show();
-	// 		$('#producttab-01').find('.btn_seemore').hide();
-	// 		return false;
-	// 	});
-	// 	$('#producttab-02').find('.btn_seemore').on('click', function (e) {
-	// 		$('#producttab-02').find('.tabproduct_items').show();
-	// 		$('#producttab-02').find('.btn_seemore').hide();
-	// 		return false;
-	// 	});	
-	// }
-
+	
 	// popup
 	$('.popup .popup__close').on('click', function(e){
 		e.preventDefault();
