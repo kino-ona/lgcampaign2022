@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	const actionUrl = $('.lgmembersweek').data('actionUrl'),
 		submitUrl = $('#eventCustomerForm').data('url'),
 		$submit = $('#eventCustomerForm #submit'), // Button data set for redirect before login
@@ -348,7 +347,7 @@ $(document).ready(function() {
 				option = $this.data('trackOpt') ? $this.data('trackOpt') : '',
 				value = $this.data('trackVal') ? $this.data('trackVal') : '',
 				sku = $this.data('trackSku'),
-				bu = 'HE, HA, BS_IT_B2C, BS',
+				bu = 'HE, HA, BS_IT_B2C, BS',
 				dataLayerTemp = {}, $dataMetaButton;
 
 			if(option == 'category' && event == 'selectProductCategory') value = $this.text();

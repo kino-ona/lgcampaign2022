@@ -1,5 +1,5 @@
 $(document).ready(function() {
-
+	
 	const actionUrl = $('.lgmembersweek').data('actionUrl'),
 		submitUrl = $('#eventCustomerForm').data('url'),
 		$submit = $('#eventCustomerForm #submit'), // Button data set for redirect before login
@@ -61,7 +61,6 @@ $(document).ready(function() {
 			infinite: false,
 			rows: 2,
 			slidesToShow: 3,
-      slidesPerRow: 3,
 			slidesToScroll: 3,
 			focusOnSelect: false,
 			responsive: [
@@ -352,6 +351,7 @@ $(document).ready(function() {
 			let tmp = $this.data('trackGroup'),
 				option = $this.data('trackOpt') ? $this.data('trackOpt') : '',
 				value = $this.data('trackVal') ? $this.data('trackVal') : '',
+				sku = $this.data('trackSku'),
 				bu = 'HE, HA, BS_IT_B2C, BS',
 				dataLayerTemp = {}, $dataMetaButton;
 
@@ -503,7 +503,8 @@ $(document).ready(function() {
 					'trackGroup': 'mic',
 					'trackOpt': 'theme',
 					'trackVal': $(this).closest('.tab__panel').attr('id'),
-					'trackName': 'productMouseHover'
+					'trackName': 'productMouseHover',
+					'trackSku': $(this).attr('data-track-sku')
 				})
 			});
 

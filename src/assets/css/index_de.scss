@@ -606,52 +606,55 @@
 			.product__img {
 				.hotdeal_bg {
 					background-image: url('../images/de/hotdeal_on.png');
+					&.hotdeal_soldout {
+						background-image: url('../images/de/hotdeal_soldout.png');
+					}
 				}
 			}
 
-			.product__item {
-				&:nth-child(1) {
-					.hotdeal_bg {
-						background-image: url('../images/de/hotdeal100_on.png');
-						&.hotdeal_soldout {
-							background-image: url('../images/de/hotdeal_close.png');
-						}
-					}
-				}
-				&:nth-child(2),
-				&:nth-child(3) {
-					.hotdeal_bg {
-						background-image: url('../images/de/hotdeal200_on.png');
-						&.hotdeal_soldout {
-							background-image: url('../images/de/hotdeal_close.png');
-						}
-					}
-				}
-				&:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9), &:nth-child(10), &:nth-child(11) {
-					.hotdeal_bg {
-						background-image: url('../images/de/hotdeal30_on.png');
-						&.hotdeal_soldout {
-							background-image: url('../images/de/hotdeal_close.png');
-						}
-					}
-				}
-				&:nth-child(12) {
-					.hotdeal_bg {
-						background-image: url('../images/de/hotdeal20_on.png');
-						&.hotdeal_soldout {
-							background-image: url('../images/de/hotdeal_close.png');
-						}
-					}
-				}
-				&:nth-child(13) {
-					.hotdeal_bg {
-						background-image: url('../images/de/hotdeal40_on.png');
-						&.hotdeal_soldout {
-							background-image: url('../images/de/hotdeal_close.png');
-						}
-					}
-				}
-			}
+			// .product__item {
+			// 	&:nth-child(1) {
+			// 		.hotdeal_bg {
+			// 			background-image: url('../images/de/hotdeal100_on.png');
+			// 			&.hotdeal_soldout {
+			// 				background-image: url('../images/de/hotdeal_close.png');
+			// 			}
+			// 		}
+			// 	}
+			// 	&:nth-child(2),
+			// 	&:nth-child(3) {
+			// 		.hotdeal_bg {
+			// 			background-image: url('../images/de/hotdeal200_on.png');
+			// 			&.hotdeal_soldout {
+			// 				background-image: url('../images/de/hotdeal_close.png');
+			// 			}
+			// 		}
+			// 	}
+			// 	&:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9), &:nth-child(10), &:nth-child(11) {
+			// 		.hotdeal_bg {
+			// 			background-image: url('../images/de/hotdeal30_on.png');
+			// 			&.hotdeal_soldout {
+			// 				background-image: url('../images/de/hotdeal_close.png');
+			// 			}
+			// 		}
+			// 	}
+			// 	&:nth-child(12) {
+			// 		.hotdeal_bg {
+			// 			background-image: url('../images/de/hotdeal20_on.png');
+			// 			&.hotdeal_soldout {
+			// 				background-image: url('../images/de/hotdeal_close.png');
+			// 			}
+			// 		}
+			// 	}
+			// 	&:nth-child(13) {
+			// 		.hotdeal_bg {
+			// 			background-image: url('../images/de/hotdeal40_on.png');
+			// 			&.hotdeal_soldout {
+			// 				background-image: url('../images/de/hotdeal_close.png');
+			// 			}
+			// 		}
+			// 	}
+			// }
 		}
 	}
 

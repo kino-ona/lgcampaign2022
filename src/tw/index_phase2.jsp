@@ -182,7 +182,7 @@
 								class="button__item button__item--red">查看產品</a>
 						</div>
 						<div class="visual__terms">
-							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
+							<a href="${path}/tnc/index.jsp" target="_blank" 
 								data-link-area="memberdays_anchor_click_termsandconditions" 
 								data-track-name="memberdays_anchor_click_termsandconditions"
 								data-link-name="memberdays_2022H2" 
@@ -206,28 +206,28 @@
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers" 
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_MemberExclusiveOffers"
 									data-link-area="memberdays_H2_Anchor_click_P2_MemberExclusiveOffers" 
 									data-link-name="memberdays_2022H2" 
 									class="link">查看會員獨家優惠</a>
 							</li>
 							<li class="list-item">
 								<a href="#MembershipEvent"  
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_MembershipEvent"
 									data-link-area="memberdays_H2_Anchor_click_P2_MembershipEvent" 
 									data-link-name="memberdays_2022H2" 
 									class="link">參加會員抽獎任務</a>
               </li>
 							<li class="list-item">
 								<a href="#SparklingDeals"
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_sparklingdeals"
 									data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
 									data-link-name="memberdays_2022H2" 
 									class="link">查看限量璀璨價</a>
 							</li>
               <li class="list-item">
                 <a href="#BuymoreSavemore"
-								data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+								data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_BuymoreSavemore"
 								data-link-area="memberdays_H2_Anchor_click_P2_BuymoreSavemore" 
 								data-link-name="memberdays_2022H2" 
 								 class="link">瀏覽年度精選商品</a>
@@ -316,13 +316,19 @@
 											免費尊榮到府教學
 										</em>
 									</p>
-									<a href="${path}/tnc/index.jsp" target="_blank">
+									<a href="${path}/tnc/index.jsp"
+										data-link-area="memberdays_anchor_click_termsandconditions" 
+										data-track-name="memberdays_anchor_click_termsandconditions" 
+										data-link-name="memberdays_2022H2" target="_blank">
 										<i></i>
 										<em>
 											限量加碼贈品
 										</em>
 									</a>
-									<a href="${path}/tnc/index.jsp" target="_blank">
+									<a href="${path}/tnc/index.jsp" 
+										data-link-area="memberdays_anchor_click_termsandconditions" 
+										data-track-name="memberdays_anchor_click_termsandconditions" 
+										data-link-name="memberdays_2022H2" target="_blank">
 										<i></i>
 										<em>
 											3天內保證送達
@@ -333,8 +339,9 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
+							<a href="${path}/tnc/index.jsp" target="_blank" 
                 data-link-area="memberdays_anchor_click_termsandconditions" 
+                data-track-name="memberdays_anchor_click_termsandconditions" 
                 data-link-name="memberdays_2022H2" 
 								class="section__text">
 								活動辦法
@@ -434,7 +441,8 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" 
+                      data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1029,16 +1037,19 @@
 									<p>只差一步 就可贏得大獎</p>
 								</div>
 								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();"
+									<a role="button" href="javascript:redirectToLoginPage();"
 										data-link-area="memberdays_signup_click" 
+										data-track-name="memberdays_signup_click" 
 										data-link-name="memberdays_2022H2"
+										data-track-group="mic"
 									>立即登入/註冊</a>
 								</div>
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="https://www.lg.com/tw/memberdays-2022/tnc/index.jsp" target="_blank" 
+							<a role="button" href="${path}/tnc/index.jsp" target="_blank" 
                 data-link-area="memberdays_anchor_click_termsandconditions" 
+                data-track-name="memberdays_anchor_click_termsandconditions" 
                 data-link-name="memberdays_2022H2" 
 								class="section__text">
 								活動辦法
@@ -1110,7 +1121,8 @@
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='加入購物車'/></a>
 											</div>
 											<div class="learn-more">
-												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" 
+                        data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-price="*priceValue*"  data-link-area="sparkling_buy_now_click" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now" target="_blank">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												</a>
 											</div>
@@ -1262,7 +1274,8 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" 
+                      data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1361,9 +1374,11 @@
 						簡單加入　另享好禮
 					</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToLoginPage();"
+						<a role="button" href="javascript:redirectToLoginPage();"
 							data-link-area="memberdays_signup_click" 
+							data-track-name="memberdays_signup_click" 
 							data-link-name="memberdays_2022H2"
+							data-track-group="mic"
 							class="popup__button">登入/註冊</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -1583,6 +1598,24 @@
         fbq('trackCustom', '2022H2MemberDays AddToBasket');
       });
     }
+
+		$('.lottie').each(function () {
+			$(this).on('click', function() {
+				dataLayer.push({
+				'event' : 'memberdays_H2_starstamp_click',
+				'bu' : 'HE, HA, BS_IT_B2C, BS',
+				'pageType' : 'MICROSITE',
+				})
+			})
+		});
+
+		$('.win__popup__with__coupon').find('.popup__button').on('click', function() {
+			dataLayer.push({
+			'event' : ':memberdays_H2_starstamp_click_download',
+			'bu' : 'HE, HA, BS_IT_B2C, BS',
+			'pageType' : 'MICROSITE',
+			})
+		})
 	</script>
 
 	<script>

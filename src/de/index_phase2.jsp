@@ -229,7 +229,7 @@
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers" 
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_memberexclusiveoffers"
 									data-link-area="memberdays_H2_Anchor_click_P2_memberexclusiveoffers" 
 									data-link-name="memberdays_2022H2" 
 									class="link">
@@ -239,7 +239,7 @@
 							</li>
 							<li class="list-item">
 								<a href="#MembershipEvent"
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_membershipevent"
 									data-link-area="memberdays_H2_Anchor_click_P2_membershipevent" 
 									data-link-name="memberdays_2022H2" 
 									class="link">
@@ -249,7 +249,7 @@
 							</li>
 							<li class="list-item">
 								<a href="#SparklingDeals"
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_sparklingdeals"
 									data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
 									data-link-name="memberdays_2022H2" 
 									class="link">
@@ -259,7 +259,7 @@
 							</li>
 							<li class="list-item">
 								<a href="#BuymoreSavemore"  
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_BuymoreSavemore"
 									data-link-area="memberdays_H2_Anchor_click_P2_BuymoreSavemore" 
 									data-link-name="memberdays_2022H2" 
 									class="link">
@@ -330,6 +330,7 @@
 						<div class="section__footer">
 							<a href="/${localeCd}/member-days-lg-tnc" target="_blank" 
 								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-track-name="memberdays_anchor_click_termsandconditions" 
 								data-link-name="memberdays_2022H2" 
 								class="section__text">
 								Teilnahmebedingungen
@@ -429,7 +430,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -464,10 +465,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
+												data-track-sku="a9k-pro1g"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
+														data-track-sku="a9k-pro1g"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -485,10 +488,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_lswd100e"
+												data-track-sku="lswd100e"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_lswd100e"
+														data-track-sku="lswd100e"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -506,10 +511,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+												data-track-sku="S3BF"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+														data-track-sku="S3BF"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -527,10 +534,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+												data-track-sku="S3BF"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
+														data-track-sku="S3BF"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -582,10 +591,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gathering_gsxv91mcae"
+												data-track-sku="gsxv91mcae"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/kuehlschraenke-gefrierschraenke/lg-gsxv91mcae" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_gsxv91mcae"
+														data-track-sku="gsxv91mcae"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -603,10 +614,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gathering_dxg7qbk"
+												data-track-sku="dxg7qbk"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dxg7qbk" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_dxg7qbk"
+														data-track-sku="dxg7qbk"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -657,10 +670,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77c27la"
+												data-track-sku="oled77c27la"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/tv/lg-oled77c27la" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77c27la"
+														data-track-sku="oled77c27la"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -678,10 +693,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gameday_dsp11ra"
+												data-track-sku="dsp11ra"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-dsp11ra" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_dsp11ra"
+														data-track-sku="dsp11ra"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -734,10 +751,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_pastime_48gq900-b"
+												data-track-sku="48gq900-b"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-48gq900-b" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_pastime_48gq900-b"
+														data-track-sku="48gq900-b"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -790,10 +809,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_memories_34wq65x-w"
+												data-track-sku="34wq65x-w"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/monitore/lg-34wq65x-w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_34wq65x-w"
+														data-track-sku="34wq65x-w"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -811,10 +832,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_memories_17z90p-gaa82g"
+												data-track-sku="17z90p-gaa82g"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/notebooks/lg-17z90p-gaa82g" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_17z90p-gaa82g"
+														data-track-sku="17z90p-gaa82g"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -832,10 +855,12 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_memories_tone-dfp9w"
+												data-track-sku="tone-dfp9w"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/de/audio/lg-tone-dfp9w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_tone-dfp9w"
+														data-track-sku="tone-dfp9w"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -975,9 +1000,11 @@
 									<p>Registriere dich jetzt oder melde dich in deinem LG Account an, um teilzunehmen</p>
 								</div>
 								<div class="event__right">
-									<a href="javascript:redirectToLoginPage();"
-										data-link-name="memberdays_signup_click" 
+									<a role="button" href="javascript:redirectToLoginPage();"
+										data-link-area="memberdays_signup_click" 
+										data-track-name="memberdays_signup_click" 
 										data-link-name="memberdays_2022H2"
+										data-track-group="mic"
 									>ANMELDUNG / REGISTRIERUNG</a>
 								</div>
 							</div>
@@ -985,6 +1012,7 @@
 						<div class="section__footer">
 							<a href="/${localeCd}/member-days-lg-tnc" target="_blank" 
 								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-tack-name="memberdays_anchor_click_termsandconditions" 
 								data-link-name="memberdays_2022H2" 
 								class="section__text">
 								Teilnahmebedingungen
@@ -1056,7 +1084,7 @@
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='demnächst verfügbar'/></a>
 											</div>
 											<div class="learn-more">
-												<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now" target="_blank">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now" target="_blank">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='Mehr erfahren'/></span>
 												</a>
 											</div>
@@ -1216,7 +1244,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a rel="nofollow" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='Mehr erfahren'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1347,9 +1375,11 @@
 						Registriere dich jetzt, um von den exklusiven LG Member Vorteilen profitieren zu können
 					</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToLoginPage();"
+						<a role="button" href="javascript:redirectToLoginPage();"
 							data-link-area="memberdays_signup_click" 
+							data-track-name="memberdays_signup_click" 
 							data-link-name="memberdays_2022H2"
+							data-track-group="mic"
 							class="popup__button">Anmeldung / Registrierung</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
@@ -1577,6 +1607,24 @@
         fbq('trackCustom', '2022H2MemberDays AddToBasket');
       });
     }
+
+		$('.lottie').each(function () {
+			$(this).on('click', function() {
+				dataLayer.push({
+				'event' : 'memberdays_H2_starstamp_click',
+				'bu' : 'HE, HA, BS_IT_B2C, BS',
+				'pageType' : 'MICROSITE',
+				})
+			})
+		});
+
+		$('.win__popup__with__coupon').find('.popup__button').on('click', function() {
+			dataLayer.push({
+			'event' : ':memberdays_H2_starstamp_click_download',
+			'bu' : 'HE, HA, BS_IT_B2C, BS',
+			'pageType' : 'MICROSITE',
+			})
+		})
 	</script>
 
 	<script>

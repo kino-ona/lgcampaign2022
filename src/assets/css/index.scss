@@ -377,7 +377,7 @@
 					top: 5.21vw;
 				}
 			}
-			&--lifestyle {
+			&--lifestyle {	
 				padding: 0;
 
 				.tab {
@@ -398,7 +398,7 @@
 							left: 0;
 							top: 12px;
 							width: 100%;
-							height: 6px;
+							height: 6px;	
 							border-radius: 20px;
 							background-color: #fff;
 						}
@@ -1893,11 +1893,11 @@
 			}
 			.slick-prev {
 				left: 0;
-				@include sprite.retina-sprite(sprite.$btn-hotdeal-prev-group);
+				@include sprite.retina-sprite(sprite.$btn-hotdeal-prevs-group);
 			}
 			.slick-next {
 				right: 0;
-				@include sprite.retina-sprite(sprite.$btn-hotdeal-next-group);
+				@include sprite.retina-sprite(sprite.$btn-hotdeal-nexts-group);
 			}
 
 			.learn-more__text {

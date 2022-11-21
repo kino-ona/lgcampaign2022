@@ -83,13 +83,17 @@ $(document).ready(function(){
 	// $('.lgmembersweek .product--hotdeal .product__list').slick({
 	// 	speed: 600,
 	// 	infinite: false,
+	// 	rows: 2,
 	// 	slidesToShow: 3,
+	// 	slidesToScroll: 3,
 	// 	focusOnSelect: false,
 	// 	responsive: [
 	// 		{
 	// 			breakpoint: 767,
 	// 			settings: {
+	// 				rows: 1,
 	// 				slidesToShow: 1,
+	// 				slidesToScroll: 1,
 	// 				focusOnSelect: true
 	// 			}
 	// 		}
