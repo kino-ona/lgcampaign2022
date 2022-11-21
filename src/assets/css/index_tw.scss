@@ -307,7 +307,8 @@
 
 					.tab {
 						&__list {
-							top: calc(12.82vw + 208px);
+							// top: calc(12.82vw + 208px);
+							top: calc(12.82vw + 230px);
 						}
 						&__panel {
 							&--home {

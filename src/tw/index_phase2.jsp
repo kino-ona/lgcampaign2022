@@ -1501,10 +1501,11 @@
 					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列 僅可與2%會員優惠/5%新會員歡迎禮並用</p>
 					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToMypage();" 
+						<a role="button" href="javascript:redirectToMypage();" 
 							data-link-area="memberdays_H2_starstamp_click_download"
 							data-link-name="memberdays_2022H2" 
-							data-track-name="starstamp_coupon_download" 
+							data-track-name="memberdays_H2_starstamp_click_download" 
+							data-track-group="mic"
 							class="popup__button">查看優惠</a>
 					</div>
 
@@ -1625,7 +1626,7 @@
   <!-- UI script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>
-	<script src="${path}/assets/js/coupon_phase2.js"></script>
+	<script src="${path}/assets/js/coupon.js"></script>
 	<script src="${path}/assets/js/index-ajax.js"></script>
 	<script src="${path}/assets/js/index-add-to-cart.js"></script>
   <script>

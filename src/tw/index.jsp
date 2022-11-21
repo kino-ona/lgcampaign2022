@@ -1453,7 +1453,8 @@
 						<a role="button" href="javascript:redirectToMypage();" 
 							data-link-area="memberdays_H2_starstamp_click_download"
 							data-link-name="memberdays_2022H2" 
-							data-track-name="starstamp_coupon_download" 
+							data-track-name="memberdays_H2_starstamp_click_download" 
+							data-track-group="mic"
 							class="popup__button">查看優惠</a>
 					</div>
 

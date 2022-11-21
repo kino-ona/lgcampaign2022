@@ -1311,10 +1311,11 @@
 					<!-- <p class="popup__desc popup__desc--bold">LG gram 16 Ultra-Lightweight</p> -->
 					<p class="popup__desc popup__desc--regular">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
-						<a href="javascript:redirectToMypage();" 
-							data-link-area="starstamp_coupon_download_click"
+						<a role="button" href="javascript:redirectToMypage();" 
+							data-link-area="memberdays_H2_starstamp_click_download"
 							data-link-name="memberdays_2022H2" 
-							data-track-name="starstamp_coupon_download" 
+							data-track-name="memberdays_H2_starstamp_click_download" 
+							data-track-group="mic" 
 							class="popup__button">VIEW COUPON</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
