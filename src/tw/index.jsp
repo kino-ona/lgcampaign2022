@@ -1146,6 +1146,9 @@
 			</div>
 
 			<div class="anchors" id="BuymoreSavemore"></div>
+			<div class="anchors" id="BuymoreSavemoreTVAudio"></div>
+			<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
+			<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 			<div id="box_content3" class="section">
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
@@ -1566,6 +1569,46 @@
 			'pageType' : 'MICROSITE',
 			})
 		})
+
+		$(document).ready(function(){
+			var href = window.location.href;
+			if(href.indexOf('BuymoreSavemoreTVAudio') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+		});
 	</script>
 
 	<script>
