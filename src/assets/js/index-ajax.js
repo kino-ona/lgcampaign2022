@@ -428,7 +428,7 @@ $(document).ready(function() {
 				dataLayer.push(dataLayerpushData);
 				console.log(event);
 			}
-
+			
 			// common.js 에서 분리 적용한 HQ Global ATC - digitalDataLayer
 			if(event == 'add_to_cart_click'){
 				digitalDataLayer.push(dataLayerpushData);

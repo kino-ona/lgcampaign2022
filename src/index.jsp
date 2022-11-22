@@ -500,7 +500,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -982,7 +982,7 @@
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 											</div> -->
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												</a>
 											</div>
@@ -1004,6 +1004,10 @@
 			</div>
 
 			<div class="anchors" id="BuymoreSavemore"></div>
+			<div class="anchors" id="BuymoreSavemoreTV"></div>
+			<div class="anchors" id="BuymoreSavemoreAudio"></div>
+			<div class="anchors" id="BuymoreSavemoreHomeAppliance"></div>
+			<div class="anchors" id="BuymoreSavemoreComputerProducts"></div>
 			<div id="box_content3" class="section">
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
@@ -1100,7 +1104,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-track-group="product" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-track-group="product" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1426,6 +1430,58 @@
 			'pageType' : 'MICROSITE',
 			})
 		})
+
+		$(document).ready(function(){
+			var href = window.location.href;
+			if(href.indexOf('BuymoreSavemoreTV') != -1) {    
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreAudio') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
+				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(3).addClass('tab__item--active');  
+				var timer = setTimeout(function() {         
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').click();
+					console.log($('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').html())
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
+					    
+					clearTimeout(timer);     
+				}, 600);
+			}
+		});
 	</script>
 
 	<script>

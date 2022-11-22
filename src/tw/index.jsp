@@ -28,11 +28,11 @@
 		"alternateName": "LG Electronics",
 		"url": "https://www.lg.com/tw/memberdays-2022",
 		"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-			"sameAs": [
-		"https://www.facebook.com/LGTaiwan/ ",
-		"https://www.instagram.com/lgtaiwan/",
-		"http://www.youtube.com/user/LGETaiwan",
-		"https://line.me/R/ti/p/%40xou5836o"
+		"sameAs": [
+			"https://www.facebook.com/LGTaiwan/",
+			"https://www.instagram.com/lgtaiwan/",
+			"http://www.youtube.com/user/LGETaiwan",
+			"https://line.me/R/ti/p/%40xou5836o"
 	]}
 	</script>
 	<script type="application/ld+json">
@@ -41,7 +41,7 @@
 		"@type": "WebSite",
 		"name": "LG 台灣",
 		"url": "https://www.lg.com/tw/memberdays-2022",
-			"potentialAction": {
+		"potentialAction": {
 		"@type": "SearchAction",
 		"target": "https://www.lg.com/tw/search/search-all?search={search_term_string}",
 		"query-input": "required name=search_term_string"}
@@ -377,7 +377,7 @@
 											</li>
 											<li>
 												<span>2</span>
-												<p>找尋並點擊 活動頁面中的五顆星星</p>
+												<p>找尋並點擊，活動頁面中的五顆星星</p>
 											</li>
 											<li>
 												<span>3</span>
@@ -402,10 +402,10 @@
 									<div class="event__header">
 										<p class="event__title">首獎</p>
 										<p class="event__sub">旗艦機種 共3名</p>
-										<p class="event__desc event__desc--secondary">以下各乙台乙名</p>
+										<p class="event__desc event__desc--secondary">以下產品各抽乙名</p>
 										<p class="event__desc event__desc--tertiary">
-											<span>OLED evo C2 4K AI物聯網電視55吋</span>
-											<span>LG CordZero™ A9T系列All-in-One 濕 拖無線吸塵器|Objet Collection® (雪霧白)</span>
+											<span>OLED evo C2 4K AI 物聯網電視55吋</span>
+											<span>LG CordZero™ A9T 系列 All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白)</span>
 											<span>27” Libero 自由機</span>
 										</p>
 									</div>
@@ -413,7 +413,7 @@
 										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
 									</div>
 									<div class="event__info">
-										<p class="event__text">得獎者將於活動結束後3周內公布並通知</p>
+										<p class="event__text">得獎者請截圖並保存獲獎畫面<br>領獎方法將於活動結束後3周內通知</p>
 									</div>
 									<div class="event__row">
 										<div class="event__col">
@@ -453,7 +453,7 @@
 										</div>
 									</div>
 									<div class="event__info">
-										<p class="event__text">優惠試用期間 : 2022/11/30-12/13</p>
+										<p class="event__text">優惠適用期間 : 2022/11/30-12/13</p>
 									</div>
 								</div>
 							</div>
@@ -524,7 +524,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">遊戲時光</span>
+									<span class="tab__text">休閒時刻</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
@@ -535,7 +535,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">休閒時刻</span>
+									<span class="tab__text">遊戲時光</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
@@ -574,8 +574,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" 
-                      data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -825,7 +824,7 @@
 								<div class="section__header">
 									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">與LG 一起點亮</span> <em>#遊戲時光</em>
+										<span class="break break--mobile">與LG 一起點亮</span> <em>#休閒時刻</em>
 									</h2>
 									<p class="section__sub">LG OLED還原真實色彩, 簡單打造家庭劇院</p>
 								</div>
@@ -905,11 +904,10 @@
 									<p class="section__sub">美好時刻</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">與LG 一起點亮</span>
-										<em>#休閒時刻</em>
+										<em>#遊戲時光</em>
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來, 大顯身手</span>
-										Gaming Gear
+										<span class="break break--mobile">與LG顯示器一同在遊戲世界致勝未來, <span class="break--mobile"></span>大顯身手</span>
 									</p>
 								</div>
 								<div class="product">
@@ -1069,7 +1067,7 @@
 						<div class="section__header">
 							<h2 class="section__title">限量璀璨價 8折倒數搶購</h2>
 							<p class="section__desc">11/30 - 12/13</p>
-							<p class="section__sub">最高可享約74折優惠</p>
+							<p class="section__sub">最高可享約75折優惠</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -1120,8 +1118,7 @@
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='加入購物車'/></a>
 											</div> -->
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" 
-                        data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now" target="_blank">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now" target="_blank">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												</a>
 											</div>
@@ -1236,8 +1233,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-price="*priceValue*" 
-                      data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1344,7 +1340,7 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">找尋並點擊 活動頁面中的五顆星星 豐富獎品等著你</p>
+					<p class="popup__title">找尋並點擊此頁的五顆星星<br>豐富獎品等著你</p>
 					<div class="popup__stars">
 						<img src="${path}/assets/images/img_popup_stars.png" alt="">
 					</div>
@@ -1423,8 +1419,8 @@
 						<!-- <img src="${path}/assets/images/tw/img_popup_gift02.png" alt=""> -->
 						<!-- <img src="${path}/assets/images/tw/img_popup_gift03.png" alt=""> -->
 					</div>
-					<p class="popup__desc popup__desc--semibold">得獎者將於活動結束後3周內通知</p>
-					<p class="popup__desc popup__desc--secondary">詳細活動資訊依照LG官網標示為主</p>
+					<p class="popup__desc popup__desc--semibold">得獎者請截圖並保存獲獎畫面<br>領獎方法將於活動結束後3周內通知</p>
+					<p class="popup__desc popup__desc--secondary">詳細活動辦法請見活動專頁</p>
 
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1450,8 +1446,8 @@
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">此優惠不適用於SIGNATURE及配件耗材系列僅可與2%會員優惠/5%新會員歡迎禮合併使用</p>
-					<p class="popup__desc popup__desc--secondary">有效期限字2022/11/30至2022/12/13</p>
+					<p class="popup__desc popup__desc--semibold">您可於會員帳戶查看此優惠券<br>此優惠不適用於SIGNATURE及配件耗材系列</p>
+					<p class="popup__desc popup__desc--secondary">僅可與會員限定價98折合併使用</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();" 
 							data-link-area="memberdays_H2_starstamp_click_download"

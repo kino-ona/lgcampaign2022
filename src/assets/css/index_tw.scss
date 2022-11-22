@@ -250,7 +250,7 @@
 				}
 				.lottie {
 					right: 2.67vw;
-					top: 19.85vw;
+					top: -11vw;
 				}
 			}
 			&--hotdeal {
@@ -304,11 +304,13 @@
 		@media (max-width: 1024px) {
 			&__container {
 				&--lifestyle {
-
+					.section__sub:not(:first-child) {
+						min-height: 45px;
+					}
 					.tab {
 						&__list {
-							// top: calc(12.82vw + 208px);
-							top: calc(12.82vw + 230px);
+							top: calc(12.82vw + 208px);
+							// top: calc(12.82vw + 230px);
 						}
 						&__panel {
 							&--home {
@@ -716,14 +718,15 @@
 				}
 				
 				.hotdeal_bg {
-					background-image: url('../images/tw/hotdeal_on.png');
+					// background-image: url('../images/tw/hotdeal_on.png');
+					background-image: url('../images/tw/hotdeal_close.png');
 				}
 			}
 			.product__item {
 				&:nth-child(1),
 				&:nth-child(3) {
 					.hotdeal_bg {
-						background-image: url('../images/tw/hotdeal5_on.png');
+						// background-image: url('../images/tw/hotdeal5_on.png');
 						&.hotdeal_soldout {
 							background-image: url('../images/tw/hotdeal_close.png');
 						}
@@ -734,7 +737,7 @@
 				&:nth-child(5),
 				&:nth-child(6) {
 					.hotdeal_bg {
-						background-image: url('../images/tw/hotdeal10_on.png');
+						// background-image: url('../images/tw/hotdeal10_on.png');
 						&.hotdeal_soldout {
 							background-image: url('../images/tw/hotdeal_close.png');
 						}
@@ -744,7 +747,7 @@
 				&:nth-child(8),
 				&:nth-child(9) {
 					.hotdeal_bg {
-						background-image: url('../images/tw/hotdeal20_on.png');
+						// background-image: url('../images/tw/hotdeal20_on.png');
 						&.hotdeal_soldout {
 							background-image: url('../images/tw/hotdeal_close.png');
 						}
@@ -786,7 +789,39 @@
 			.product__img {
 				.hotdeal_bg {
 					&.hotdeal_soldout {
-						background-image: url('../images/tw/hotdeal_soldout.png') !important;
+						background-image: url('../images/tw/hotdeal_soldout.png');
+					}
+				}
+			}
+			.product__item {
+				&:nth-child(1),
+				&:nth-child(3) {
+					.hotdeal_bg {
+						background-image: url('../images/tw/hotdeal5_on.png');
+						&.hotdeal_soldout {
+							background-image: url('../images/tw/hotdeal_soldout.png');
+						}
+					}
+				}
+				&:nth-child(2),
+				&:nth-child(4),
+				&:nth-child(5),
+				&:nth-child(6) {
+					.hotdeal_bg {
+						background-image: url('../images/tw/hotdeal10_on.png');
+						&.hotdeal_soldout {
+							background-image: url('../images/tw/hotdeal_soldout.png');
+						}
+					}
+				}
+				&:nth-child(7),
+				&:nth-child(8),
+				&:nth-child(9) {
+					.hotdeal_bg {
+						background-image: url('../images/tw/hotdeal20_on.png');
+						&.hotdeal_soldout {
+							background-image: url('../images/tw/hotdeal_soldout.png');
+						}
 					}
 				}
 			}

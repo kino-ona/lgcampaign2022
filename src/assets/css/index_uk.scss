@@ -316,6 +316,7 @@
 		&--hotdeal {
 			.product__img {
 				.hotdeal_bg {
+					background-image: url('../images/hotdeal_on.png');
 					&.hotdeal_soldout {
 						background-image: url('../images/hotdeal_soldout.png');
 					}
