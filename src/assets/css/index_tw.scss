@@ -841,6 +841,24 @@
 		}
 	}
 
+	.dot-list {
+		li {
+			position: relative;
+			padding-left: 10px;
+		}
+	}
+
+	span.dot {
+		position: absolute;
+		top: 16px;
+		left: 10px !important;
+		width: 5px; 
+		height: 5px;
+		border-radius: 50%;
+		background-color: #000;
+	}
+
+
 	.sub-title {
 		display: inline-block;
 		position: relative;
