@@ -53,6 +53,12 @@ function showLotteryModal(ctaId = null, el = null) {
     if (el && !$(el).hasClass('lottie--disabled')) {
         $(el).addClass('lottie--disabled');
 
+        dataLayer.push({
+            'event' : 'starstamp_click',
+            'bu' : 'HE, HA, BS_IT_B2C, BS',
+            'pageType' : 'MICROSITE',
+        })
+
         disableStars();
     }
 
