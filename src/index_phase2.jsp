@@ -1495,19 +1495,17 @@
       });
     }
 
-		$('.lottie').each(function () {
-			$(this).on('click', function() {
-				dataLayer.push({
-				'event' : 'memberdays_H2_starstamp_click',
+		$('.lottie').not('.lottie--disabled').on('click', function() {
+			dataLayer.push({
+				'event' : 'starstamp_click',
 				'bu' : 'HE, HA, BS_IT_B2C, BS',
 				'pageType' : 'MICROSITE',
-				})
 			})
-		});
-
+		})
+		
 		$('.win__popup__with__coupon').find('.popup__button').on('click', function() {
 			dataLayer.push({
-			'event' : ':memberdays_H2_starstamp_click_download',
+			'event' : 'starstamp_coupon_download_click',
 			'bu' : 'HE, HA, BS_IT_B2C, BS',
 			'pageType' : 'MICROSITE',
 			})

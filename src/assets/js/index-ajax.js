@@ -419,20 +419,20 @@ $(document).ready(function() {
 			// 1. offer_add_to_cart_click : dataLayer.push({~})
 			// 2. add_to_cart_click : dataLayer.push({~}) / digitalDataLayer.push({~})
 			// => common.js 에서 분리 적용한 HQ Global ATC - dataLayer(add_to_cart_click) 한번 더 타야함
-			if(event == 'offer_add_to_cart_click'){
-				event = 'add_to_cart_click';
-				dataLayerpushData = $.extend({
-						'event': event,
-						},dataLayerMeta);
+			// if(event == 'offer_add_to_cart_click'){
+			// 	event = 'add_to_cart_click';
+			// 	dataLayerpushData = $.extend({
+			// 			'event': event, 
+			// 			},dataLayerMeta);
 
-				dataLayer.push(dataLayerpushData);
-				console.log(event);
-			}
+			// 	dataLayer.push(dataLayerpushData);
+			// 	console.log(event);
+			// }
 			
-			// common.js 에서 분리 적용한 HQ Global ATC - digitalDataLayer
-			if(event == 'add_to_cart_click'){
-				digitalDataLayer.push(dataLayerpushData);
-			}
+			// // common.js 에서 분리 적용한 HQ Global ATC - digitalDataLayer
+			// if(event == 'add_to_cart_click'){
+			// 	digitalDataLayer.push(dataLayerpushData);
+			// }
 		},
 		stickyTab: function(originOffset){
 			var $fixbx = $('.box_nav-position'),
