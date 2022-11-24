@@ -609,11 +609,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_lg-as10gdwh0"
+												data-track-name="memberdays_H2_Product_Mouseover_home_lg-as10gdwh0"
 												data-track-sku="lg-as10gdwh0"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_lg-as10gdwh0"
+														data-track-name="memberdays_H2_Product_Mouseover_home_lg-as10gdwh0"
 														data-track-sku="lg-as10gdwh0"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -633,11 +635,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/may-giat/lg-wt2116sheg" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_wt2116sheg"
+												data-track-name="memberdays_H2_Product_Mouseover_home_wt2116sheg"
 												data-track-sku="wt2116sheg"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-giat/lg-wt2116sheg" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_wt2116sheg"
+														data-track-name="memberdays_H2_Product_Mouseover_home_wt2116sheg"
 														data-track-sku="wt2116sheg"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -658,11 +662,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/styler/lg-s3mfc" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_s3mfc"
+												data-track-name="memberdays_H2_Product_Mouseover_home_s3mfc"
 												data-track-sku="s3mfc"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/styler/lg-s3mfc" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_s3mfc"
+														data-track-name="memberdays_H2_Product_Mouseover_home_s3mfc"
 														data-track-sku="s3mfc"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -682,11 +688,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
+												data-track-name="memberdays_H2_Product_Mouseover_home_a9t-ultra"
 												data-track-sku="a9t-ultra"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
+														data-track-name="memberdays_H2_Product_Mouseover_home_a9t-ultra"
 														data-track-sku="a9t-ultra"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -735,11 +743,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x257mc" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gathering_gr-x257mc"
+												data-track-name="memberdays_H2_Product_Mouseover_gathering_gr-x257mc"
 												data-track-sku="gr-x257mc"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/tu-lanh/lg-gr-x257mc" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_gr-x257mc"
+														data-track-name="memberdays_H2_Product_Mouseover_gathering_gr-x257mc"
 														data-track-sku="gr-x257mc"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -759,11 +769,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/dieu-hoa/lg-v10apfuv" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gathering_v10apfuv"
+												data-track-name="memberdays_H2_Product_Mouseover_gathering_v10apfuv"
 												data-track-sku="v10apfuv"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/dieu-hoa/lg-v10apfuv" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gathering_v10apfuv"
+														data-track-name="memberdays_H2_Product_Mouseover_gathering_v10apfuv"
 														data-track-sku="v10apfuv"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -814,11 +826,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/tivi/lg-75nano76sqa" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gameday_75nano76sqa"
+												data-track-name="memberdays_H2_Product_Mouseover_gameday_75nano76sqa"
 												data-track-sku="75nano76sqa"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/tivi/lg-75nano76sqa" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_75nano76sqa"
+														data-track-name="memberdays_H2_Product_Mouseover_gameday_75nano76sqa"
 														data-track-sku="75nano76sqa"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -838,11 +852,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/sound-bar/lg-s75q" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_gameday_s75q"
+												data-track-name="memberdays_H2_Product_Mouseover_gameday_s75q"
 												data-track-sku="s75q"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/sound-bar/lg-s75q" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_gameday_s75q"
+														data-track-name="memberdays_H2_Product_Mouseover_gameday_s75q"
 														data-track-sku="s75q"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -892,11 +908,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up850n-w" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_pastime_27up850n-w"
+												data-track-name="memberdays_H2_Product_Mouseover_pastime_27up850n-w"
 												data-track-sku="27up850n-w"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up850n-w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_pastime_27up850n-w"
+														data-track-name="memberdays_H2_Product_Mouseover_pastime_27up850n-w"
 														data-track-sku="27up850n-w"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -916,11 +934,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/loa-di-dong/lg-xg7qbk" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_pastime_xg7qbk"
+												data-track-name="memberdays_H2_Product_Mouseover_pastime_xg7qbk"
 												data-track-sku="xg7qbk"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/loa-di-dong/lg-xg7qbk" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_pastime_xg7qbk"
+														data-track-name="memberdays_H2_Product_Mouseover_pastime_xg7qbk"
 														data-track-sku="xg7qbk"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -970,11 +990,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up600-w" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_memories_27up600-w"
+												data-track-name="memberdays_H2_Product_Mouseover_memories_27up600-w"
 												data-track-sku="27up600-w"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/man-hinh-may-tinh/lg-27up600-w" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_27up600-w"
+														data-track-name="memberdays_H2_Product_Mouseover_memories_27up600-w"
 														data-track-sku="27up600-w"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
@@ -994,11 +1016,13 @@
 											<div class="product__layer">
 												<a href="https://www.lg.com/vn/laptops/lg-17z90q-gah76a5" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
+												data-track-name="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
 												data-track-sku="17z90q-gah76a5"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
 													<a href="https://www.lg.com/vn/laptops/lg-17z90q-gah76a5" target="_blank"
 														data-link-area="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
+														data-track-name="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
 														data-track-sku="17z90q-gah76a5"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
