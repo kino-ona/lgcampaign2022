@@ -48,6 +48,9 @@
 				font-size: 29px;
 			}
 		}
+		.section__desc:not(:first-of-type) {
+			line-height: 1.2;
+		}
 	}
 	&.phase2 {
 		.visual .section {

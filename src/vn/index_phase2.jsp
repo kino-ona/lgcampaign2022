@@ -193,7 +193,7 @@
 							<p class="section__sub">Cùng LG thắp sáng mùa lễ hội</p>
 							<p class="section__desc">
 								Tiết kiệm hơn với Đặc quyền thành viên khi mua các sản phẩm LG<br>
-								Chỉ tới ngày 18/12, trên LG.com
+								Chỉ tới ngày 18/12, trên LG.com/vn
 							</p>
 						</div>
 						<div class="button">
@@ -293,7 +293,7 @@
 										<div class="coupon__info">
 											<p class="coupon__title">Coupon giảm giá đặc biệt tại<br>LG Member Days</p>
 											<p class="coupon__text coupon__text--narrow">Khi mua sắm từ 2 sản phẩm LG bất kỳ</p>
-											<p class="coupon__text coupon__text--secondary">*Ngoại trừ các sản phẩm thuộc danh sách “Ưu đãi Đặc biệt”</p>
+											<!-- <p class="coupon__text coupon__text--secondary">*Ngoại trừ các sản phẩm thuộc danh sách “Ưu đãi Đặc biệt”</p> -->
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -305,7 +305,7 @@
 											</p>
 										</div>
 										<div class="coupon__info">
-											<p class="coupon__title">Quyền lơi thành viên mới</p>
+											<p class="coupon__title">Quyền lợi thành viên mới</p>
 											<p class="coupon__text">Coupon Chào mừng dành cho thành viên mới</p>
 										</div>
 									</li>
@@ -323,11 +323,11 @@
 									</p>
 									<p>
 										<i></i>
-										<em>Trả góp miễn phí</em>
+										<em>Trả góp 0% lãi suất<br>và phí chuyển đổi</em>
 									</p>
 									<p>
 										<i></i>
-										<em>Hỗ trợ đổi trả trong<br>vòng 15 ngày</em>
+										<em>Hỗ trợ đổi trả<br>trong vòng 15 ngày</em>
 									</p>
 								</div>
 							</div>
@@ -374,7 +374,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Sum họp</span>
+									<span class="tab__text">Sum Họp</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--gameday">
@@ -385,7 +385,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Cuộc chơi</span>
+									<span class="tab__text">Cuộc Chơi</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
@@ -407,7 +407,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Khoảnh khắc</span>
+									<span class="tab__text">Khoảnh Khắc</span>
 								</a>
 							</li>
 						</ul>
@@ -463,14 +463,14 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
-												data-track-sku="a9t-ultra"
+												<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_lg-as10gdwh0"
+												data-track-sku="lg-as10gdwh0"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
-														data-track-sku="a9t-ultra"
+													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_home_lg-as10gdwh0"
+														data-track-sku="lg-as10gdwh0"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -487,14 +487,14 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_home_dvhp09b"
-												data-track-sku="dvhp09b"
+												<a href="https://www.lg.com/vn/may-giat/lg-wt2116sheg" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_wt2116sheg"
+												data-track-sku="wt2116sheg"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-say/lg-dvhp09b" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_dvhp09b"
-														data-track-sku="dvhp09b"
+													<a href="https://www.lg.com/vn/may-giat/lg-wt2116sheg" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_home_wt2116sheg"
+														data-track-sku="wt2116sheg"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -512,14 +512,14 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_home_f2515rtgb"
-												data-track-sku="f2515rtgb"
+												<a href="https://www.lg.com/vn/styler/lg-s3mfc" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_s3mfc"
+												data-track-sku="s3mfc"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-giat/lg-f2515rtgb" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_f2515rtgb"
-														data-track-sku="f2515rtgb"
+													<a href="https://www.lg.com/vn/styler/lg-s3mfc" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_home_s3mfc"
+														data-track-sku="s3mfc"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -536,14 +536,14 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_home_as10gdwh0"
-												data-track-sku="as10gdwh0"
+												<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
+												data-track-sku="a9t-ultra"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/may-loc-khong-khi/lg-as10gdwh0" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_as10gdwh0"
-														data-track-sku="as10gdwh0"
+													<a href="https://www.lg.com/vn/may-hut-bui/lg-a9t-ultra" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_home_a9t-ultra"
+														data-track-sku="a9t-ultra"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -577,7 +577,7 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
+									<p class="section__sub">Khoảnh khắc mùa Lễ hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Buổi</span>
 										<em>#Sum họp</em>
@@ -656,7 +656,7 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
+									<p class="section__sub">Khoảnh khắc mùa Lễ hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Giúp</span>
 										<em>#Cuộc chơi</em> thêm
@@ -668,14 +668,14 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/tivi/lg-oled77a2psa" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77a2psa"
-												data-track-sku="oled77a2psa"
+												<a href="https://www.lg.com/vn/tivi/lg-75nano76sqa" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_gameday_75nano76sqa"
+												data-track-sku="75nano76sqa"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/tivi/lg-oled77a2psa" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled77a2psa"
-														data-track-sku="oled77a2psa"
+													<a href="https://www.lg.com/vn/tivi/lg-75nano76sqa" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_gameday_75nano76sqa"
+														data-track-sku="75nano76sqa"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -734,7 +734,7 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
+									<p class="section__sub">Khoảnh khắc mùa Lễ hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Nâng tầm phút giây</span>
 										<em>#Giải Trí</em>
@@ -812,7 +812,7 @@
 								<div class="shadow shadow--right"></div>
 								<div class="light light--right"></div>
 								<div class="section__header">
-									<p class="section__sub">Khoảng khắc mùa Lễ Hội</p>
+									<p class="section__sub">Khoảnh khắc mùa Lễ hội</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Giúp những</span>
 										<em>#Khoảnh khắc</em> của bạn
@@ -848,14 +848,14 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/laptops/lg-16z90q-gah54a5" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_memories_6z90q-gah54a5"
-												data-track-sku="6z90q-gah54a5"
+												<a href="https://www.lg.com/vn/laptops/lg-17z90q-gah76a5" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
+												data-track-sku="17z90q-gah76a5"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/laptops/lg-16z90q-gah54a5" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_memories_6z90q-gah54a5"
-														data-track-sku="6z90q-gah54a5"
+													<a href="https://www.lg.com/vn/laptops/lg-17z90q-gah76a5" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
+														data-track-sku="17z90q-gah76a5"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
@@ -1100,7 +1100,7 @@
 							</div>
 						</div>
 						<div class="section__footer section__footer--center">
-							<p class="section__text">*Coupon giảm giá không áp dụng với sản phẩm thuộc Mùa Lễ Hội</p>
+							<p class="section__text">*Các sản phẩm “Ưu đãi Đặc biệt” trên<br>không được áp dụng đồng thời cùng các coupon khác trong chương trình LG Member Days</p>
 						</div>
 					</div>
 					<div class="lottie" 
@@ -1122,11 +1122,11 @@
 							<p class="section__sub">Thêm niềm vui cùng LG</p>
 							<h2 class="section__title">
 								Càng Mua, Càng Hời<br>
-								Thời hạn chỉ tời ngày 18/12
+								Thời hạn chỉ tới ngày 18/12
 							</h2>
 							<p class="section__desc">
-								GIẢM LÊN ĐẾN 17% KHI MUA TỪ 02 SẢN PHẨM <em class="highlight">BẤT KÌ</em>
-								<span>(Không bao gồm các sản phẩm thuộc danh sách “Ưu đãi Đặc biệt”)</span>
+								<em class="highlight">GIẢM LÊN ĐẾN 17%</em> KHI MUA TỪ 02 SẢN PHẨM BẤT KÌ
+								<span>(Không bao gồm các sản phẩm “Ưu đãi Đặc biệt”)</span>
 							</p>
 						</div>
             <div class="discount">
@@ -1159,16 +1159,16 @@
 											<li>
 												<p>
 													Coupon chào mừng 5%
-													<span>(chỉ áp dụng cho thánh viên mới)</span>
+													<span>(Chỉ áp dụng cho thành viên mới)</span>
 												</p>
 											</li>
 										</ul>
 									</div>
 								</div>
 							</div>
-							<div class="discount__noti">
+							<!-- <div class="discount__noti">
 								<p class="discount__text">Nhấp chuột vào XEM THÊM để khám phá những sản phẩm siêu ưu đãi</p>
-							</div>
+							</div> -->
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -1268,7 +1268,7 @@
 							</template>
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
                 <p class="tab__noti">
-									<em>Xem giỏ hàng</em> để nhận giá khuyến mại.<br>
+									<!-- <em>Xem giỏ hàng</em> để nhận giá khuyến mại.<br> -->
 									Đừng quên áp dụng Coupon giảm 10% và Coupon Chào mừng giảm 5% tại <em>Giỏ hàng của Tôi</em>
 								</p>
 								<div class="product">
@@ -1516,11 +1516,11 @@
 							<p class="coupon__unit">Coupon giảm giá</p>
 							<p class="coupon__title">
 								15
-								<span>%</span>
+								<span style="margin-left: -5px;">%</span>
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">Giá trị từ 5/12 - 18/12</p>
+					<p class="popup__desc popup__desc--semibold">Hiệu lực từ 5/12 - 18/12</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();" 
 							data-link-area="starstamp_coupon_download_click"

@@ -2,7 +2,8 @@ $(document).ready(function() {
 	const actionUrl = $('.lgmembersweek').data('actionUrl'),
 		submitUrl = $('#eventCustomerForm').data('url'),
 		$submit = $('#eventCustomerForm #submit'), // Button data set for redirect before login
-		localeCd = $('#eventCustomerForm').data('locale'),
+		// localeCd = $('#eventCustomerForm').data('locale'),
+		localeCd = "uk",
 		pcLoginClass = '.navigation .for-desktop .login div.before-login li:first-child a',
 		moLoginClass = '.navigation .for-mobile .login a.before-login:first-child',
 		loginUrl = '/' + localeCd + '/my-lg/login?state=' + window.location.pathname;

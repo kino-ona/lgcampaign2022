@@ -1,10 +1,9 @@
 $(document).ready(function() {
-	
 	const actionUrl = $('.lgmembersweek').data('actionUrl'),
 		submitUrl = $('#eventCustomerForm').data('url'),
 		$submit = $('#eventCustomerForm #submit'), // Button data set for redirect before login
 		// localeCd = $('#eventCustomerForm').data('locale'),
-		localeCd = "vn",
+		localeCd = "de",
 		pcLoginClass = '.navigation .for-desktop .login div.before-login li:first-child a',
 		moLoginClass = '.navigation .for-mobile .login a.before-login:first-child',
 		loginUrl = '/' + localeCd + '/my-lg/login?state=' + window.location.pathname;
@@ -60,17 +59,13 @@ $(document).ready(function() {
 		hotDealSlickOpt: {
 			speed: 600,
 			infinite: false,
-			rows: 2,
 			slidesToShow: 3,
-			slidesToScroll: 3,
 			focusOnSelect: false,
 			responsive: [
 				{
 					breakpoint: 767,
 					settings: {
-						rows: 1,
 						slidesToShow: 1,
-						slidesToScroll: 1,
 						focusOnSelect: true
 					}
 				}
@@ -353,7 +348,7 @@ $(document).ready(function() {
 				option = $this.data('trackOpt') ? $this.data('trackOpt') : '',
 				value = $this.data('trackVal') ? $this.data('trackVal') : '',
 				sku = $this.data('trackSku'),
-				bu = 'HE, HA, BS_IT_B2C, BS',
+				bu = 'HE, HA, BS_IT_B2C, BS',
 				dataLayerTemp = {}, $dataMetaButton;
 
 			if(option == 'category' && event == 'selectProductCategory') value = $this.text();
@@ -381,6 +376,7 @@ $(document).ready(function() {
 
 					dataLayerTemp['bu'] = bu;
 					dataLayerTemp['pageType'] = "MICROSITE";
+					dataLayerTemp['sku'] = sku;
 					if(option != '' && value != '') dataLayerTemp[option] = value;
 				break;
 				case 'product':
@@ -427,13 +423,13 @@ $(document).ready(function() {
 			// if(event == 'offer_add_to_cart_click'){
 			// 	event = 'add_to_cart_click';
 			// 	dataLayerpushData = $.extend({
-			// 			'event': event,
+			// 			'event': event, 
 			// 			},dataLayerMeta);
 
 			// 	dataLayer.push(dataLayerpushData);
 			// 	console.log(event);
 			// }
-
+			
 			// // common.js 에서 분리 적용한 HQ Global ATC - digitalDataLayer
 			// if(event == 'add_to_cart_click'){
 			// 	digitalDataLayer.push(dataLayerpushData);
@@ -499,7 +495,7 @@ $(document).ready(function() {
 					.attr('data-link-name','memberdays_luckydraw_submit_click_' + chooseTheme);
 			});
 			// lifeStyle showroom
-			$('[data-list="lifeStyle"] .product__anchor').each(function(){
+			$('[data-list="lifeStyle"] .product__anchor, [data-list="lifeStyle"] .product__link').each(function(){
 				$(this).data({
 					'trackGroup': 'mic',
 					'trackOpt': 'theme',
