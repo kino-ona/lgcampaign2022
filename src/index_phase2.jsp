@@ -159,7 +159,7 @@
 							<p class="section__sub">Make your holidays sparkle with LG</p>
 							<p class="section__desc">
 								Save Big with Exclusive Member Benefits on LG products<br>
-								Limited Time Sale Ends 20<sup>th</sup> Dec 2022, Only at LG.com
+								Limited Time Sale Ends 30<sup>th</sup> Nov 2022, Only at LG.com
 							</p>
 						</div>
 						<div class="button">
@@ -303,7 +303,9 @@
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">Sign in and find your Member Days Discount coupon in your MyLG Account</p>
+								<a href="javascript:redirectToLoginPage();">
+									<p class="benefit__text">Sign in and find your Member Days Discount coupon in your MyLG Account</p>
+								</a>
 							</div>
 							<div class="benefit__more">
 								<p class="benefit__text">Even More Member Benefits</p>
@@ -861,7 +863,7 @@
 								<div class="event__round">
 									<div class="event__header">
 										<p class="event__category">How to Participate</p>
-										<p class="event__title">Find all the stars on the event page for a chance to win a prize</p>
+										<p class="event__title">Find all 5 stars on the event page for a chance to win a prize</p>
 										<p class="event__desc">Participation limited to one member account only</p>
 									</div>
 									<div class="event__process">
@@ -1395,7 +1397,7 @@
 					<p class="popup__desc popup__desc--bold">LG OLED evo C2 55’’ 4K Smart TV</p>
 					<!-- <p class="popup__desc popup__desc--bold">InstaView Door-in-Door</p> -->
 					<!-- <p class="popup__desc popup__desc--bold">LG gram 16 Ultra-Lightweight</p> -->
-					<p class="popup__desc popup__desc--regular">Valid from 7<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
+					<p class="popup__desc popup__desc--regular">Valid from 30<sup>th</sup> Nov to 20<sup>th</sup> Dec</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();" 
 							data-link-area="starstamp_coupon_download_click"
@@ -1409,6 +1411,22 @@
 			</div>
 		</div>
 		<!-- // win popup -->
+
+		<!-- browser check popup -->
+		<div class="popup browserchk__popup">
+			<div class="popup__dimmed" style="background-color: rgba(0,0,0,.85);"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<p class="popup__title">This page cannot be displayed.</p>
+					<p class="popup__desc" style="margin-top: 40px;margin-bottom: 20px;">
+						Internet Explorer is no longer supported.<br>
+						Please access the page using another browser<span class="break--desktop"></span> i.e. Chrome, Microsoft Edge.
+					</p>
+					<button type="button" class="popup__close" aria-label="close"></button>
+				</div>
+			</div>
+		</div>
+		<!-- // browser check popup -->
 		<!-- // popup -->
 
 		<!-- // Content End  -->
@@ -1570,6 +1588,12 @@
 
 	<script>
 		const path = '${path}';
+		
+		$(document).ready(function(){
+			if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
+				$('.browserchk__popup').show();
+			}
+		});
 	</script>
 	
 	<!-- UI Script -->

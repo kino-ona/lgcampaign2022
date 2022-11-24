@@ -248,7 +248,14 @@
 								</ul>
 							</div>
 							<div class="benefit__msg">
+								<a role="button" href="javascript:redirectToLoginPage();"
+									data-link-area="memberdays_signup_click" 
+									data-track-name="memberdays_signup_click" 
+									data-link-name="memberdays_2022H2"
+									data-track-group="mic"
+								>
 								<p class="benefit__text">Sign in and find your Member Days Discount coupon in your MyLG Account</p>
+								</a>
 							</div>
 							<div class="benefit__more">
 								<p class="benefit__text">Even More Member Benefits</p>
@@ -1739,8 +1746,8 @@
 														<a href="#" class="button__item button__item--red">ADD TO BASKET</a>
 													</div>
 													<div class="learn-more">
-														<a href="#" class="learn-more__link">
-															<span class="learn-more__text">LEARN MORE</span>
+														<a href="#" class="button__item button__item--red learn-more__link">
+															<span>LEARN MORE</span>
 														</a>
 													</div>
 												</div>
@@ -2380,6 +2387,22 @@
 			</div>
 		</div>
 		<!-- // win popup -->
+
+		<!-- browser check popup -->
+		<div class="popup browserchk__popup">
+			<div class="popup__dimmed" style="background-color: rgba(0,0,0,.85);"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<p class="popup__title">This page cannot be displayed.</p>
+					<p class="popup__desc" style="margin-top: 40px;margin-bottom: 20px;">
+						Rất tiếc! Trang này không thể hiển thị do Internet Explorer không còn được hỗ trợ.<br>
+						Vui lòng truy cập trang bằng các trình duyệt khác như Chrome hay Microsoft Edge.
+					</p>
+					<button type="button" class="popup__close"  onclick="$('.browserchk__popup').hide();"></button>
+				</div>
+			</div>
+		</div>
+		<!-- // browser check popup -->
 		<!--// 여기까지 컨텐츠 -->
 
 		<!-- footer -->
@@ -2463,6 +2486,13 @@
 	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="./assets/js/index.js"></script>
 	<script src="./assets/js/coupon.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.browserchk__popup').show();	
+		if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
+      $('.browserchk__popup').show();
+   }});
+	</script>
 	<script>
 		if ($('.lottie').length > 0) {
 			var delay = setTimeout(function(){

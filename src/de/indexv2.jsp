@@ -5,7 +5,7 @@
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="telephone=no" name="format-detection">
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-	<title>LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland</title>
+	<title>LG Member Days Aktion! 15% Rabatt exklusiv für Mitglieder | LG Deutschland</title>
 	<meta name="keywords" content="">
 	<meta name="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022.">
 	<meta name="robots" content="NOODP, NOYDIR">
@@ -14,7 +14,7 @@
 	<meta property="og:locale" content="en_GB">
 	<meta property="og:site_name" content="LG Deutschland">
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland">
+	<meta property="og:title" content="LG Member Days Aktion! 15% Rabatt exklusiv für Mitglieder | LG Deutschland">
 	<meta property="og:description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022.">
 	<meta property="og:url" content="https://www.lg.com/de/memberdays">
 	<meta property="og:image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg">
@@ -88,7 +88,7 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
 	
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
-		<meta itemprop="name" content="LG Member Days Aktion! Bis zu 15% Rabatt nur für Mitglieder | LG Deutschland"/>
+		<meta itemprop="name" content="LG Member Days Aktion! 15% Rabatt exklusiv für Mitglieder | LG Deutschland"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
 		<meta itemprop="url" content="https://www.lg.com/de/memberdays" />
 		<meta itemprop="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022." />
@@ -134,22 +134,12 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07539436|MD07553686|MD07558680|MD07500784|MD07563688|MD07559190|MD07536623|MD07559110"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07556670|MD07556670|MD07565227|MD07533491|MD07533491|MD07533491|MD07533491|MD07560566|MD07560577|MD07560571|MD07560641|MD07559192|MD07559190|MD07559182|MD07559819"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07556670|MD07556670|MD07565227|MD07533491|MD07556670|MD07539436|MD0|MD0|MD07559129|MD07548205|MD07560566|MD07560577|MD07560571|MD07560641|MD07559192|MD07559190|MD07559182|MD07559819"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/de/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/de/hotdeal_product13.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/de/hotdeal_product13.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/de/hotdeal_product02.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
-			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
-			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
-			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
 			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/de/hotdeal_product04.png"/>
@@ -172,6 +162,18 @@
 			<input type="hidden" data-model-group="hotDeal" data-type="alt12" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/de/hotdeal_product13.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb14" value="${path}/assets/images/de/hotdeal_product14.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt14" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb15" value="${path}/assets/images/de/hotdeal_product15.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt15" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb16" value="${path}/assets/images/de/hotdeal_product16.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt16" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb17" value="${path}/assets/images/de/hotdeal_product17.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt17" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb18" value="${path}/assets/images/de/hotdeal_product18.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt18" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb19" value="${path}/assets/images/de/hotdeal_product19.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt19" value="Limited to 100 units"/>
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07549514|MD07549244|MD07550687|MD07551349|MD07551348|MD07551110|MD07549461|MD07549883|MD07549539|MD07549258"/>
@@ -428,7 +430,8 @@
 										</div>
 									</div>
 									<div class="event__info">
-										<p class="event__text">Die Gutscheincodes sind vom 5. Dezember bis zum 18. Dezember 2022 gültig</p>
+										<p class="event__text">Die Gutscheincodes sind vom 28. November bis zum 18. Dezember 2022 gültig<br>
+											*Bitte beachte, dass Gutscheincodes erst ab dem 1. Dezember aktiv sind</p>
 									</div>
 								</div>
 							</div>
@@ -500,7 +503,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Gaming</span>
+									<span class="tab__text">Sportliche Highlights</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--pastime">
@@ -511,7 +514,7 @@
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
-									<span class="tab__text">Zeitvertreib</span>
+									<span class="tab__text">Gaming</span>
 								</a>
 							</li>
 							<li class="tab__item tab__item--memories">
@@ -547,7 +550,7 @@
 										<p class="product__sn sku">*modelName*</p>
 										<div class="button">
 											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="add_to_cart_click" data-link-name="add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
 											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
@@ -1206,7 +1209,7 @@
 										</div>
 										<div class="button">
 											<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="offer_add_to_cart_click" data-link-name="offer_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
 											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
@@ -1232,7 +1235,7 @@
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemoretvs"
 											data-link-name="memberdays_2022H2"
-											class="button__item button__item--white">Mehr TV anzeigen</a>
+											class="button__item button__item--white">MEHR TV PRODUKTE ANZEIGEN</a>
 									</div>
 								</div>
 							</div>
@@ -1251,7 +1254,7 @@
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemoresoundsystems"
 											data-link-name="memberdays_2022H2"
-											class="button__item button__item--white">Mehr Audio anzeigen</a>
+											class="button__item button__item--white">MEHR AUDIO PRODUKTE<br>ANZEIGEN</a>
 										<!-- <a href="https://www.lg.com/de/bluetooth-kopfhoerer" 
 											target="_blank"
 											tabindex="0" 
@@ -1455,14 +1458,14 @@
 						</div>
 					</div>
 					<p class="popup__desc popup__desc">
-						Gültig<br>
-						vom 5. Dezember bis zum 18. Dezember 2022
+						vom 28. November bis zum 18. Dezember 2022<br>
+						*Bitte beachte, dass Gutscheincodes erst ab dem 1. Dezember aktiv sind
 					</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();" 
-							data-link-area="memberdays_H2_starstamp_click_download"
+							data-link-area="starstamp_coupon_download_click"
 							data-link-name="memberdays_2022H2" 
-							data-track-name="memberdays_H2_starstamp_click_download" 
+							data-track-name="starstamp_coupon_download_click" 
 							data-track-group="mic"
 							class="popup__button">Rabattcode anzeigen</a>
 					</div>
@@ -1472,6 +1475,22 @@
 			</div>
 		</div>
 		<!-- // win popup -->
+
+		<!-- browser check popup -->
+		<div class="popup browserchk__popup">
+			<div class="popup__dimmed" style="background-color: rgba(0,0,0,.85);"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<p class="popup__title">This page cannot be displayed.</p>
+					<p class="popup__desc" style="margin-top: 40px;margin-bottom: 20px;">
+						Diese Seite kann nicht dargestellt werden, da Internet Explorer nicht mehr unterstützt wird.<br>
+						Bitte benutzen Sie einen anderen Browser, z.B. Chrome, Microsoft Edge.
+					</p>
+					<button type="button" class="popup__close" onclick="$('.browserchk__popup').hide();"></button>
+				</div>
+			</div>
+		</div>
+		<!-- // browser check popup -->
 		<!-- // popup -->
 
 		<!-- // Content End  -->
@@ -1563,6 +1582,18 @@
 			'event' : 'starstamp_coupon_download_click',
 			'bu' : 'HE, HA, BS_IT_B2C, BS',
 			'pageType' : 'MICROSITE',
+			'superCategory': '{superCategory}',
+			'category': '{category}',
+			'subcategory' : '{subcategory}',
+			'modelYear' : '{modelYear}',
+			'modelName' : '{modelName}',
+			'modelCode': '{modelCode}',
+			'salesModelCode': '{salesModelCode}',
+			'sku': '{sku}',
+			'suffix': '{suffix}',
+			'price': '{price}',
+			'currencyCode': '{currencyCode}',
+			'theme': '{theme}'
 			})
 		})
 
@@ -1621,6 +1652,12 @@
 
 	<script>
 		const path = '${path}';
+		
+		$(document).ready(function(){
+			if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
+				$('.browserchk__popup').show();
+			}
+		});
 	</script>
 	
 	<!-- UI Script -->

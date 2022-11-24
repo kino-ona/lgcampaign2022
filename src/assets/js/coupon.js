@@ -186,7 +186,7 @@ function getLotteryResult(ctaId, token) {
 }
 
 function redirectToLoginPage() {
-    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays/index.jsp';
+    window.location.href = '/' + locale + '/my-lg/login?state=/' + locale + '/memberdays/';
 }
 
 function redirectToMypage() {
@@ -231,10 +231,10 @@ function disableStars(cta_info = []) {
         $('.lottie').each(function () {
             if (!$(this).hasClass('lottie--disabled')) {
                 $(this).empty();
-                $(this).append("<lottie-player src='./lottie/star.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+                $(this).append('<lottie-player src="' + path + '/lottie/star.json" background="transparent" speed="1" loop autoplay></lottie-player>');
             } else {
                 $(this).empty();
-                $(this).append("<lottie-player src='./lottie/star_off.json' background='transparent' speed='1' loop autoplay></lottie-player>");
+                $(this).append('<lottie-player src="' + path + '/lottie/star_off.json" background="transparent" speed="1" loop autoplay></lottie-player>');
             }
         });
         clearTimeout(delay);
