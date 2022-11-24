@@ -1,5 +1,4 @@
 $(document).ready(function() {
-	
 	const actionUrl = $('.lgmembersweek').data('actionUrl'),
 		submitUrl = $('#eventCustomerForm').data('url'),
 		$submit = $('#eventCustomerForm #submit'), // Button data set for redirect before login
@@ -353,7 +352,7 @@ $(document).ready(function() {
 				option = $this.data('trackOpt') ? $this.data('trackOpt') : '',
 				value = $this.data('trackVal') ? $this.data('trackVal') : '',
 				sku = $this.data('trackSku'),
-				bu = 'HE, HA, BS_IT_B2C, BS',
+				bu = 'HE, HA, BS_IT_B2C, BS',
 				dataLayerTemp = {}, $dataMetaButton;
 
 			if(option == 'category' && event == 'selectProductCategory') value = $this.text();
@@ -381,6 +380,7 @@ $(document).ready(function() {
 
 					dataLayerTemp['bu'] = bu;
 					dataLayerTemp['pageType'] = "MICROSITE";
+					dataLayerTemp['sku'] = sku;
 					if(option != '' && value != '') dataLayerTemp[option] = value;
 				break;
 				case 'product':
@@ -499,7 +499,7 @@ $(document).ready(function() {
 					.attr('data-link-name','memberdays_luckydraw_submit_click_' + chooseTheme);
 			});
 			// lifeStyle showroom
-			$('[data-list="lifeStyle"] .product__anchor').each(function(){
+			$('[data-list="lifeStyle"] .product__anchor, [data-list="lifeStyle"] .product__link').each(function(){
 				$(this).data({
 					'trackGroup': 'mic',
 					'trackOpt': 'theme',
