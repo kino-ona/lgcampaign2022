@@ -1038,7 +1038,7 @@
 									data-track-name="selectProductCategory" 
 									data-link-area="memberdays_H2_Category_click_audio"
 									data-link-name="memberdays_2022H2"
-									class="tab__button">Audio</a>
+									class="tab__button">Audio/Video</a>
 								</li>
 								<li class="tab__item">
 									<a href="#homeappliance" 
@@ -1149,6 +1149,16 @@
 											data-link-area="memberdays_H2_PLP_click_seemoresoundsystems"
 											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE AUDIO</a>
+										<a href="https://www.lg.com/uk/blu-ray-dvd-players" 
+											target="_blank" 
+											tabindex="0" 
+											data-track-group="mic" 
+											data-track-opt="category" 
+											data-track-val="VIDEO SYSTEMS" 
+											data-track-name="plpClick" 
+											data-link-area="memberdays_H2_PLP_click_seemorevideosystems"
+											data-link-name="memberdays_2022H2"
+											class="button__item button__item--white">SEE MORE VIDEO</a>
 									</div>
 								</div>
 							</div>
