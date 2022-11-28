@@ -134,7 +134,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07539436|MD07553686|MD07558680|MD07500784|MD07563688|MD07559190|MD07536623|MD07559110"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07556670|MD07556670|MD07565227|MD07533491|MD07556670|MD07539436|MD0|MD0|MD07559129|MD07548205|MD07560566|MD07560577|MD07560571|MD07560641|MD07559192|MD07559190|MD07559182|MD07559819"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07527848|MD07528827|MD07562345|MD07565227|MD07533491|MD07556670|MD07539436|MD07564076|MD07564075|MD07559129|MD07548205|MD07560566|MD07560577|MD07560571|MD07560641|MD07559192|MD07559190|MD07559182|MD07559819"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/de/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
@@ -430,8 +430,8 @@
 										</div>
 									</div>
 									<div class="event__info">
-										<p class="event__text">Die Gutscheincodes sind vom 28. November bis zum 18. Dezember 2022 gültig<br>
-											*Bitte beachte, dass Gutscheincodes erst ab dem 1. Dezember aktiv sind</p>
+										<p class="event__text">Die Gutscheincodes sind vom 1. Dezember bis zum 18. Dezember 2022 gültig</p>
+										<p class="event__text">*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember <span class="break--desktop"></span>in deinem Account einsehen und verwenden.</p>
 									</div>
 								</div>
 							</div>
@@ -585,29 +585,7 @@
 								<div class="product">
 									<div class="product__showroom">
 										<div class="product__slide">
-											<div class="product__layer">
-												<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
-												data-track-sku="a9k-pro1g"
-												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
-												<div class="product__target">
-													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
-														data-track-sku="a9k-pro1g"
-														data-link-name="memberdays_2022H2"
-														class="product__link">
-														<div class="product__img">
-															<img src="${path}/assets/images/de/img_product_showroom_home01_01.png" alt="Handstaubsauger mit zwei Akkus">
-														</div>
-														<div class="product__right">
-															<p class="product__name">Handstaubsauger mit zwei Akkus</p>
-															<ul class="product__desc">
-																<li>Dual Akku: 2 AkkusfürdoppelteLaufzeit (Bis zu 120 Min.) und 3 verschiedene Saugstufen</li>
-															</ul>
-														</div>
-													</a>
-												</div>
-											</div>
+											<div class="product__layer"></div>
 											<div class="product__layer">
 												<a href="https://www.lg.com/de/waschtrockner/lg-lswd100e" target="_blank"
 												data-link-area="memberdays_H2_Product_Mouseover_home_lswd100e"
@@ -655,23 +633,23 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
-												data-track-sku="S3BF"
+												<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
+												data-track-sku="a9k-pro1g"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/de/styler/lg-S3BF" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_home_S3BF"
-														data-track-sku="S3BF"
+													<a href="https://www.lg.com/de/staubsauger/lg-a9k-pro1g" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_home_a9k-pro1g"
+														data-track-sku="a9k-pro1g"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/de/img_product_showroom_home01_04.png" alt="LG Styler S3BF mit Steam">
+															<img src="${path}/assets/images/de/img_product_showroom_home01_01.png" alt="Handstaubsauger mit zwei Akkus">
 														</div>
 														<div class="product__right">
-															<p class="product__name">LG Styler S3BF mit Steam</p>
+															<p class="product__name">Handstaubsauger mit zwei Akkus</p>
 															<ul class="product__desc">
-																<li>Auffrischung Ihrer Kleidung in nur 20 Minuten möglich! Auch für Schals, Krawatten oder Tücher geeignet</li>
+																<li>Dual Akku: 2 AkkusfürdoppelteLaufzeit (Bis zu 120 Min.) und 3 verschiedene Saugstufen</li>
 															</ul>
 														</div>
 													</a>
@@ -1458,8 +1436,9 @@
 						</div>
 					</div>
 					<p class="popup__desc popup__desc">
-						vom 28. November bis zum 18. Dezember 2022<br>
-						*Bitte beachte, dass Gutscheincodes erst ab dem 1. Dezember aktiv sind
+						Gültig<br>
+						vom 1. Dezember bis zum 18. Dezember 2022<br>
+						<span>*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember in deinem Account einsehen und verwenden.</span>
 					</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();" 

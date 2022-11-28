@@ -124,8 +124,7 @@
       <div class="lgmembersweek lgmembersweek-terms">
         <div class="lgmembersweek-terms__wrap">
           <h3>
-            CHƯƠNG TRÌNH LG MEMBER DAYS–<br>
-            NGÔI SAO MAY MẮN
+						CHƯƠNG TRÌNH LG MEMBER DAYS –<br>NGÔI SAO MAY MẮN
           </h3>
           <dl class="info">
             <dt>Thời gian:</dt>
@@ -139,7 +138,8 @@
           <ul class="list">
             <li>
               <span class="bar"></span>
-              Khách hàng khi tham quan mua sắm trên cửa hàng trực tuyến LG sẽ có cơ hội nhận được các quà tặng khi lật mở các Ngôi sao may mắn được hiển thị ngẫu nhiên trên giao diện trang web
+              Khách hàng khi tham quan mua sắm trên cửa hàng trực tuyến LG sẽ có cơ hội nhận được các quà
+tặng khi lật mở các Ngôi sao may mắn được hiển thị ngẫu nhiên trên giao diện trang web
             </li>
             <li>
               <span class="bar"></span>
@@ -165,7 +165,7 @@
                     Tivi LG OLED42C2PSA.ATV<br>
                     (link https://www.lg.com/vn/tivi/lg-oled42c2psa)
                    </td>
-                   <td>36,900,000</td>
+                   <td style="text-align:center;">36.900.000</td>
                    <td>01</td>
                 </tr>
                 <tr>
@@ -174,22 +174,23 @@
                     Máy lọc không khí LG AS65GDWH0.ABAE<br>
                     (link https://www.lg.com/vn/may-loc-khong-khi/lg-as65gdwh0)
                    </td>
-                   <td>25,500,000</td>
+                   <td style="text-align:center;">25.500.000</td>
                    <td>01</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
                     Màn hình máy tính LG 27BQ70QC-S.ATV<br>
-                    (link https://www.lg.com/vn/man-hinh-may-tinh/lg-27bq70qc-s) 
+                    (link https://www.lg.com/vn/man-hinh-may-tinh/lg-27bq70qc-s)
                    </td>
-                   <td>10,490,000</td>
+                   <td style="text-align:center;">10.490.000</td>
                    <td>01</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                    Voucher giảm giá 15% (áp dụng tất cả các sản phẩm trên cửa hàng trực tuyến LG)
+                    Voucher giảm giá 15% (áp dụng tất cả các sản phẩm trên cửa
+hàng trực tuyến LG)
                    </td>
                    <td></td>
                    <td>59</td>
@@ -197,7 +198,8 @@
                 <tr>
                   <td>5</td>
                   <td>
-                    Voucher giảm giá 10% (áp dụng cho tất cả các sản phẩm trên cửa hàng trực tuyến LG)
+                    Voucher giảm giá 10% (áp dụng cho tất cả các sản phẩm trên cửa
+hàng trực tuyến LG)
                    </td>
                    <td></td>
                    <td>100</td>
@@ -205,7 +207,8 @@
                 <tr>
                   <td>6</td>
                   <td>
-                    Voucher giảm giá 5% (áp dụng cho tất cả các sản phẩm trên cửa hàng trực tuyến LG)
+                    Voucher giảm giá 5% (áp dụng cho tất cả các sản phẩm trên cửa
+hàng trực tuyến LG)
                    </td>
                    <td></td>
                    <td>300</td>
@@ -217,22 +220,34 @@
           <ul class="list2">
             <li>
               <span class="dot"></span>
-              Đối với quà tặng là voucher: Mã voucher sẽ được gửi đến email của Khách hàng trong vòng 24 giờ kể từ khi Khách hàng trúng thưởng.
+              Đối với quà tặng là voucher: Mã voucher sẽ được gửi đến email của Khách hàng trong vòng
+24 giờ kể từ khi Khách hàng trúng thưởng.
             </li>
             <li>
               <span class="dot"></span>
-              Đối với quà tặng là sản phẩm LG: Kết quả sẽ được công bố chính thức trên fanpage của LG Việt Nam vào tuần cuối của tháng 12/2022. Quà tặng sẽ được giao miễn phí cho Khách hàng theo địa chỉ Khách hàng cung cấp (không bao gồm chi phí lắp đặt) chậm nhất là ngày 08/01/2023. Chính sách giao nhận chung công bố trên trang web cũng sẽ được áp dụng trong trường hợp này.
+              Đối với quà tặng là sản phẩm LG: Kết quả sẽ được công bố chính thức trên fanpage của LG
+Việt Nam vào tuần cuối của tháng 12/2022. Quà tặng sẽ được giao miễn <br>phí cho Khách hàng
+theo địa chỉ Khách hàng cung cấp (không bao gồm chi phí lắp đặt) chậm nhất là ngày
+08/01/2023. <br>Chính sách giao nhận chung công bố trên trang web cũng sẽ được áp dụng trong
+trường hợp này.
             </li>
           </ul>
           <p class="sub-title">Lưu ý:</p>
           <ul class="list2">
             <li>
               <span class="dot"></span>
-              Trường hợp hết quà tặng là sản phẩm LG, LG Việt Nam có thể thay thế bằng sản phẩm khác cùng loại có giá trị tương đương hoặc cao hơn.
+              Trường hợp hết quà tặng là sản phẩm LG, LG Việt Nam có thể thay thế bằng sản phẩm khác
+cùng loại có giá trị tương đương hoặc cao hơn.
             </li>
             <li>
               <span class="dot"></span>
-              Trong mọi trường hợp, quyết định cuối cùng về các vấn đề liên quan đến Chương trình sẽ thuộc về LG Việt Nam.
+              Chương trình “LG Member Days - Ngôi Sao May Mắn” không áp dụng cho tài khoản nhân<br>
+viên LG, nhân viên đối tác LG và khách hàng tham gia chương trình ưu đãi dành cho chủ thẻ.
+            </li>
+            <li>
+              <span class="dot"></span>
+              Trong mọi trường hợp, quyết định cuối cùng về các vấn đề liên quan đến Chương trình sẽ
+thuộc về LG Việt Nam.
             </li>
           </ul>
         </div>

@@ -133,7 +133,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07527542|MD07549194|MD07549314|MD07525606|MD07525615|MD07525612"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07551331|MD07550715|MD07550722|MD07559969|MD07559899"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07518447|MD07506953|MD07557214|MD07560074|MD07561321|MD07560002|MD07561295"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07555425|MD07527328|MD07527366|MD07563896"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07527328|MD07527366|MD07563896"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07549062|MD07525606|MD07525612|MD07550722|MD07523845|MD07551573|MD05849136|MD05849142|MD07549398|MD07550509|MD07544285|MD07544333|MD07544338|MD07553545|MD07555327|MD07506953|MD07524754|MD07555367"/>
@@ -847,24 +847,26 @@
 												</div>
 											</div>
 											<div class="product__layer">
-												<a href="https://www.lg.com/vn/laptops/lg-17z90q-gah76a5" target="_blank"
-												data-link-area="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
-												data-track-sku="17z90q-gah76a5"
+												<a href="https://www.lg.com/vn/laptops/lg-16zd90q-gax53a5" target="_blank"
+												data-link-area="memberdays_H2_Product_Mouseover_memories_16zd90q-gax53a5"
+												data-track-name="memberdays_H2_Product_Mouseover_memories_16zd90q-gax53a5"
+												data-track-sku="16zd90q-gax53a5"
 												data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/vn/laptops/lg-17z90q-gah76a5" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_memories_17z90q-gah76a5"
-														data-track-sku="17z90q-gah76a5"
+													<a href="https://www.lg.com/vn/laptops/lg-16zd90q-gax53a5" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_memories_16zd90q-gax53a5"
+														data-track-name="memberdays_H2_Product_Mouseover_memories_16zd90q-gax53a5"
+														data-track-sku="16zd90q-gax53a5"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
-															<img src="${path}/assets/images/vn/img_product_showroom_memories01_02.png" alt="Laptop LG gram 17''">
+															<img src="${path}/assets/images/vn/img_product_showroom_memories01_02.png" alt="Laptop LG gram 16''">
 														</div>
 														<div class="product__right">
-															<p class="product__name">Laptop LG gram 17''</p>
+															<p class="product__name">Laptop LG gram 16''</p>
 															<ul class="product__desc">
-																<li>Windows 11 Home</li>
-																<li>Siêu nhẹ 1350g, Thời lượng pin đến 17,5 giờ</li>
+																<li>Siêu nhẹ 1190g, Thời lượng pin đến 20,5 giờ</li>
+																<li>Nền tảng Intel Evo với Bộ xử lý Intel® Core™ Thế hệ 12</li>
 															</ul>
 														</div>
 													</a>
@@ -1518,7 +1520,7 @@
 							</p>
 						</div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">Hiệu lực từ 28/11 – 18/12</p>
+					<p class="popup__desc popup__desc--semibold">Hiệu lực từ 28/11 - 18/12</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();" 
 							data-link-area="starstamp_coupon_download_click"

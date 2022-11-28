@@ -933,7 +933,7 @@
 				<div class="section__container section__container--event" data-list="eventGift">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">優惠登場前 <span class="break--mobile"></span>先解任務抽好禮</h2>
+							<h2 class="section__title">會員抽獎任務</h2>
 						</div>
 						<div class="event">
 							<div class="event__container">
@@ -1069,7 +1069,7 @@
 						<div class="section__header">
 							<h2 class="section__title">限量璀璨價 <span class="break--mobile"></span>8折搶購中</h2>
 							<p class="section__desc">11/30 - 12/13</p>
-							<p class="section__sub">最高可享約75折優惠</p>
+							<p class="section__sub">結帳時輸入/選擇優惠序號: <span class="break--mobile"></span>MD80,最高可享75折</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -1131,7 +1131,6 @@
 						</div>
 						<div class="section__footer section__footer--center">
 							<p class="section__text">
-								*折扣優惠將顯示於結帳購物車頁面<br>
 								*限量璀璨價為LG會員限定價之8折優惠, 此優惠僅可與新會員歡迎禮95折合併使用,最高可享75折優惠<br>
 								*LG會員限定價為建議售價之98折
 							</p>
@@ -1515,6 +1514,21 @@
 			</div>
 		</div>
 		<!-- // win popup -->
+
+		<!-- browser check popup -->
+		<div class="popup browserchk__popup">
+			<div class="popup__dimmed" style="background-color: rgba(0,0,0,.85);"></div>
+			<div class="popup__container">
+				<div class="popup__body">
+					<p class="popup__title">This page cannot be displayed.</p>
+					<p class="popup__desc" style="margin-top: 40px;margin-bottom: 20px;">
+						非常抱歉, 此頁面無法支援在Internet Explorer上瀏覽, <br>請使用其他瀏覽器再試一次。
+					</p>
+					<button type="button" class="popup__close" onclick="$('.browserchk__popup').hide();"></button>
+				</div>
+			</div>
+		</div>
+		<!-- // browser check popup -->
 		<!-- // popup -->
 
 		<!-- // Content End  -->
@@ -1664,6 +1678,12 @@
 
 	<script>
 		const path = '${path}';
+		
+		$(document).ready(function(){
+			if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
+				$('.browserchk__popup').show();
+			}
+		});
 	</script>
 	
   <!-- UI script -->
