@@ -284,7 +284,7 @@
 												Special Discount Coupon
 											</p>
 											<p class="coupon__text coupon__text--narrow">When you purchase 2 or more LG products</p>
-											<p class="coupon__text coupon__text--secondary">*All products available on LG.com, except “Sparkling Deals”</p>
+											<p class="coupon__text coupon__text--secondary">*All products available on LG.com, except the new Tone Free UFP9, UFP8, UFP5 and Sparkling Deal product</p>
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -1040,7 +1040,7 @@
 							</h2>
 							<p class="section__desc">
 								Get <em class="highlight">10% Discount</em> on ALL LG products <span class="break break--mobile">when you buy More than Two Products</span>
-								<span>(Sparkling Deal products excluded from <span class="break break--mobile">additional discount offer)</span></span>
+								<span>Sparkling Deal product and the new Tone <span class="break break--mobile"></span>Free UFP9, UFP8 and UFP5 are excluded from the additional discount offer</span>
 							</p>
 						</div>
 						<div class="discount">

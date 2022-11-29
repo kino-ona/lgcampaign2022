@@ -265,7 +265,7 @@
 												Special Discount Coupon
 											</p>
 											<p class="coupon__text coupon__text--narrow">When you purchase 2 or more LG products</p>
-											<p class="coupon__text coupon__text--secondary">*All products available on LG.com, except “Sparkling Deals”</p>
+											<p class="coupon__text coupon__text--secondary">*All products available on LG.com, except the new Tone Free UFP9, UFP8, UFP5 and Sparkling Deal product</p>
 										</div>
 									</li>
 									<li class="coupon__item">
