@@ -28,11 +28,11 @@
 		"alternateName": "LG Electronics",
 		"url": "https://www.lg.com/tw/memberdays-2022",
 		"logo": "https://www.lg.com/lg5-common-gp/images/common/header/logo-b2c.jpg",
-			"sameAs": [
-		"https://www.facebook.com/LGTaiwan/ ",
-		"https://www.instagram.com/lgtaiwan/",
-		"http://www.youtube.com/user/LGETaiwan",
-		"https://line.me/R/ti/p/%40xou5836o"
+		"sameAs": [
+			"https://www.facebook.com/LGTaiwan/",
+			"https://www.instagram.com/lgtaiwan/",
+			"http://www.youtube.com/user/LGETaiwan",
+			"https://line.me/R/ti/p/%40xou5836o"
 	]}
 	</script>
 	<script type="application/ld+json">
@@ -41,7 +41,7 @@
 		"@type": "WebSite",
 		"name": "LG 台灣",
 		"url": "https://www.lg.com/tw/memberdays-2022",
-			"potentialAction": {
+		"potentialAction": {
 		"@type": "SearchAction",
 		"target": "https://www.lg.com/tw/search/search-all?search={search_term_string}",
 		"query-input": "required name=search_term_string"}
@@ -135,7 +135,6 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558671|MD07558615|MD07535742|MD07535177"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555526|MD07561784|MD07558781|MD07562207|MD07558410|MD07562206|MD07562207"/>
 
-			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546009|MD07561784|MD07537152|MD07522018|MD07537639|MD07515571|MD07564756"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product01.png"/>
@@ -156,6 +155,7 @@
 			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb7" value="${path}/assets/images/tw/hotdeal_product09.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt7" value="Limited to 100 units"/>
+ㄴ
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640|MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
@@ -164,28 +164,30 @@
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
-		<div class="lgmembersweek phase2" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
 				<div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h1 class="section__title">LG 璀璨會員日</h1>
-							<p class="section__sub">點亮您的冬季佳節</p>
-							<p class="section__desc">即日起至12/13 官方會員獨享超值優惠</p>
+							<p class="section__desc">11/30-12/13</p>
+							<h1 class="section__title">LG璀璨會員日 <span class="break--mobile"></span>即將登場</h1>
+							<p class="section__desc">點亮您的冬季佳節</p>
+							<p class="section__desc">立即註冊，即有機會贏得大獎及獨家優惠</p>
 						</div>
 						<div class="button">
-							<a href="#BuymoreSavemore"
-								data-link-area="memberdays_mainbanner_click" 
-								data-track-name="memberdays_mainbanner_click"
-								data-link-name="memberdays_2022H2" 
-								class="button__item button__item--red">查看產品</a>
+							<a role="button" href="#MembershipEvent"
+							data-track-group="mic"
+							data-link-area="memberdays_mainbanner_click" 
+							data-track-name="memberdays_mainbanner_click"
+							data-link-name="memberdays_2022H2" 
+							class="button__item button__item--red">查看詳情</a>
 						</div>
 						<div class="visual__terms">
-							<a href="${path}/tnc/index.jsp" target="_blank" 
-								data-link-area="memberdays_anchor_click_termsandconditions" 
+							<a role="button" href="${path}/tnc/index.jsp" target="_blank" 
+                data-link-area="memberdays_anchor_click_termsandconditions" 
 								data-track-name="memberdays_anchor_click_termsandconditions"
-								data-link-name="memberdays_2022H2" 
+                data-link-name="memberdays_2022H2" 
                 class="terms__link visual__link">
 								活動辦法
 								<i class="visual__arrow"></i>
@@ -205,33 +207,26 @@
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#MemberExclusiveOffers" 
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_MemberExclusiveOffers"
-									data-link-area="memberdays_H2_Anchor_click_P2_MemberExclusiveOffers" 
+								<a role="button" href="#MemberExclusiveOffers" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_memberexclusiveoffers"
+									data-link-area="memberdays_H2_Anchor_click_memberexclusiveoffers" 
 									data-link-name="memberdays_2022H2" 
 									class="link">查看會員獨家優惠</a>
 							</li>
 							<li class="list-item">
-								<a href="#MembershipEvent"  
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_MembershipEvent"
-									data-link-area="memberdays_H2_Anchor_click_P2_MembershipEvent" 
+								<a role="button" href="#MembershipEvent" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_membershipevent"
+									data-link-area="memberdays_H2_Anchor_click_membershipevent" 
 									data-link-name="memberdays_2022H2" 
 									class="link">參加會員抽獎任務</a>
-              </li>
-							<li class="list-item">
-								<a href="#SparklingDeals"
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_sparklingdeals"
-									data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
-									data-link-name="memberdays_2022H2" 
-									class="link">查看限量璀璨價</a>
 							</li>
-              <li class="list-item">
-                <a href="#BuymoreSavemore"
-								data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2_BuymoreSavemore"
-								data-link-area="memberdays_H2_Anchor_click_P2_BuymoreSavemore" 
-								data-link-name="memberdays_2022H2" 
-								 class="link">瀏覽年度精選商品</a>
-              </li>
+							<li class="list-item">
+								<a role="button" href="#HolidayCollection"
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_holidaycollection"
+									data-link-area="memberdays_H2_Anchor_click_holidaycollection"  
+									data-link-name="memberdays_2022H2" 
+									class="link">瀏覽年度精選商品</a>
+								</li>
 						</ul>
 					</div>
 				</div>
@@ -316,19 +311,21 @@
 											免費尊榮到府教學
 										</em>
 									</p>
-									<a href="${path}/tnc/index.jsp"
+									<a role="button" href="${path}/tnc/index.jsp" 
 										data-link-area="memberdays_anchor_click_termsandconditions" 
 										data-track-name="memberdays_anchor_click_termsandconditions" 
-										data-link-name="memberdays_2022H2" target="_blank">
+										data-link-name="memberdays_2022H2" 
+										target="_blank">
 										<i></i>
 										<em>
 											限量加碼贈品
 										</em>
 									</a>
-									<a href="${path}/tnc/index.jsp" 
+									<a role="button" href="${path}/tnc/index.jsp" 
 										data-link-area="memberdays_anchor_click_termsandconditions" 
 										data-track-name="memberdays_anchor_click_termsandconditions" 
-										data-link-name="memberdays_2022H2" target="_blank">
+										data-link-name="memberdays_2022H2" 
+										target="_blank">
 										<i></i>
 										<em>
 											3天內保證送達
@@ -339,9 +336,9 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="${path}/tnc/index.jsp" target="_blank" 
+							<a role="button" href="${path}/tnc/index.jsp" target="_blank" 
                 data-link-area="memberdays_anchor_click_termsandconditions" 
-                data-track-name="memberdays_anchor_click_termsandconditions" 
+								data-track-name="memberdays_anchor_click_termsandconditions" 
                 data-link-name="memberdays_2022H2" 
 								class="section__text">
 								活動辦法
@@ -356,6 +353,142 @@
 				</div>
 			</div>
 
+			<div class="anchors" id="MembershipEvent"></div>
+			<div id="box_content1_1" class="section">
+				<div class="section__container section__container--event" data-list="eventGift">
+					<div class="section__inner">
+						<div class="section__header">
+							<!-- <p class="section__sub">璀璨閃耀 每個日子</p> -->
+							<h2 class="section__title">優惠登場前 <span class="break--mobile"></span>先解任務抽好禮</h2>
+						</div>
+						<div class="event">
+							<div class="event__container">
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__category">如何解鎖任務</p>
+										<p class="event__title">找星星 抽大獎</p>
+										<p class="event__desc">活動僅限會員參加</p>
+									</div>
+									<div class="event__process">
+										<ol>
+											<li>
+												<span>1</span>
+												<p>登入/ 註冊</p>
+											</li>
+											<li>
+												<span>2</span>
+												<p>找尋並點擊，活動頁面中的五顆星星</p>
+											</li>
+											<li>
+												<span>3</span>
+												<p>
+													完成任務，即有機會獲得右方獎項
+													<em>(每帳號限定參加乙次)</em>
+													<em>(獎項將以電腦隨機抽獎)</em>
+												</p>
+											</li>
+										</ol>
+									</div>
+									<p class="event__category">完成蒐集五顆星星</p>
+									<div class="event__stars">
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+									</div>
+								</div>
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__title">首獎</p>
+										<p class="event__sub">旗艦機種 共3名</p>
+										<p class="event__desc event__desc--secondary">以下產品各抽乙名</p>
+										<p class="event__desc event__desc--tertiary">
+											<span>OLED evo C2 4K AI 物聯網電視55吋</span>
+											<span>LG CordZero™ A9T 系列 All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白)</span>
+											<span>27” Libero 自由機</span>
+										</p>
+									</div>
+									<div class="event__gift">
+										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
+									</div>
+									<div class="event__info">
+										<p class="event__text">得獎者請截圖並保存獲獎畫面<br>領獎方法將於活動結束後3周內通知</p>
+									</div>
+									<div class="event__row">
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">二獎</p>
+												<p class="event__sub">6折優惠序號</p>
+												<p class="event__desc event__desc--secondary">限量20名</p>
+												<p class="event__desc event__desc--tertiary">
+													<span>僅限與LG會員限定價98折合併使用</span>
+													<span>不適用產品: SIGNATURE、配件、耗材全系列</span>
+												</p>
+											</div>
+											<div class="event__coupon">
+												<div class="event__ticket">
+													40
+													<span>% <em>off</em></span>
+												</div>
+											</div>
+										</div>
+										<div class="event__col">
+											<div class="event__header">
+												<p class="event__title">三獎</p>
+												<p class="event__sub">85折優惠序號</p>
+												<p class="event__desc event__desc--secondary">限量2000名</p>
+												<p class="event__desc event__desc--tertiary">
+													<span>僅限與LG會員限定價98折合併使用</span>
+													<span>不適用產品: SIGNATURE、配件、耗材全系列</span>
+												</p>
+											</div>
+
+											<div class="event__coupon">
+												<div class="event__ticket">
+													15
+													<span>% <em>off</em></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="event__info">
+										<p class="event__text">優惠適用期間 : 2022/11/30-12/13</p>
+									</div>
+								</div>
+							</div>
+							<div class="event__bottom login__link">
+								<div class="event__left">
+									<p>只差一步 就可贏得大獎</p>
+								</div>
+								<div class="event__right">
+									<a role="button" href="javascript:redirectToLoginPage();"
+										data-link-area="memberdays_signup_click" 
+										data-track-name="memberdays_signup_click"
+										data-link-name="memberdays_2022H2"
+										data-track-group="mic"
+									>立即登入/註冊</a>
+								</div>
+							</div>
+						</div>
+						<div class="section__footer">
+							<a role="button" href="${path}/tnc/index.jsp" target="_blank" 
+                data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-track-name="memberdays_anchor_click_termsandconditions" 
+                data-link-name="memberdays_2022H2" 
+								class="section__text">
+								活動辦法
+								<i></i>
+							</a>
+						</div>
+					</div>
+					<div class="lottie" 
+						data-link-area="starstamp_click" 
+						data-link-name="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
+				</div>
+			</div>
+
 			<div class="anchors" id="HolidayCollection"></div>
 			<div id="box_content2" class="section">
 				<div class="section__container section__container--lifestyle" data-list="lifeStyle">
@@ -364,7 +497,7 @@
 							<li class="tab__item tab__item--home tab__item--active">
 								<a href="#home" 
 									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="home" data-track-name="selectThemeDisplay"
+									data-track-val="home" data-track-name="selectThemeDisplay" 
 									data-link-area="memberdays_H2_Theme_click_HOME"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
@@ -375,7 +508,7 @@
 							<li class="tab__item tab__item--gathering">
 								<a href="#gathering"
 									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="gathering" data-track-name="selectThemeDisplay"
+									data-track-val="gathering" data-track-name="selectThemeDisplay" 
 									data-link-area="memberdays_H2_Theme_click_Gathering"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
@@ -386,7 +519,7 @@
 							<li class="tab__item tab__item--gameday">
 								<a href="#gameday"
 									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="gameday" data-track-name="selectThemeDisplay"
+									data-track-val="gameday" data-track-name="selectThemeDisplay" 
 									data-link-area="memberdays_H2_Theme_click_Gameday"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
@@ -397,7 +530,7 @@
 							<li class="tab__item tab__item--pastime">
 								<a href="#pastime"
 									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="pastime" data-track-name="selectThemeDisplay"
+									data-track-val="pastime" data-track-name="selectThemeDisplay" 
 									data-link-area="memberdays_H2_Theme_click_Pastime"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
@@ -408,9 +541,9 @@
 							<li class="tab__item tab__item--memories">
 								<a href="#memories"
 									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="memories" data-track-name="selectThemeDisplay"
+									data-track-val="memories" data-track-name="selectThemeDisplay" 
 									data-link-area="memberdays_H2_Theme_click_Memories"
-									data-link-name="memberdays_2022H2"
+									data-link-name="memberdays_2022H2" 
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">美好回憶</span>
@@ -441,7 +574,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="buy_now_click" data-track-name="buy_now_click" data-link-name="buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -450,7 +583,6 @@
 								</div>
 							</div>
 						</template>
-						
 						<div id="home" class="tab__panel tab__panel--home" style="display: block;">
 							<div class="section__inner">
 								<div class="shadow shadow--left"></div>
@@ -924,140 +1056,6 @@
 					<div class="lottie" 
 						data-link-area="starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('002', this);"></div>
-				</div>
-			</div>
-
-			<div class="anchors" id="MembershipEvent"></div>
-			<div id="box_content1_1" class="section">
-				<div class="section__container section__container--event" data-list="eventGift">
-					<div class="section__inner">
-						<div class="section__header">
-							<h2 class="section__title">會員抽獎任務</h2>
-						</div>
-						<div class="event">
-							<div class="event__container">
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__category">如何解鎖任務</p>
-										<p class="event__title">找星星 抽大獎</p>
-										<p class="event__desc">活動僅限會員參加</p>
-									</div>
-									<div class="event__process">
-										<ol>
-											<li>
-												<span>1</span>
-												<p>登入/ 註冊</p>
-											</li>
-											<li>
-												<span>2</span>
-												<p>找尋並點擊，活動頁面中的五顆星星</p>
-											</li>
-											<li>
-												<span>3</span>
-												<p>
-													完成任務，即有機會獲得右方獎項
-													<em>(每帳號限定參加乙次)</em>
-													<em>(獎項將以電腦隨機抽獎)</em>
-												</p>
-											</li>
-										</ol>
-									</div>
-									<p class="event__category">完成蒐集五顆星星</p>
-									<div class="event__stars">
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-									</div>
-								</div>
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__title">首獎</p>
-										<p class="event__sub">旗艦機種 共3名</p>
-										<p class="event__desc event__desc--secondary">以下產品各抽乙名</p>
-										<p class="event__desc event__desc--tertiary">
-											<span>OLED evo C2 4K AI 物聯網電視55吋</span>
-											<span>LG CordZero™ A9T 系列 All-in-One 濕拖無線吸塵器｜Objet Collection® (雪霧白)</span>
-											<span>27” Libero 自由機</span>
-										</p>
-									</div>
-									<div class="event__gift">
-										<img src="${path}/assets/images/tw/img_event_product.png" alt="">
-									</div>
-									<div class="event__info">
-										<p class="event__text">得獎者請截圖並保存獲獎畫面<br>領獎方法將於活動結束後3周內通知</p>
-									</div>
-									<div class="event__row">
-										<div class="event__col">
-											<div class="event__header">
-												<p class="event__title">二獎</p>
-												<p class="event__sub">6折優惠序號</p>
-												<p class="event__desc event__desc--secondary">限量20名</p>
-												<p class="event__desc event__desc--tertiary">
-													<span>僅限與LG會員限定價98折合併使用</span>
-													<span>不適用產品: SIGNATURE、配件、耗材全系列</span>
-												</p>
-											</div>
-											<div class="event__coupon">
-												<div class="event__ticket">
-													40
-													<span>% <em>off</em></span>
-												</div>
-											</div>
-										</div>
-										<div class="event__col">
-											<div class="event__header">
-												<p class="event__title">三獎</p>
-												<p class="event__sub">85折優惠序號</p>
-												<p class="event__desc event__desc--secondary">限量2000名</p>
-												<p class="event__desc event__desc--tertiary">
-													<span>僅限與LG會員限定價98折合併使用</span>
-													<span>不適用產品: SIGNATURE、配件、耗材全系列</span>
-												</p>
-											</div>
-											<div class="event__coupon">
-												<div class="event__ticket">
-													15
-													<span>% <em>off</em></span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="event__info">
-										<p class="event__text">優惠適用期間 : 2022/11/30-12/13</p>
-									</div>
-								</div>
-							</div>
-							<div class="event__bottom login__link">
-								<div class="event__left">
-									<p>只差一步 就可贏得大獎</p>
-								</div>
-								<div class="event__right">
-									<a role="button" href="javascript:redirectToLoginPage();"
-										data-link-area="memberdays_signup_click" 
-										data-track-name="memberdays_signup_click" 
-										data-link-name="memberdays_2022H2"
-										data-track-group="mic"
-									>立即登入/註冊</a>
-								</div>
-							</div>
-						</div>
-						<div class="section__footer">
-							<a role="button" href="${path}/tnc/index.jsp" target="_blank" 
-                data-link-area="memberdays_anchor_click_termsandconditions" 
-                data-track-name="memberdays_anchor_click_termsandconditions" 
-                data-link-name="memberdays_2022H2" 
-								class="section__text">
-								活動辦法
-								<i></i>
-							</a>
-						</div>
-					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click" 
-						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('003', this);"></div>
 				</div>
 			</div>
@@ -1067,9 +1065,9 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">限量璀璨價 <span class="break--mobile"></span>8折搶購中</h2>
+							<h2 class="section__title">限量璀璨價 8折倒數搶購</h2>
 							<p class="section__desc">11/30 - 12/13</p>
-							<p class="section__sub">結帳時輸入/選擇優惠序號: <span class="break--mobile"></span>MD80,最高可享75折</p>
+							<p class="section__sub">最高可享約75折優惠</p>
 						</div>
 						<div id="hotdeal" class="product product--hotdeal">
 							<div class="product__mask">
@@ -1080,6 +1078,7 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
+											<p class="product__comming">即將登場</p>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -1090,8 +1089,8 @@
 										-->
 										<div class="product__info products-info">
 											<p class="product__name">*userFriendlyName*</p>
-											<p class="product__sn sku">*modelName*</p>
-											<div class="product__price">
+											<!-- <p class="product__sn sku">*modelName*</p> -->
+											<!-- <div class="product__price">
 												<span class="product__discount">
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*originPrice*</span>
@@ -1113,13 +1112,13 @@
 												<div class="product__noti d-none">
 													<p class="product__text">*reStockAlertText*</p>
 												</div>
-											</div>
-											<div class="button">
+											</div> -->
+											<!-- <div class="button">
 												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparkling_add_to_cart_click" data-link-name="sparkling_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
 												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='加入購物車'/></a>
-											</div>
+											</div> -->
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now" target="_blank">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparkling_buy_now_click" data-link-name="sparkling_buy_now" target="_blank">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												</a>
 											</div>
@@ -1131,7 +1130,8 @@
 						</div>
 						<div class="section__footer section__footer--center">
 							<p class="section__text">
-								*限量璀璨價為LG會員限定價之8折優惠, 此優惠僅可與新會員歡迎禮95折合併使用,最高可享75折優惠<br>
+								*折扣優惠將顯示於結帳購物車頁面<br>
+								*限量璀璨價為LG會員限定價之8折優惠,此優惠僅可與新會員歡迎禮95折合併使用,最高可享75折優惠<br>
 								*LG會員限定價為建議售價之98折
 							</p>
 						</div>
@@ -1151,49 +1151,9 @@
 				<div class="section__container section__container--hottest" data-list="hottest">
 					<div class="section__inner">
 						<div class="section__header">
-							<p class="section__sub">即日起至12/13</p>
+							<!-- <p class="section__sub">旗艦熱銷 點亮生活</p> -->
 							<h2 class="section__title">年度精選商品</h2>
-							<p class="section__desc">
-								任選2件以上產品,享88折優惠
-							</p>
-						</div>
-            <div class="discount">
-							<div class="discount__list">
-								<div class="discount__item">
-									<div class="discount__inner">
-										<div class="discount__ico discount__ico--washing">
-											<i></i>
-										</div>
-										<p class="discount__name">Product 1</p>
-									</div>
-								</div>
-								<div class="discount__item">
-									<div class="discount__inner">
-										<div class="discount__ico discount__ico--tv">
-											<i></i>
-										</div>
-										<p class="discount__name">Product 2</p>
-									</div>
-								</div>
-								<div class="discount__item">
-									<div class="discount__inner">
-										<ul class="discount__number">
-											<li>
-												<p class="discount__total">最低82折</p>
-											</li>
-											<li>
-												<p>* 以上折扣為與新會員歡迎禮95折及</p>
-											</li>
-											<li>
-												<p>LG會員限定價98折合併使用後之優惠</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="discount__noti">
-								<p class="discount__text">點擊查看更多產品</p>
-							</div>
+							<p class="section__sub">11/30-12/13 優惠即將登場</p>
 						</div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
@@ -1274,7 +1234,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" data-track-group="product" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now" target="_blank">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='了解更多'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1283,10 +1243,6 @@
 								</li>
 							</template>
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
-								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
-									會員即可點擊購物車內優惠券！
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1306,10 +1262,6 @@
 								</div>
 							</div>
 							<div id="homeappliance" class="tab__panel">
-								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
-									會員即可點擊購物車內優惠券！
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1329,10 +1281,6 @@
 								</div>
 							</div>
 							<div id="computerproducts" class="tab__panel">
-								<p class="tab__noti">
-									秘密優惠將揭曉於購物車中，趕緊前往查看！<br>
-									會員即可點擊購物車內優惠券！
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1342,7 +1290,7 @@
 											target="_blank" 
 											data-track-group="mic" 
 											data-track-opt="category" 
-											data-track-val="Computer Products"  
+											data-track-val="Computer Products" 
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemorecomputerproducts"
 											data-link-name="memberdays_2022H2"
@@ -1366,11 +1314,13 @@
 			<div class="popup__dimmed"></div>
 			<div class="popup__container">
 				<div class="popup__body">
-					<p class="popup__title">立即登入參加
-						簡單找星星　人人享優惠</p>
+					<p class="popup__title">
+						立即登入參加<br>
+						找星星抽大獎任務!
+					</p>
 					<p class="popup__desc">
 						還不是會員？<br>
-						簡單加入　另享好禮
+						立即註冊加贈歡迎禮
 					</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToLoginPage();"
@@ -1417,7 +1367,7 @@
 						<div class="star"></div>
 						<div class="star"></div>
 					</div>
-					<p class="popup__desc popup__desc--semibold">輕鬆贏得優惠只差幾步！</p>
+					<p class="popup__desc popup__desc--semibold">贏得優惠 只差幾步!</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button" onclick="hideCollectPopup();">尋找更多星星</button>
 					</div>
@@ -1639,37 +1589,37 @@
 			var href = window.location.href;
 			if(href.indexOf('BuymoreSavemoreTVAudio') != -1) {    
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-				$('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-				$('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
 				var timer = setTimeout(function() {         
 					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
 					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
-							
+					    
 					clearTimeout(timer);     
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-				$('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-				$('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
 				var timer = setTimeout(function() {         
 					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
 					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
-							
+					    
 					clearTimeout(timer);     
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
-				$('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-				$('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
+        $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
+        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
 				var timer = setTimeout(function() {         
 					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
 					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
-							
+					    
 					clearTimeout(timer);     
 				}, 600);
 			}

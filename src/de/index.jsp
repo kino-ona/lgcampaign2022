@@ -127,7 +127,7 @@
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value=""/>
 
 			<!-- Life Style Model -->
-			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07541029|MD07539461|MD07560745|MD06163476|MD07559729|MD07537986|MD06055056|MD06055076|MD07546795|MD07561481|MD07561724|MD07561613"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="home" value="MD07541029|MD07539461|MD07562345|MD06163476|MD07559729|MD07537986|MD06055056|MD06055076|MD07546795|MD07561481|MD07561724|MD07561613"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07537889|MD07538000|MD07556806|MD07560566|MD07560577|MD07560571"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07547712|MD07549539|MD07549467|MD07529840|MD07551967|MD07559183"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07557592|MD07530428|MD07502402"/>
