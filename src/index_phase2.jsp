@@ -622,14 +622,14 @@
 									<div class="product__showroom">
 										<div class="product__slide">
 											<div class="product__layer">
-												<a href="https://www.lg.com/uk/tvs/lg-oled65g26la" target="_blank"
-													data-link-area="memberdays_H2_Product_Mouseover_gameday_oled65g26la"
-													data-track-sku="oled65g26la"
+												<a href="https://www.lg.com/uk/tvs/lg-oled83g26la" target="_blank"
+													data-link-area="memberdays_H2_Product_Mouseover_gameday_oled83g26la"
+													data-track-sku="oled83g26la"
 													data-link-name="memberdays_2022H2" class="product__anchor"><span class="sr-only">detail view</span></a>
 												<div class="product__target">
-													<a href="https://www.lg.com/uk/tvs/lg-oled65g26la" target="_blank"
-														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled65g26la"
-														data-track-sku="oled65g26la"
+													<a href="https://www.lg.com/uk/tvs/lg-oled83g26la" target="_blank"
+														data-link-area="memberdays_H2_Product_Mouseover_gameday_oled83g26la"
+														data-track-sku="oled83g26la"
 														data-link-name="memberdays_2022H2"
 														class="product__link">
 														<div class="product__img">
