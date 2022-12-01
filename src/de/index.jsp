@@ -86,7 +86,7 @@
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/body-noscript.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/google-tag-manager.jsp" />
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/broswe-check-popup-layer.jsp" />
-	
+
 	<div class="sr-only" itemscope itemtype="http://schema.org/WebPage">
 		<meta itemprop="name" content="LG Member Days Aktion! 15% Rabatt exklusiv für Mitglieder | LG Deutschland"/>
 		<meta itemprop="image" content="https://www.lg.com/lg5-common-gp/images/common/share/share-default.jpg" />
@@ -94,7 +94,7 @@
 		<meta itemprop="description" content="Werde ein Mitglied von LG.com und profitiere von exklusiven Member Days Angeboten, Gewinnspielen und vielem mehr. Gültig bis zum 18. Dezember 2022." />
 		<meta itemprop="keywords" content="" />
 	</div>
-	
+
 	<c:set var='bizType' value='${$bizType }' />
 	<c:set var='siteType' value='MKT' />
 	<!-- component (navigation) -->
@@ -106,9 +106,9 @@
 	<!-- // component (navigation) -->
 
 	<!-- breadcrumb -->
- 	<c:import url="/${localeCd}/breadCrumb"> 
+ 	<c:import url="/${localeCd}/breadCrumb">
 	    <c:param name="bizType" value="${bizType}"/>
-	</c:import> 
+	</c:import>
 	<!-- // breadcrumb -->
 
 	<c:set var='path' value='/${localeCd}/memberdays' /> <!-- Required input ## Specify the microsite upload path for a flexible folder structure -->
@@ -140,7 +140,7 @@
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/de/hotdeal_product02.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>	
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/de/hotdeal_product03.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/de/hotdeal_product04.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
@@ -181,7 +181,7 @@
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537955|MD07546828|MD07541029|MD07520777|MD06055056|MD07540963|MD06049916|MD07532590|MD06055076|MD07521087|MD07520055|MD07541621|MD07538023|MD07522369|MD06020158|MD07546795"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07501021|MD07500784|MD07500772|MD07528835|MD07549890|MD07548205|MD07518915|MD07557589|MD05984496|MD07510022|MD06076196|MD07551891|MD07553682|MD07553675|MD07553615|MD07553686"/>
 		<!-- Required input ## Model List End -->
-	
+
 		<!--  Content Start  -->
 		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
@@ -193,23 +193,23 @@
 							<p class="section__desc">5. Dezember - 18. Dezember 2022</p>
 							<p class="section__sub">Bringe die Feiertage mit LG zum Strahlen</p>
 							<p class="section__desc">
-								Melde dich gleich an und verpasse nicht unser Gewinnspiel<br>
-								und viele weitere Vorteile für Mitglieder
+								Melde dich gleich an, um unser Gewinnspiel nicht zu verpassen<br>
+								und von zahlreichen Mitgliedervorteilen zu profitieren
 							</p>
 						</div>
 						<div class="button">
 							<a href="#MembershipEvent"
 								data-track-group="mic"
-								data-link-area="memberdays_mainbanner_click" 
+								data-link-area="memberdays_mainbanner_click"
 								data-track-name="memberdays_mainbanner_click"
-								data-link-name="memberdays_2022H2" 
+								data-link-name="memberdays_2022H2"
 								class="button__item button__item--red">Teilnehmen</a>
 						</div>
 						<div class="visual__terms">
 							<a href="/${localeCd}/member-days-lg-tnc" target="_blank"
-								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-link-area="memberdays_anchor_click_termsandconditions"
 								data-track-name="memberdays_anchor_click_termsandconditions"
-								data-link-name="memberdays_2022H2" 
+								data-link-name="memberdays_2022H2"
                 class="terms__link visual__link">
                 Teilnahmebedingungen
                 <i class="visual__arrow"></i>
@@ -234,24 +234,24 @@
 							<li class="list-item">
 								<a href="#MemberExclusiveOffers"
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_memberexclusiveoffers"
-									data-link-area="memberdays_H2_Anchor_click_memberexclusiveoffers" 
-									data-link-name="memberdays_2022H2" 
+									data-link-area="memberdays_H2_Anchor_click_memberexclusiveoffers"
+									data-link-name="memberdays_2022H2"
 									class="link">Exklusive Angebote für<br>
 									Mitglieder anzeigen</a>
 							</li>
 							<li class="list-item">
 								<a href="#MembershipEvent"
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_membershipevent"
-									data-link-area="memberdays_H2_Anchor_click_membershipevent" 
-									data-link-name="memberdays_2022H2" 
+									data-link-area="memberdays_H2_Anchor_click_membershipevent"
+									data-link-name="memberdays_2022H2"
 									class="link">Entdecke unsere außergewöhnliche Kampagne,<br>
 									nur für Mitglieder</a>
 							</li>
 							<li class="list-item">
-								<a href="#HolidayCollection" 
+								<a href="#HolidayCollection"
 									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_holidaycollection"
-									data-link-area="memberdays_H2_Anchor_click_holidaycollection"  
-									data-link-name="memberdays_2022H2" 
+									data-link-area="memberdays_H2_Anchor_click_holidaycollection"
+									data-link-name="memberdays_2022H2"
 									class="link">Durchstöbere<br>
 									unsere exklusiven Angebote</a>
 								</li>
@@ -286,14 +286,14 @@
 										</div>
 										<div class="coupon__info">
 											<p class="coupon__title">Member Days Gutscheincode</p>
-											<p class="coupon__text coupon__text--narrow">Gültig ab einem Einkauf von zwei oder mehreren LG Produkten</p>
+											<p class="coupon__text coupon__text--narrow">Gültig ab einem Einkauf von zwei oder mehr LG Produkten</p>
 											<p class="coupon__text coupon__text--secondary">*alle verfügbaren Modelle, nicht kombinierbar mit den „Hot Deals“</p>
 										</div>
 									</li>
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">Registriere dich und nutze deinen Member Days Rabattcode, welcher in deinem LG Account hinterlegt wurde</p>
+								<p class="benefit__text">Registriere dich und nutze deinen Member Days Rabattcode, der in deinem LG Account hinterlegt wurde</p>
 							</div>
 							<div class="benefit__more">
 								<p class="benefit__text">Exklusive Vorteile für LG Mitglieder</p>
@@ -317,23 +317,23 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="/${localeCd}/member-days-lg-tnc" target="_blank" 
-								data-link-area="memberdays_anchor_click_termsandconditions" 
-								data-track-name="memberdays_anchor_click_termsandconditions" 
-								data-link-name="memberdays_2022H2" 
+							<a href="/${localeCd}/member-days-lg-tnc" target="_blank"
+								data-link-area="memberdays_anchor_click_termsandconditions"
+								data-track-name="memberdays_anchor_click_termsandconditions"
+								data-link-name="memberdays_2022H2"
 								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click"  
-						data-link-name="memberdays_2022H2" 
+					<div class="lottie"
+						data-link-area="starstamp_click"
+						data-link-name="memberdays_2022H2"
 						data-track-group="starstamp" onclick="showLotteryModal('011', this);"></div>
 				</div>
 			</div>
-			
+
 			<div class="anchors" id="MembershipEvent"></div>
 			<div id="box_content1_1" class="section">
 				<div class="section__container section__container--event" data-list="eventGift">
@@ -342,7 +342,7 @@
 							<p class="section__sub">Fülle deinen Tag mit Highlights</p>
 							<h2 class="section__title">
 								Jetzt teilnehmen,<br>
-								um die Chance auf einen funkelnden Preis zu haben
+								um dir die Chance auf einen funkelnden Preis zu sichern
 							</h2>
 						</div>
 						<div class="event">
@@ -350,7 +350,7 @@
 								<div class="event__round">
 									<div class="event__header">
 										<p class="event__category">Los geht's</p>
-										<p class="event__title">Finde alle Sterne auf der Seite und erhöhe deinen Chancen auf einen Gewinn</p>
+										<p class="event__title">Finde alle Sterne auf der Seite und erhöhe deine Chancen auf einen Gewinn</p>
 										<p class="event__desc">Teilnahme ist nur für ein Mitgliedskonto möglich</p>
 									</div>
 									<div class="event__process">
@@ -442,8 +442,8 @@
 								</div>
 								<div class="event__right">
 									<a role="button" href="javascript:redirectToLoginPage();"
-										data-link-area="memberdays_signup_click" 
-										data-track-name="memberdays_signup_click" 
+										data-link-area="memberdays_signup_click"
+										data-track-name="memberdays_signup_click"
 										data-link-name="memberdays_2022H2"
 										data-track-group="mic"
 									>ANMELDUNG / REGISTRIERUNG</a>
@@ -451,19 +451,19 @@
 							</div>
 						</div>
 						<div class="section__footer">
-							<a href="/${localeCd}/member-days-lg-tnc" target="_blank" 
-								data-link-area="memberdays_anchor_click_termsandconditions" 
-                data-track-name="memberdays_2022H2" 
-								data-link-area="memberdays_anchor_click_termsandconditions" 
+							<a href="/${localeCd}/member-days-lg-tnc" target="_blank"
+								data-link-area="memberdays_anchor_click_termsandconditions"
+                data-track-name="memberdays_2022H2"
+								data-link-area="memberdays_anchor_click_termsandconditions"
 								class="section__text">
 								Teilnahmebedingungen
 								<i></i>
 							</a>
 						</div>
 					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click" 
-						data-link-name="memberdays_2022H2" 
+					<div class="lottie"
+						data-link-area="starstamp_click"
+						data-link-name="memberdays_2022H2"
 						data-track-group="starstamp" onclick="showLotteryModal('012', this);"></div>
 				</div>
 			</div>
@@ -475,7 +475,7 @@
 						<ul class="tab__list">
 							<li class="tab__item tab__item--home tab__item--active">
 								<a href="#home"
-									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
+									data-tab-name="home" data-track-group="mic" data-track-opt="theme"
 									data-track-val="home" data-track-name="selectThemeDisplay"
 									data-link-area="memberdays_H2_Theme_click_HOME"
 									data-link-name="memberdays_2022H2"
@@ -486,8 +486,8 @@
 							</li>
 							<li class="tab__item tab__item--gathering">
 								<a href="#gathering"
-									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="gathering" data-track-name="selectThemeDisplay" 
+									data-tab-name="gathering" data-track-group="mic" data-track-opt="theme"
+									data-track-val="gathering" data-track-name="selectThemeDisplay"
 									data-link-area="memberdays_H2_Theme_click_Gathering"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">
@@ -497,7 +497,7 @@
 							</li>
 							<li class="tab__item tab__item--gameday">
 								<a href="#gameday"
-									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme" 
+									data-tab-name="gameday" data-track-group="mic" data-track-opt="theme"
 									data-track-val="gameday" data-track-name="selectThemeDisplay"
 									data-link-area="memberdays_H2_Theme_click_Gameday"
 									data-link-name="memberdays_2022H2"
@@ -508,7 +508,7 @@
 							</li>
 							<li class="tab__item tab__item--pastime">
 								<a href="#pastime"
-									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme" 
+									data-tab-name="pastime" data-track-group="mic" data-track-opt="theme"
 									data-track-val="pastime" data-track-name="selectThemeDisplay"
 									data-link-area="memberdays_H2_Theme_click_Pastime"
 									data-link-name="memberdays_2022H2"
@@ -519,10 +519,10 @@
 							</li>
 							<li class="tab__item tab__item--memories">
 								<a href="#memories"
-									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
+									data-tab-name="memories" data-track-group="mic" data-track-opt="theme"
 									data-track-val="memories" data-track-name="selectThemeDisplay"
 									data-link-area="memberdays_H2_Theme_click_Memories"
-									data-link-name="memberdays_2022H2" 
+									data-link-name="memberdays_2022H2"
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Erinnerungen</span>
@@ -540,7 +540,7 @@
 										</div>
 										<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 									</div>
-									<!-- 
+									<!--
 										// common.js add-to-cart dataLayer 공통 로직 진입을 위해
 										// .products-info / .js-compare 클래스 추가
 										// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
@@ -572,13 +572,13 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#zu Hause</em>
+										<em>#Zuhause</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Frische Kleidung. Ein strahlendes zu</span>
-										<span class="break break--mobile">Hause. Jetzt bist du bereit für die</span>
+										<span class="break break--mobile">Frische Kleidung. Ein strahlendes Zuhause</span>
+										<span class="break break--mobile">Jetzt bist du bereit für die</span>
 										Feiertage.
 									</p>
 								</div>
@@ -756,7 +756,7 @@
 								<div class="section__header">
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Bringe dein</span>
+										<span class="break break--mobile">Bringe </span>
 										<em>#Sportliche Highlights</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
@@ -893,7 +893,7 @@
 								<div class="section__header">
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Bringe dein</span>
+										<span class="break break--mobile">Bringe deine</span>
 										<em>#Erinnerungen</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
@@ -988,9 +988,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click" 
-						data-link-name="memberdays_2022H2" 
+					<div class="lottie"
+						data-link-area="starstamp_click"
+						data-link-name="memberdays_2022H2"
 						data-track-group="starstamp" onclick="showLotteryModal('013', this);"></div>
 				</div>
 			</div>
@@ -1021,7 +1021,7 @@
 											<!-- <p class="hotdeal_bg"></p> -->
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
-										<!-- 
+										<!--
 											// common.js add-to-cart dataLayer 공통 로직 진입을 위해
 											// .products-info / .js-compare 클래스 추가
 											// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
@@ -1071,9 +1071,9 @@
 							<p class="section__text">*Der 5% Willkommensgutschein kann mit den Hot Deals Modellen kombiniert werden.</p>
 						</div>
 					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click" 
-						data-link-name="memberdays_2022H2" 
+					<div class="lottie"
+						data-link-area="starstamp_click"
+						data-link-name="memberdays_2022H2"
 						data-track-group="starstamp" onclick="showLotteryModal('014', this);"></div>
 				</div>
 			</div>
@@ -1096,7 +1096,7 @@
 									LG Member Days
 									<span class="break break--mobile">exklusive</span>
 									Angebote sind
-								</span> 
+								</span>
 								<span class="break break--mobile">demnächst</span>
 								verfügbar
 							</h2>
@@ -1105,41 +1105,41 @@
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
 								<li class="tab__item tab__item--active">
-									<a href="#tvcinebeam" 
-										data-tab-name="tvcinebeam" 
-										data-track-group="mic" 
-										data-track-opt="category" 
-										data-track-name="selectProductCategory" 
+									<a href="#tvcinebeam"
+										data-tab-name="tvcinebeam"
+										data-track-group="mic"
+										data-track-opt="category"
+										data-track-name="selectProductCategory"
 										data-link-area="memberdays_H2_Category_click_tv"
 										data-link-name="memberdays_2022H2"
 										class="tab__button">TV</a>
 								</li>
 								<li class="tab__item">
-									<a href="#audio" 
-									data-tab-name="audio" 
-									data-track-group="mic" 
-									data-track-opt="category" 
-									data-track-name="selectProductCategory" 
+									<a href="#audio"
+									data-tab-name="audio"
+									data-track-group="mic"
+									data-track-opt="category"
+									data-track-name="selectProductCategory"
 									data-link-area="memberdays_H2_Category_click_audio"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">Audio</a>
 								</li>
 								<li class="tab__item">
-									<a href="#homeappliance" 
-									data-tab-name="homeappliance" 
-									data-track-group="mic" 
-									data-track-opt="category" 
-									data-track-name="selectProductCategory" 
+									<a href="#homeappliance"
+									data-tab-name="homeappliance"
+									data-track-group="mic"
+									data-track-opt="category"
+									data-track-name="selectProductCategory"
 									data-link-area="memberdays_H2_Category_click_homeappliance"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">Haushaltsartikel</a>
 								</li>
 								<li class="tab__item">
-									<a href="#computerproducts" 
-									data-tab-name="computerproducts" 
-									data-track-group="mic" 
-									data-track-opt="category" 
-									data-track-name="selectProductCategory" 
+									<a href="#computerproducts"
+									data-tab-name="computerproducts"
+									data-track-group="mic"
+									data-track-opt="category"
+									data-track-name="selectProductCategory"
 									data-link-area="memberdays_H2_Category_click_computerproducts"
 									data-link-name="memberdays_2022H2"
 									class="tab__button">IT Modelle</a>
@@ -1154,7 +1154,7 @@
 										</div>
 										<img class="lazyload" data-src="*mediumImageAddr*" alt="*imageAltText*" data-error-img="/lg5-common-gp/images/common/product-default-list-350.jpg">
 									</div>
-									<!-- 
+									<!--
 										// common.js add-to-cart dataLayer 공통 로직 진입을 위해
 										// .products-info / .js-compare 클래스 추가
 										// => $('body').on('click', '.add-to-cart:not(.in-buynow)', ~ );
@@ -1204,13 +1204,13 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/de/tv" 
+										<a href="https://www.lg.com/de/tv"
 											target="_blank"
-											tabindex="0" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="TVS" 
-											data-track-name="plpClick" 
+											tabindex="0"
+											data-track-group="mic"
+											data-track-opt="category"
+											data-track-val="TVS"
+											data-track-name="plpClick"
 											data-link-area="memberdays_H2_PLP_click_seemoretvs"
 											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">MEHR TV PRODUKTE ANZEIGEN</a>
@@ -1223,23 +1223,23 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/de/audio" 
-											target="_blank" 
-											tabindex="0" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="SOUND SYSTEMS" 
-											data-track-name="plpClick" 
+										<a href="https://www.lg.com/de/audio"
+											target="_blank"
+											tabindex="0"
+											data-track-group="mic"
+											data-track-opt="category"
+											data-track-val="SOUND SYSTEMS"
+											data-track-name="plpClick"
 											data-link-area="memberdays_H2_PLP_click_seemoresoundsystems"
 											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">MEHR AUDIO PRODUKTE<br>ANZEIGEN</a>
-										<!-- <a href="https://www.lg.com/de/bluetooth-kopfhoerer" 
+										<!-- <a href="https://www.lg.com/de/bluetooth-kopfhoerer"
 											target="_blank"
-											tabindex="0" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="SOUND WIRELESS EARBUDS"  
-											data-track-name="plpClick" 
+											tabindex="0"
+											data-track-group="mic"
+											data-track-opt="category"
+											data-track-val="SOUND WIRELESS EARBUDS"
+											data-track-name="plpClick"
 											data-link-area="memberdays_H2_PLP_click_seemorewirelessearbuds"
 											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">SEE MORE WIRELESS EARBUDS</a> -->
@@ -1252,13 +1252,13 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/de/haushaltsgeraete" 
-											target="_blank" 
-											tabindex="0" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="HOME APPLIANCES"  
-											data-track-name="plpClick" 
+										<a href="https://www.lg.com/de/haushaltsgeraete"
+											target="_blank"
+											tabindex="0"
+											data-track-group="mic"
+											data-track-opt="category"
+											data-track-val="HOME APPLIANCES"
+											data-track-name="plpClick"
 											data-link-area="memberdays_H2_PLP_click_seemorehomeappliances"
 											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">Mehr Haushaltsartikel anzeigen</a>
@@ -1271,12 +1271,12 @@
 										<ul class="product__list"></ul>
 									</div>
 									<div class="button">
-										<a href="https://www.lg.com/de/it-produkte" 
-											target="_blank" 
-											data-track-group="mic" 
-											data-track-opt="category" 
-											data-track-val="Computer Products" 
-											data-track-name="plpClick" 
+										<a href="https://www.lg.com/de/it-produkte"
+											target="_blank"
+											data-track-group="mic"
+											data-track-opt="category"
+											data-track-val="Computer Products"
+											data-track-name="plpClick"
 											data-link-area="memberdays_H2_PLP_click_seemorecomputerproducts"
 											data-link-name="memberdays_2022H2"
 											class="button__item button__item--white">Mehr IT Modelle anzeigen</a>
@@ -1285,9 +1285,9 @@
 							</div>
 						</div>
 					</div>
-					<div class="lottie" 
-						data-link-area="starstamp_click" 
-						data-link-name="memberdays_2022H2" 
+					<div class="lottie"
+						data-link-area="starstamp_click"
+						data-link-name="memberdays_2022H2"
 						data-track-group="starstamp" onclick="showLotteryModal('015', this);"></div>
 				</div>
 			</div>
@@ -1306,8 +1306,8 @@
 					</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToLoginPage();"
-							data-link-area="memberdays_signup_click" 
-							data-track-name="memberdays_signup_click" 
+							data-link-area="memberdays_signup_click"
+							data-track-name="memberdays_signup_click"
 							data-link-name="memberdays_2022H2"
 							data-track-group="mic"
 							class="popup__button">Anmeldung / Registrierung</a>
@@ -1375,8 +1375,8 @@
 						<i class="ico__fail"></i>
 					</div>
 					<p class="popup__desc popup__desc--semibold">
-						Leider hast du dieses Mal nicht gewonnen.<br> 
-						Herzlichen Dank für deine Teilnahme. 
+						Leider hast du dieses Mal nicht gewonnen.<br>
+						Herzlichen Dank für deine Teilnahme.
 					</p>
 					<div class="popup__buttons">
 						<button type="button" class="popup__button" onclick="hideFailPopup();">Entdecke weitere tolle Angebote</button>
@@ -1441,10 +1441,10 @@
 						<span>*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember in deinem Account einsehen und verwenden.</span>
 					</p>
 					<div class="popup__buttons">
-						<a role="button" href="javascript:redirectToMypage();" 
+						<a role="button" href="javascript:redirectToMypage();"
 							data-link-area="starstamp_coupon_download_click"
-							data-link-name="memberdays_2022H2" 
-							data-track-name="starstamp_coupon_download_click" 
+							data-link-name="memberdays_2022H2"
+							data-track-name="starstamp_coupon_download_click"
 							data-track-group="mic"
 							class="popup__button">Rabattcode anzeigen</a>
 					</div>
@@ -1478,18 +1478,18 @@
 	<!-- top button -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/body/top.jsp" />
 	<!-- // top button -->
-	
+
 	<!-- footer seo copy -->
-	<c:import url="/${localeCd}/footerSeoCopy"/> 
+	<c:import url="/${localeCd}/footerSeoCopy"/>
 	<!-- footer seo copy -->
-	
+
 	<!-- footer main contents -->
 	<c:import url="/${localeCd}/footer">
 	    <c:param name="bizType" value="${bizType}"/>
 	    <c:param name="siteType" value="${siteType}"/>
 	</c:import>
 	<!--// footer main contents -->
-	
+
 	<!--  _dl  -->
 	<script>
 		var standardData = {};
@@ -1502,7 +1502,7 @@
 			"level3" : ""
 		};
 
-		_dl = 
+		_dl =
 		{
 			"page_name" : {
 				"super_category" : "memberdays2022H2",
@@ -1534,7 +1534,7 @@
 			"page_event" : null,
 			"uid" : ""
 		};
-		
+
 		var dataLayer = window.dataLayer || [];
 		dataLayer.push({
 			'event': 'dataLayer',
@@ -1543,11 +1543,11 @@
 		});
 	</script>
 	<!--// _dl -->
-	
+
 	<!-- default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
 	<!-- // default code -->
-	
+
 	<!-- your js -->
 	<script>
 		if($('.add-to-cart').length > 0) {
@@ -1578,52 +1578,52 @@
 
 		$(document).ready(function(){
 			var href = window.location.href;
-			if(href.indexOf('BuymoreSavemoreTV') != -1) {    
+			if(href.indexOf('BuymoreSavemoreTV') != -1) {
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');    
-				var timer = setTimeout(function() {         
+        $('#box_content3 .tab__list .tab__item').eq(0).addClass('tab__item--active');
+				var timer = setTimeout(function() {
 					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')    
-					    
-					clearTimeout(timer);     
+					$('#box_content3 .tab__list .tab__item').eq(0).find('.tab__button').trigger('click')
+
+					clearTimeout(timer);
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreAudio') != -1) {
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');  
-				var timer = setTimeout(function() {         
+        $('#box_content3 .tab__list .tab__item').eq(1).addClass('tab__item--active');
+				var timer = setTimeout(function() {
 					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')    
-					    
-					clearTimeout(timer);     
+					$('#box_content3 .tab__list .tab__item').eq(1).find('.tab__button').trigger('click')
+
+					clearTimeout(timer);
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreHomeAppliance') != -1) {
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');  
-				var timer = setTimeout(function() {         
+        $('#box_content3 .tab__list .tab__item').eq(2).addClass('tab__item--active');
+				var timer = setTimeout(function() {
 					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')    
-					    
-					clearTimeout(timer);     
+					$('#box_content3 .tab__list .tab__item').eq(2).find('.tab__button').trigger('click')
+
+					clearTimeout(timer);
 				}, 600);
 			}
 			if(href.indexOf('BuymoreSavemoreComputerProducts') != -1) {
 				$('#box_content3 .tab__list .tab__panel').attr('display', 'none')
         $('#box_content3 .tab__list .tab__item').removeClass('tab__item--active');
-        $('#box_content3 .tab__list .tab__item').eq(3).addClass('tab__item--active');  
-				var timer = setTimeout(function() {         
+        $('#box_content3 .tab__list .tab__item').eq(3).addClass('tab__item--active');
+				var timer = setTimeout(function() {
 					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').click();
 					console.log($('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').html())
-					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')    
-					    
-					clearTimeout(timer);     
+					$('#box_content3 .tab__list .tab__item').eq(3).find('.tab__button').trigger('click')
+
+					clearTimeout(timer);
 				}, 600);
 			}
 		});
@@ -1631,14 +1631,14 @@
 
 	<script>
 		const path = '${path}';
-		
+
 		$(document).ready(function(){
 			if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
 				$('.browserchk__popup').show();
 			}
 		});
 	</script>
-	
+
 	<!-- UI Script -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 	<script src="${path}/assets/js/index.js"></script>

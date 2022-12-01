@@ -299,14 +299,14 @@
 										</div>
 										<div class="coupon__info">
 											<p class="coupon__title">Member Days Gutscheincode</p>
-											<p class="coupon__text coupon__text--narrow">Gültig ab einem Einkauf von zwei oder mehreren LG Produkten</p>
+											<p class="coupon__text coupon__text--narrow">Gültig ab einem Einkauf von zwei oder mehr LG Produkten</p>
 											<p class="coupon__text coupon__text--secondary">*alle verfügbaren Modelle, nicht kombinierbar mit den „Hot Deals“</p>
 										</div>
 									</li>
 								</ul>
 							</div>
 							<div class="benefit__msg">
-								<p class="benefit__text">Registriere dich und nutze deinen Member Days Rabattcode, welcher in deinem LG Account hinterlegt wurde</p>
+								<p class="benefit__text">Registriere dich und nutze deinen Member Days Rabattcode, der in deinem LG Account hinterlegt wurde</p>
 							</div>
 							<div class="benefit__more">
 								<p class="benefit__text">Exklusive Vorteile für LG Mitglieder</p>
@@ -451,13 +451,13 @@
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
 										<span class="break break--mobile">Bringe dein</span>
-										<em>#zu Hause</em>
+										<em>#Zuhause</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
 									</h2>
 									<p class="section__sub">
-										<span class="break break--mobile">Frische Kleidung. Ein strahlendes zu</span>
-										<span class="break break--mobile">Hause. Jetzt bist du bereit für die</span>
+										<span class="break break--mobile">Frische Kleidung. Ein strahlendes Zuhause</span>
+										<span class="break break--mobile">Jetzt bist du bereit für die</span>
 										Feiertage.
 									</p>
 								</div>
@@ -559,7 +559,7 @@
 								<div class="section__header">
 									<p class="section__sub">Glänzende Momente</p>
 									<h2 class="section__title">
-										<span class="break break--mobile">Bringe dein</span>
+										<span class="break break--mobile">Bringe deine</span>
 										<em>#Familientreffen</em>
 										<span class="break break--mobile">mit LG zum</span>
 										Strahlen!
@@ -887,7 +887,7 @@
 							<p class="section__sub">Fülle deinen Tag mit Highlights</p>
 							<h2 class="section__title">
 								Jetzt teilnehmen,<br>
-								um die Chance auf einen funkelnden Preis zu haben
+								um dir die Chance auf einen funkelnden Preis zu sichern
 							</h2>
 						</div>
 						<div class="event">
@@ -895,7 +895,7 @@
 								<div class="event__round">
 									<div class="event__header">
 										<p class="event__category">Los geht's</p>
-										<p class="event__title">Finde alle Sterne auf der Seite und erhöhe deinen Chancen auf einen Gewinn</p>
+										<p class="event__title">Finde alle Sterne auf der Seite und erhöhe deine Chancen auf einen Gewinn</p>
 										<p class="event__desc">Teilnahme ist nur für ein Mitgliedskonto möglich</p>
 									</div>
 									<div class="event__process">
