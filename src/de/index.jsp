@@ -178,7 +178,7 @@
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07549514|MD07549244|MD07550687|MD07551349|MD07551348|MD07551110|MD07549461|MD07549883|MD07549539|MD07549258"/>
 			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07536621|MD07552306|MD07534021|MD07536623|MD07534660|MD07545237|MD07533110|MD07529840|MD07559110|MD07529952|MD07545439|MD07506263|MD07552826|MD07504911"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07537955|MD07546828|MD07541029|MD07520777|MD06055056|MD07540963|MD06049916|MD07532590|MD06055076|MD07521087|MD07520055|MD07541621|MD07538023|MD07522369|MD06020158|MD07546795"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07564062|MD07537955|MD07546828|MD07541029|MD07520777|MD06055056|MD07540963|MD06049916|MD07532590|MD06055076|MD07521087|MD07520055|MD07541621|MD07538023|MD07522369|MD06020158|MD07546795"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07501021|MD07500784|MD07500772|MD07528835|MD07549890|MD07548205|MD07518915|MD07557589|MD05984496|MD07510022|MD06076196|MD07551891|MD07553682|MD07553675|MD07553615|MD07553686"/>
 		<!-- Required input ## Model List End -->
 
@@ -431,7 +431,7 @@
 									</div>
 									<div class="event__info">
 										<p class="event__text">Die Gutscheincodes sind vom 1. Dezember bis zum 18. Dezember 2022 gültig</p>
-										<p class="event__text">*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember <span class="break--desktop"></span>in deinem Account einsehen und verwenden.</p>
+										<!-- <p class="event__text">*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember <span class="break--desktop"></span>in deinem Account einsehen und verwenden.</p> -->
 									</div>
 								</div>
 							</div>
@@ -1438,7 +1438,7 @@
 					<p class="popup__desc popup__desc">
 						Gültig<br>
 						vom 1. Dezember bis zum 18. Dezember 2022<br>
-						<span>*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember in deinem Account einsehen und verwenden.</span>
+						<!-- <span>*Die gewonnenen Gutscheincodes kannst du ab dem 1. Dezember in deinem Account einsehen und verwenden.</span> -->
 					</p>
 					<div class="popup__buttons">
 						<a role="button" href="javascript:redirectToMypage();"

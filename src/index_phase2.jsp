@@ -133,7 +133,7 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="gathering" value="MD07560092|MD07535378|MD07508602|MD07560685|MD07508373"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="gameday" value="MD07548378|MD07546609|MD07546566|MD07552142|MD07551798|MD07504084"/>
 			<input type="hidden" data-model-group="lifeStyle" data-type="pastime" value="MD07558451|MD07552081|MD07532532"/>
-			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07546436|MD07552999|MD07550947|MD07559465|MD07553142|MD07553060|MD07559451|MD07559332|MD07545548|MD06006237"/>
+			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD06164217|MD07546436|MD07552999|MD07550947|MD07559465|MD07553142|MD07553060|MD07559451|MD07559332|MD06006237"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
 			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD06006476"/>
