@@ -255,7 +255,7 @@ $(document).ready(function() {
 				let hotdealImageAddr, hotdealImageAltText;
 				if(listName == 'hotDeal'){
 					hotdealImageAddr = listArray[listName]['thumb' + (i+1)];
-					if(p.obsLimitSale == "N") hotdealImageAltText = p.userFriendlyName.replace(/"/g,"''") + ' ' + listArray[listName]['altClose'];
+					if(p.obsInventoryFlag == "N") hotdealImageAltText = p.userFriendlyName.replace(/"/g,"''") + ' ' + listArray[listName]['altClose'];
 					else hotdealImageAltText = p.userFriendlyName.replace(/"/g,"''") + ' ' + listArray[listName]['alt' + (i+1)];
 				}
 
@@ -318,7 +318,7 @@ $(document).ready(function() {
 				$productTag.find('[data-user-type=""], [data-user-type=ALL], [data-user-type=NON_VIP]').removeClass('d-none');
 
 				// hotDeal limited sale sold out - thumb
-				if(p.obsLimitSale == "N" && listName == 'hotDeal'){
+				if(p.obsInventoryFlag == "N" && listName == 'hotDeal'){
 					$template.find('.hotdeal_bg').addClass('hotdeal_soldout')
 				}
 
