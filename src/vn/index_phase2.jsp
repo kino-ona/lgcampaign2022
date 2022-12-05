@@ -293,7 +293,8 @@
 										<div class="coupon__info">
 											<p class="coupon__title">Coupon giảm giá đặc biệt tại<br>LG Member Days</p>
 											<p class="coupon__text coupon__text--narrow">Khi mua sắm từ 2 sản phẩm LG bất kỳ</p>
-											<!-- <p class="coupon__text coupon__text--secondary">*Ngoại trừ các sản phẩm thuộc danh sách “Ưu đãi Đặc biệt”</p> -->
+											<p class="coupon__text coupon__text--secondary">Áp dụng cho tất cả sản phẩm trên cửa hàng trực tuyến LG<br>
+												không bao gồm các sản phẩm điều hòa V10ENO/ V13ENO, V10APFP/V13APFP cùng sản phẩm "Ưu đãi Đặc biệt</p>
 										</div>
 									</li>
 									<li class="coupon__item">
@@ -1127,7 +1128,7 @@
 							</h2>
 							<p class="section__desc">
 								<em class="highlight">GIẢM LÊN ĐẾN 17%</em> KHI MUA TỪ 02 SẢN PHẨM BẤT KÌ
-								<span>(Không bao gồm các sản phẩm “Ưu đãi Đặc biệt”)</span>
+								<span>Áp dụng cho tất cả sản phẩm trên cửa hàng trực tuyến LG <br>không bao gồm các sản phẩm điều hòa V10ENO/ V13ENO, V10APFP/V13APFP cùng sản phẩm "Ưu đãi Đặc biệt</span>
 							</p>
 						</div>
             <div class="discount">
