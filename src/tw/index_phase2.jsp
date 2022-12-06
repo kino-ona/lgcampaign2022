@@ -136,30 +136,30 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555526|MD07561784|MD07558781|MD07562207|MD07558410|MD07562206|MD07562207"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546009|MD07561784|MD07537152|MD07522018|MD07537639|MD07515571|MD07564756"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07546009|MD07561784|MD07537152|MD07537639|MD07515571|MD07564756"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product01.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/> -->
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/tw/hotdeal_product02.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 10 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/tw/hotdeal_product03.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 5 units"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/tw/hotdeal_product04.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product05.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 10 units"/>
+			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product05.png"/> -->
+			<!-- <input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 10 units"/> -->
 			<!-- <input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product06.png"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/> -->
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product07.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product08.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb7" value="${path}/assets/images/tw/hotdeal_product09.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt7" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/tw/hotdeal_product07.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 20 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/tw/hotdeal_product08.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 20 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/tw/hotdeal_product09.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 20 units"/>
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07553938|MD07553944|MD07553841|MD07553847|MD07553854|MD07554618|MD07554640|MD07562184|MD07562271|MD07562206|MD07562261|MD07556788|MD07547888"/>
-			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07524907|MD07544495|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
+			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07522018|MD07556935|MD07559123|MD07520268|MD07559316|MD07556578|MD07555403|MD07524907|MD07544495|MD07519443|MD07554092|MD07554091|MD07542594|MD07530531"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07554550|MD07547394|MD07547416|MD07547429|MD07535177|MD07562781|MD07555523"/>
 		<!-- Required input ## Model List End -->
 	

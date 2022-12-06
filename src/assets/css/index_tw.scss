@@ -803,8 +803,7 @@
 					}
 				}
 				&:nth-child(1),
-				&:nth-child(3),
-				&:nth-child(4) {
+				&:nth-child(3) {
 					.hotdeal_bg {
 						background-image: url('../images/tw/hotdeal10_on.png');
 						&.hotdeal_soldout {
@@ -812,9 +811,9 @@
 						}
 					}
 				}
+				&:nth-child(4),
 				&:nth-child(5),
-				&:nth-child(6),
-				&:nth-child(7) {
+				&:nth-child(6) {
 					.hotdeal_bg {
 						background-image: url('../images/tw/hotdeal20_on.png');
 						&.hotdeal_soldout {
