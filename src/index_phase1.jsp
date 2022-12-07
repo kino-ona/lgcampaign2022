@@ -122,7 +122,7 @@
 			<input type="hidden" class="addtocart-datelayer-use-flag" value="<spring:message code='addtocart-datelayer-use-flag' text='addtocart-datelayer-use-flag'/>">
 			<input type="hidden" class="currency-code" value="<spring:message code='component-currency-code' text='component-currency-code'/>">
 
-			<!-- Required input ## Model List Start -->
+			<!-- Required input ## Model List Start -->	
 			<!-- Event Gift Model -->
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07546563"/>
 			<input type="hidden" data-model-group="eventGift" data-type="coupon" value="MD07560092"/>
@@ -143,31 +143,33 @@
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07560014|MD07563206|MD07548339|MD07548375|MD07548443|MD07548331|MD07522781|MD07550459|MD07546576|MD07550445|MD07546595|MD07550724|MD07550539|MD07550515|MD06090818|MD07548316"/>
-			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07509794|MD05601631|MD07509931|MD07538824|MD07510893|MD05806672|MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD05180420|MD07532624|MD05941396|MD05818913"/>
+			<input type="hidden" data-model-group="hottest" data-type="audio" value="MD07525947|MD07528451|MD07528365|MD07533086|MD07551762|MD07560489|MD07551785|MD05180420|MD05096604|MD07532624|MD05941396|MD05818913"/>
 			<input type="hidden" data-model-group="hottest" data-type="homeappliance" value="MD07558328|MD07535480|MD07517580|MD07535474|MD07535404|MD07535414|MD07535502|MD07535335|MD07535502|MD07535542|MD07514347|MD07535454|MD07514379|MD07535516|MD07535521|MD07535475|MD07536912"/>
 			<input type="hidden" data-model-group="hottest" data-type="computerproducts" value="MD07560022|MD07558429|MD06219397|MD06219436|MD07504795|MD05761888|MD06159736|MD07522764|MD07506308|MD07553005|MD07553012|MD07553684|MD07553045|MD07555788|MD07553001|MD07553015"/>
 		<!-- Required input ## Model List End -->
 	
 		<!--  Content Start  -->
-		<div class="lgmembersweek phase2" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
+		<div class="lgmembersweek" data-action-url="/${localeCd}/mkt/ajax/nbaa/retrieveManualProductList">
 			<div class="anchors" id="MainBanner"></div>
 			<div class="visual">
         <div class="section">
 					<div class="section__inner">
 						<div class="section__header">
-							<h1 class="section__title">LG MEMBER DAYS</h1>
+							<h1 class="section__title">LG MEMBER DAYS COMING SOON</h1>
+							<p class="section__desc">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">Make your holidays sparkle with LG</p>
 							<p class="section__desc">
-								Save Big with Exclusive Member Benefits on LG products<br>
-								Limited Time Sale Ends 30<sup>th</sup> Nov 2022, Only at LG.com
+								Sign up and don’t miss out on our PRIZE-WINNING EVENT and<br>
+								UPCOMING EXCLUSIVE MEMBER BENEFITS
 							</p>
 						</div>
 						<div class="button">
-							<a href="#BuymoreSavemore"
+							<a href="#MembershipEvent"
+								data-track-group="mic"
 								data-link-area="memberdays_mainbanner_click" 
 								data-track-name="memberdays_mainbanner_click"
 								data-link-name="memberdays_2022H2" 
-								class="button__item button__item--red">View Products</a>
+								class="button__item button__item--red">TAKE PART</a>
 						</div>
 						<div class="visual__terms">
 							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank" 
@@ -189,52 +191,30 @@
 							<i class="arrow_ico"></i>
 						</button>
 						<div id="select_list-item" class="select_list-item">
-							<span class="link">
-								VIEW MEMBER EXCLUSIVE<br>
-								OFFERS
-							</span>
+							<span class="link">VIEW MEMBER EXCLUSIVE OFFERS</span>
 						</div>
 						<ul class="list_navigation smooth-scroll">
 							<li class="list-item">
-								<a href="#MemberExclusiveOffers"
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_memberexclusiveoffers" 
+								<a href="#MemberExclusiveOffers" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click"
+									data-link-area="memberdays_H2_Anchor_click_memberexclusiveoffers" 
 									data-link-name="memberdays_2022H2" 
-									class="link">
-									VIEW MEMBER EXCLUSIVE<br>
-									OFFERS
-								</a>
+									class="link">VIEW MEMBER EXCLUSIVE OFFERS</a>
 							</li>
 							<li class="list-item">
-								<a href="#MembershipEvent"
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_membershipevent" 
-									data-link-name="memberdays_2022H2"
-									class="link">
-									DISCOVER OUR<br>
-									SPARKLING MEMBERSHIP EVENT
-								</a>
+								<a href="#MembershipEvent" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click"
+									data-link-area="memberdays_H2_Anchor_click_membershipevent" 
+									data-link-name="memberdays_2022H2" 
+									class="link">DISCOVER OUR SPARKLING MEMBERSHIP EVENT</a>
 							</li>
 							<li class="list-item">
-								<a href="#SparklingDeals" 
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_sparklingdeals" 
+								<a href="#HolidayCollection" 
+									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click"
+									data-link-area="memberdays_H2_Anchor_click_holidaycollection"  
 									data-link-name="memberdays_2022H2" 
-									class="link">
-									DISCOVER OUR<br>
-									SPARKLING DEALS
-								</a>
-							</li>
-							<li class="list-item">
-								<a href="#BuymoreSavemore" 
-									data-track-group="mic" data-track-name="memberdays_H2_Anchor_click_P2"
-									data-link-area="memberdays_H2_Anchor_click_P2_holidaycollection" 
-									data-link-name="memberdays_2022H2" 
-									class="link">
-									SHOP OUR<br>
-									HOLIDAY COLLECTION
-								</a>
-							</li>
+									class="link">BROWSE OUR HOLIDAY COLLECTION</a>
+								</li>
 						</ul>
 					</div>
 				</div>
@@ -272,6 +252,7 @@
 									</li>
 									<li class="coupon__item">
 										<div class="coupon__coupon coupon__coupon--secondary">
+											<span class="coupon__flag">Coming Soon</span>
 											<p class="coupon__title">10</p>
 											<p class="coupon__unit">
 												% Off
@@ -291,7 +272,7 @@
 										<div class="coupon__coupon">
 											<p class="coupon__title">5</p>
 											<p class="coupon__unit">
-												% Off
+												% Off	
 												<span class="coupon__text">Coupon</span>
 											</p>
 										</div>
@@ -342,6 +323,99 @@
 						data-track-group="starstamp" onclick="showLotteryModal('031', this);"></div>
 				</div>
 			</div>
+			
+			<div class="anchors" id="MembershipEvent"></div>
+			<div id="box_content1_1" class="section">
+				<div class="section__container section__container--event" data-list="eventGift">
+					<div class="section__inner">
+						<div class="section__header">
+							<p class="section__sub">Fill Your Day with Sparkle</p>
+							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
+						</div>
+						<div class="event">
+							<div class="event__container">
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__category">How to Participate</p>
+										<p class="event__title">Find all 5 stars on the event page for a chance to win a prize</p>
+										<p class="event__desc">Participation limited to one member account only</p>
+									</div>
+									<div class="event__process">
+										<ol>
+											<li>
+												<span>1</span>
+												<p>Login / Sign-Up</p>
+											</li>
+											<li>
+												<span>2</span>
+												<p>
+													Find and click on ALL 5 stars<br>
+													throughout the event page
+												</p>
+											</li>
+											<li>
+												<span>3</span>
+												<p>
+													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
+													prize!
+												</p>
+											</li>
+										</ol>
+									</div>
+									<p class="event__category">Find All Five Stars</p>
+									<div class="event__stars">
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+										<div class="event__star"></div>
+									</div>
+								</div>
+								<div class="event__round">
+									<div class="event__header">
+										<p class="event__title">Event Prize</p>
+										<p class="event__sub">Get a chance to win one of the LG Products below!</p>
+										<p class="event__desc event__desc--secondary">Limited to 3 Winners. Find out your luck!</p>
+									</div>
+									<div class="event__gift">
+										<img src="${path}/assets/images/img_event_product.png" alt="">
+									</div>
+									<div class="event__info">
+										<p class="event__text">99% Coupons are valid from 30<sup>th</sup> Nov to 20<sup>th</sup> Dec  2022</p>
+									</div>
+								</div>
+							</div>
+							<div class="event__bottom login__link">
+								<div class="event__left">
+									<p>Your Prize is Just One Star away</p>
+									<p>Sign Up Now or Login to Participate</p>
+								</div>
+								<div class="event__right">
+									<a role="button" href="javascript:redirectToLoginPage();"
+										data-link-area="memberdays_signup_click" 
+										data-track-name="memberdays_signup_click" 
+										data-link-name="memberdays_2022H2"
+										data-track-group="mic"
+									>LOGIN / SIGN-UP</a>
+								</div>
+							</div>
+						</div>
+						<div class="section__footer">
+							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank"
+								data-link-area="memberdays_anchor_click_termsandconditions" 
+								data-link-name="memberdays_2022H2" 
+								class="section__text">
+								Terms &amp; Conditions
+								<i></i>
+							</a>
+						</div>
+					</div>
+					<div class="lottie" 
+						data-link-area="memberdays_H2_starstamp_click" 
+						data-link-name="memberdays_2022H2" 
+						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
+				</div>
+			</div>
 
 			<div class="anchors" id="HolidayCollection"></div>
 			<div id="box_content2" class="section">
@@ -349,7 +423,7 @@
 					<div class="tab">
 						<ul class="tab__list">
 							<li class="tab__item tab__item--home tab__item--active">
-								<a href="#home"  
+								<a href="#home" 
 									data-tab-name="home" data-track-group="mic" data-track-opt="theme" 
 									data-track-val="home" data-track-name="selectThemeDisplay"
 									data-link-area="memberdays_H2_Theme_click_HOME"
@@ -395,9 +469,9 @@
 							<li class="tab__item tab__item--memories">
 								<a href="#memories"
 									data-tab-name="memories" data-track-group="mic" data-track-opt="theme" 
-									data-track-val="memories" data-track-name="selectThemeDisplay"
+									data-track-val="memories" data-track-name="selectThemeDisplay" 
 									data-link-area="memberdays_H2_Theme_click_Memories"
-									data-link-name="memberdays_2022H2"
+									data-link-name="memberdays_2022H2" 
 									class="tab__button">
 									<span class="tab__ico"></span>
 									<span class="tab__text">Memories</span>
@@ -846,99 +920,6 @@
 					<div class="lottie" 
 						data-link-area="memberdays_H2_starstamp_click" 
 						data-link-name="memberdays_2022H2" 
-						data-track-group="starstamp" onclick="showLotteryModal('032', this);"></div>
-				</div>
-			</div>
-			
-			<div class="anchors" id="MembershipEvent"></div>
-			<div id="box_content1_1" class="section">
-				<div class="section__container section__container--event" data-list="eventGift">
-					<div class="section__inner">
-						<div class="section__header">
-							<p class="section__sub">Fill Your Day with Sparkle</p>
-							<h2 class="section__title">Join NOW for the chance to win your Sparkling Prize</h2>
-						</div>
-						<div class="event">
-							<div class="event__container">
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__category">How to Participate</p>
-										<p class="event__title">Find all 5 stars on the event page for a chance to win a prize</p>
-										<p class="event__desc">Participation limited to one member account only</p>
-									</div>
-									<div class="event__process">
-										<ol>
-											<li>
-												<span>1</span>
-												<p>Login / Sign-Up</p>
-											</li>
-											<li>
-												<span>2</span>
-												<p>
-													Find and click on ALL 5 stars<br>
-													throughout the event page
-												</p>
-											</li>
-											<li>
-												<span>3</span>
-												<p>
-													<span class="break break--desktop">Find out INSTANTLY if you’ve won a</span>
-													prize!
-												</p>
-											</li>
-										</ol>
-									</div>
-									<p class="event__category">Find All Five Stars</p>
-									<div class="event__stars">
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-										<div class="event__star"></div>
-									</div>
-								</div>
-								<div class="event__round">
-									<div class="event__header">
-										<p class="event__title">Event Prize</p>
-										<p class="event__sub">Get a chance to win one of the LG Products below!</p>
-										<p class="event__desc event__desc--secondary">Limited to 3 Winners. Find out your luck!</p>
-									</div>
-									<div class="event__gift">
-										<img src="${path}/assets/images/img_event_product.png" alt="">
-									</div>
-									<div class="event__info">
-										<p class="event__text">99% Coupons are valid from 30<sup>th</sup> Nov to 20<sup>th</sup> Dec  2022</p>
-									</div>
-								</div>
-							</div>
-							<div class="event__bottom login__link">
-								<div class="event__left">
-									<p>Your Prize is Just One Star away</p>
-									<p>Sign Up Now or Login to Participate</p>
-								</div>
-								<div class="event__right">
-									<a role="button" href="javascript:redirectToLoginPage();"
-										data-link-area="memberdays_signup_click" 
-										data-track-name="memberdays_signup_click" 
-										data-link-name="memberdays_2022H2"
-										data-track-group="mic"
-									>LOGIN / SIGN-UP</a>
-								</div>
-							</div>
-						</div>
-						<div class="section__footer">
-							<a href="https://www.lg.com/uk/tncs/memberdays" target="_blank"
-								data-link-area="memberdays_anchor_click_termsandconditions" 
-								data-link-name="memberdays_2022H2" 
-								class="section__text">
-								Terms &amp; Conditions
-								<i></i>
-							</a>
-						</div>
-					</div>
-					<div class="lottie" 
-						data-link-area="memberdays_H2_starstamp_click" 
-						data-link-name="memberdays_2022H2" 
 						data-track-group="starstamp" onclick="showLotteryModal('033', this);"></div>
 				</div>
 			</div>
@@ -948,7 +929,7 @@
 				<div class="section__container section__container--hotdeal" data-list="hotDeal">
 					<div class="section__inner">
 						<div class="section__header">
-							<h2 class="section__title">Sparkling Deal</h2>
+							<h2 class="section__title">Sparkling Deal is coming soon</h2>
 							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 							<p class="section__sub">
 								<span class="break break--mobile">Save 37% OFF on our limited stock product</span> for LG Members only
@@ -963,6 +944,7 @@
 											<span class="product__flag d-none" data-user-type="*productTag2UserType*" data-key="productTag2">*productTag2*</span>
 										</div> -->
 										<div class="product__img">
+											<p class="product__comming">Coming Soon</p>
 											<p class="hotdeal_bg"></p>
 											<img src="*hotdealImageAddr*" alt="*hotdealImageAltText*">
 										</div>
@@ -973,8 +955,8 @@
 										-->
 										<div class="product__info products-info">
 											<p class="product__name">*userFriendlyName*</p>
-											<p class="product__sn sku">*modelName*</p>
-											<div class="product__price">
+											<!-- <p class="product__sn sku">*modelName*</p> -->
+											<!-- <div class="product__price">
 												<span class="product__discount">
 													<span class="unit"><spring:message code='component-currencySymbol' text='component-currencySymbol'/></span>
 													<span class="number">*originPrice*</span>
@@ -996,13 +978,13 @@
 												<div class="product__noti d-none">
 													<p class="product__text">*reStockAlertText*</p>
 												</div>
-											</div>
-											<div class="button">
+											</div> -->
+											<!-- <div class="button">
 												<a role="button" href="#" class="button__item button__item--red atc-members-week" data-track-group="product" data-track-name="sparklingdeals_add_to_cart_click" data-link-name="sparklingdeals_add_to_cart" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-code="*salesModelCode*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-addToCart' text='ADD TO BASKET'/></a>
-												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
-											</div>
+												<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
+											</div> -->
 											<div class="learn-more">
-												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
+												<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="sparkling_buy_now_click" data-link-area="sparkling_buy_now_click" data-track-name="sparklingdeals_buy_now_click" data-link-name="sparklingdeals_buy_now">
 													<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												</a>
 											</div>
@@ -1033,57 +1015,9 @@
 					<div class="section__inner">
 						<div class="section__header">
 							<p class="section__sub">Add Your Own Sparkle with LG</p>
-							<h2 class="section__title">
-								Buy More, Save More<br>
-								<span class="break break--mobile">Limited Sales</span>
-								only until 20<sup>th</sup> Dec 2022
-							</h2>
-							<p class="section__desc">
-								Get <em class="highlight">10% Discount</em> on ALL LG products <span class="break break--mobile">when you buy More than Two Products</span>
-								<span>Sparkling Deal product and the new Tone <span class="break break--mobile"></span>Free UFP9, UFP8 and UFP5 are excluded from the additional discount offer</span>
-							</p>
+							<h2 class="section__title">LG Member Days Special Offer is Coming Soon</h2>
+							<p class="section__sub">7<sup>th</sup> Dec to 20<sup>th</sup> Dec 2022</p>
 						</div>
-						<div class="discount">
-							<div class="discount__list">
-								<div class="discount__item">
-									<div class="discount__inner">
-										<div class="discount__ico discount__ico--washing">
-											<i></i>
-										</div>
-										<p class="discount__name">Product 1</p>
-									</div>
-								</div>
-								<div class="discount__item">
-									<div class="discount__inner">
-										<div class="discount__ico discount__ico--tv">
-											<i></i>
-										</div>
-										<p class="discount__name">Product 2</p>
-									</div>
-								</div>
-								<div class="discount__item">
-									<div class="discount__inner">
-										<ul class="discount__number">
-											<li>
-												<p class="discount__total">10% Discount</p>
-											</li>
-											<li>
-												<p>2% Member Discount</p>
-											</li>
-											<li>
-												<p>
-													5% Welcome Discount
-													<span>(only applies to newly joined members)</span>
-												</p>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="discount__noti">
-								<p class="discount__text">Click on the SEE MORE button below to discover more LG promoted products.</p>
-							</div>
-            </div>
 						<div class="tab">
 							<ul class="tab__list tab__list--round">
 								<li class="tab__item tab__item--active">
@@ -1172,7 +1106,7 @@
 											<a role="button" href="#modal_re_stock_alert" class="button__item button__item--lightgray restock-members-week d-none" data-track-group="product" data-track-name="move_to_stock_request_click" data-link-name="move_to_stock_request_click" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*"><spring:message code='component-reStockAlert' text='GET STOCK ALERT'/></a>
 										</div>
 										<div class="learn-more">
-											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-track-group="product" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
+											<a role="button" href="*modelUrlPath*" class="learn-more__link" target="_blank" data-model-id="*modelId*" data-bu="*buName1*" data-super-category-name="*superCategoryName*" data-category-name="*buName2*" data-sub-category-name="*buName3*" data-model-year="*modelYear*" data-model-name="*modelName*" data-model-salesmodelcode="*salesModelCode*.*salesSuffixCode*" data-sku="*modelName*" data-model-suffixcode="*salesSuffixCode*" data-price="*priceValue*" data-track-group="product" data-link-area="offer_buy_now_click" data-track-name="offer_buy_now_click" data-link-name="offer_buy_now">
 												<span class="learn-more__text"><spring:message code='component-learnMore' text='LEARN MORE'/></span>
 												<i class="learn-more__arrow"></i>
 											</a>
@@ -1181,10 +1115,6 @@
 								</li>
 							</template>
 							<div id="tvcinebeam" class="tab__panel" style="display: block;">
-								<p class="tab__noti">
-									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1204,10 +1134,6 @@
 								</div>
 							</div>
 							<div id="audio" class="tab__panel">
-								<p class="tab__noti">
-									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1237,10 +1163,6 @@
 								</div>
 							</div>
 							<div id="homeappliance" class="tab__panel">
-								<p class="tab__noti">
-									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1260,10 +1182,6 @@
 								</div>
 							</div>
 							<div id="computerproducts" class="tab__panel">
-								<p class="tab__noti">
-									Visit <em>My Basket</em> to check your final discounted price<br>
-									Remember to apply 10% Discount Coupon and 5% Welcome Coupon at <em>My Basket</em>
-								</p>
 								<div class="product">
 									<div class="product__mask">
 										<ul class="product__list"></ul>
@@ -1273,7 +1191,7 @@
 											target="_blank" 
 											data-track-group="mic" 
 											data-track-opt="category" 
-											data-track-val="Computer Products"  
+											data-track-val="Computer Products" 
 											data-track-name="plpClick" 
 											data-link-area="memberdays_H2_PLP_click_seemorecomputerproducts"
 											data-link-name="memberdays_2022H2"
@@ -1308,7 +1226,7 @@
 							data-track-name="memberdays_signup_click" 
 							data-link-name="memberdays_2022H2"
 							data-track-group="mic"
-						class="popup__button">LOGIN / SIGN-UP</a>
+							class="popup__button">LOGIN / SIGN-UP</a>
 					</div>
 					<button type="button" class="popup__close" aria-label="close"></button>
 				</div>
@@ -1598,7 +1516,7 @@
 
 	<script>
 		const path = '${path}';
-		
+
 		$(document).ready(function(){
 			if (window.navigator.userAgent.match(/MSIE|Internet Explorer|Trident/i)) {
 				$('.browserchk__popup').show();
