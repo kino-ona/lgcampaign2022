@@ -1607,6 +1607,7 @@
 	<!-- default code -->
 	<jsp:include page="/WEB-INF/jsp/gp/common/include/tail/tail-script-default.jsp" />
 	<!-- // default code -->
+	<script src="/lg5-common-gp/library/form-validation.min.js"></script>
 	
 	<!-- your js -->
 	<script>
