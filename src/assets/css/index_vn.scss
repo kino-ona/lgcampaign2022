@@ -1153,7 +1153,7 @@
 						&:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal50_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1162,7 +1162,7 @@
 						}
 						&:nth-child(2) {
 							.hotdeal_bg {
-								background-image: url('../images/vn/hotdeal20_on.png');
+								background-image: url('../images/vn/hotdeal30_on.png');
 								&.hotdeal_soldout {
 									background-image: url('../images/vn/hotdeal_soldout.png');
 								}
@@ -1175,7 +1175,7 @@
 						&:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal30_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1241,7 +1241,7 @@
 						&:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal30_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1250,7 +1250,7 @@
 						}
 						&:nth-child(2) {
 							.hotdeal_bg {
-								background-image: url('../images/vn/hotdeal30_on.png');
+								background-image: url('../images/vn/hotdeal10_on.png');
 								&.hotdeal_soldout {
 									background-image: url('../images/vn/hotdeal_soldout.png');
 								}
@@ -1263,7 +1263,7 @@
 						&:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal50_on.png');
+									background-image: url('../images/vn/hotdeal10_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1272,7 +1272,7 @@
 						}
 						&:nth-child(2) {
 							.hotdeal_bg {
-								background-image: url('../images/vn/hotdeal30_on.png');
+								background-image: url('../images/vn/hotdeal10_on.png');
 								&.hotdeal_soldout {
 									background-image: url('../images/vn/hotdeal_soldout.png');
 								}
@@ -1281,6 +1281,50 @@
 					}
 				}
 				&:nth-child(7) {
+					> div {
+						&:nth-child(1) {
+							.product__item {
+								.hotdeal_bg {
+									background-image: url('../images/vn/hotdeal10_on.png');
+									&.hotdeal_soldout {
+										background-image: url('../images/vn/hotdeal_soldout.png');
+									}
+								}
+							}
+						}
+						&:nth-child(2) {
+							.hotdeal_bg {
+								background-image: url('../images/vn/hotdeal20_on.png');
+								&.hotdeal_soldout {
+									background-image: url('../images/vn/hotdeal_soldout.png');
+								}
+							}
+						}
+					}
+				}
+				&:nth-child(8) {
+					> div {
+						&:nth-child(1) {
+							.product__item {
+								.hotdeal_bg {
+									background-image: url('../images/vn/hotdeal20_on.png');
+									&.hotdeal_soldout {
+										background-image: url('../images/vn/hotdeal_soldout.png');
+									}
+								}
+							}
+						}
+						&:nth-child(2) {
+							.hotdeal_bg {
+								background-image: url('../images/vn/hotdeal20_on.png');
+								&.hotdeal_soldout {
+									background-image: url('../images/vn/hotdeal_soldout.png');
+								}
+							}
+						}
+					}
+				}
+				&:nth-child(9) {
 					> div {
 						&:nth-child(1) {
 							.product__item {
@@ -1294,51 +1338,7 @@
 						}
 						&:nth-child(2) {
 							.hotdeal_bg {
-								background-image: url('../images/vn/hotdeal30_on.png');
-								&.hotdeal_soldout {
-									background-image: url('../images/vn/hotdeal_soldout.png');
-								}
-							}
-						}
-					}
-				}
-				&:nth-child(8) {
-					> div {
-						&:nth-child(1) {
-							.product__item {
-								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal10_on.png');
-									&.hotdeal_soldout {
-										background-image: url('../images/vn/hotdeal_soldout.png');
-									}
-								}
-							}
-						}
-						&:nth-child(2) {
-							.hotdeal_bg {
-								background-image: url('../images/vn/hotdeal10_on.png');
-								&.hotdeal_soldout {
-									background-image: url('../images/vn/hotdeal_soldout.png');
-								}
-							}
-						}
-					}
-				}
-				&:nth-child(9) {
-					> div {
-						&:nth-child(1) {
-							.product__item {
-								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal10_on.png');
-									&.hotdeal_soldout {
-										background-image: url('../images/vn/hotdeal_soldout.png');
-									}
-								}
-							}
-						}
-						&:nth-child(2) {
-							.hotdeal_bg {
-								background-image: url('../images/vn/hotdeal10_on.png');
+								background-image: url('../images/vn/hotdeal20_on.png');
 								&.hotdeal_soldout {
 									background-image: url('../images/vn/hotdeal_soldout.png');
 								}
@@ -1351,7 +1351,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal50_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1363,7 +1363,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal30_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1375,7 +1375,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal30_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1444,7 +1444,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal20_on.png');
+									background-image: url('../images/vn/hotdeal30_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1456,7 +1456,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal30_on.png');
+									background-image: url('../images/vn/hotdeal10_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1468,7 +1468,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal50_on.png');
+									background-image: url('../images/vn/hotdeal10_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1480,7 +1480,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal30_on.png');
+									background-image: url('../images/vn/hotdeal10_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1492,7 +1492,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal30_on.png');
+									background-image: url('../images/vn/hotdeal10_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1504,7 +1504,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal30_on.png');
+									background-image: url('../images/vn/hotdeal20_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1528,7 +1528,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal10_on.png');
+									background-image: url('../images/vn/hotdeal20_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1540,7 +1540,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal10_on.png');
+									background-image: url('../images/vn/hotdeal30_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}
@@ -1552,7 +1552,7 @@
 						> div:nth-child(1) {
 							.product__item {
 								.hotdeal_bg {
-									background-image: url('../images/vn/hotdeal10_on.png');
+									background-image: url('../images/vn/hotdeal20_on.png');
 									&.hotdeal_soldout {
 										background-image: url('../images/vn/hotdeal_soldout.png');
 									}

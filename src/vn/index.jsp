@@ -136,52 +136,44 @@
 			<input type="hidden" data-model-group="lifeStyle" data-type="memories" value="MD07555658|MD07555492|MD07527328|MD07527366|MD07563896"/>
 
 			<!-- Hot Deal Model / thumb - alt text -->
-			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07555367|MD07553545|MD07506953|MD07555327|MD07524754|MD07549062|MD07525606|MD07525612|MD07550722|MD07523845|MD07551573|MD05849136|MD05849142|MD07549398|MD07550509|MD07544285|MD07544333|MD07544338"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="hotdeal" value="MD07549062|MD07525606|MD07525612|MD07550722|MD07523845|MD07551573|MD05849136|MD05849142|MD07549398|MD07550509|MD07544285|MD07544333|MD07544338|MD07553545|MD07555327|MD07506953|MD07524754|MD07555367"/>
 			<input type="hidden" data-model-group="hotDeal" data-type="altClose" value="Closed"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/vn/hotdeal_product18.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 20 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/vn/hotdeal_product14.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 20 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/vn/hotdeal_product16.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 20 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/vn/hotdeal_product15.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 20 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/vn/hotdeal_product17.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 30 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/vn/hotdeal_product01.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 50 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb7" value="${path}/assets/images/vn/hotdeal_product02.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt7" value="Limited to 30 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb8" value="${path}/assets/images/vn/hotdeal_product03.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt8" value="Limited to 30 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb9" value="${path}/assets/images/vn/hotdeal_product04.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt9" value="Limited to 20 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb10" value="${path}/assets/images/vn/hotdeal_product05.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt10" value="Limited to 30 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb11" value="${path}/assets/images/vn/hotdeal_product06.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt11" value="Limited to 50 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb12" value="${path}/assets/images/vn/hotdeal_product07.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt12" value="Limited to 30 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/vn/hotdeal_product08.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 30 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb14" value="${path}/assets/images/vn/hotdeal_product09.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt14" value="Limited to 30 units"/>
-
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb15" value="${path}/assets/images/vn/hotdeal_product10.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt15" value="Limited to 10 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb16" value="${path}/assets/images/vn/hotdeal_product11.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt16" value="Limited to 20 units"/>
-			
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb17" value="${path}/assets/images/vn/hotdeal_product12.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt17" value="Limited to 20 units"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="thumb18" value="${path}/assets/images/vn/hotdeal_product13.png"/>
-			<input type="hidden" data-model-group="hotDeal" data-type="alt18" value="Limited to 10 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb1" value="${path}/assets/images/vn/hotdeal_product01.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt1" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb2" value="${path}/assets/images/vn/hotdeal_product02.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt2" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb3" value="${path}/assets/images/vn/hotdeal_product03.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt3" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb4" value="${path}/assets/images/vn/hotdeal_product04.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt4" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb5" value="${path}/assets/images/vn/hotdeal_product05.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt5" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb6" value="${path}/assets/images/vn/hotdeal_product06.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt6" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb7" value="${path}/assets/images/vn/hotdeal_product07.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt7" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb8" value="${path}/assets/images/vn/hotdeal_product08.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt8" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb9" value="${path}/assets/images/vn/hotdeal_product09.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt9" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb10" value="${path}/assets/images/vn/hotdeal_product10.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt10" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb11" value="${path}/assets/images/vn/hotdeal_product11.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt11" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb12" value="${path}/assets/images/vn/hotdeal_product12.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt12" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb13" value="${path}/assets/images/vn/hotdeal_product13.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt13" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb14" value="${path}/assets/images/vn/hotdeal_product14.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt14" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb15" value="${path}/assets/images/vn/hotdeal_product15.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt15" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb16" value="${path}/assets/images/vn/hotdeal_product16.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt16" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb17" value="${path}/assets/images/vn/hotdeal_product17.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt17" value="Limited to 100 units"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="thumb18" value="${path}/assets/images/vn/hotdeal_product18.png"/>
+			<input type="hidden" data-model-group="hotDeal" data-type="alt18" value="Limited to 100 units"/>
 
 			<!-- Hottest Gift Model -->
 			<input type="hidden" data-model-group="hottest" data-type="tvcinebeam" value="MD07551482|MD07551504|MD07551331|MD07551385|MD07551392|MD07551393|MD07551512|MD07551564|MD07551573|MD07553101|MD07552962|MD07552957|MD07551203|MD07551233|MD07551239|MD07551245"/>
